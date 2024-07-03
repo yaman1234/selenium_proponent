@@ -1,0 +1,12 @@
+2024-07-03 19:14:03 INFO  UtilBase:128 - Start :: @Beforesuite, Initailizing the browser
+2024-07-03 19:14:04 INFO  WebDriverManager:1239 - Using chromedriver 126.0.6478.126 (resolved driver for Chrome 126)
+2024-07-03 19:14:04 INFO  WebDriverManager:1301 - Exporting webdriver.chrome.driver as C:\Users\yamah022\.cache\selenium\chromedriver\win64\126.0.6478.126\chromedriver.exe
+2024-07-03 19:14:06 INFO  LoginTest_SQ:31 - Start :: Login Test 
+2024-07-03 19:14:12 INFO  LoginTest_SQ:113 - PASS :: Login Test
+2024-07-03 19:14:12 INFO  LoginTest_SQ:66 - END :: Login Test 
+2024-07-03 19:14:12 INFO  SQmonitoring:17 - start :: SQmonitoring
+2024-07-03 19:14:14 INFO  SQmonitoring:29 - message from testcase 2
+2024-07-03 19:14:14 INFO  SQmonitoring:113 - PASS :: test1
+2024-07-03 19:14:14 INFO  SQmonitoring:49 - END :: SQmonitoring
+2024-07-03 19:14:14 INFO  UtilBase:144 - @Aftersuite, Closing the browser
+2024-07-03 19:14:14 INFO  UtilBase:145 - --------------------
