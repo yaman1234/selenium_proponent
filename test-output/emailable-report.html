@@ -9,11 +9,29 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="8">Suite</th></tr>
-<tr><td><a href="#t0">Test</a></td><td class="num">2</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">7,990</td><td></td><td></td></tr>
+<tr><td><a href="#t0">Test</a></td><td class="num">0</td><td class="num attn">2</td><td class="num">0</td><td class="num">0</td><td class="num">68</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">monitoring.LoginTest_SQ</td><td><a href="#m0">LoginTest</a></td><td rowspan="1">1720013346351</td><td rowspan="1">6507</td></tr><tr class="passedodd"><td rowspan="1">monitoring.SQmonitoring</td><td><a href="#m1">test1</a></td><td rowspan="1">1720013352865</td><td rowspan="1">1441</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test &#8212; failed (configuration methods)</th></tr><tr class="failedeven"><td rowspan="1">monitoring.LoginTest_SQ</td><td><a href="#m0">setup</a></td><td rowspan="1">1720083842365</td><td rowspan="1">30</td></tr><tr><th colspan="4">Test &#8212; skipped (configuration methods)</th></tr><tr class="skippedeven"><td rowspan="3">monitoring.LoginTest_SQ</td><td><a href="#m1">afterClass</a></td><td rowspan="1">1720083842465</td><td rowspan="1">-1720083842465</td></tr><tr class="skippedeven"><td><a href="#m2">beforeClass</a></td><td rowspan="1">1720083842439</td><td rowspan="1">-1720083842439</td></tr><tr class="skippedeven"><td><a href="#m3">teardown</a></td><td rowspan="1">1720083842624</td><td rowspan="1">-1720083842624</td></tr><tr class="skippedodd"><td rowspan="2">monitoring.SQmonitoring</td><td><a href="#m4">afterClass</a></td><td rowspan="1">1720083842475</td><td rowspan="1">-1720083842475</td></tr><tr class="skippedodd"><td><a href="#m5">beforeClass</a></td><td rowspan="1">1720083842469</td><td rowspan="1">-1720083842469</td></tr><tr><th colspan="4">Test &#8212; skipped</th></tr><tr class="skippedeven"><td rowspan="1">monitoring.LoginTest_SQ</td><td><a href="#m6">LoginTest</a></td><td rowspan="1">1720083842458</td><td rowspan="1">0</td></tr><tr class="skippedodd"><td rowspan="1">monitoring.SQmonitoring</td><td><a href="#m7">test1</a></td><td rowspan="1">1720083842471</td><td rowspan="1">0</td></tr></tbody>
 </table>
-<h2>Test</h2><h3 id="m0">monitoring.LoginTest_SQ#LoginTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m1">monitoring.SQmonitoring#test1</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Test</h2><h3 id="m0">monitoring.LoginTest_SQ#setup</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException: Cannot invoke &quot;java.util.logging.ConsoleHandler.setFormatter(java.util.logging.Formatter)&quot; because &quot;this.consoleHandler&quot; is null
+	at utilities.LoggerClass.setFormatter(LoggerClass.java:84)
+	at utilities.LoggerClass.setDefaults(LoggerClass.java:44)
+	at utilities.UtilBase.setup(UtilBase.java:129)
+... Removed 17 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">monitoring.LoginTest_SQ#afterClass</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">monitoring.LoginTest_SQ#beforeClass</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">monitoring.LoginTest_SQ#teardown</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">monitoring.SQmonitoring#afterClass</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">monitoring.SQmonitoring#beforeClass</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">monitoring.LoginTest_SQ#LoginTest</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException: Cannot invoke &quot;java.util.logging.ConsoleHandler.setFormatter(java.util.logging.Formatter)&quot; because &quot;this.consoleHandler&quot; is null
+	at utilities.LoggerClass.setFormatter(LoggerClass.java:84)
+	at utilities.LoggerClass.setDefaults(LoggerClass.java:44)
+	at utilities.UtilBase.setup(UtilBase.java:129)
+... Removed 17 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">monitoring.SQmonitoring#test1</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException: Cannot invoke &quot;java.util.logging.ConsoleHandler.setFormatter(java.util.logging.Formatter)&quot; because &quot;this.consoleHandler&quot; is null
+	at utilities.LoggerClass.setFormatter(LoggerClass.java:84)
+	at utilities.LoggerClass.setDefaults(LoggerClass.java:44)
+	at utilities.UtilBase.setup(UtilBase.java:129)
+... Removed 17 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>

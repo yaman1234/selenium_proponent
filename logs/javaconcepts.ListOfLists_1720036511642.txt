@@ -1,0 +1,2 @@
+Jul 04, 2024 1:40:11 AM utilities.LoggerClass info
+INFO: Hello world

@@ -40,7 +40,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-Suite" class="navigator-link">
-              <span class="suite-name border-passed">Suite</span>
+              <span class="suite-name border-skipped">Suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -93,26 +93,26 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">2 methods,   2 passed</span>
+                    <span class="method-stats">2 methods,  2 skipped,  </span>
                   </li>
                   <li>
-                    <span class="method-list-title passed">Passed methods</span>
-                    <span class="show-or-hide-methods passed">
-                      <a href="#" panel-name="suite-Suite" class="hide-methods passed suite-Suite"> (hide)</a> <!-- hide-methods passed suite-Suite -->
-                      <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
+                    <span class="method-list-title skipped">Skipped methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods skipped suite-Suite"> (hide)</a> <!-- hide-methods skipped suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods skipped suite-Suite"> (show)</a> <!-- show-methods skipped suite-Suite -->
                     </span>
-                    <div class="method-list-content passed suite-Suite">
+                    <div class="method-list-content skipped suite-Suite">
                       <span>
-                        <img src="passed.png" width="3%"/>
+                        <img src="skipped.png" width="3%"/>
                         <a href="#" panel-name="suite-Suite" title="monitoring.LoginTest_SQ" class="method navigator-link" hash-for-method="LoginTest">LoginTest</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
-                        <img src="passed.png" width="3%"/>
+                        <img src="skipped.png" width="3%"/>
                         <a href="#" panel-name="suite-Suite" title="monitoring.SQmonitoring" class="method navigator-link" hash-for-method="test1">test1</a> <!-- method navigator-link -->
                       </span>
                       <br/>
-                    </div> <!-- method-list-content passed suite-Suite -->
+                    </div> <!-- method-list-content skipped suite-Suite -->
                   </li>
                 </ul>
               </div> <!-- suite-section-content -->
@@ -124,9 +124,9 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Suite" class="panel Suite">
-          <div class="suite-Suite-class-passed">
+          <div class="suite-Suite-class-skipped">
             <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
+              <img src="skipped.png"/>
               <span class="class-name">monitoring.SQmonitoring</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
@@ -135,13 +135,19 @@
                   <a name="test1">
                   </a> <!-- test1 -->
                   <span class="method-name">test1</span>
+                  <div class="stack-trace">java.lang.NullPointerException: Cannot invoke &quot;java.util.logging.ConsoleHandler.setFormatter(java.util.logging.Formatter)&quot; because &quot;this.consoleHandler&quot; is null
+	at utilities.LoggerClass.setFormatter(LoggerClass.java:84)
+	at utilities.LoggerClass.setDefaults(LoggerClass.java:44)
+	at utilities.UtilBase.setup(UtilBase.java:129)
+... Removed 17 stack frames
+</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-passed -->
-          <div class="suite-Suite-class-passed">
+          </div> <!-- suite-Suite-class-skipped -->
+          <div class="suite-Suite-class-skipped">
             <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
+              <img src="skipped.png"/>
               <span class="class-name">monitoring.LoginTest_SQ</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
@@ -150,10 +156,16 @@
                   <a name="LoginTest">
                   </a> <!-- LoginTest -->
                   <span class="method-name">LoginTest</span>
+                  <div class="stack-trace">java.lang.NullPointerException: Cannot invoke &quot;java.util.logging.ConsoleHandler.setFormatter(java.util.logging.Formatter)&quot; because &quot;this.consoleHandler&quot; is null
+	at utilities.LoggerClass.setFormatter(LoggerClass.java:84)
+	at utilities.LoggerClass.setDefaults(LoggerClass.java:44)
+	at utilities.UtilBase.setup(UtilBase.java:129)
+... Removed 17 stack frames
+</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-passed -->
+          </div> <!-- suite-Suite-class-skipped -->
         </div> <!-- panel Suite -->
         <div panel-name="test-xml-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
@@ -211,16 +223,16 @@ data.addRows(2);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'LoginTest')
 data.setCell(0, 2, 'monitoring.LoginTest_SQ')
-data.setCell(0, 3, 6507);
+data.setCell(0, 3, 0);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'test1')
 data.setCell(1, 2, 'monitoring.SQmonitoring')
-data.setCell(1, 3, 1441);
+data.setCell(1, 3, 0);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 7 seconds</span>
+              <span class="suite-total-time">Total running time: 0 ms</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -257,42 +269,44 @@ return data;
             <div class="chronological-class">
               <div class="chronological-class-name">monitoring.LoginTest_SQ</div> <!-- chronological-class-name -->
               <div class="configuration-suite before">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">setup</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-suite before -->
               <div class="configuration-class before">
                 <span class="method-name">beforeClass</span>
-                <span class="method-start">4066 ms</span>
+                <span class="method-start">74 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">LoginTest</span>
-                <span class="method-start">4080 ms</span>
+                <span class="method-start">93 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">afterClass</span>
-                <span class="method-start">10591 ms</span>
+                <span class="method-start">100 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">monitoring.SQmonitoring</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">beforeClass</span>
-                <span class="method-start">10593 ms</span>
+                <span class="method-start">104 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">test1</span>
-                <span class="method-start">10594 ms</span>
+                <span class="method-start">106 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">afterClass</span>
-                <span class="method-start">12036 ms</span>
+                <span class="method-start">110 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">monitoring.LoginTest_SQ</div> <!-- chronological-class-name -->
               <div class="configuration-suite after">
                 <span class="method-name">teardown</span>
-                <span class="method-start">12052 ms</span>
+                <span class="method-start">259 ms</span>
               </div> <!-- configuration-suite after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

@@ -10,3 +10,401 @@
 2024-07-03 19:14:14 INFO  SQmonitoring:49 - END :: SQmonitoring
 2024-07-03 19:14:14 INFO  UtilBase:144 - @Aftersuite, Closing the browser
 2024-07-03 19:14:14 INFO  UtilBase:145 - --------------------
+2024-07-03 22:37:26 INFO  UtilBase:128 - Start :: @Beforesuite, Initailizing the browser
+2024-07-03 22:37:29 INFO  WebDriverManager:1239 - Using chromedriver 126.0.6478.126 (resolved driver for Chrome 126)
+2024-07-03 22:37:29 INFO  WebDriverManager:1301 - Exporting webdriver.chrome.driver as C:\Users\yamah022\.cache\selenium\chromedriver\win64\126.0.6478.126\chromedriver.exe
+2024-07-03 22:37:32 INFO  LoginTest_SQ:31 - Start :: Login Test 
+2024-07-03 22:37:39 INFO  LoginTest_SQ:113 - PASS :: Login Test
+2024-07-03 22:37:39 INFO  LoginTest_SQ:66 - END :: Login Test 
+2024-07-03 22:37:39 INFO  SQmonitoring:17 - start :: SQmonitoring
+2024-07-03 22:37:40 INFO  SQmonitoring:29 - message from testcase 2
+2024-07-03 22:37:40 INFO  SQmonitoring:113 - PASS :: SQ monitor
+2024-07-03 22:37:40 INFO  SQmonitoring:49 - END :: SQmonitoring
+2024-07-03 22:37:41 INFO  UtilBase:144 - @Aftersuite, Closing the browser
+2024-07-03 22:37:41 INFO  UtilBase:145 - --------------------
+2024-07-03 22:47:19 INFO  UtilBase:132 - Start :: @Beforesuite, Initailizing the browser
+2024-07-03 22:47:20 INFO  WebDriverManager:1239 - Using chromedriver 126.0.6478.126 (resolved driver for Chrome 126)
+2024-07-03 22:47:20 INFO  WebDriverManager:1301 - Exporting webdriver.chrome.driver as C:\Users\yamah022\.cache\selenium\chromedriver\win64\126.0.6478.126\chromedriver.exe
+2024-07-03 22:47:22 INFO  LoginTest_SQ:29 - Start :: Login Test 
+2024-07-03 22:47:29 INFO  LoginTest_SQ:117 - PASS :: Login Test
+2024-07-03 22:47:29 INFO  LoginTest_SQ:64 - END :: Login Test 
+2024-07-03 22:47:29 INFO  SQmonitoring:20 - start :: SQmonitoring
+2024-07-03 22:47:34 INFO  SQmonitoring:41 - message from testcase 2
+2024-07-03 22:47:34 INFO  SQmonitoring:117 - PASS :: SQ monitor
+2024-07-03 22:47:34 INFO  SQmonitoring:68 - END :: SQmonitoring
+2024-07-03 22:47:34 INFO  UtilBase:148 - @Aftersuite, Closing the browser
+2024-07-03 22:47:34 INFO  UtilBase:149 - --------------------
+2024-07-03 22:48:34 INFO  UtilBase:132 - Start :: @Beforesuite, Initailizing the browser
+2024-07-03 22:48:35 INFO  WebDriverManager:1239 - Using chromedriver 126.0.6478.126 (resolved driver for Chrome 126)
+2024-07-03 22:48:35 INFO  WebDriverManager:1301 - Exporting webdriver.chrome.driver as C:\Users\yamah022\.cache\selenium\chromedriver\win64\126.0.6478.126\chromedriver.exe
+2024-07-03 22:48:39 INFO  LoginTest_SQ:29 - Start :: Login Test 
+2024-07-03 22:48:47 INFO  LoginTest_SQ:117 - PASS :: Login Test
+2024-07-03 22:48:47 INFO  LoginTest_SQ:64 - END :: Login Test 
+2024-07-03 22:48:47 INFO  SQmonitoring:20 - start :: SQmonitoring
+2024-07-03 22:48:50 INFO  SQmonitoring:58 - END :: SQmonitoring
+2024-07-03 22:48:51 INFO  UtilBase:148 - @Aftersuite, Closing the browser
+2024-07-03 22:48:51 INFO  UtilBase:149 - --------------------
+2024-07-03 22:49:25 INFO  UtilBase:132 - Start :: @Beforesuite, Initailizing the browser
+2024-07-03 22:49:26 INFO  WebDriverManager:1239 - Using chromedriver 126.0.6478.126 (resolved driver for Chrome 126)
+2024-07-03 22:49:26 INFO  WebDriverManager:1301 - Exporting webdriver.chrome.driver as C:\Users\yamah022\.cache\selenium\chromedriver\win64\126.0.6478.126\chromedriver.exe
+2024-07-03 22:49:28 INFO  LoginTest_SQ:29 - Start :: Login Test 
+2024-07-03 22:49:37 INFO  LoginTest_SQ:117 - PASS :: Login Test
+2024-07-03 22:49:37 INFO  LoginTest_SQ:64 - END :: Login Test 
+2024-07-03 22:49:37 INFO  SQmonitoring:20 - start :: SQmonitoring
+2024-07-03 22:49:45 INFO  SQmonitoring:59 - END :: SQmonitoring
+2024-07-03 22:49:45 INFO  UtilBase:148 - @Aftersuite, Closing the browser
+2024-07-03 22:49:45 INFO  UtilBase:149 - --------------------
+2024-07-03 22:50:03 INFO  UtilBase:132 - Start :: @Beforesuite, Initailizing the browser
+2024-07-03 22:50:04 INFO  WebDriverManager:1239 - Using chromedriver 126.0.6478.126 (resolved driver for Chrome 126)
+2024-07-03 22:50:04 INFO  WebDriverManager:1301 - Exporting webdriver.chrome.driver as C:\Users\yamah022\.cache\selenium\chromedriver\win64\126.0.6478.126\chromedriver.exe
+2024-07-03 22:50:07 INFO  LoginTest_SQ:29 - Start :: Login Test 
+2024-07-03 22:50:16 INFO  LoginTest_SQ:117 - PASS :: Login Test
+2024-07-03 22:50:16 INFO  LoginTest_SQ:64 - END :: Login Test 
+2024-07-03 22:50:16 INFO  SQmonitoring:20 - start :: SQmonitoring
+2024-07-03 22:50:26 INFO  SQmonitoring:59 - END :: SQmonitoring
+2024-07-03 22:50:27 INFO  UtilBase:148 - @Aftersuite, Closing the browser
+2024-07-03 22:50:27 INFO  UtilBase:149 - --------------------
+2024-07-03 22:59:56 INFO  UtilBase:132 - Start :: @Beforesuite, Initailizing the browser
+2024-07-03 22:59:57 INFO  WebDriverManager:1239 - Using chromedriver 126.0.6478.126 (resolved driver for Chrome 126)
+2024-07-03 22:59:57 INFO  WebDriverManager:1301 - Exporting webdriver.chrome.driver as C:\Users\yamah022\.cache\selenium\chromedriver\win64\126.0.6478.126\chromedriver.exe
+2024-07-03 23:00:01 INFO  LoginTest_SQ:29 - Start :: Login Test 
+2024-07-03 23:00:08 INFO  LoginTest_SQ:117 - PASS :: Login Test
+2024-07-03 23:00:08 INFO  LoginTest_SQ:64 - END :: Login Test 
+2024-07-03 23:00:08 INFO  SQmonitoring:21 - start :: SQmonitoring
+2024-07-03 23:00:18 INFO  SQmonitoring:62 - END :: SQmonitoring
+2024-07-03 23:00:19 INFO  UtilBase:148 - @Aftersuite, Closing the browser
+2024-07-03 23:00:19 INFO  UtilBase:149 - --------------------
+2024-07-03 23:07:06 INFO  UtilBase:132 - Start :: @Beforesuite, Initailizing the browser
+2024-07-03 23:07:07 INFO  WebDriverManager:1239 - Using chromedriver 126.0.6478.126 (resolved driver for Chrome 126)
+2024-07-03 23:07:07 INFO  WebDriverManager:1301 - Exporting webdriver.chrome.driver as C:\Users\yamah022\.cache\selenium\chromedriver\win64\126.0.6478.126\chromedriver.exe
+2024-07-03 23:07:10 INFO  LoginTest_SQ:29 - Start :: Login Test 
+2024-07-03 23:07:17 INFO  LoginTest_SQ:117 - PASS :: Login Test
+2024-07-03 23:07:17 INFO  LoginTest_SQ:64 - END :: Login Test 
+2024-07-03 23:07:17 INFO  SQmonitoring:22 - start :: SQmonitoring
+2024-07-03 23:07:28 INFO  SQmonitoring:50 - Rowcount :: 13
+2024-07-03 23:07:28 INFO  SQmonitoring:69 - END :: SQmonitoring
+2024-07-03 23:07:29 INFO  UtilBase:148 - @Aftersuite, Closing the browser
+2024-07-03 23:07:29 INFO  UtilBase:149 - --------------------
+2024-07-03 23:21:05 INFO  UtilBase:132 - Start :: @Beforesuite, Initailizing the browser
+2024-07-03 23:21:06 INFO  WebDriverManager:1239 - Using chromedriver 126.0.6478.126 (resolved driver for Chrome 126)
+2024-07-03 23:21:06 INFO  WebDriverManager:1301 - Exporting webdriver.chrome.driver as C:\Users\yamah022\.cache\selenium\chromedriver\win64\126.0.6478.126\chromedriver.exe
+2024-07-03 23:21:10 INFO  LoginTest_SQ:29 - Start :: Login Test 
+2024-07-03 23:21:17 INFO  LoginTest_SQ:117 - PASS :: Login Test
+2024-07-03 23:21:17 INFO  LoginTest_SQ:64 - END :: Login Test 
+2024-07-03 23:21:17 INFO  SQmonitoring:23 - start :: SQmonitoring
+2024-07-03 23:21:28 INFO  SQmonitoring:51 - Rowcount :: 13
+2024-07-03 23:21:30 INFO  SQmonitoring:54 - 5
+2024-07-03 23:21:30 INFO  SQmonitoring:57 - 627757
+2024-07-03 23:21:30 INFO  SQmonitoring:57 - 2024/07/03 12:48:33 PM
+2024-07-03 23:21:30 INFO  SQmonitoring:57 - RFQ
+2024-07-03 23:21:30 INFO  SQmonitoring:57 - Yes
+2024-07-03 23:21:30 INFO  SQmonitoring:57 - RECEIVED
+2024-07-03 23:21:30 INFO  SQmonitoring:88 - END :: SQmonitoring
+2024-07-03 23:21:31 INFO  UtilBase:148 - @Aftersuite, Closing the browser
+2024-07-03 23:21:31 INFO  UtilBase:149 - --------------------
+2024-07-03 23:38:25 INFO  UtilBase:132 - Start :: @Beforesuite, Initailizing the browser
+2024-07-03 23:38:28 INFO  WebDriverManager:1239 - Using chromedriver 126.0.6478.126 (resolved driver for Chrome 126)
+2024-07-03 23:38:28 INFO  WebDriverManager:1301 - Exporting webdriver.chrome.driver as C:\Users\yamah022\.cache\selenium\chromedriver\win64\126.0.6478.126\chromedriver.exe
+2024-07-03 23:38:31 INFO  LoginTest_SQ:29 - Start :: Login Test 
+2024-07-03 23:38:39 INFO  LoginTest_SQ:117 - PASS :: Login Test
+2024-07-03 23:38:40 INFO  LoginTest_SQ:64 - END :: Login Test 
+2024-07-03 23:38:40 INFO  SQmonitoring:24 - start :: SQmonitoring
+2024-07-03 23:38:51 INFO  SQmonitoring:52 - Rowcount :: 13
+2024-07-03 23:39:13 INFO  SQmonitoring:124 - FAIL :: SQ monitor
+2024-07-03 23:39:13 INFO  SQmonitoring:92 - END :: SQmonitoring
+2024-07-03 23:39:14 INFO  UtilBase:148 - @Aftersuite, Closing the browser
+2024-07-03 23:39:14 INFO  UtilBase:149 - --------------------
+2024-07-03 23:42:25 INFO  UtilBase:132 - Start :: @Beforesuite, Initailizing the browser
+2024-07-03 23:42:26 INFO  WebDriverManager:1239 - Using chromedriver 126.0.6478.126 (resolved driver for Chrome 126)
+2024-07-03 23:42:26 INFO  WebDriverManager:1301 - Exporting webdriver.chrome.driver as C:\Users\yamah022\.cache\selenium\chromedriver\win64\126.0.6478.126\chromedriver.exe
+2024-07-03 23:42:30 INFO  LoginTest_SQ:29 - Start :: Login Test 
+2024-07-03 23:42:38 INFO  LoginTest_SQ:117 - PASS :: Login Test
+2024-07-03 23:42:38 INFO  LoginTest_SQ:64 - END :: Login Test 
+2024-07-03 23:42:38 INFO  SQmonitoring:24 - start :: SQmonitoring
+2024-07-03 23:42:49 INFO  SQmonitoring:52 - Rowcount :: 13
+2024-07-03 23:43:13 INFO  SQmonitoring:124 - FAIL :: SQ monitor
+2024-07-03 23:43:13 INFO  SQmonitoring:92 - END :: SQmonitoring
+2024-07-03 23:43:14 INFO  UtilBase:148 - @Aftersuite, Closing the browser
+2024-07-03 23:43:14 INFO  UtilBase:149 - --------------------
+2024-07-04 00:38:21 INFO  UtilBase:132 - Start :: @Beforesuite, Initailizing the browser
+2024-07-04 00:38:22 INFO  WebDriverManager:1239 - Using chromedriver 126.0.6478.126 (resolved driver for Chrome 126)
+2024-07-04 00:38:22 INFO  WebDriverManager:1301 - Exporting webdriver.chrome.driver as C:\Users\yamah022\.cache\selenium\chromedriver\win64\126.0.6478.126\chromedriver.exe
+2024-07-04 00:38:23 INFO  LoginTest_SQ:29 - Start :: Login Test 
+2024-07-04 00:38:30 INFO  LoginTest_SQ:117 - PASS :: Login Test
+2024-07-04 00:38:30 INFO  LoginTest_SQ:64 - END :: Login Test 
+2024-07-04 00:38:30 INFO  SQmonitoring:24 - start :: SQmonitoring
+2024-07-04 00:38:40 INFO  SQmonitoring:51 - Rowcount :: 2
+2024-07-04 00:38:40 INFO  SQmonitoring:124 - FAIL :: SQ monitor
+2024-07-04 00:38:40 INFO  SQmonitoring:86 - END :: SQmonitoring
+2024-07-04 00:38:41 INFO  UtilBase:148 - @Aftersuite, Closing the browser
+2024-07-04 00:38:41 INFO  UtilBase:149 - --------------------
+2024-07-04 00:40:46 INFO  UtilBase:132 - Start :: @Beforesuite, Initailizing the browser
+2024-07-04 00:40:48 INFO  WebDriverManager:1239 - Using chromedriver 126.0.6478.126 (resolved driver for Chrome 126)
+2024-07-04 00:40:48 INFO  WebDriverManager:1301 - Exporting webdriver.chrome.driver as C:\Users\yamah022\.cache\selenium\chromedriver\win64\126.0.6478.126\chromedriver.exe
+2024-07-04 00:40:49 INFO  SQmonitoring:24 - start :: SQmonitoring
+2024-07-04 00:40:49 INFO  SQmonitoring:124 - FAIL :: SQ monitor
+2024-07-04 00:40:49 INFO  SQmonitoring:89 - END :: SQmonitoring
+2024-07-04 00:40:50 INFO  UtilBase:148 - @Aftersuite, Closing the browser
+2024-07-04 00:40:50 INFO  UtilBase:149 - --------------------
+2024-07-04 00:41:58 INFO  UtilBase:132 - Start :: @Beforesuite, Initailizing the browser
+2024-07-04 00:41:59 INFO  WebDriverManager:1239 - Using chromedriver 126.0.6478.126 (resolved driver for Chrome 126)
+2024-07-04 00:41:59 INFO  WebDriverManager:1301 - Exporting webdriver.chrome.driver as C:\Users\yamah022\.cache\selenium\chromedriver\win64\126.0.6478.126\chromedriver.exe
+2024-07-04 00:42:00 INFO  LoginTest_SQ:29 - Start :: Login Test 
+2024-07-04 00:42:07 INFO  LoginTest_SQ:117 - PASS :: Login Test
+2024-07-04 00:42:07 INFO  LoginTest_SQ:64 - END :: Login Test 
+2024-07-04 00:42:07 INFO  SQmonitoring:24 - start :: SQmonitoring
+2024-07-04 00:42:17 INFO  SQmonitoring:58 - Rowcount :: 21
+2024-07-04 00:42:17 INFO  SQmonitoring:73 - [627757, 2024/07/03 12:48:33 PM, RFQ, Yes, RECEIVED]
+2024-07-04 00:42:17 INFO  SQmonitoring:73 - [627757, 2024/07/03 12:48:33 PM, RFQ, Yes, RECEIVED]
+2024-07-04 00:42:17 INFO  SQmonitoring:73 - [627757, 2024/07/03 12:48:33 PM, RFQ, Yes, RECEIVED]
+2024-07-04 00:42:17 INFO  SQmonitoring:73 - [627757, 2024/07/03 12:48:33 PM, RFQ, Yes, RECEIVED]
+2024-07-04 00:42:17 INFO  SQmonitoring:73 - [627757, 2024/07/03 12:48:33 PM, RFQ, Yes, RECEIVED]
+2024-07-04 00:42:17 INFO  SQmonitoring:73 - [627757, 2024/07/03 12:48:33 PM, RFQ, Yes, RECEIVED]
+2024-07-04 00:42:17 INFO  SQmonitoring:73 - [627757, 2024/07/03 12:48:33 PM, RFQ, Yes, RECEIVED]
+2024-07-04 00:42:17 INFO  SQmonitoring:73 - [627757, 2024/07/03 12:48:33 PM, RFQ, Yes, RECEIVED]
+2024-07-04 00:42:17 INFO  SQmonitoring:73 - [627757, 2024/07/03 12:48:33 PM, RFQ, Yes, RECEIVED]
+2024-07-04 00:42:17 INFO  SQmonitoring:73 - [627757, 2024/07/03 12:48:33 PM, RFQ, Yes, RECEIVED]
+2024-07-04 00:42:17 INFO  SQmonitoring:73 - [627757, 2024/07/03 12:48:33 PM, RFQ, Yes, RECEIVED]
+2024-07-04 00:42:17 INFO  SQmonitoring:73 - [627757, 2024/07/03 12:48:33 PM, RFQ, Yes, RECEIVED]
+2024-07-04 00:42:17 INFO  SQmonitoring:73 - [627757, 2024/07/03 12:48:33 PM, RFQ, Yes, RECEIVED]
+2024-07-04 00:42:17 INFO  SQmonitoring:73 - [627757, 2024/07/03 12:48:33 PM, RFQ, Yes, RECEIVED]
+2024-07-04 00:42:17 INFO  SQmonitoring:73 - [627757, 2024/07/03 12:48:33 PM, RFQ, Yes, RECEIVED]
+2024-07-04 00:42:17 INFO  SQmonitoring:73 - [627757, 2024/07/03 12:48:33 PM, RFQ, Yes, RECEIVED]
+2024-07-04 00:42:17 INFO  SQmonitoring:73 - [627757, 2024/07/03 12:48:33 PM, RFQ, Yes, RECEIVED]
+2024-07-04 00:42:17 INFO  SQmonitoring:73 - [627757, 2024/07/03 12:48:33 PM, RFQ, Yes, RECEIVED]
+2024-07-04 00:42:17 INFO  SQmonitoring:73 - [627757, 2024/07/03 12:48:33 PM, RFQ, Yes, RECEIVED]
+2024-07-04 00:42:17 INFO  SQmonitoring:73 - [627757, 2024/07/03 12:48:33 PM, RFQ, Yes, RECEIVED]
+2024-07-04 00:42:17 INFO  SQmonitoring:73 - [627757, 2024/07/03 12:48:33 PM, RFQ, Yes, RECEIVED]
+2024-07-04 00:42:17 INFO  SQmonitoring:76 - [627757, 2024/07/03 12:48:33 PM, RFQ, Yes, RECEIVED]
+2024-07-04 00:42:17 INFO  SQmonitoring:93 - END :: SQmonitoring
+2024-07-04 00:42:17 INFO  UtilBase:148 - @Aftersuite, Closing the browser
+2024-07-04 00:42:17 INFO  UtilBase:149 - --------------------
+2024-07-04 00:44:14 INFO  UtilBase:132 - Start :: @Beforesuite, Initailizing the browser
+2024-07-04 00:44:14 INFO  WebDriverManager:1239 - Using chromedriver 126.0.6478.126 (resolved driver for Chrome 126)
+2024-07-04 00:44:15 INFO  WebDriverManager:1301 - Exporting webdriver.chrome.driver as C:\Users\yamah022\.cache\selenium\chromedriver\win64\126.0.6478.126\chromedriver.exe
+2024-07-04 00:44:16 INFO  LoginTest_SQ:29 - Start :: Login Test 
+2024-07-04 00:44:23 INFO  LoginTest_SQ:117 - PASS :: Login Test
+2024-07-04 00:44:23 INFO  LoginTest_SQ:64 - END :: Login Test 
+2024-07-04 00:44:23 INFO  SQmonitoring:24 - start :: SQmonitoring
+2024-07-04 00:44:33 INFO  SQmonitoring:58 - Rowcount :: 21
+2024-07-04 00:44:33 INFO  SQmonitoring:73 - [627757, 2024/07/03 12:48:33 PM, RFQ, Yes, RECEIVED]
+2024-07-04 00:44:33 INFO  SQmonitoring:73 - [627757, 2024/07/03 12:48:33 PM, RFQ, Yes, RECEIVED]
+2024-07-04 00:44:34 INFO  SQmonitoring:73 - [627757, 2024/07/03 12:48:33 PM, RFQ, Yes, RECEIVED]
+2024-07-04 00:44:34 INFO  SQmonitoring:73 - [627757, 2024/07/03 12:48:33 PM, RFQ, Yes, RECEIVED]
+2024-07-04 00:44:35 INFO  SQmonitoring:73 - [627757, 2024/07/03 12:48:33 PM, RFQ, Yes, RECEIVED]
+2024-07-04 00:44:35 INFO  SQmonitoring:73 - [627757, 2024/07/03 12:48:33 PM, RFQ, Yes, RECEIVED]
+2024-07-04 00:44:35 INFO  SQmonitoring:73 - [627757, 2024/07/03 12:48:33 PM, RFQ, Yes, RECEIVED]
+2024-07-04 00:44:36 INFO  SQmonitoring:73 - [627757, 2024/07/03 12:48:33 PM, RFQ, Yes, RECEIVED]
+2024-07-04 00:44:36 INFO  SQmonitoring:73 - [627757, 2024/07/03 12:48:33 PM, RFQ, Yes, RECEIVED]
+2024-07-04 00:44:37 INFO  SQmonitoring:73 - [627757, 2024/07/03 12:48:33 PM, RFQ, Yes, RECEIVED]
+2024-07-04 00:44:37 INFO  SQmonitoring:73 - [627757, 2024/07/03 12:48:33 PM, RFQ, Yes, RECEIVED]
+2024-07-04 00:44:37 INFO  SQmonitoring:73 - [627757, 2024/07/03 12:48:33 PM, RFQ, Yes, RECEIVED]
+2024-07-04 00:44:38 INFO  SQmonitoring:73 - [627757, 2024/07/03 12:48:33 PM, RFQ, Yes, RECEIVED]
+2024-07-04 00:44:38 INFO  SQmonitoring:73 - [627757, 2024/07/03 12:48:33 PM, RFQ, Yes, RECEIVED]
+2024-07-04 00:44:38 INFO  SQmonitoring:73 - [627757, 2024/07/03 12:48:33 PM, RFQ, Yes, RECEIVED]
+2024-07-04 00:44:39 INFO  SQmonitoring:73 - [627757, 2024/07/03 12:48:33 PM, RFQ, Yes, RECEIVED]
+2024-07-04 00:44:39 INFO  SQmonitoring:73 - [627757, 2024/07/03 12:48:33 PM, RFQ, Yes, RECEIVED]
+2024-07-04 00:44:40 INFO  SQmonitoring:73 - [627757, 2024/07/03 12:48:33 PM, RFQ, Yes, RECEIVED]
+2024-07-04 00:44:40 INFO  SQmonitoring:73 - [627757, 2024/07/03 12:48:33 PM, RFQ, Yes, RECEIVED]
+2024-07-04 00:44:40 INFO  SQmonitoring:73 - [627757, 2024/07/03 12:48:33 PM, RFQ, Yes, RECEIVED]
+2024-07-04 00:44:41 INFO  SQmonitoring:73 - [627757, 2024/07/03 12:48:33 PM, RFQ, Yes, RECEIVED]
+2024-07-04 00:44:41 INFO  SQmonitoring:76 - [627757, 2024/07/03 12:48:33 PM, RFQ, Yes, RECEIVED]
+2024-07-04 00:44:41 INFO  SQmonitoring:93 - END :: SQmonitoring
+2024-07-04 00:44:41 INFO  UtilBase:148 - @Aftersuite, Closing the browser
+2024-07-04 00:44:41 INFO  UtilBase:149 - --------------------
+2024-07-04 00:45:05 INFO  UtilBase:132 - Start :: @Beforesuite, Initailizing the browser
+2024-07-04 00:45:06 INFO  WebDriverManager:1239 - Using chromedriver 126.0.6478.126 (resolved driver for Chrome 126)
+2024-07-04 00:45:06 INFO  WebDriverManager:1301 - Exporting webdriver.chrome.driver as C:\Users\yamah022\.cache\selenium\chromedriver\win64\126.0.6478.126\chromedriver.exe
+2024-07-04 00:45:08 INFO  LoginTest_SQ:29 - Start :: Login Test 
+2024-07-04 00:45:16 INFO  LoginTest_SQ:117 - PASS :: Login Test
+2024-07-04 00:45:16 INFO  LoginTest_SQ:64 - END :: Login Test 
+2024-07-04 00:45:16 INFO  SQmonitoring:24 - start :: SQmonitoring
+2024-07-04 00:45:26 INFO  SQmonitoring:58 - Rowcount :: 21
+2024-07-04 00:45:26 INFO  SQmonitoring:73 - [, , , , ]
+2024-07-04 00:45:27 INFO  SQmonitoring:73 - [627757, 2024/07/03 12:48:33 PM, RFQ, Yes, RECEIVED]
+2024-07-04 00:45:27 INFO  SQmonitoring:73 - [627756, 2024/07/03 12:47:31 PM, Other, Yes, IGNORED]
+2024-07-04 00:45:27 INFO  SQmonitoring:73 - [627755, 2024/07/03 12:41:46 PM, RFQ, Yes, RECEIVED]
+2024-07-04 00:45:28 INFO  SQmonitoring:73 - [627754, 2024/07/03 12:38:29 PM, RFQ, Yes, RECEIVED]
+2024-07-04 00:45:28 INFO  SQmonitoring:73 - [627753, 2024/07/03 12:37:44 PM, Other, Yes, IGNORED]
+2024-07-04 00:45:29 INFO  SQmonitoring:73 - [627752, 2024/07/03 12:36:49 PM, Other, Yes, IGNORED]
+2024-07-04 00:45:29 INFO  SQmonitoring:73 - [627751, 2024/07/03 12:33:12 PM, Other, Yes, IGNORED]
+2024-07-04 00:45:29 INFO  SQmonitoring:73 - [627750, 2024/07/03 11:06:44 AM, RFQ, Yes, RECEIVED]
+2024-07-04 00:45:30 INFO  SQmonitoring:73 - [627749, 2024/07/03 11:02:46 AM, RFQ, Yes, RECEIVED]
+2024-07-04 00:45:30 INFO  SQmonitoring:73 - [627748, 2024/07/03 10:51:33 AM, RFQ, Yes, RECEIVED]
+2024-07-04 00:45:31 INFO  SQmonitoring:73 - [627747, 2024/07/03 10:45:49 AM, RFQ, Yes, RECEIVED]
+2024-07-04 00:45:31 INFO  SQmonitoring:73 - [627746, 2024/07/03 04:49:21 AM, RFQ, Yes, RECEIVED]
+2024-07-04 00:45:31 INFO  SQmonitoring:73 - [627745, 2024/07/02 04:53:05 AM, RFQ, Yes, RECEIVED]
+2024-07-04 00:45:32 INFO  SQmonitoring:73 - [627744, 2024/07/02 04:29:40 AM, RFQ, Yes, RECEIVED]
+2024-07-04 00:45:32 INFO  SQmonitoring:73 - [627743, 2024/07/02 04:16:42 AM, RFQ, Yes, RECEIVED]
+2024-07-04 00:45:33 INFO  SQmonitoring:73 - [627742, 2024/07/01 11:35:59 AM, RFQ, Yes, RECEIVED]
+2024-07-04 00:45:33 INFO  SQmonitoring:73 - [627741, 2024/07/01 11:34:33 AM, RFQ, Yes, RECEIVED]
+2024-07-04 00:45:34 INFO  SQmonitoring:73 - [627740, 2024/07/01 11:30:27 AM, RFQ, Yes, RECEIVED]
+2024-07-04 00:45:34 INFO  SQmonitoring:73 - [627739, 2024/07/01 11:29:56 AM, RFQ, Yes, RECEIVED]
+2024-07-04 00:45:35 INFO  SQmonitoring:73 - [627738, 2024/07/01 11:24:54 AM, RFQ, Yes, RECEIVED]
+2024-07-04 00:45:35 INFO  SQmonitoring:76 - [, , , , ]
+2024-07-04 00:45:35 INFO  SQmonitoring:93 - END :: SQmonitoring
+2024-07-04 00:45:35 INFO  UtilBase:148 - @Aftersuite, Closing the browser
+2024-07-04 00:45:35 INFO  UtilBase:149 - --------------------
+2024-07-04 00:51:06 INFO  UtilBase:132 - Start :: @Beforesuite, Initailizing the browser
+2024-07-04 00:51:07 INFO  WebDriverManager:1239 - Using chromedriver 126.0.6478.126 (resolved driver for Chrome 126)
+2024-07-04 00:51:07 INFO  WebDriverManager:1301 - Exporting webdriver.chrome.driver as C:\Users\yamah022\.cache\selenium\chromedriver\win64\126.0.6478.126\chromedriver.exe
+2024-07-04 00:51:08 INFO  LoginTest_SQ:29 - Start :: Login Test 
+2024-07-04 00:51:15 INFO  LoginTest_SQ:117 - PASS :: Login Test
+2024-07-04 00:51:15 INFO  LoginTest_SQ:64 - END :: Login Test 
+2024-07-04 00:51:15 INFO  SQmonitoring:24 - start :: SQmonitoring
+2024-07-04 00:51:25 INFO  SQmonitoring:58 - Rowcount :: 21
+2024-07-04 00:51:26 INFO  SQmonitoring:73 - [, , , , ]
+2024-07-04 00:51:26 INFO  SQmonitoring:73 - [627757, 2024/07/03 12:48:33 PM, RFQ, Yes, RECEIVED]
+2024-07-04 00:51:27 INFO  SQmonitoring:73 - [627756, 2024/07/03 12:47:31 PM, Other, Yes, IGNORED]
+2024-07-04 00:51:27 INFO  SQmonitoring:73 - [627755, 2024/07/03 12:41:46 PM, RFQ, Yes, RECEIVED]
+2024-07-04 00:51:28 INFO  SQmonitoring:73 - [627754, 2024/07/03 12:38:29 PM, RFQ, Yes, RECEIVED]
+2024-07-04 00:51:28 INFO  SQmonitoring:73 - [627753, 2024/07/03 12:37:44 PM, Other, Yes, IGNORED]
+2024-07-04 00:51:29 INFO  SQmonitoring:73 - [627752, 2024/07/03 12:36:49 PM, Other, Yes, IGNORED]
+2024-07-04 00:51:29 INFO  SQmonitoring:73 - [627751, 2024/07/03 12:33:12 PM, Other, Yes, IGNORED]
+2024-07-04 00:51:30 INFO  SQmonitoring:73 - [627750, 2024/07/03 11:06:44 AM, RFQ, Yes, RECEIVED]
+2024-07-04 00:51:30 INFO  SQmonitoring:73 - [627749, 2024/07/03 11:02:46 AM, RFQ, Yes, RECEIVED]
+2024-07-04 00:51:31 INFO  SQmonitoring:73 - [627748, 2024/07/03 10:51:33 AM, RFQ, Yes, RECEIVED]
+2024-07-04 00:51:31 INFO  SQmonitoring:73 - [627747, 2024/07/03 10:45:49 AM, RFQ, Yes, RECEIVED]
+2024-07-04 00:51:32 INFO  SQmonitoring:73 - [627746, 2024/07/03 04:49:21 AM, RFQ, Yes, RECEIVED]
+2024-07-04 00:51:32 INFO  SQmonitoring:73 - [627745, 2024/07/02 04:53:05 AM, RFQ, Yes, RECEIVED]
+2024-07-04 00:51:33 INFO  SQmonitoring:73 - [627744, 2024/07/02 04:29:40 AM, RFQ, Yes, RECEIVED]
+2024-07-04 00:51:33 INFO  SQmonitoring:73 - [627743, 2024/07/02 04:16:42 AM, RFQ, Yes, RECEIVED]
+2024-07-04 00:51:34 INFO  SQmonitoring:73 - [627742, 2024/07/01 11:35:59 AM, RFQ, Yes, RECEIVED]
+2024-07-04 00:51:34 INFO  SQmonitoring:73 - [627741, 2024/07/01 11:34:33 AM, RFQ, Yes, RECEIVED]
+2024-07-04 00:51:35 INFO  SQmonitoring:73 - [627740, 2024/07/01 11:30:27 AM, RFQ, Yes, RECEIVED]
+2024-07-04 00:51:35 INFO  SQmonitoring:73 - [627739, 2024/07/01 11:29:56 AM, RFQ, Yes, RECEIVED]
+2024-07-04 00:51:35 INFO  SQmonitoring:73 - [627738, 2024/07/01 11:24:54 AM, RFQ, Yes, RECEIVED]
+2024-07-04 00:51:35 INFO  SQmonitoring:82 - count by status :: 0
+2024-07-04 00:51:35 INFO  SQmonitoring:82 - count by status :: 0
+2024-07-04 00:51:35 INFO  SQmonitoring:82 - count by status :: 1
+2024-07-04 00:51:35 INFO  SQmonitoring:82 - count by status :: 1
+2024-07-04 00:51:35 INFO  SQmonitoring:82 - count by status :: 1
+2024-07-04 00:51:35 INFO  SQmonitoring:82 - count by status :: 2
+2024-07-04 00:51:35 INFO  SQmonitoring:82 - count by status :: 3
+2024-07-04 00:51:35 INFO  SQmonitoring:82 - count by status :: 4
+2024-07-04 00:51:35 INFO  SQmonitoring:82 - count by status :: 4
+2024-07-04 00:51:35 INFO  SQmonitoring:82 - count by status :: 4
+2024-07-04 00:51:35 INFO  SQmonitoring:82 - count by status :: 4
+2024-07-04 00:51:35 INFO  SQmonitoring:82 - count by status :: 4
+2024-07-04 00:51:35 INFO  SQmonitoring:82 - count by status :: 4
+2024-07-04 00:51:35 INFO  SQmonitoring:82 - count by status :: 4
+2024-07-04 00:51:35 INFO  SQmonitoring:82 - count by status :: 4
+2024-07-04 00:51:35 INFO  SQmonitoring:82 - count by status :: 4
+2024-07-04 00:51:35 INFO  SQmonitoring:82 - count by status :: 4
+2024-07-04 00:51:35 INFO  SQmonitoring:82 - count by status :: 4
+2024-07-04 00:51:35 INFO  SQmonitoring:82 - count by status :: 4
+2024-07-04 00:51:35 INFO  SQmonitoring:82 - count by status :: 4
+2024-07-04 00:51:35 INFO  SQmonitoring:82 - count by status :: 4
+2024-07-04 00:51:35 INFO  SQmonitoring:100 - END :: SQmonitoring
+2024-07-04 00:51:36 INFO  UtilBase:148 - @Aftersuite, Closing the browser
+2024-07-04 00:51:36 INFO  UtilBase:149 - --------------------
+2024-07-04 00:53:40 INFO  UtilBase:132 - Start :: @Beforesuite, Initailizing the browser
+2024-07-04 00:53:41 INFO  WebDriverManager:1239 - Using chromedriver 126.0.6478.126 (resolved driver for Chrome 126)
+2024-07-04 00:53:41 INFO  WebDriverManager:1301 - Exporting webdriver.chrome.driver as C:\Users\yamah022\.cache\selenium\chromedriver\win64\126.0.6478.126\chromedriver.exe
+2024-07-04 00:53:42 INFO  LoginTest_SQ:29 - Start :: Login Test 
+2024-07-04 00:53:49 INFO  LoginTest_SQ:117 - PASS :: Login Test
+2024-07-04 00:53:49 INFO  LoginTest_SQ:64 - END :: Login Test 
+2024-07-04 00:53:49 INFO  SQmonitoring:24 - start :: SQmonitoring
+2024-07-04 00:53:59 INFO  SQmonitoring:58 - Rowcount :: 21
+2024-07-04 00:53:59 INFO  SQmonitoring:74 - [, , , , ]
+2024-07-04 00:53:59 INFO  SQmonitoring:74 - [627757, 2024/07/03 12:48:33 PM, RFQ, Yes, RECEIVED]
+2024-07-04 00:54:00 INFO  SQmonitoring:74 - [627756, 2024/07/03 12:47:31 PM, Other, Yes, IGNORED]
+2024-07-04 00:54:00 INFO  SQmonitoring:74 - [627755, 2024/07/03 12:41:46 PM, RFQ, Yes, RECEIVED]
+2024-07-04 00:54:01 INFO  SQmonitoring:74 - [627754, 2024/07/03 12:38:29 PM, RFQ, Yes, RECEIVED]
+2024-07-04 00:54:01 INFO  SQmonitoring:74 - [627753, 2024/07/03 12:37:44 PM, Other, Yes, IGNORED]
+2024-07-04 00:54:02 INFO  SQmonitoring:74 - [627752, 2024/07/03 12:36:49 PM, Other, Yes, IGNORED]
+2024-07-04 00:54:02 INFO  SQmonitoring:74 - [627751, 2024/07/03 12:33:12 PM, Other, Yes, IGNORED]
+2024-07-04 00:54:02 INFO  SQmonitoring:74 - [627750, 2024/07/03 11:06:44 AM, RFQ, Yes, RECEIVED]
+2024-07-04 00:54:03 INFO  SQmonitoring:74 - [627749, 2024/07/03 11:02:46 AM, RFQ, Yes, RECEIVED]
+2024-07-04 00:54:03 INFO  SQmonitoring:74 - [627748, 2024/07/03 10:51:33 AM, RFQ, Yes, RECEIVED]
+2024-07-04 00:54:04 INFO  SQmonitoring:74 - [627747, 2024/07/03 10:45:49 AM, RFQ, Yes, RECEIVED]
+2024-07-04 00:54:04 INFO  SQmonitoring:74 - [627746, 2024/07/03 04:49:21 AM, RFQ, Yes, RECEIVED]
+2024-07-04 00:54:04 INFO  SQmonitoring:74 - [627745, 2024/07/02 04:53:05 AM, RFQ, Yes, RECEIVED]
+2024-07-04 00:54:05 INFO  SQmonitoring:74 - [627744, 2024/07/02 04:29:40 AM, RFQ, Yes, RECEIVED]
+2024-07-04 00:54:05 INFO  SQmonitoring:74 - [627743, 2024/07/02 04:16:42 AM, RFQ, Yes, RECEIVED]
+2024-07-04 00:54:06 INFO  SQmonitoring:74 - [627742, 2024/07/01 11:35:59 AM, RFQ, Yes, RECEIVED]
+2024-07-04 00:54:06 INFO  SQmonitoring:74 - [627741, 2024/07/01 11:34:33 AM, RFQ, Yes, RECEIVED]
+2024-07-04 00:54:06 INFO  SQmonitoring:74 - [627740, 2024/07/01 11:30:27 AM, RFQ, Yes, RECEIVED]
+2024-07-04 00:54:07 INFO  SQmonitoring:74 - [627739, 2024/07/01 11:29:56 AM, RFQ, Yes, RECEIVED]
+2024-07-04 00:54:07 INFO  SQmonitoring:74 - [627738, 2024/07/01 11:24:54 AM, RFQ, Yes, RECEIVED]
+2024-07-04 00:54:07 INFO  SQmonitoring:85 - count by status :: 4
+2024-07-04 00:54:07 INFO  SQmonitoring:101 - END :: SQmonitoring
+2024-07-04 00:54:08 INFO  UtilBase:148 - @Aftersuite, Closing the browser
+2024-07-04 00:54:08 INFO  UtilBase:149 - --------------------
+2024-07-04 01:26:42 INFO  UtilBase:132 - Start :: @Beforesuite, Initailizing the browser
+2024-07-04 01:26:43 INFO  WebDriverManager:1239 - Using chromedriver 126.0.6478.126 (resolved driver for Chrome 126)
+2024-07-04 01:26:43 INFO  WebDriverManager:1301 - Exporting webdriver.chrome.driver as C:\Users\yamah022\.cache\selenium\chromedriver\win64\126.0.6478.126\chromedriver.exe
+2024-07-04 01:26:45 INFO  LoginTest_SQ:29 - Start :: Login Test 
+2024-07-04 01:26:52 INFO  LoginTest_SQ:117 - PASS :: Login Test
+2024-07-04 01:26:52 INFO  LoginTest_SQ:64 - END :: Login Test 
+2024-07-04 01:26:52 INFO  SQmonitoring:25 - start :: SQmonitoring
+2024-07-04 01:26:52 INFO  SQmonitoring:143 - END :: SQmonitoring
+2024-07-04 01:26:52 INFO  UtilBase:148 - @Aftersuite, Closing the browser
+2024-07-04 01:26:52 INFO  UtilBase:149 - --------------------
+2024-07-04 01:27:11 INFO  UtilBase:132 - Start :: @Beforesuite, Initailizing the browser
+2024-07-04 01:27:12 INFO  WebDriverManager:1239 - Using chromedriver 126.0.6478.126 (resolved driver for Chrome 126)
+2024-07-04 01:27:12 INFO  WebDriverManager:1301 - Exporting webdriver.chrome.driver as C:\Users\yamah022\.cache\selenium\chromedriver\win64\126.0.6478.126\chromedriver.exe
+2024-07-04 01:27:13 INFO  LoginTest_SQ:29 - Start :: Login Test 
+2024-07-04 01:27:20 INFO  LoginTest_SQ:117 - PASS :: Login Test
+2024-07-04 01:27:20 INFO  LoginTest_SQ:64 - END :: Login Test 
+2024-07-04 01:27:20 INFO  SQmonitoring:25 - start :: SQmonitoring
+2024-07-04 01:27:20 INFO  SQmonitoring:143 - END :: SQmonitoring
+2024-07-04 01:27:20 INFO  UtilBase:148 - @Aftersuite, Closing the browser
+2024-07-04 01:27:20 INFO  UtilBase:149 - --------------------
+2024-07-04 01:28:32 INFO  UtilBase:132 - Start :: @Beforesuite, Initailizing the browser
+2024-07-04 01:28:33 INFO  WebDriverManager:1239 - Using chromedriver 126.0.6478.126 (resolved driver for Chrome 126)
+2024-07-04 01:28:33 INFO  WebDriverManager:1301 - Exporting webdriver.chrome.driver as C:\Users\yamah022\.cache\selenium\chromedriver\win64\126.0.6478.126\chromedriver.exe
+2024-07-04 01:28:35 INFO  LoginTest_SQ:29 - Start :: Login Test 
+2024-07-04 01:28:42 INFO  LoginTest_SQ:117 - PASS :: Login Test
+2024-07-04 01:28:42 INFO  LoginTest_SQ:64 - END :: Login Test 
+2024-07-04 01:28:42 INFO  SQmonitoring:25 - start :: SQmonitoring
+2024-07-04 01:28:52 INFO  SQmonitoring:102 - Rowcount :: 21
+2024-07-04 01:28:53 INFO  SQmonitoring:118 - [, , , , ]
+2024-07-04 01:28:53 INFO  SQmonitoring:118 - [627757, 2024/07/03 12:48:33 PM, RFQ, Yes, RECEIVED]
+2024-07-04 01:28:54 INFO  SQmonitoring:118 - [627756, 2024/07/03 12:47:31 PM, Other, Yes, IGNORED]
+2024-07-04 01:28:54 INFO  SQmonitoring:118 - [627755, 2024/07/03 12:41:46 PM, RFQ, Yes, RECEIVED]
+2024-07-04 01:28:55 INFO  SQmonitoring:118 - [627754, 2024/07/03 12:38:29 PM, RFQ, Yes, RECEIVED]
+2024-07-04 01:28:55 INFO  SQmonitoring:118 - [627753, 2024/07/03 12:37:44 PM, Other, Yes, IGNORED]
+2024-07-04 01:28:56 INFO  SQmonitoring:118 - [627752, 2024/07/03 12:36:49 PM, Other, Yes, IGNORED]
+2024-07-04 01:28:56 INFO  SQmonitoring:118 - [627751, 2024/07/03 12:33:12 PM, Other, Yes, IGNORED]
+2024-07-04 01:28:57 INFO  SQmonitoring:118 - [627750, 2024/07/03 11:06:44 AM, RFQ, Yes, RECEIVED]
+2024-07-04 01:28:57 INFO  SQmonitoring:118 - [627749, 2024/07/03 11:02:46 AM, RFQ, Yes, RECEIVED]
+2024-07-04 01:28:57 INFO  SQmonitoring:118 - [627748, 2024/07/03 10:51:33 AM, RFQ, Yes, RECEIVED]
+2024-07-04 01:28:58 INFO  SQmonitoring:118 - [627747, 2024/07/03 10:45:49 AM, RFQ, Yes, RECEIVED]
+2024-07-04 01:28:58 INFO  SQmonitoring:118 - [627746, 2024/07/03 04:49:21 AM, RFQ, Yes, RECEIVED]
+2024-07-04 01:28:59 INFO  SQmonitoring:118 - [627745, 2024/07/02 04:53:05 AM, RFQ, Yes, RECEIVED]
+2024-07-04 01:28:59 INFO  SQmonitoring:118 - [627744, 2024/07/02 04:29:40 AM, RFQ, Yes, RECEIVED]
+2024-07-04 01:29:00 INFO  SQmonitoring:118 - [627743, 2024/07/02 04:16:42 AM, RFQ, Yes, RECEIVED]
+2024-07-04 01:29:00 INFO  SQmonitoring:118 - [627742, 2024/07/01 11:35:59 AM, RFQ, Yes, RECEIVED]
+2024-07-04 01:29:01 INFO  SQmonitoring:118 - [627741, 2024/07/01 11:34:33 AM, RFQ, Yes, RECEIVED]
+2024-07-04 01:29:01 INFO  SQmonitoring:118 - [627740, 2024/07/01 11:30:27 AM, RFQ, Yes, RECEIVED]
+2024-07-04 01:29:01 INFO  SQmonitoring:118 - [627739, 2024/07/01 11:29:56 AM, RFQ, Yes, RECEIVED]
+2024-07-04 01:29:02 INFO  SQmonitoring:118 - [627738, 2024/07/01 11:24:54 AM, RFQ, Yes, RECEIVED]
+2024-07-04 01:29:02 INFO  SQmonitoring:129 - count by status :: 4
+2024-07-04 01:29:02 INFO  SQmonitoring:145 - END :: SQmonitoring
+2024-07-04 01:29:03 INFO  UtilBase:148 - @Aftersuite, Closing the browser
+2024-07-04 01:29:03 INFO  UtilBase:149 - --------------------
+2024-07-04 01:53:10 INFO  WebDriverManager:1239 - Using chromedriver 126.0.6478.126 (resolved driver for Chrome 126)
+2024-07-04 01:53:10 INFO  WebDriverManager:1301 - Exporting webdriver.chrome.driver as C:\Users\yamah022\.cache\selenium\chromedriver\win64\126.0.6478.126\chromedriver.exe
+2024-07-04 01:56:36 INFO  WebDriverManager:1239 - Using chromedriver 126.0.6478.126 (resolved driver for Chrome 126)
+2024-07-04 01:56:36 INFO  WebDriverManager:1301 - Exporting webdriver.chrome.driver as C:\Users\yamah022\.cache\selenium\chromedriver\win64\126.0.6478.126\chromedriver.exe
+2024-07-04 01:59:44 INFO  WebDriverManager:1239 - Using chromedriver 126.0.6478.126 (resolved driver for Chrome 126)
+2024-07-04 01:59:44 INFO  WebDriverManager:1301 - Exporting webdriver.chrome.driver as C:\Users\yamah022\.cache\selenium\chromedriver\win64\126.0.6478.126\chromedriver.exe
+2024-07-04 02:00:03 INFO  WebDriverManager:1239 - Using chromedriver 126.0.6478.126 (resolved driver for Chrome 126)
+2024-07-04 02:00:03 INFO  WebDriverManager:1301 - Exporting webdriver.chrome.driver as C:\Users\yamah022\.cache\selenium\chromedriver\win64\126.0.6478.126\chromedriver.exe
+2024-07-04 02:05:57 INFO  WebDriverManager:1239 - Using chromedriver 126.0.6478.126 (resolved driver for Chrome 126)
+2024-07-04 02:05:57 INFO  WebDriverManager:1301 - Exporting webdriver.chrome.driver as C:\Users\yamah022\.cache\selenium\chromedriver\win64\126.0.6478.126\chromedriver.exe
+2024-07-04 02:09:06 INFO  WebDriverManager:1239 - Using chromedriver 126.0.6478.126 (resolved driver for Chrome 126)
+2024-07-04 02:09:06 INFO  WebDriverManager:1301 - Exporting webdriver.chrome.driver as C:\Users\yamah022\.cache\selenium\chromedriver\win64\126.0.6478.126\chromedriver.exe
+2024-07-04 02:16:22 INFO  WebDriverManager:1239 - Using chromedriver 126.0.6478.126 (resolved driver for Chrome 126)
+2024-07-04 02:16:22 INFO  WebDriverManager:1301 - Exporting webdriver.chrome.driver as C:\Users\yamah022\.cache\selenium\chromedriver\win64\126.0.6478.126\chromedriver.exe
+2024-07-04 02:19:56 INFO  WebDriverManager:1239 - Using chromedriver 126.0.6478.126 (resolved driver for Chrome 126)
+2024-07-04 02:19:56 INFO  WebDriverManager:1301 - Exporting webdriver.chrome.driver as C:\Users\yamah022\.cache\selenium\chromedriver\win64\126.0.6478.126\chromedriver.exe
+2024-07-04 02:23:16 INFO  WebDriverManager:1239 - Using chromedriver 126.0.6478.126 (resolved driver for Chrome 126)
+2024-07-04 02:23:16 INFO  WebDriverManager:1301 - Exporting webdriver.chrome.driver as C:\Users\yamah022\.cache\selenium\chromedriver\win64\126.0.6478.126\chromedriver.exe
+2024-07-04 02:24:42 INFO  WebDriverManager:1239 - Using chromedriver 126.0.6478.126 (resolved driver for Chrome 126)
+2024-07-04 02:24:42 INFO  WebDriverManager:1301 - Exporting webdriver.chrome.driver as C:\Users\yamah022\.cache\selenium\chromedriver\win64\126.0.6478.126\chromedriver.exe
+2024-07-04 02:28:32 INFO  WebDriverManager:1239 - Using chromedriver 126.0.6478.126 (resolved driver for Chrome 126)
+2024-07-04 02:28:32 INFO  WebDriverManager:1301 - Exporting webdriver.chrome.driver as C:\Users\yamah022\.cache\selenium\chromedriver\win64\126.0.6478.126\chromedriver.exe
+2024-07-04 02:30:39 INFO  WebDriverManager:1239 - Using chromedriver 126.0.6478.126 (resolved driver for Chrome 126)
+2024-07-04 02:30:39 INFO  WebDriverManager:1301 - Exporting webdriver.chrome.driver as C:\Users\yamah022\.cache\selenium\chromedriver\win64\126.0.6478.126\chromedriver.exe

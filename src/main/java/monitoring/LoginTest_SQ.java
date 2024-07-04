@@ -1,6 +1,5 @@
 package monitoring;
 
-import org.apache.logging.log4j.LogManager;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
@@ -10,11 +9,6 @@ import utilities.UtilBase;
 import utilities.WebElementLib;
 
 public class LoginTest_SQ extends UtilBase {
-	
-
-
-//	page object variables
-	SQ_pageObjects sq_po = new SQ_pageObjects();
 
 //	variables
 //	SMARTER QUOTING
@@ -22,19 +16,15 @@ public class LoginTest_SQ extends UtilBase {
 	String sq_username = "kathmandu\\yamah022";
 	String sq_password = "1@work";
 
-
-
 	@BeforeClass
 	public void beforeClass() {
 //		logging
-		logger=LogManager.getLogger(LoginTest_SQ.class);
-		logger.info("Start :: Login Test ");
-
+		log.info("@beforeClass");
 	}
-	
+
 	@Test(priority = 1)
 	public void LoginTest() {
-String testname = "Login Test";
+		String testname = "Login Test";
 		try {
 			test = extent.createTest(testname);
 
@@ -60,11 +50,9 @@ String testname = "Login Test";
 
 	}
 
-	
 	@AfterClass
 	public void afterClass() {
-		logger.info("END :: Login Test ");
+		log.info("@afterclass");
 	}
-
 
 }

@@ -18,7 +18,16 @@ public class SQ_pageObjects {
 	public WebElement submit_button() {
 		return WebElementLib.findMyElement("xpath", "//*[@id='root']/div/div/div/div/form/button");
 	}
+	
+	public WebElement fromDate_input() {
+		return WebElementLib.findMyElement("xpath", "//*[@id='from_date']");
+	}
 
+	public WebElement toDate_input() {
+		return WebElementLib.findMyElement("xpath", "//*[@id=\"to_date\"]");
+	}
+
+	
 	/***************************** NAVBAR ***************************/
 	public WebElement home_link() {
 		return WebElementLib.findMyElement("linktext", "Home");
@@ -76,6 +85,12 @@ public class SQ_pageObjects {
 
 	public WebElement status_messages() {
 		return WebElementLib.findMyElement("xpath", "//table/tbody/tr[2]/td[5]");
+	}
+	public WebElement pagination() {
+		return WebElementLib.findMyElement("xpath", "//*[@id='root']/div/div/div/div/div/div/div/ul");
+	}
+	public WebElement nextPage() {
+		return WebElementLib.findMyElement("xpath", "//li[@title='Next Page']");
 	}
 
 	/***************************** Case Emails Tab ***************************/

@@ -1,43 +1,130 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="2" total="4" passed="2" failed="0" skipped="0">
+<testng-results ignored="2" total="4" passed="0" failed="0" skipped="2">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-07-03T19:14:06 NPT" name="Suite" finished-at="2024-07-03T19:14:14 NPT" duration-ms="7990">
+  <suite started-at="2024-07-04T14:49:02 NPT" name="Suite" finished-at="2024-07-04T14:49:02 NPT" duration-ms="68">
     <groups>
     </groups>
-    <test started-at="2024-07-03T19:14:06 NPT" name="Test" finished-at="2024-07-03T19:14:14 NPT" duration-ms="7990">
+    <test started-at="2024-07-04T14:49:02 NPT" name="Test" finished-at="2024-07-04T14:49:02 NPT" duration-ms="68">
       <class name="monitoring.SQmonitoring">
-        <test-method is-config="true" signature="beforeClass()[pri:0, instance:monitoring.SQmonitoring@67427b69]" started-at="2024-07-03T19:14:12 NPT" name="beforeClass" finished-at="2024-07-03T19:14:12 NPT" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:monitoring.SQmonitoring@131774fe]" started-at="2024-07-04T14:49:02 NPT" name="beforeClass" finished-at="1970-01-01T05:30:00 NPT" duration-ms="-1720083842469" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method signature="test1()[pri:1, instance:monitoring.SQmonitoring@67427b69]" started-at="2024-07-03T19:14:12 NPT" name="test1" finished-at="2024-07-03T19:14:14 NPT" duration-ms="1441" status="PASS">
+        <test-method signature="test1()[pri:1, instance:monitoring.SQmonitoring@131774fe]" started-at="2024-07-04T14:49:02 NPT" name="test1" finished-at="2024-07-04T14:49:02 NPT" duration-ms="0" status="SKIP">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "java.util.logging.ConsoleHandler.setFormatter(java.util.logging.Formatter)" because "this.consoleHandler" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "java.util.logging.ConsoleHandler.setFormatter(java.util.logging.Formatter)" because "this.consoleHandler" is null
+at utilities.LoggerClass.setFormatter(LoggerClass.java:84)
+at utilities.LoggerClass.setDefaults(LoggerClass.java:44)
+at utilities.UtilBase.setup(UtilBase.java:129)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:317)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test1 -->
-        <test-method is-config="true" signature="afterClass()[pri:0, instance:monitoring.SQmonitoring@67427b69]" started-at="2024-07-03T19:14:14 NPT" name="afterClass" finished-at="2024-07-03T19:14:14 NPT" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:monitoring.SQmonitoring@131774fe]" started-at="2024-07-04T14:49:02 NPT" name="afterClass" finished-at="1970-01-01T05:30:00 NPT" duration-ms="-1720083842475" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
       </class> <!-- monitoring.SQmonitoring -->
       <class name="monitoring.LoginTest_SQ">
-        <test-method is-config="true" signature="setup()[pri:0, instance:monitoring.LoginTest_SQ@59a67c3a]" started-at="2024-07-03T19:14:02 NPT" name="setup" finished-at="2024-07-03T19:14:06 NPT" duration-ms="4046" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:monitoring.LoginTest_SQ@49ec71f8]" started-at="2024-07-04T14:49:02 NPT" name="setup" finished-at="2024-07-04T14:49:02 NPT" duration-ms="30" status="FAIL">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "java.util.logging.ConsoleHandler.setFormatter(java.util.logging.Formatter)" because "this.consoleHandler" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "java.util.logging.ConsoleHandler.setFormatter(java.util.logging.Formatter)" because "this.consoleHandler" is null
+at utilities.LoggerClass.setFormatter(LoggerClass.java:84)
+at utilities.LoggerClass.setDefaults(LoggerClass.java:44)
+at utilities.UtilBase.setup(UtilBase.java:129)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:317)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="beforeClass()[pri:0, instance:monitoring.LoginTest_SQ@59a67c3a]" started-at="2024-07-03T19:14:06 NPT" name="beforeClass" finished-at="2024-07-03T19:14:06 NPT" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:monitoring.LoginTest_SQ@49ec71f8]" started-at="2024-07-04T14:49:02 NPT" name="beforeClass" finished-at="1970-01-01T05:30:00 NPT" duration-ms="-1720083842439" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method signature="LoginTest()[pri:1, instance:monitoring.LoginTest_SQ@59a67c3a]" started-at="2024-07-03T19:14:06 NPT" name="LoginTest" finished-at="2024-07-03T19:14:12 NPT" duration-ms="6507" status="PASS">
+        <test-method signature="LoginTest()[pri:1, instance:monitoring.LoginTest_SQ@49ec71f8]" started-at="2024-07-04T14:49:02 NPT" name="LoginTest" finished-at="2024-07-04T14:49:02 NPT" duration-ms="0" status="SKIP">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "java.util.logging.ConsoleHandler.setFormatter(java.util.logging.Formatter)" because "this.consoleHandler" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "java.util.logging.ConsoleHandler.setFormatter(java.util.logging.Formatter)" because "this.consoleHandler" is null
+at utilities.LoggerClass.setFormatter(LoggerClass.java:84)
+at utilities.LoggerClass.setDefaults(LoggerClass.java:44)
+at utilities.UtilBase.setup(UtilBase.java:129)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:317)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LoginTest -->
-        <test-method is-config="true" signature="afterClass()[pri:0, instance:monitoring.LoginTest_SQ@59a67c3a]" started-at="2024-07-03T19:14:12 NPT" name="afterClass" finished-at="2024-07-03T19:14:12 NPT" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:monitoring.LoginTest_SQ@49ec71f8]" started-at="2024-07-04T14:49:02 NPT" name="afterClass" finished-at="1970-01-01T05:30:00 NPT" duration-ms="-1720083842465" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:monitoring.LoginTest_SQ@59a67c3a]" started-at="2024-07-03T19:14:14 NPT" name="teardown" finished-at="2024-07-03T19:14:14 NPT" duration-ms="477" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:monitoring.LoginTest_SQ@49ec71f8]" started-at="2024-07-04T14:49:02 NPT" name="teardown" finished-at="1970-01-01T05:30:00 NPT" duration-ms="-1720083842624" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->

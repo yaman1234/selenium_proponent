@@ -25,9 +25,9 @@ public class LoggerClass {
 	private FileHandler fileHandler;
 	private ConsoleHandler consoleHandler;
 	private Formatter formatter;
-	private String logName = Thread.currentThread().getStackTrace()[2].getClassName() + "_"
-			+ System.currentTimeMillis();
-
+//	private String logName = Thread.currentThread().getStackTrace()[2].getClassName() + "_"
+//			+ System.currentTimeMillis();
+	private String logName = "testlog";
 	public static final Level FINEST = Level.FINEST;
 	public static final String bracketFormat = "[%1$ta, %1$tF %1$tT] [%2$-7s] [%3$s - %4$s] [line no.: %5$d] - %6$s%n%7$s%n";
 
@@ -39,8 +39,9 @@ public class LoggerClass {
 
 	public void setDefaults() {
 		this.setLevel(Level.FINE);
-		this.setConsoleAppender(true);
+//		this.setConsoleAppender(true);
 		this.setFileAppender(true);
+		this.setFormatter(bracketFormat);
 	}
 
 	public void setLogName(String filename) {

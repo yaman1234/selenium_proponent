@@ -25,6 +25,7 @@ import com.aventstack.extentreports.reporter.ExtentSparkReporter;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 import monitoring.LoginTest_SQ;
+import pageObjects.SQ_pageObjects;
 
 public class UtilBase {
 
@@ -33,19 +34,19 @@ public class UtilBase {
 	protected static Actions actions = null;
 	protected static JavascriptExecutor jsDriver = null;
 
-//	logging
-	protected static Logger logger = null;
 //	Reporting
 	protected static ExtentReports extent;
 	protected static ExtentTest test;
-	
-	
-//	global vairables
+
+	// global vairables
 	protected String sf_case_global = "";
-	
-	
-	
+
+//	page object variables
+	protected SQ_pageObjects sq_po = new SQ_pageObjects();
+	protected LoggerClass log = new LoggerClass();
+
 	public static void initialiseDriver() {
+		
 //		String browserName = ExcelRead.getData(1, 2, 0);
 		String browserName = "chrome";
 //		String path = System.getProperty("user.dir") + "\\browserDrivers\\";
@@ -59,9 +60,9 @@ public class UtilBase {
 		} else if (browserName.equalsIgnoreCase("edge")) {
 			WebDriverManager.edgedriver().setup();
 			driver = new EdgeDriver();
-		} else {				
+		} else {
 			WebDriverManager.chromedriver().setup();
-			driver = new ChromeDriver();	
+			driver = new ChromeDriver();
 		}
 		driver.manage().window().maximize();
 		driver.manage().deleteAllCookies();
@@ -71,17 +72,18 @@ public class UtilBase {
 		jsDriver = (JavascriptExecutor) driver;
 	}
 
-	public static void initialiseDriverwithprofile(String userProfilePath){
+	public static void initialiseDriverwithprofile(String userProfilePath) {
 		WebDriverManager.chromedriver().setup();
-		  // Create a ChromeOptions object.
-        ChromeOptions options = new ChromeOptions();
+		// Create a ChromeOptions object.
+		ChromeOptions options = new ChromeOptions();
 
-        // Set the path to the user profile directory.
-        options.addArguments("user-data-dir=" + userProfilePath);
-        // Launch Chrome with the configured options.
-        driver = new ChromeDriver(options);
-        jsDriver = (JavascriptExecutor) driver;
+		// Set the path to the user profile directory.
+		options.addArguments("user-data-dir=" + userProfilePath);
+		// Launch Chrome with the configured options.
+		driver = new ChromeDriver(options);
+		jsDriver = (JavascriptExecutor) driver;
 	}
+
 	/**
 	 * Captures screenshot of the current window of the browser driver
 	 * 
@@ -100,49 +102,46 @@ public class UtilBase {
 			e.printStackTrace();
 		}
 //		return screenshotPath;						
-		/* change return statement to below statement if you are not using email report	*/	
-		
-		return new File (screenshotPath).getAbsolutePath();
-		
+		/*
+		 * change return statement to below statement if you are not using email report
+		 */
+
+		return new File(screenshotPath).getAbsolutePath();
+
 	}
-	
-	
+
 	public void testPassed(String testname) {
 		test.pass("PASS :: " + testname);
 		test.addScreenCaptureFromPath(capture(testname));
-		logger.info("PASS :: " + testname);
+		log.info("PASS :: " +testname);
 		Assert.assertTrue(true);
 	}
 
 	public void testFailed(String testname) {
 		test.fail("FAIL :: " + testname);
 		test.addScreenCaptureFromPath(capture(testname));
-		logger.info("FAIL :: " + testname);
+		log.warning("PASS :: " +testname);
 		Assert.assertTrue(false);
 	}
-	
-	
+
 	@BeforeSuite
 	public void setup() {
-		logger=LogManager.getLogger(UtilBase.class);
-		logger.info("Start :: @Beforesuite, Initailizing the browser");
+		log.setDefaults();
+		log.info("Initializing the browser");
 //		Extent Report setup
 		ExtentSparkReporter spark = new ExtentSparkReporter("testReports/monitoring.html");
 		extent = new ExtentReports();
 		extent.attachReporter(spark);
 
 		initialiseDriver();
-		
-		
+
 	}
-	
+
 	@AfterSuite
 	public void teardown() {
-		logger=LogManager.getLogger(UtilBase.class);
+		log.info("After Suite, teardown");
 		extent.flush();
 //		 driver.quit();
-		logger.info("@Aftersuite, Closing the browser");
-		logger.info("--------------------");
 	}
-	
+
 }

@@ -6,11 +6,21 @@
       <class name="monitoring.SQmonitoring">
         <methods>
           <include name="beforeClass"/>
+          <include name="afterClass"/>
           <include name="test1"/>
           <include name="setup"/>
           <include name="teardown"/>
         </methods>
       </class> <!-- monitoring.SQmonitoring -->
+      <class name="monitoring.LoginTest_SQ">
+        <methods>
+          <include name="LoginTest"/>
+          <include name="afterClass"/>
+          <include name="beforeClass"/>
+          <include name="setup"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- monitoring.LoginTest_SQ -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
