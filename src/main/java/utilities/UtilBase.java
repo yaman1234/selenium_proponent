@@ -25,10 +25,11 @@ import com.aventstack.extentreports.reporter.ExtentSparkReporter;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 import monitoring.LoginTest_SQ;
+import pageObjects.SQ_pageObjects;
 
 public class UtilBase {
 
-	// global driver(s) initialization, visible to child classes
+// global driver(s) initialization, visible to child classes
 	protected static WebDriver driver = null;
 	protected static Actions actions = null;
 	protected static JavascriptExecutor jsDriver = null;
@@ -42,6 +43,8 @@ public class UtilBase {
 	
 //	global vairables
 	protected String sf_case_global = "";
+	
+	protected SQ_pageObjects sq_po = new SQ_pageObjects();
 	
 	
 	
@@ -125,6 +128,7 @@ public class UtilBase {
 	@BeforeSuite
 	public void setup() {
 		logger=LogManager.getLogger(UtilBase.class);
+		logger.info("###########################################################");
 		logger.info("Start :: @Beforesuite, Initailizing the browser");
 //		Extent Report setup
 		ExtentSparkReporter spark = new ExtentSparkReporter("testReports/monitoring.html");
@@ -142,7 +146,7 @@ public class UtilBase {
 		extent.flush();
 //		 driver.quit();
 		logger.info("@Aftersuite, Closing the browser");
-		logger.info("--------------------");
+		logger.info("###########################################################");
 	}
 	
 }

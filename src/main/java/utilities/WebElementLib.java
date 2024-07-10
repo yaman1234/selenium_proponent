@@ -1,5 +1,7 @@
 package utilities;
 
+import java.util.List;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 
@@ -189,6 +191,49 @@ public class WebElementLib extends UtilBase {
 		} catch (Exception e) {
 			return (String) jsDriver.executeScript("return arguments[0].getAttribute(\"" + attribute + "\")", element);
 		}
+	}
+	
+
+	public static List<WebElement> findMyElements(String attribute, String value) {
+
+		try {
+			if (doesElementExist(attribute, value)) {
+
+				switch (attribute.toLowerCase()) {
+				case "id":
+					return driver.findElements(By.id(value));
+
+				case "name":
+					return driver.findElements(By.name(value));
+
+				case "class":
+					return driver.findElements(By.className(value));
+
+				case "cssselector":
+					return driver.findElements(By.cssSelector(value));
+
+				case "linktext":
+					return driver.findElements(By.linkText(value));
+
+				case "partiallinktext":
+					return driver.findElements(By.partialLinkText(value));
+
+				case "tagname":
+					return driver.findElements(By.tagName(value));
+
+				case "xpath":
+					return driver.findElements(By.xpath(value));
+
+				default:
+					String xpath = "//*[@" + attribute + "='" + value + "']";
+					return driver.findElements(By.xpath(xpath));
+				}
+			}
+		} catch (Exception e) {
+			System.err.println(e.getMessage());
+			e.printStackTrace();
+		}
+		return null;
 	}
 
 }

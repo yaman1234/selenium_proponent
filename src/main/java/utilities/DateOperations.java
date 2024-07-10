@@ -22,6 +22,25 @@ import org.openqa.selenium.WebElement;
  */
 public class DateOperations extends UtilBase {
 
+	
+	
+	
+	
+	public static String getCurrentDate() {
+		LocalDate today = LocalDate.now();
+		DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy-MM-dd");
+		return today.format(formatter);
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 	/**
 	 * Checks whether or not list of date are sorted or not
 	 * 

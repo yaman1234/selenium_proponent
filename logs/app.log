@@ -1,12 +1,458 @@
-2024-07-03 19:14:03 INFO  UtilBase:128 - Start :: @Beforesuite, Initailizing the browser
-2024-07-03 19:14:04 INFO  WebDriverManager:1239 - Using chromedriver 126.0.6478.126 (resolved driver for Chrome 126)
-2024-07-03 19:14:04 INFO  WebDriverManager:1301 - Exporting webdriver.chrome.driver as C:\Users\yamah022\.cache\selenium\chromedriver\win64\126.0.6478.126\chromedriver.exe
-2024-07-03 19:14:06 INFO  LoginTest_SQ:31 - Start :: Login Test 
-2024-07-03 19:14:12 INFO  LoginTest_SQ:113 - PASS :: Login Test
-2024-07-03 19:14:12 INFO  LoginTest_SQ:66 - END :: Login Test 
-2024-07-03 19:14:12 INFO  SQmonitoring:17 - start :: SQmonitoring
-2024-07-03 19:14:14 INFO  SQmonitoring:29 - message from testcase 2
-2024-07-03 19:14:14 INFO  SQmonitoring:113 - PASS :: test1
-2024-07-03 19:14:14 INFO  SQmonitoring:49 - END :: SQmonitoring
-2024-07-03 19:14:14 INFO  UtilBase:144 - @Aftersuite, Closing the browser
-2024-07-03 19:14:14 INFO  UtilBase:145 - --------------------
+2024-07-09 14:18:19 INFO  UtilBase:131 - ###########################################################
+2024-07-09 14:18:19 INFO  UtilBase:132 - Start :: @Beforesuite, Initailizing the browser
+2024-07-09 14:18:20 INFO  WebDriverManager:1239 - Using chromedriver 126.0.6478.126 (resolved driver for Chrome 126)
+2024-07-09 14:18:20 INFO  WebDriverManager:1301 - Exporting webdriver.chrome.driver as C:\Users\yamah022\.cache\selenium\chromedriver\win64\126.0.6478.126\chromedriver.exe
+2024-07-09 14:18:21 INFO  LoginTest_SQ:31 - Start :: Login Test 
+2024-07-09 14:18:28 INFO  LoginTest_SQ:116 - PASS :: Login Test
+2024-07-09 14:18:28 INFO  LoginTest_SQ:66 - END :: Login Test 
+2024-07-09 14:18:28 INFO  SQmonitoring:28 - start :: SQmonitoring
+2024-07-09 14:18:40 INFO  SQmonitoring:36 - Title :: Next Page
+2024-07-09 14:18:40 INFO  SQmonitoring:42 - Total Pages :: 1
+2024-07-09 14:18:40 INFO  SQmonitoring:50 - Last Page :: 1
+2024-07-09 14:18:40 INFO  SQmonitoring:117 - Page no :: 1
+2024-07-09 14:18:40 INFO  SQmonitoring:142 - Rowcount :: 10, ColCount :: 5
+2024-07-09 14:18:40 INFO  SQmonitoring:153 - [627808, 2024/07/09 06:13:57 AM, RFQ, Yes, RECEIVED]
+2024-07-09 14:18:41 INFO  SQmonitoring:153 - [627807, 2024/07/09 05:58:52 AM, RFQ, Yes, RECEIVED]
+2024-07-09 14:18:41 INFO  SQmonitoring:153 - [627806, 2024/07/09 05:52:07 AM, RFQ, Yes, RECEIVED]
+2024-07-09 14:18:42 INFO  SQmonitoring:153 - [627805, 2024/07/09 05:51:47 AM, RFQ, Yes, RECEIVED]
+2024-07-09 14:18:42 INFO  SQmonitoring:153 - [627804, 2024/07/09 05:51:33 AM, RFQ, Yes, RECEIVED]
+2024-07-09 14:18:42 INFO  SQmonitoring:153 - [627803, 2024/07/09 05:45:46 AM, RFQ, Yes, RECEIVED]
+2024-07-09 14:18:43 INFO  SQmonitoring:153 - [627802, 2024/07/09 05:45:32 AM, RFQ, Yes, RECEIVED]
+2024-07-09 14:18:43 INFO  SQmonitoring:153 - [627801, 2024/07/09 05:44:43 AM, RFQ, Yes, RECEIVED]
+2024-07-09 14:18:44 INFO  SQmonitoring:153 - [627800, 2024/07/09 04:45:21 AM, RFQ, Yes, RECEIVED]
+2024-07-09 14:18:44 INFO  SQmonitoring:153 - [627799, 2024/07/09 04:27:10 AM, RFQ, Yes, RECEIVED]
+2024-07-09 14:18:47 INFO  SQmonitoring:54 - /*-----------------------------------------------------------------
+2024-07-09 14:18:47 INFO  SQmonitoring:55 - Total Cases 	:: 10
+2024-07-09 14:18:47 INFO  SQmonitoring:56 - NEW  			:: 0
+2024-07-09 14:18:47 INFO  SQmonitoring:57 - RECEIVED  		:: 10
+2024-07-09 14:18:47 INFO  SQmonitoring:58 - PROCESSING  	:: 0
+2024-07-09 14:18:47 INFO  SQmonitoring:59 - DUPLICATE 		:: 0
+2024-07-09 14:18:47 INFO  SQmonitoring:60 - IGNORED 		:: 0
+2024-07-09 14:18:47 INFO  SQmonitoring:61 - FAILED 		:: 0
+2024-07-09 14:18:47 INFO  SQmonitoring:62 - /*-----------------------------------------------------------------
+2024-07-09 14:19:01 INFO  SQmonitoring:56 - Title :: Next Page
+2024-07-09 14:19:01 INFO  SQmonitoring:62 - Total Pages :: 1
+2024-07-09 14:19:01 INFO  SQmonitoring:91 - Last Page :: 1
+2024-07-09 14:19:01 INFO  SQmonitoring:117 - Page no :: 1
+2024-07-09 14:19:01 INFO  SQmonitoring:142 - Rowcount :: 10, ColCount :: 9
+2024-07-09 14:19:02 INFO  SQmonitoring:153 - [, 627808, 11005, yaman.maharjan@javra.com, Request for Quote, SFCASE, 2024/07/09 06:13:47 AM, 2024/07/09 06:14:51 AM, CLOSED]
+2024-07-09 14:19:02 INFO  SQmonitoring:153 - [, 627807, 11005, yaman.maharjan@javra.com, Request for Quote, SFCASE, 2024/07/09 05:58:41 AM, 2024/07/09 05:59:50 AM, CLOSED]
+2024-07-09 14:19:03 INFO  SQmonitoring:153 - [, 627806, 11005, yaman.maharjan@javra.com, Quote Request, SFCASE, 2024/07/09 05:52:04 AM, 2024/07/09 05:52:54 AM, CLOSED]
+2024-07-09 14:19:04 INFO  SQmonitoring:153 - [, 627805, 11005, yaman.maharjan@javra.com, Quote request, SFCASE, 2024/07/09 05:51:45 AM, 2024/07/09 05:52:50 AM, CLOSED]
+2024-07-09 14:19:04 INFO  SQmonitoring:153 - [, 627804, 11005, yaman.maharjan@javra.com, Quote requeste, SFCASE, 2024/07/09 05:51:30 AM, 2024/07/09 05:51:50 AM, CLOSED]
+2024-07-09 14:19:05 INFO  SQmonitoring:153 - [, 627803, 11005, yaman.maharjan@javra.com, Quote Request, SFCASE, 2024/07/09 05:45:42 AM, 2024/07/09 05:46:49 AM, CLOSED]
+2024-07-09 14:19:06 INFO  SQmonitoring:153 - [, 627802, 11005, yaman.maharjan@javra.com, Quote request, SFCASE, 2024/07/09 05:45:28 AM, 2024/07/09 05:45:53 AM, CLOSED]
+2024-07-09 14:19:07 INFO  SQmonitoring:153 - [, 627801, 11005, yaman.maharjan@javra.com, Quote requeste, SFCASE, 2024/07/09 05:44:40 AM, 2024/07/09 05:45:49 AM, CLOSED]
+2024-07-09 14:19:08 INFO  SQmonitoring:153 - [, 627800, 11005, bidhan.shrestha@javra.com, RFQ Request, SFCASE, 2024/07/09 04:45:18 AM, 2024/07/09 04:45:47 AM, CLOSED]
+2024-07-09 14:19:09 INFO  SQmonitoring:153 - [, 627799, 11005, bidhan.shrestha@javra.com, RFQ Request, SFCASE, 2024/07/09 04:27:05 AM, 2024/07/09 04:27:47 AM, CLOSED]
+2024-07-09 14:19:12 INFO  SQmonitoring:95 - /*-----------------------------------------------------------------
+2024-07-09 14:19:12 INFO  SQmonitoring:96 - Total Cases 	:: 10
+2024-07-09 14:19:12 INFO  SQmonitoring:97 - NEW			:: 0
+2024-07-09 14:19:12 INFO  SQmonitoring:98 - RECEIVED  		:: 0
+2024-07-09 14:19:12 INFO  SQmonitoring:99 - IN PROGRESS  	:: 0
+2024-07-09 14:19:12 INFO  SQmonitoring:100 - READY			:: 0
+2024-07-09 14:19:12 INFO  SQmonitoring:101 - COMPLETED 		:: 0
+2024-07-09 14:19:12 INFO  SQmonitoring:102 - FAILED 		:: 0
+2024-07-09 14:19:12 INFO  SQmonitoring:103 - CLOSED 		:: 0
+2024-07-09 14:19:12 INFO  SQmonitoring:104 - /*-----------------------------------------------------------------
+2024-07-09 14:19:12 INFO  SQmonitoring:159 - END :: SQmonitoring
+2024-07-09 14:19:12 INFO  UtilBase:148 - @Aftersuite, Closing the browser
+2024-07-09 14:19:12 INFO  UtilBase:149 - ###########################################################
+2024-07-09 14:25:13 INFO  UtilBase:131 - ###########################################################
+2024-07-09 14:25:13 INFO  UtilBase:132 - Start :: @Beforesuite, Initailizing the browser
+2024-07-09 14:25:13 INFO  WebDriverManager:1239 - Using chromedriver 126.0.6478.126 (resolved driver for Chrome 126)
+2024-07-09 14:25:13 INFO  WebDriverManager:1301 - Exporting webdriver.chrome.driver as C:\Users\yamah022\.cache\selenium\chromedriver\win64\126.0.6478.126\chromedriver.exe
+2024-07-09 14:25:15 INFO  LoginTest_SQ:31 - Start :: Login Test 
+2024-07-09 14:25:22 INFO  LoginTest_SQ:116 - PASS :: Login Test
+2024-07-09 14:25:22 INFO  LoginTest_SQ:66 - END :: Login Test 
+2024-07-09 14:25:22 INFO  SQmonitoring:28 - start :: SQmonitoring
+2024-07-09 14:25:34 INFO  SQmonitoring:36 - Title :: Next Page
+2024-07-09 14:25:34 INFO  SQmonitoring:42 - Total Pages :: 1
+2024-07-09 14:25:34 INFO  SQmonitoring:50 - Last Page :: 1
+2024-07-09 14:25:34 INFO  SQmonitoring:117 - Page no :: 1
+2024-07-09 14:25:34 INFO  SQmonitoring:142 - Rowcount :: 10, ColCount :: 5
+2024-07-09 14:25:35 INFO  SQmonitoring:153 - [627808, 2024/07/09 06:13:57 AM, RFQ, Yes, RECEIVED]
+2024-07-09 14:25:35 INFO  SQmonitoring:153 - [627807, 2024/07/09 05:58:52 AM, RFQ, Yes, RECEIVED]
+2024-07-09 14:25:36 INFO  SQmonitoring:153 - [627806, 2024/07/09 05:52:07 AM, RFQ, Yes, RECEIVED]
+2024-07-09 14:25:36 INFO  SQmonitoring:153 - [627805, 2024/07/09 05:51:47 AM, RFQ, Yes, RECEIVED]
+2024-07-09 14:25:36 INFO  SQmonitoring:153 - [627804, 2024/07/09 05:51:33 AM, RFQ, Yes, RECEIVED]
+2024-07-09 14:25:37 INFO  SQmonitoring:153 - [627803, 2024/07/09 05:45:46 AM, RFQ, Yes, RECEIVED]
+2024-07-09 14:25:37 INFO  SQmonitoring:153 - [627802, 2024/07/09 05:45:32 AM, RFQ, Yes, RECEIVED]
+2024-07-09 14:25:37 INFO  SQmonitoring:153 - [627801, 2024/07/09 05:44:43 AM, RFQ, Yes, RECEIVED]
+2024-07-09 14:25:38 INFO  SQmonitoring:153 - [627800, 2024/07/09 04:45:21 AM, RFQ, Yes, RECEIVED]
+2024-07-09 14:25:38 INFO  SQmonitoring:153 - [627799, 2024/07/09 04:27:10 AM, RFQ, Yes, RECEIVED]
+2024-07-09 14:25:41 INFO  SQmonitoring:54 - /*-----------------------------------------------------------------
+2024-07-09 14:25:41 INFO  SQmonitoring:55 - Total Cases 	:: 10
+2024-07-09 14:25:41 INFO  SQmonitoring:56 - NEW  			:: 0
+2024-07-09 14:25:41 INFO  SQmonitoring:57 - RECEIVED  		:: 10
+2024-07-09 14:25:41 INFO  SQmonitoring:58 - PROCESSING  	:: 0
+2024-07-09 14:25:41 INFO  SQmonitoring:59 - DUPLICATE 		:: 0
+2024-07-09 14:25:41 INFO  SQmonitoring:60 - IGNORED 		:: 0
+2024-07-09 14:25:41 INFO  SQmonitoring:61 - FAILED 		:: 0
+2024-07-09 14:25:41 INFO  SQmonitoring:62 - /*-----------------------------------------------------------------
+2024-07-09 14:25:55 INFO  SQmonitoring:56 - Title :: Next Page
+2024-07-09 14:25:55 INFO  SQmonitoring:62 - Total Pages :: 1
+2024-07-09 14:25:55 INFO  SQmonitoring:91 - Last Page :: 1
+2024-07-09 14:25:55 INFO  SQmonitoring:117 - Page no :: 1
+2024-07-09 14:25:55 INFO  SQmonitoring:142 - Rowcount :: 10, ColCount :: 9
+2024-07-09 14:25:56 INFO  SQmonitoring:153 - [, 627808, 11005, yaman.maharjan@javra.com, Request for Quote, SFCASE, 2024/07/09 06:13:47 AM, 2024/07/09 06:14:51 AM, CLOSED]
+2024-07-09 14:25:57 INFO  SQmonitoring:153 - [, 627807, 11005, yaman.maharjan@javra.com, Request for Quote, SFCASE, 2024/07/09 05:58:41 AM, 2024/07/09 05:59:50 AM, CLOSED]
+2024-07-09 14:25:57 INFO  SQmonitoring:153 - [, 627806, 11005, yaman.maharjan@javra.com, Quote Request, SFCASE, 2024/07/09 05:52:04 AM, 2024/07/09 05:52:54 AM, CLOSED]
+2024-07-09 14:25:58 INFO  SQmonitoring:153 - [, 627805, 11005, yaman.maharjan@javra.com, Quote request, SFCASE, 2024/07/09 05:51:45 AM, 2024/07/09 05:52:50 AM, CLOSED]
+2024-07-09 14:25:59 INFO  SQmonitoring:153 - [, 627804, 11005, yaman.maharjan@javra.com, Quote requeste, SFCASE, 2024/07/09 05:51:30 AM, 2024/07/09 05:51:50 AM, CLOSED]
+2024-07-09 14:25:59 INFO  SQmonitoring:153 - [, 627803, 11005, yaman.maharjan@javra.com, Quote Request, SFCASE, 2024/07/09 05:45:42 AM, 2024/07/09 05:46:49 AM, CLOSED]
+2024-07-09 14:26:00 INFO  SQmonitoring:153 - [, 627802, 11005, yaman.maharjan@javra.com, Quote request, SFCASE, 2024/07/09 05:45:28 AM, 2024/07/09 05:45:53 AM, CLOSED]
+2024-07-09 14:26:00 INFO  SQmonitoring:153 - [, 627801, 11005, yaman.maharjan@javra.com, Quote requeste, SFCASE, 2024/07/09 05:44:40 AM, 2024/07/09 05:45:49 AM, CLOSED]
+2024-07-09 14:26:01 INFO  SQmonitoring:153 - [, 627800, 11005, bidhan.shrestha@javra.com, RFQ Request, SFCASE, 2024/07/09 04:45:18 AM, 2024/07/09 04:45:47 AM, CLOSED]
+2024-07-09 14:26:02 INFO  SQmonitoring:153 - [, 627799, 11005, bidhan.shrestha@javra.com, RFQ Request, SFCASE, 2024/07/09 04:27:05 AM, 2024/07/09 04:27:47 AM, CLOSED]
+2024-07-09 14:26:05 INFO  SQmonitoring:95 - /*-----------------------------------------------------------------
+2024-07-09 14:26:05 INFO  SQmonitoring:96 - Total Cases 	:: 10
+2024-07-09 14:26:05 INFO  SQmonitoring:97 - NEW			:: 0
+2024-07-09 14:26:05 INFO  SQmonitoring:98 - RECEIVED  		:: 0
+2024-07-09 14:26:05 INFO  SQmonitoring:99 - IN PROGRESS  	:: 0
+2024-07-09 14:26:05 INFO  SQmonitoring:100 - READY			:: 0
+2024-07-09 14:26:05 INFO  SQmonitoring:101 - COMPLETED 		:: 0
+2024-07-09 14:26:05 INFO  SQmonitoring:102 - FAILED 		:: 0
+2024-07-09 14:26:05 INFO  SQmonitoring:103 - CLOSED 		:: 10
+2024-07-09 14:26:05 INFO  SQmonitoring:104 - /*-----------------------------------------------------------------
+2024-07-09 14:26:05 INFO  SQmonitoring:159 - END :: SQmonitoring
+2024-07-09 14:26:05 INFO  UtilBase:148 - @Aftersuite, Closing the browser
+2024-07-09 14:26:05 INFO  UtilBase:149 - ###########################################################
+2024-07-09 22:15:26 INFO  UtilBase:131 - ###########################################################
+2024-07-09 22:15:26 INFO  UtilBase:132 - Start :: @Beforesuite, Initailizing the browser
+2024-07-09 22:15:28 INFO  WebDriverManager:1239 - Using chromedriver 126.0.6478.126 (resolved driver for Chrome 126)
+2024-07-09 22:15:28 INFO  WebDriverManager:1301 - Exporting webdriver.chrome.driver as C:\Users\yamah022\.cache\selenium\chromedriver\win64\126.0.6478.126\chromedriver.exe
+2024-07-09 22:15:31 INFO  LoginTest_SQ:31 - Start :: Login Test 
+2024-07-09 22:15:38 INFO  LoginTest_SQ:116 - PASS :: Login Test
+2024-07-09 22:15:38 INFO  LoginTest_SQ:66 - END :: Login Test 
+2024-07-09 22:15:38 INFO  SQmonitoring:28 - start :: SQmonitoring
+2024-07-09 22:15:50 INFO  SQmonitoring:36 - Title :: Next Page
+2024-07-09 22:15:50 INFO  SQmonitoring:42 - Total Pages :: 1
+2024-07-09 22:15:50 INFO  SQmonitoring:50 - Last Page :: 1
+2024-07-09 22:15:50 INFO  SQmonitoring:117 - Page no :: 1
+2024-07-09 22:15:50 INFO  SQmonitoring:142 - Rowcount :: 10, ColCount :: 5
+2024-07-09 22:15:50 INFO  SQmonitoring:153 - [627808, 2024/07/09 06:13:57 AM, RFQ, Yes, RECEIVED]
+2024-07-09 22:15:51 INFO  SQmonitoring:153 - [627807, 2024/07/09 05:58:52 AM, RFQ, Yes, RECEIVED]
+2024-07-09 22:15:51 INFO  SQmonitoring:153 - [627806, 2024/07/09 05:52:07 AM, RFQ, Yes, RECEIVED]
+2024-07-09 22:15:52 INFO  SQmonitoring:153 - [627805, 2024/07/09 05:51:47 AM, RFQ, Yes, RECEIVED]
+2024-07-09 22:15:53 INFO  SQmonitoring:153 - [627804, 2024/07/09 05:51:33 AM, RFQ, Yes, RECEIVED]
+2024-07-09 22:15:53 INFO  SQmonitoring:153 - [627803, 2024/07/09 05:45:46 AM, RFQ, Yes, RECEIVED]
+2024-07-09 22:15:54 INFO  SQmonitoring:153 - [627802, 2024/07/09 05:45:32 AM, RFQ, Yes, RECEIVED]
+2024-07-09 22:15:54 INFO  SQmonitoring:153 - [627801, 2024/07/09 05:44:43 AM, RFQ, Yes, RECEIVED]
+2024-07-09 22:15:55 INFO  SQmonitoring:153 - [627800, 2024/07/09 04:45:21 AM, RFQ, Yes, RECEIVED]
+2024-07-09 22:15:55 INFO  SQmonitoring:153 - [627799, 2024/07/09 04:27:10 AM, RFQ, Yes, RECEIVED]
+2024-07-09 22:15:59 INFO  SQmonitoring:54 - /*-----------------------------------------------------------------
+2024-07-09 22:15:59 INFO  SQmonitoring:55 - Total Cases 	:: 10
+2024-07-09 22:15:59 INFO  SQmonitoring:56 - NEW  			:: 0
+2024-07-09 22:15:59 INFO  SQmonitoring:57 - RECEIVED  		:: 10
+2024-07-09 22:15:59 INFO  SQmonitoring:58 - PROCESSING  	:: 0
+2024-07-09 22:15:59 INFO  SQmonitoring:59 - DUPLICATE 		:: 0
+2024-07-09 22:15:59 INFO  SQmonitoring:60 - IGNORED 		:: 0
+2024-07-09 22:15:59 INFO  SQmonitoring:61 - FAILED 		:: 0
+2024-07-09 22:15:59 INFO  SQmonitoring:62 - /*-----------------------------------------------------------------
+2024-07-09 22:16:13 INFO  SQmonitoring:56 - Title :: Next Page
+2024-07-09 22:16:13 INFO  SQmonitoring:62 - Total Pages :: 1
+2024-07-09 22:16:13 INFO  SQmonitoring:91 - Last Page :: 1
+2024-07-09 22:16:13 INFO  SQmonitoring:117 - Page no :: 1
+2024-07-09 22:16:13 INFO  SQmonitoring:142 - Rowcount :: 10, ColCount :: 9
+2024-07-09 22:16:14 INFO  SQmonitoring:153 - [, 627808, 11005, yaman.maharjan@javra.com, Request for Quote, SFCASE, 2024/07/09 06:13:47 AM, 2024/07/09 06:14:51 AM, CLOSED]
+2024-07-09 22:16:15 INFO  SQmonitoring:153 - [, 627807, 11005, yaman.maharjan@javra.com, Request for Quote, SFCASE, 2024/07/09 05:58:41 AM, 2024/07/09 05:59:50 AM, CLOSED]
+2024-07-09 22:16:16 INFO  SQmonitoring:153 - [, 627806, 11005, yaman.maharjan@javra.com, Quote Request, SFCASE, 2024/07/09 05:52:04 AM, 2024/07/09 05:52:54 AM, CLOSED]
+2024-07-09 22:16:16 INFO  SQmonitoring:153 - [, 627805, 11005, yaman.maharjan@javra.com, Quote request, SFCASE, 2024/07/09 05:51:45 AM, 2024/07/09 05:52:50 AM, CLOSED]
+2024-07-09 22:16:17 INFO  SQmonitoring:153 - [, 627804, 11005, yaman.maharjan@javra.com, Quote requeste, SFCASE, 2024/07/09 05:51:30 AM, 2024/07/09 05:51:50 AM, CLOSED]
+2024-07-09 22:16:18 INFO  SQmonitoring:153 - [, 627803, 11005, yaman.maharjan@javra.com, Quote Request, SFCASE, 2024/07/09 05:45:42 AM, 2024/07/09 05:46:49 AM, CLOSED]
+2024-07-09 22:16:19 INFO  SQmonitoring:153 - [, 627802, 11005, yaman.maharjan@javra.com, Quote request, SFCASE, 2024/07/09 05:45:28 AM, 2024/07/09 05:45:53 AM, CLOSED]
+2024-07-09 22:16:19 INFO  SQmonitoring:153 - [, 627801, 11005, yaman.maharjan@javra.com, Quote requeste, SFCASE, 2024/07/09 05:44:40 AM, 2024/07/09 05:45:49 AM, CLOSED]
+2024-07-09 22:16:20 INFO  SQmonitoring:153 - [, 627800, 11005, bidhan.shrestha@javra.com, RFQ Request, SFCASE, 2024/07/09 04:45:18 AM, 2024/07/09 04:45:47 AM, CLOSED]
+2024-07-09 22:16:21 INFO  SQmonitoring:153 - [, 627799, 11005, bidhan.shrestha@javra.com, RFQ Request, SFCASE, 2024/07/09 04:27:05 AM, 2024/07/09 04:27:47 AM, CLOSED]
+2024-07-09 22:16:24 INFO  SQmonitoring:95 - /*-----------------------------------------------------------------
+2024-07-09 22:16:24 INFO  SQmonitoring:96 - Total Cases 	:: 10
+2024-07-09 22:16:24 INFO  SQmonitoring:97 - NEW			:: 0
+2024-07-09 22:16:24 INFO  SQmonitoring:98 - RECEIVED  		:: 0
+2024-07-09 22:16:24 INFO  SQmonitoring:99 - IN PROGRESS  	:: 0
+2024-07-09 22:16:24 INFO  SQmonitoring:100 - READY			:: 0
+2024-07-09 22:16:24 INFO  SQmonitoring:101 - COMPLETED 		:: 0
+2024-07-09 22:16:24 INFO  SQmonitoring:102 - FAILED 		:: 0
+2024-07-09 22:16:24 INFO  SQmonitoring:103 - CLOSED 		:: 10
+2024-07-09 22:16:24 INFO  SQmonitoring:104 - /*-----------------------------------------------------------------
+2024-07-09 22:16:24 INFO  SQmonitoring:159 - END :: SQmonitoring
+2024-07-09 22:16:25 INFO  UtilBase:148 - @Aftersuite, Closing the browser
+2024-07-09 22:16:25 INFO  UtilBase:149 - ###########################################################
+2024-07-10 09:47:06 INFO  UtilBase:131 - ###########################################################
+2024-07-10 09:47:07 INFO  UtilBase:132 - Start :: @Beforesuite, Initailizing the browser
+2024-07-10 09:47:09 INFO  WebDriverManager:1239 - Using chromedriver 126.0.6478.126 (resolved driver for Chrome 126)
+2024-07-10 09:47:09 INFO  WebDriverManager:1301 - Exporting webdriver.chrome.driver as C:\Users\yamah022\.cache\selenium\chromedriver\win64\126.0.6478.126\chromedriver.exe
+2024-07-10 09:47:11 INFO  LoginTest_SQ:31 - Start :: Login Test 
+2024-07-10 09:47:18 INFO  LoginTest_SQ:116 - PASS :: Login Test
+2024-07-10 09:47:18 INFO  LoginTest_SQ:66 - END :: Login Test 
+2024-07-10 09:47:18 INFO  SQmonitoring:28 - start :: SQmonitoring
+2024-07-10 09:47:30 INFO  SQmonitoring:65 - Exception Occured ::java.lang.NullPointerException: Cannot invoke "java.util.List.size()" because "pageList" is null
+2024-07-10 09:47:44 ERROR SQmonitoring:107 - Exception caught :: java.lang.NullPointerException: Cannot invoke "java.util.List.size()" because "pageList" is null
+2024-07-10 09:47:44 INFO  SQmonitoring:159 - END :: SQmonitoring
+2024-07-10 09:47:44 INFO  UtilBase:148 - @Aftersuite, Closing the browser
+2024-07-10 09:47:44 INFO  UtilBase:149 - ###########################################################
+2024-07-10 09:47:56 INFO  UtilBase:131 - ###########################################################
+2024-07-10 09:47:56 INFO  UtilBase:132 - Start :: @Beforesuite, Initailizing the browser
+2024-07-10 09:47:57 INFO  WebDriverManager:1239 - Using chromedriver 126.0.6478.126 (resolved driver for Chrome 126)
+2024-07-10 09:47:57 INFO  WebDriverManager:1301 - Exporting webdriver.chrome.driver as C:\Users\yamah022\.cache\selenium\chromedriver\win64\126.0.6478.126\chromedriver.exe
+2024-07-10 09:48:00 INFO  LoginTest_SQ:31 - Start :: Login Test 
+2024-07-10 09:48:06 INFO  LoginTest_SQ:116 - PASS :: Login Test
+2024-07-10 09:48:06 INFO  LoginTest_SQ:66 - END :: Login Test 
+2024-07-10 09:48:06 INFO  SQmonitoring:28 - start :: SQmonitoring
+2024-07-10 09:48:18 INFO  SQmonitoring:65 - Exception Occured ::java.lang.NullPointerException: Cannot invoke "java.util.List.size()" because "pageList" is null
+2024-07-10 09:48:32 ERROR SQmonitoring:107 - Exception caught :: java.lang.NullPointerException: Cannot invoke "java.util.List.size()" because "pageList" is null
+2024-07-10 09:48:32 INFO  SQmonitoring:159 - END :: SQmonitoring
+2024-07-10 09:48:32 INFO  UtilBase:148 - @Aftersuite, Closing the browser
+2024-07-10 09:48:32 INFO  UtilBase:149 - ###########################################################
+2024-07-10 10:26:27 INFO  UtilBase:131 - ###########################################################
+2024-07-10 10:26:27 INFO  UtilBase:132 - Start :: @Beforesuite, Initailizing the browser
+2024-07-10 10:26:29 INFO  WebDriverManager:1239 - Using chromedriver 126.0.6478.126 (resolved driver for Chrome 126)
+2024-07-10 10:26:29 INFO  WebDriverManager:1301 - Exporting webdriver.chrome.driver as C:\Users\yamah022\.cache\selenium\chromedriver\win64\126.0.6478.126\chromedriver.exe
+2024-07-10 10:26:31 INFO  LoginTest_SQ:31 - Start :: Login Test 
+2024-07-10 10:26:37 INFO  LoginTest_SQ:116 - PASS :: Login Test
+2024-07-10 10:26:37 INFO  LoginTest_SQ:66 - END :: Login Test 
+2024-07-10 10:26:37 INFO  SQmonitoring:31 - start :: SQmonitoring
+2024-07-10 10:26:49 INFO  SQmonitoring:36 - Title :: 
+2024-07-10 10:26:49 INFO  SQmonitoring:53 - Last Page :: 6
+2024-07-10 10:26:49 INFO  SQmonitoring:120 - Page no :: 1
+2024-07-10 10:26:49 INFO  SQmonitoring:145 - Rowcount :: 20, ColCount :: 5
+2024-07-10 10:26:50 INFO  SQmonitoring:156 - [627808, 2024/07/09 06:13:57 AM, RFQ, Yes, RECEIVED]
+2024-07-10 10:26:50 INFO  SQmonitoring:156 - [627807, 2024/07/09 05:58:52 AM, RFQ, Yes, RECEIVED]
+2024-07-10 10:26:50 INFO  SQmonitoring:156 - [627806, 2024/07/09 05:52:07 AM, RFQ, Yes, RECEIVED]
+2024-07-10 10:26:51 INFO  SQmonitoring:156 - [627805, 2024/07/09 05:51:47 AM, RFQ, Yes, RECEIVED]
+2024-07-10 10:26:51 INFO  SQmonitoring:156 - [627804, 2024/07/09 05:51:33 AM, RFQ, Yes, RECEIVED]
+2024-07-10 10:26:52 INFO  SQmonitoring:156 - [627803, 2024/07/09 05:45:46 AM, RFQ, Yes, RECEIVED]
+2024-07-10 10:26:52 INFO  SQmonitoring:156 - [627802, 2024/07/09 05:45:32 AM, RFQ, Yes, RECEIVED]
+2024-07-10 10:26:53 INFO  SQmonitoring:156 - [627801, 2024/07/09 05:44:43 AM, RFQ, Yes, RECEIVED]
+2024-07-10 10:26:53 INFO  SQmonitoring:156 - [627800, 2024/07/09 04:45:21 AM, RFQ, Yes, RECEIVED]
+2024-07-10 10:26:54 INFO  SQmonitoring:156 - [627799, 2024/07/09 04:27:10 AM, RFQ, Yes, RECEIVED]
+2024-07-10 10:26:54 INFO  SQmonitoring:156 - [627798, 2024/07/08 11:19:29 AM, RFQ, Yes, RECEIVED]
+2024-07-10 10:26:54 INFO  SQmonitoring:156 - [627797, 2024/07/08 11:19:06 AM, RFQ, Yes, RECEIVED]
+2024-07-10 10:26:55 INFO  SQmonitoring:156 - [627796, 2024/07/08 11:14:42 AM, RFQ, Yes, RECEIVED]
+2024-07-10 10:26:55 INFO  SQmonitoring:156 - [627795, 2024/07/08 11:01:37 AM, RFQ, Yes, RECEIVED]
+2024-07-10 10:26:56 INFO  SQmonitoring:156 - [627794, 2024/07/08 10:17:48 AM, RFQ, Yes, RECEIVED]
+2024-07-10 10:26:57 INFO  SQmonitoring:156 - [627793, 2024/07/08 09:53:18 AM, RFQ, Yes, RECEIVED]
+2024-07-10 10:26:57 INFO  SQmonitoring:156 - [627792, 2024/07/08 09:39:43 AM, RFQ, Yes, RECEIVED]
+2024-07-10 10:26:58 INFO  SQmonitoring:156 - [627791, 2024/07/08 09:33:49 AM, RFQ, Yes, RECEIVED]
+2024-07-10 10:26:58 INFO  SQmonitoring:156 - [627790, 2024/07/08 08:50:17 AM, RFQ, Yes, RECEIVED]
+2024-07-10 10:26:59 INFO  SQmonitoring:156 - [627789, 2024/07/08 08:50:06 AM, RFQ, Yes, RECEIVED]
+2024-07-10 10:27:02 INFO  SQmonitoring:120 - Page no :: 2
+2024-07-10 10:27:02 INFO  SQmonitoring:145 - Rowcount :: 20, ColCount :: 5
+2024-07-10 10:27:02 INFO  SQmonitoring:156 - [627788, 2024/07/08 06:40:44 AM, RFQ, Yes, RECEIVED]
+2024-07-10 10:27:03 INFO  SQmonitoring:156 - [627787, 2024/07/08 06:31:09 AM, RFQ, Yes, RECEIVED]
+2024-07-10 10:27:03 INFO  SQmonitoring:156 - [627786, 2024/07/08 06:20:06 AM, RFQ, Yes, RECEIVED]
+2024-07-10 10:27:04 INFO  SQmonitoring:156 - [627785, 2024/07/08 05:59:05 AM, RFQ, Yes, RECEIVED]
+2024-07-10 10:27:04 INFO  SQmonitoring:156 - [627784, 2024/07/08 05:54:18 AM, RFQ, Yes, RECEIVED]
+2024-07-10 10:27:04 INFO  SQmonitoring:156 - [627783, 2024/07/08 05:29:41 AM, RFQ, Yes, RECEIVED]
+2024-07-10 10:27:05 INFO  SQmonitoring:156 - [627782, 2024/07/08 05:22:23 AM, RFQ, Yes, RECEIVED]
+2024-07-10 10:27:05 INFO  SQmonitoring:156 - [627781, 2024/07/05 10:54:06 AM, RFQ, Yes, RECEIVED]
+2024-07-10 10:27:05 INFO  SQmonitoring:156 - [627780, 2024/07/05 10:51:09 AM, RFQ, Yes, RECEIVED]
+2024-07-10 10:27:06 INFO  SQmonitoring:156 - [627779, 2024/07/05 10:39:28 AM, RFQ, Yes, RECEIVED]
+2024-07-10 10:27:06 INFO  SQmonitoring:156 - [627778, 2024/07/05 10:29:24 AM, RFQ, Yes, RECEIVED]
+2024-07-10 10:27:07 INFO  SQmonitoring:156 - [627777, 2024/07/05 10:02:08 AM, RFQ, Yes, RECEIVED]
+2024-07-10 10:27:07 INFO  SQmonitoring:156 - [627776, 2024/07/05 09:35:58 AM, RFQ, Yes, RECEIVED]
+2024-07-10 10:27:08 INFO  SQmonitoring:156 - [627775, 2024/07/05 09:16:10 AM, RFQ, Yes, RECEIVED]
+2024-07-10 10:27:08 INFO  SQmonitoring:156 - [627774, 2024/07/05 08:10:21 AM, RFQ, Yes, RECEIVED]
+2024-07-10 10:27:08 INFO  SQmonitoring:156 - [627773, 2024/07/05 07:05:14 AM, RFQ, Yes, RECEIVED]
+2024-07-10 10:27:09 INFO  SQmonitoring:156 - [627772, 2024/07/05 07:00:36 AM, RFQ, Yes, RECEIVED]
+2024-07-10 10:27:09 INFO  SQmonitoring:156 - [627771, 2024/07/05 06:42:08 AM, RFQ, Yes, RECEIVED]
+2024-07-10 10:27:10 INFO  SQmonitoring:156 - [627770, 2024/07/05 06:40:36 AM, RFQ, Yes, RECEIVED]
+2024-07-10 10:27:10 INFO  SQmonitoring:156 - [627769, 2024/07/05 06:36:22 AM, RFQ, Yes, RECEIVED]
+2024-07-10 10:27:13 INFO  SQmonitoring:120 - Page no :: 3
+2024-07-10 10:27:13 INFO  SQmonitoring:145 - Rowcount :: 20, ColCount :: 5
+2024-07-10 10:27:14 INFO  SQmonitoring:156 - [627768, 2024/07/05 06:09:12 AM, RFQ, Yes, RECEIVED]
+2024-07-10 10:27:14 INFO  SQmonitoring:156 - [627767, 2024/07/05 06:08:57 AM, RFQ, Yes, RECEIVED]
+2024-07-10 10:27:14 INFO  SQmonitoring:156 - [627766, 2024/07/05 06:05:22 AM, RFQ, Yes, RECEIVED]
+2024-07-10 10:27:15 INFO  SQmonitoring:156 - [627765, 2024/07/05 06:03:58 AM, RFQ, Yes, RECEIVED]
+2024-07-10 10:27:15 INFO  SQmonitoring:156 - [627764, 2024/07/05 05:59:45 AM, RFQ, Yes, RECEIVED]
+2024-07-10 10:27:15 INFO  SQmonitoring:156 - [627763, 2024/07/05 05:59:29 AM, RFQ, Yes, RECEIVED]
+2024-07-10 10:27:16 INFO  SQmonitoring:156 - [627762, 2024/07/05 05:40:52 AM, RFQ, Yes, RECEIVED]
+2024-07-10 10:27:16 INFO  SQmonitoring:156 - [627761, 2024/07/05 05:30:38 AM, RFQ, Yes, RECEIVED]
+2024-07-10 10:27:16 INFO  SQmonitoring:156 - [627760, 2024/07/05 05:24:55 AM, RFQ, Yes, RECEIVED]
+2024-07-10 10:27:17 INFO  SQmonitoring:156 - [627759, 2024/07/05 05:24:03 AM, RFQ, Yes, RECEIVED]
+2024-07-10 10:27:17 INFO  SQmonitoring:156 - [627758, 2024/07/04 06:29:14 AM, RFQ, Yes, RECEIVED]
+2024-07-10 10:27:18 INFO  SQmonitoring:156 - [627757, 2024/07/03 12:48:33 PM, RFQ, Yes, RECEIVED]
+2024-07-10 10:27:18 INFO  SQmonitoring:156 - [627756, 2024/07/03 12:47:31 PM, Other, Yes, IGNORED]
+2024-07-10 10:27:18 INFO  SQmonitoring:156 - [627755, 2024/07/03 12:41:46 PM, RFQ, Yes, RECEIVED]
+2024-07-10 10:27:19 INFO  SQmonitoring:156 - [627754, 2024/07/03 12:38:29 PM, RFQ, Yes, RECEIVED]
+2024-07-10 10:27:19 INFO  SQmonitoring:156 - [627753, 2024/07/03 12:37:44 PM, Other, Yes, IGNORED]
+2024-07-10 10:27:20 INFO  SQmonitoring:156 - [627752, 2024/07/03 12:36:49 PM, Other, Yes, IGNORED]
+2024-07-10 10:27:20 INFO  SQmonitoring:156 - [627751, 2024/07/03 12:33:12 PM, Other, Yes, IGNORED]
+2024-07-10 10:27:21 INFO  SQmonitoring:156 - [627750, 2024/07/03 11:06:44 AM, RFQ, Yes, RECEIVED]
+2024-07-10 10:27:21 INFO  SQmonitoring:156 - [627749, 2024/07/03 11:02:46 AM, RFQ, Yes, RECEIVED]
+2024-07-10 10:27:24 INFO  SQmonitoring:120 - Page no :: 4
+2024-07-10 10:27:24 INFO  SQmonitoring:145 - Rowcount :: 20, ColCount :: 5
+2024-07-10 10:27:25 INFO  SQmonitoring:156 - [627748, 2024/07/03 10:51:33 AM, RFQ, Yes, RECEIVED]
+2024-07-10 10:27:25 INFO  SQmonitoring:156 - [627747, 2024/07/03 10:45:49 AM, RFQ, Yes, RECEIVED]
+2024-07-10 10:27:25 INFO  SQmonitoring:156 - [627746, 2024/07/03 04:49:21 AM, RFQ, Yes, RECEIVED]
+2024-07-10 10:27:26 INFO  SQmonitoring:156 - [627745, 2024/07/02 04:53:05 AM, RFQ, Yes, RECEIVED]
+2024-07-10 10:27:26 INFO  SQmonitoring:156 - [627744, 2024/07/02 04:29:40 AM, RFQ, Yes, RECEIVED]
+2024-07-10 10:27:27 INFO  SQmonitoring:156 - [627743, 2024/07/02 04:16:42 AM, RFQ, Yes, RECEIVED]
+2024-07-10 10:27:27 INFO  SQmonitoring:156 - [627742, 2024/07/01 11:35:59 AM, RFQ, Yes, RECEIVED]
+2024-07-10 10:27:28 INFO  SQmonitoring:156 - [627741, 2024/07/01 11:34:33 AM, RFQ, Yes, RECEIVED]
+2024-07-10 10:27:28 INFO  SQmonitoring:156 - [627740, 2024/07/01 11:30:27 AM, RFQ, Yes, RECEIVED]
+2024-07-10 10:27:29 INFO  SQmonitoring:156 - [627739, 2024/07/01 11:29:56 AM, RFQ, Yes, RECEIVED]
+2024-07-10 10:27:29 INFO  SQmonitoring:156 - [627738, 2024/07/01 11:24:54 AM, RFQ, Yes, RECEIVED]
+2024-07-10 10:27:30 INFO  SQmonitoring:156 - [627736, 2024/07/01 04:54:15 AM, Other, Yes, IGNORED]
+2024-07-10 10:27:30 INFO  SQmonitoring:156 - [627737, 2024/07/01 04:54:10 AM, RFQ, Yes, RECEIVED]
+2024-07-10 10:27:31 INFO  SQmonitoring:156 - [627735, 2024/07/01 04:53:52 AM, Other, Yes, IGNORED]
+2024-07-10 10:27:31 INFO  SQmonitoring:156 - [627734, 2024/07/01 04:53:42 AM, RFQ, Yes, RECEIVED]
+2024-07-10 10:27:31 INFO  SQmonitoring:156 - [627733, 2024/07/01 04:53:34 AM, RFQ, Yes, RECEIVED]
+2024-07-10 10:27:32 INFO  SQmonitoring:156 - [627732, 2024/07/01 04:53:23 AM, Other, Yes, IGNORED]
+2024-07-10 10:27:32 INFO  SQmonitoring:156 - [627731, 2024/07/01 04:53:12 AM, Other, Yes, IGNORED]
+2024-07-10 10:27:33 INFO  SQmonitoring:156 - [627730, 2024/07/01 04:53:02 AM, Other, Yes, IGNORED]
+2024-07-10 10:27:33 INFO  SQmonitoring:156 - [627729, 2024/07/01 04:52:51 AM, Other, Yes, IGNORED]
+2024-07-10 10:27:36 INFO  SQmonitoring:120 - Page no :: 5
+2024-07-10 10:27:36 INFO  SQmonitoring:145 - Rowcount :: 20, ColCount :: 5
+2024-07-10 10:27:37 INFO  SQmonitoring:156 - [627728, 2024/07/01 04:52:40 AM, RFQ, Yes, RECEIVED]
+2024-07-10 10:27:37 INFO  SQmonitoring:156 - [627727, 2024/07/01 04:52:26 AM, Other, Yes, IGNORED]
+2024-07-10 10:27:37 INFO  SQmonitoring:156 - [627726, 2024/07/01 04:52:16 AM, Other, Yes, IGNORED]
+2024-07-10 10:27:38 INFO  SQmonitoring:156 - [627725, 2024/07/01 04:52:06 AM, RFQ, Yes, RECEIVED]
+2024-07-10 10:27:38 INFO  SQmonitoring:156 - [627724, 2024/07/01 04:51:56 AM, Other, Yes, IGNORED]
+2024-07-10 10:27:40 INFO  SQmonitoring:156 - [627723, 2024/07/01 04:51:46 AM, RFQ, Yes, RECEIVED]
+2024-07-10 10:27:40 INFO  SQmonitoring:156 - [627722, 2024/07/01 04:51:38 AM, Other, Yes, IGNORED]
+2024-07-10 10:27:41 INFO  SQmonitoring:156 - [627721, 2024/07/01 04:51:27 AM, RFQ, Yes, RECEIVED]
+2024-07-10 10:27:41 INFO  SQmonitoring:156 - [627720, 2024/07/01 04:51:19 AM, RFQ, Yes, RECEIVED]
+2024-07-10 10:27:42 INFO  SQmonitoring:156 - [627719, 2024/07/01 04:51:09 AM, RFQ, Yes, RECEIVED]
+2024-07-10 10:27:42 INFO  SQmonitoring:156 - [627718, 2024/07/01 04:50:59 AM, RFQ, Yes, RECEIVED]
+2024-07-10 10:27:43 INFO  SQmonitoring:156 - [627717, 2024/07/01 04:45:58 AM, Other, Yes, IGNORED]
+2024-07-10 10:27:44 INFO  SQmonitoring:156 - [627716, 2024/07/01 04:45:53 AM, Other, Yes, IGNORED]
+2024-07-10 10:27:44 INFO  SQmonitoring:156 - [627715, 2024/07/01 04:45:48 AM, RFQ, Yes, RECEIVED]
+2024-07-10 10:27:45 INFO  SQmonitoring:156 - [627714, 2024/07/01 04:45:43 AM, RFQ, Yes, RECEIVED]
+2024-07-10 10:27:45 INFO  SQmonitoring:156 - [627713, 2024/07/01 04:45:37 AM, Other, Yes, IGNORED]
+2024-07-10 10:27:46 INFO  SQmonitoring:156 - [627712, 2024/07/01 04:45:32 AM, Other, Yes, IGNORED]
+2024-07-10 10:27:46 INFO  SQmonitoring:156 - [627711, 2024/07/01 04:45:27 AM, Other, Yes, IGNORED]
+2024-07-10 10:27:47 INFO  SQmonitoring:156 - [627710, 2024/07/01 04:45:22 AM, Other, Yes, IGNORED]
+2024-07-10 10:27:47 INFO  SQmonitoring:156 - [627709, 2024/07/01 04:45:17 AM, RFQ, Yes, RECEIVED]
+2024-07-10 10:27:50 INFO  SQmonitoring:120 - Page no :: 6
+2024-07-10 10:27:50 INFO  SQmonitoring:145 - Rowcount :: 10, ColCount :: 5
+2024-07-10 10:27:51 INFO  SQmonitoring:156 - [627708, 2024/07/01 04:45:11 AM, Other, Yes, IGNORED]
+2024-07-10 10:27:51 INFO  SQmonitoring:156 - [627707, 2024/07/01 04:45:06 AM, Other, Yes, IGNORED]
+2024-07-10 10:27:51 INFO  SQmonitoring:156 - [627706, 2024/07/01 04:44:02 AM, RFQ, Yes, RECEIVED]
+2024-07-10 10:27:52 INFO  SQmonitoring:156 - [627705, 2024/07/01 04:43:57 AM, Other, Yes, IGNORED]
+2024-07-10 10:27:52 INFO  SQmonitoring:156 - [627704, 2024/07/01 04:43:52 AM, RFQ, Yes, RECEIVED]
+2024-07-10 10:27:52 INFO  SQmonitoring:156 - [627703, 2024/07/01 04:43:46 AM, Other, Yes, IGNORED]
+2024-07-10 10:27:53 INFO  SQmonitoring:156 - [627702, 2024/07/01 04:43:41 AM, RFQ, Yes, RECEIVED]
+2024-07-10 10:27:53 INFO  SQmonitoring:156 - [627701, 2024/07/01 04:43:36 AM, RFQ, Yes, RECEIVED]
+2024-07-10 10:27:53 INFO  SQmonitoring:156 - [627699, 2024/07/01 04:43:23 AM, RFQ, Yes, RECEIVED]
+2024-07-10 10:27:54 INFO  SQmonitoring:156 - [627700, 2024/07/01 04:43:23 AM, RFQ, Yes, RECEIVED]
+2024-07-10 10:27:57 INFO  SQmonitoring:57 - /*-----------------------------------------------------------------
+2024-07-10 10:27:57 INFO  SQmonitoring:58 - Total Cases 	:: 110
+2024-07-10 10:27:57 INFO  SQmonitoring:59 - NEW  			:: 0
+2024-07-10 10:27:57 INFO  SQmonitoring:60 - RECEIVED  		:: 86
+2024-07-10 10:27:57 INFO  SQmonitoring:61 - PROCESSING  	:: 0
+2024-07-10 10:27:57 INFO  SQmonitoring:62 - DUPLICATE 		:: 0
+2024-07-10 10:27:57 INFO  SQmonitoring:63 - IGNORED 		:: 24
+2024-07-10 10:27:57 INFO  SQmonitoring:64 - FAILED 		:: 0
+2024-07-10 10:27:57 INFO  SQmonitoring:65 - /*-----------------------------------------------------------------
+2024-07-10 10:28:11 INFO  SQmonitoring:56 - Title :: 
+2024-07-10 10:28:11 INFO  SQmonitoring:94 - Last Page :: 5
+2024-07-10 10:28:11 INFO  SQmonitoring:120 - Page no :: 1
+2024-07-10 10:28:11 INFO  SQmonitoring:145 - Rowcount :: 20, ColCount :: 9
+2024-07-10 10:28:12 INFO  SQmonitoring:156 - [, 627808, 11005, yaman.maharjan@javra.com, Request for Quote, SFCASE, 2024/07/09 06:13:47 AM, 2024/07/09 06:14:51 AM, CLOSED]
+2024-07-10 10:28:12 INFO  SQmonitoring:156 - [, 627807, 11005, yaman.maharjan@javra.com, Request for Quote, SFCASE, 2024/07/09 05:58:41 AM, 2024/07/09 05:59:50 AM, CLOSED]
+2024-07-10 10:28:13 INFO  SQmonitoring:156 - [, 627806, 11005, yaman.maharjan@javra.com, Quote Request, SFCASE, 2024/07/09 05:52:04 AM, 2024/07/09 05:52:54 AM, CLOSED]
+2024-07-10 10:28:14 INFO  SQmonitoring:156 - [, 627805, 11005, yaman.maharjan@javra.com, Quote request, SFCASE, 2024/07/09 05:51:45 AM, 2024/07/09 05:52:50 AM, CLOSED]
+2024-07-10 10:28:15 INFO  SQmonitoring:156 - [, 627804, 11005, yaman.maharjan@javra.com, Quote requeste, SFCASE, 2024/07/09 05:51:30 AM, 2024/07/09 05:51:50 AM, CLOSED]
+2024-07-10 10:28:16 INFO  SQmonitoring:156 - [, 627803, 11005, yaman.maharjan@javra.com, Quote Request, SFCASE, 2024/07/09 05:45:42 AM, 2024/07/09 05:46:49 AM, CLOSED]
+2024-07-10 10:28:16 INFO  SQmonitoring:156 - [, 627802, 11005, yaman.maharjan@javra.com, Quote request, SFCASE, 2024/07/09 05:45:28 AM, 2024/07/09 05:45:53 AM, CLOSED]
+2024-07-10 10:28:17 INFO  SQmonitoring:156 - [, 627801, 11005, yaman.maharjan@javra.com, Quote requeste, SFCASE, 2024/07/09 05:44:40 AM, 2024/07/09 05:45:49 AM, CLOSED]
+2024-07-10 10:28:18 INFO  SQmonitoring:156 - [, 627800, 11005, bidhan.shrestha@javra.com, RFQ Request, SFCASE, 2024/07/09 04:45:18 AM, 2024/07/09 04:45:47 AM, CLOSED]
+2024-07-10 10:28:19 INFO  SQmonitoring:156 - [, 627799, 11005, bidhan.shrestha@javra.com, RFQ Request, SFCASE, 2024/07/09 04:27:05 AM, 2024/07/09 04:27:47 AM, CLOSED]
+2024-07-10 10:28:19 INFO  SQmonitoring:156 - [, 627798, 11005, bidhan.shrestha@javra.com, RFQ Request, SFCASE, 2024/07/08 11:19:25 AM, 2024/07/08 11:20:11 AM, CLOSED]
+2024-07-10 10:28:20 INFO  SQmonitoring:156 - [, 627797, 11005, bidhan.shrestha@javra.com, RFQ Request, SFCASE, 2024/07/08 11:19:03 AM, 2024/07/08 11:20:08 AM, CLOSED]
+2024-07-10 10:28:21 INFO  SQmonitoring:156 - [, 627796, 11005, bidhan.shrestha@javra.com, RFQ Request, SFCASE, 2024/07/08 11:14:39 AM, 2024/07/08 11:15:07 AM, CLOSED]
+2024-07-10 10:28:22 INFO  SQmonitoring:156 - [, 627795, 11005, bidhan.shrestha@javra.com, RFQ Request, SFCASE, 2024/07/08 11:01:31 AM, 2024/07/08 11:02:07 AM, CLOSED]
+2024-07-10 10:28:23 INFO  SQmonitoring:156 - [, 627794, 11005, bidhan.shrestha@javra.com, RFQ Request, SFCASE, 2024/07/08 10:17:45 AM, 2024/07/08 10:18:05 AM, CLOSED]
+2024-07-10 10:28:24 INFO  SQmonitoring:156 - [, 627793, 11005, bidhan.shrestha@javra.com, RFQ Request, SFCASE, 2024/07/08 09:53:13 AM, 2024/07/08 09:54:04 AM, CLOSED]
+2024-07-10 10:28:25 INFO  SQmonitoring:156 - [, 627792, 11005, bidhan.shrestha@javra.com, RFQ Request, SFCASE, 2024/07/08 09:39:39 AM, 2024/07/08 09:40:05 AM, CLOSED]
+2024-07-10 10:28:25 INFO  SQmonitoring:156 - [, 627791, 11005, bidhan.shrestha@javra.com, RFQ Request, SFCASE, 2024/07/08 09:33:45 AM, 2024/07/08 09:34:05 AM, CLOSED]
+2024-07-10 10:28:26 INFO  SQmonitoring:156 - [, 627790, 11005, bidhan.shrestha@javra.com, RFQ Request, SFCASE, 2024/07/08 08:50:14 AM, 2024/07/08 08:51:08 AM, CLOSED]
+2024-07-10 10:28:27 INFO  SQmonitoring:156 - [, 627789, 11005, bidhan.shrestha@javra.com, RFQ Request, SFCASE, 2024/07/08 08:50:03 AM, 2024/07/08 08:51:01 AM, CLOSED]
+2024-07-10 10:28:30 INFO  SQmonitoring:120 - Page no :: 2
+2024-07-10 10:28:30 INFO  SQmonitoring:145 - Rowcount :: 20, ColCount :: 9
+2024-07-10 10:28:31 INFO  SQmonitoring:156 - [, 627788, 11005, bidhan.shrestha@javra.com, RFQ Request, SFCASE, 2024/07/08 06:40:40 AM, 2024/07/08 06:41:57 AM, CLOSED]
+2024-07-10 10:28:32 INFO  SQmonitoring:156 - [, 627787, 11005, bidhan.shrestha@javra.com, RFQ Request, SFCASE, 2024/07/08 06:31:06 AM, 2024/07/08 06:31:57 AM, CLOSED]
+2024-07-10 10:28:33 INFO  SQmonitoring:156 - [, 627786, 11005, bidhan.shrestha@javra.com, RFQ Request, SFCASE, 2024/07/08 06:20:01 AM, 2024/07/08 06:20:56 AM, CLOSED]
+2024-07-10 10:28:33 INFO  SQmonitoring:156 - [, 627785, 11005, bidhan.shrestha@javra.com, RFQ Request, SFCASE, 2024/07/08 05:59:01 AM, 2024/07/08 05:59:55 AM, CLOSED]
+2024-07-10 10:28:34 INFO  SQmonitoring:156 - [, 627784, 11005, bidhan.shrestha@javra.com, RFQ Request, SFCASE, 2024/07/08 05:54:14 AM, 2024/07/08 05:54:55 AM, CLOSED]
+2024-07-10 10:28:35 INFO  SQmonitoring:156 - [, 627783, 11005, yaman.maharjan@javra.com, RFQ request, SFCASE, 2024/07/08 05:29:37 AM, 2024/07/08 05:29:54 AM, CLOSED]
+2024-07-10 10:28:35 INFO  SQmonitoring:156 - [, 627782, 11005, bidhan.shrestha@javra.com, RFQ Request, SFCASE, 2024/07/08 05:22:14 AM, 2024/07/08 05:22:53 AM, CLOSED]
+2024-07-10 10:28:36 INFO  SQmonitoring:156 - [, 627781, 11005, bidhan.shrestha@javra.com, RFQ Request, SFCASE, 2024/07/05 10:54:01 AM, 2024/07/05 10:54:22 AM, CLOSED]
+2024-07-10 10:28:37 INFO  SQmonitoring:156 - [, 627780, 11005, bidhan.shrestha@javra.com, RFQ Request, SFCASE, 2024/07/05 10:51:06 AM, 2024/07/05 10:51:22 AM, CLOSED]
+2024-07-10 10:28:38 INFO  SQmonitoring:156 - [, 627779, 11005, bidhan.shrestha@javra.com, RFQ Request, SFCASE, 2024/07/05 10:39:25 AM, 2024/07/05 10:40:22 AM, CLOSED]
+2024-07-10 10:28:38 INFO  SQmonitoring:156 - [, 627778, 11005, bidhan.shrestha@javra.com, RFQ Request, SFCASE, 2024/07/05 10:29:20 AM, 2024/07/05 10:30:21 AM, CLOSED]
+2024-07-10 10:28:39 INFO  SQmonitoring:156 - [, 627777, 11005, bidhan.shrestha@javra.com, RFQ Request, SFCASE, 2024/07/05 10:02:05 AM, 2024/07/05 10:02:20 AM, CLOSED]
+2024-07-10 10:28:40 INFO  SQmonitoring:156 - [, 627776, 11005, bidhan.shrestha@javra.com, RFQ Request, SFCASE, 2024/07/05 09:35:56 AM, 2024/07/05 09:36:19 AM, CLOSED]
+2024-07-10 10:28:41 INFO  SQmonitoring:156 - [, 627775, 11005, bidhan.shrestha@javra.com, RFQ Request, SFCASE, 2024/07/05 09:16:06 AM, 2024/07/05 09:17:19 AM, CLOSED]
+2024-07-10 10:28:41 INFO  SQmonitoring:156 - [, 627774, 11005, bidhan.shrestha@javra.com, RFQ Request, SFCASE, 2024/07/05 08:10:17 AM, 2024/07/05 08:11:16 AM, CLOSED]
+2024-07-10 10:28:42 INFO  SQmonitoring:156 - [, 627773, 11005, yaman.maharjan@javra.com, Quote Request for missing line, SFCASE, 2024/07/05 07:05:10 AM, 2024/07/05 07:06:14 AM, CLOSED]
+2024-07-10 10:28:43 INFO  SQmonitoring:156 - [, 627772, 11005, yaman.maharjan@javra.com, Quote Request for missing line, SFCASE, 2024/07/05 07:00:33 AM, 2024/07/05 07:01:13 AM, CLOSED]
+2024-07-10 10:28:43 INFO  SQmonitoring:156 - [, 627771, 11005, nishant.sah@javra.com, RFQ, SFCASE, 2024/07/05 06:42:05 AM, 2024/07/05 06:43:13 AM, CLOSED]
+2024-07-10 10:28:44 INFO  SQmonitoring:156 - [, 627770, 11005, nishant.sah@javra.com, RFQ, SFCASE, 2024/07/05 06:40:27 AM, 2024/07/05 06:41:13 AM, CLOSED]
+2024-07-10 10:28:45 INFO  SQmonitoring:156 - [, 627769, 11005, nishant.sah@javra.com, RFQ, SFCASE, 2024/07/05 06:36:19 AM, 2024/07/05 06:37:13 AM, CLOSED]
+2024-07-10 10:28:48 INFO  SQmonitoring:120 - Page no :: 3
+2024-07-10 10:28:48 INFO  SQmonitoring:145 - Rowcount :: 20, ColCount :: 9
+2024-07-10 10:28:49 INFO  SQmonitoring:156 - [, 627768, 11005, nishant.sah@javra.com, RFQ, SFCASE, 2024/07/05 06:09:09 AM, 2024/07/05 06:10:13 AM, CLOSED]
+2024-07-10 10:28:49 INFO  SQmonitoring:156 - [, 627767, 32116, bhisma.osti@javra.com, RFQ TEST, SFCASE, 2024/07/05 06:08:54 AM, 2024/07/05 06:09:11 AM, CLOSED]
+2024-07-10 10:28:50 INFO  SQmonitoring:156 - [, 627766, 11005, yaman.maharjan@javra.com, Quote Request, SFCASE, 2024/07/05 06:05:18 AM, 2024/07/05 06:06:12 AM, CLOSED]
+2024-07-10 10:28:51 INFO  SQmonitoring:156 - [, 627765, 11005, yaman.maharjan@javra.com, Quote Request, SFCASE, 2024/07/05 06:03:54 AM, 2024/07/05 06:04:11 AM, CLOSED]
+2024-07-10 10:28:51 INFO  SQmonitoring:156 - [, 627764, 11005, nishant.sah@javra.com, RFQ, SFCASE, 2024/07/05 05:59:42 AM, 2024/07/05 06:00:19 AM, CLOSED]
+2024-07-10 10:28:52 INFO  SQmonitoring:156 - [, 627763, 11005, nishant.sah@javra.com, RFQ, SFCASE, 2024/07/05 05:59:25 AM, 2024/07/05 06:00:13 AM, CLOSED]
+2024-07-10 10:28:53 INFO  SQmonitoring:156 - [, 627762, 11005, nishant.sah@javra.com, RFQ, SFCASE, 2024/07/05 05:40:49 AM, 2024/07/05 05:41:11 AM, CLOSED]
+2024-07-10 10:28:54 INFO  SQmonitoring:156 - [, 627761, 11005, yaman.maharjan@javra.com, Quote Request, SFCASE, 2024/07/05 05:30:34 AM, 2024/07/05 05:31:11 AM, CLOSED]
+2024-07-10 10:28:55 INFO  SQmonitoring:156 - [, 627760, 11005, yaman.maharjan@javra.com, Quote Request, SFCASE, 2024/07/05 05:24:52 AM, 2024/07/05 05:25:16 AM, CLOSED]
+2024-07-10 10:28:56 INFO  SQmonitoring:156 - [, 627759, 11005, yaman.maharjan@javra.com, Quote Request, SFCASE, 2024/07/05 05:23:59 AM, 2024/07/05 05:25:11 AM, CLOSED]
+2024-07-10 10:28:57 INFO  SQmonitoring:156 - [, 627758, 11005, yaman.maharjan@javra.com, Quote Request, SFCASE, 2024/07/04 06:28:46 AM, 2024/07/04 06:30:18 AM, CLOSED]
+2024-07-10 10:28:57 INFO  SQmonitoring:156 - [, 627757, 11005, nishant.sah@javra.com, RFQ, SFCASE, 2024/07/03 12:48:29 PM, 2024/07/03 12:49:38 PM, CLOSED]
+2024-07-10 10:28:58 INFO  SQmonitoring:156 - [, 627755, 11005, nishant.sah@javra.com, NS, SFCASE, 2024/07/03 12:41:42 PM, 2024/07/03 12:42:38 PM, CLOSED]
+2024-07-10 10:28:59 INFO  SQmonitoring:156 - [, 627754, 11005, nishant.sah@javra.com, RFQ, SFCASE, 2024/07/03 12:38:27 PM, 2024/07/03 12:39:38 PM, CLOSED]
+2024-07-10 10:29:00 INFO  SQmonitoring:156 - [, 627750, 11005, nishant.sah@javra.com, RFQ, SFCASE, 2024/07/03 11:06:41 AM, 2024/07/03 11:07:34 AM, CLOSED]
+2024-07-10 10:29:01 INFO  SQmonitoring:156 - [, 627749, 11005, nishant.sah@javra.com, RFQ, SFCASE, 2024/07/03 11:02:43 AM, 2024/07/03 11:03:34 AM, CLOSED]
+2024-07-10 10:29:01 INFO  SQmonitoring:156 - [, 627748, 11005, nishant.sah@javra.com, RFQ, SFCASE, 2024/07/03 10:51:30 AM, 2024/07/03 10:52:33 AM, CLOSED]
+2024-07-10 10:29:02 INFO  SQmonitoring:156 - [, 627747, 11005, nishant.sah@javra.com, RFQ, SFCASE, 2024/07/03 10:45:44 AM, 2024/07/03 10:46:33 AM, CLOSED]
+2024-07-10 10:29:03 INFO  SQmonitoring:156 - [, 627746, 11005, yaman.maharjan@javra.com, Quote, SFCASE, 2024/07/03 04:49:13 AM, 2024/07/03 04:50:19 AM, CLOSED]
+2024-07-10 10:29:04 INFO  SQmonitoring:156 - [, 627745, 11005, yaman.maharjan@javra.com, Quote Requeset, SFCASE, 2024/07/02 04:53:01 AM, 2024/07/02 04:53:24 AM, CLOSED]
+2024-07-10 10:29:07 INFO  SQmonitoring:120 - Page no :: 4
+2024-07-10 10:29:07 INFO  SQmonitoring:145 - Rowcount :: 20, ColCount :: 9
+2024-07-10 10:29:08 INFO  SQmonitoring:156 - [, 627744, 11005, yaman.maharjan@javra.com, Quote Request, SFCASE, 2024/07/02 04:29:36 AM, 2024/07/02 04:30:23 AM, CLOSED]
+2024-07-10 10:29:08 INFO  SQmonitoring:156 - [, 627743, 11005, yaman.maharjan@javra.com, Quote Request, SFCASE, 2024/07/02 04:16:37 AM, 2024/07/02 04:17:23 AM, CLOSED]
+2024-07-10 10:29:09 INFO  SQmonitoring:156 - [, 627742, 11005, yaman.maharjan@javra.com, Quote, SFCASE, 2024/07/01 11:35:56 AM, 2024/07/01 11:36:44 AM, CLOSED]
+2024-07-10 10:29:10 INFO  SQmonitoring:156 - [, 627741, 11005, yaman.maharjan@javra.com, Quote, SFCASE, 2024/07/01 11:34:30 AM, 2024/07/01 11:34:44 AM, CLOSED]
+2024-07-10 10:29:11 INFO  SQmonitoring:156 - [, 627740, 11005, yaman.maharjan@javra.com, RFQ, SFCASE, 2024/07/01 11:30:25 AM, 2024/07/01 11:30:48 AM, CLOSED]
+2024-07-10 10:29:12 INFO  SQmonitoring:156 - [, 627739, 11005, yaman.maharjan@javra.com, RFQ, SFCASE, 2024/07/01 11:29:53 AM, 2024/07/01 11:30:44 AM, CLOSED]
+2024-07-10 10:29:12 INFO  SQmonitoring:156 - [, 627738, 11005, yaman.maharjan@javra.com, RFQ from Prod 0734, SFCASE, 2024/07/01 11:24:48 AM, 2024/07/01 11:25:44 AM, CLOSED]
+2024-07-10 10:29:13 INFO  SQmonitoring:156 - [, 627737, 11005, yaman.maharjan@javra.com, ProCart RFQ 86274 M83723/95K1005NLC, SFCASE, 2024/07/01 04:54:08 AM, 2024/07/01 04:54:37 AM, CLOSED]
+2024-07-10 10:29:14 INFO  SQmonitoring:156 - [, 627734, 11005, yaman.maharjan@javra.com, RFQ 338897 (B54512-1 OVERHAUL KITS), SFCASE, 2024/07/01 04:53:39 AM, 2024/07/01 04:54:33 AM, CLOSED]
+2024-07-10 10:29:15 INFO  SQmonitoring:156 - [, 627733, 11005, yaman.maharjan@javra.com, CRITICAL>>>RFQ - SCMBKI - 06 MAR 2024., SFCASE, 2024/07/01 04:53:28 AM, 2024/07/01 04:54:30 AM, CLOSED]
+2024-07-10 10:29:15 INFO  SQmonitoring:156 - [, 627728, 11005, yaman.maharjan@javra.com, RFQ | MS15001-1, SFCASE, 2024/07/01 04:52:37 AM, 2024/07/01 04:53:30 AM, CLOSED]
+2024-07-10 10:29:16 INFO  SQmonitoring:156 - [, 627725, 11005, yaman.maharjan@javra.com, Jaco Aerospace RFQ #637933-MP, SFCASE, 2024/07/01 04:52:04 AM, 2024/07/01 04:52:35 AM, CLOSED]
+2024-07-10 10:29:17 INFO  SQmonitoring:156 - [, 627723, 11005, yaman.maharjan@javra.com, 76944, SFCASE, 2024/07/01 04:51:43 AM, 2024/07/01 04:52:32 AM, CLOSED]
+2024-07-10 10:29:17 INFO  SQmonitoring:156 - [, 627721, 11005, yaman.maharjan@javra.com, aog rfq // pn 12134-00 or alt pn 3601-91 // qty. 1 // taq 824846 // req 04.05uk - end user easyjet, SFCASE, 2024/07/01 04:51:24 AM, 2024/07/01 04:52:28 AM, CLOSED]
+2024-07-10 10:29:18 INFO  SQmonitoring:156 - [, 627720, 11005, yaman.maharjan@javra.com, rfq cs/0184qr/22- exchange / outright sales p/n: 7115337h07 desc: module-cac-left pack inboard, SFCASE, 2024/07/01 04:51:16 AM, 2024/07/01 04:51:38 AM, CLOSED]
+2024-07-10 10:29:19 INFO  SQmonitoring:156 - [, 627719, 11005, yaman.maharjan@javra.com, tap air portugal urgent rfq ends in 138 hrs, viton-3/16-0-sp at lis (#5572), SFCASE, 2024/07/01 04:51:06 AM, 2024/07/01 04:51:34 AM, CLOSED]
+2024-07-10 10:29:20 INFO  SQmonitoring:156 - [, 627718, 11005, yaman.maharjan@javra.com, re: rfq for pn: 3520-0337-07 & fu190 on critical basis, SFCASE, 2024/07/01 04:50:56 AM, 2024/07/01 04:51:30 AM, CLOSED]
+2024-07-10 10:29:20 INFO  SQmonitoring:156 - [, 627715, 11005, yaman.maharjan@javra.com, RFQ 338897 (B54512-1 OVERHAUL KITS), SFCASE, 2024/07/01 04:45:40 AM, 2024/07/01 04:46:33 AM, CLOSED]
+2024-07-10 10:29:21 INFO  SQmonitoring:156 - [, 627714, 11005, yaman.maharjan@javra.com, CRITICAL>>>RFQ - SCMBKI - 06 MAR 2024., SFCASE, 2024/07/01 04:45:38 AM, 2024/07/01 04:46:29 AM, CLOSED]
+2024-07-10 10:29:22 INFO  SQmonitoring:156 - [, 627709, 11005, yaman.maharjan@javra.com, RFQ | MS15001-1, SFCASE, 2024/07/01 04:45:13 AM, 2024/07/01 04:45:29 AM, CLOSED]
+2024-07-10 10:29:25 INFO  SQmonitoring:120 - Page no :: 5
+2024-07-10 10:29:25 INFO  SQmonitoring:145 - Rowcount :: 6, ColCount :: 9
+2024-07-10 10:29:25 INFO  SQmonitoring:156 - [, 627706, 11005, yaman.maharjan@javra.com, Jaco Aerospace RFQ #637933-MP, SFCASE, 2024/07/01 04:43:58 AM, 2024/07/01 04:44:49 AM, CLOSED]
+2024-07-10 10:29:26 INFO  SQmonitoring:156 - [, 627704, 11005, yaman.maharjan@javra.com, 76944, SFCASE, 2024/07/01 04:43:47 AM, 2024/07/01 04:44:45 AM, CLOSED]
+2024-07-10 10:29:27 INFO  SQmonitoring:156 - [, 627702, 11005, yaman.maharjan@javra.com, aog rfq // pn 12134-00 or alt pn 3601-91 // qty. 1 // taq 824846 // req 04.05uk - end user easyjet, SFCASE, 2024/07/01 04:43:36 AM, 2024/07/01 04:44:41 AM, CLOSED]
+2024-07-10 10:29:27 INFO  SQmonitoring:156 - [, 627701, 11005, yaman.maharjan@javra.com, rfq cs/0184qr/22- exchange / outright sales p/n: 7115337h07 desc: module-cac-left pack inboard, SFCASE, 2024/07/01 04:43:26 AM, 2024/07/01 04:44:38 AM, CLOSED]
+2024-07-10 10:29:28 INFO  SQmonitoring:156 - [, 627699, 11005, yaman.maharjan@javra.com, tap air portugal urgent rfq ends in 138 hrs, viton-3/16-0-sp at lis (#5572), SFCASE, 2024/07/01 04:43:17 AM, 2024/07/01 04:44:34 AM, CLOSED]
+2024-07-10 10:29:28 INFO  SQmonitoring:156 - [, 627700, 11005, yaman.maharjan@javra.com, re: rfq for pn: 3520-0337-07 & fu190 on critical basis, SFCASE, 2024/07/01 04:43:17 AM, 2024/07/01 04:44:29 AM, CLOSED]
+2024-07-10 10:29:31 INFO  SQmonitoring:98 - /*-----------------------------------------------------------------
+2024-07-10 10:29:31 INFO  SQmonitoring:99 - Total Cases 	:: 86
+2024-07-10 10:29:31 INFO  SQmonitoring:100 - NEW			:: 0
+2024-07-10 10:29:31 INFO  SQmonitoring:101 - RECEIVED  		:: 0
+2024-07-10 10:29:31 INFO  SQmonitoring:102 - IN PROGRESS  	:: 0
+2024-07-10 10:29:31 INFO  SQmonitoring:103 - READY			:: 0
+2024-07-10 10:29:31 INFO  SQmonitoring:104 - COMPLETED 		:: 0
+2024-07-10 10:29:31 INFO  SQmonitoring:105 - FAILED 		:: 0
+2024-07-10 10:29:31 INFO  SQmonitoring:106 - CLOSED 		:: 86
+2024-07-10 10:29:31 INFO  SQmonitoring:107 - /*-----------------------------------------------------------------
+2024-07-10 10:29:31 INFO  SQmonitoring:162 - END :: SQmonitoring
+2024-07-10 10:29:32 INFO  UtilBase:148 - @Aftersuite, Closing the browser
+2024-07-10 10:29:32 INFO  UtilBase:149 - ###########################################################

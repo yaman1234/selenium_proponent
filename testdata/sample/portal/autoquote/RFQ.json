@@ -1,0 +1,27 @@
+{
+	"RFQ": {
+		"Customer": [
+			{
+				"CustomerPortal": "https://www.proponent.com/contact/",
+				"CustomerNumber": "11005",
+				"CustomerName": "KLM-ROYAL DUTCH AIRLINES",
+				"CIC": "KLM",
+				"ContactEmail": "sabine.bos@klm.com",
+				"ContactName": "Sabine Bos",
+				"CustomerReference": "TEST-PORTAL",
+				"Additional Info": "Additional info content",
+				"CRMEmail": "sabina.rupakheti@javra.com",
+				"RequestedPart": [
+					{
+						"PartNumber": "457-370-12",
+						"PartQuantity": "10",
+						"PartUOM": "EA",
+						"PartDescription": "SLIDE",
+						"CustomerReference": "Inquiry-2024-02",
+						"AdditionalInfo": ""
+					}
+				]
+			}
+		]
+	}
+}

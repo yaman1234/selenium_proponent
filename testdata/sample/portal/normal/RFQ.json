@@ -1,0 +1,64 @@
+{
+  "RFQ": {
+    "Customer": [
+      {
+        "CustomerPortalURL": "https:www.aeroxchange.com",
+        "CustomerNumber": "11005",
+        "CustomerName": "KLM-ROYAL DUTCH AIRLINES",
+        "CIC": "KLM",
+        "ContactEmail": "sabine.bos@klm.com",
+        "ContactName": "Sabine Bos",
+        "CustomerReference": "23091314304",
+        "AdditionalInfo": "Additional information provided by the customer",
+        "CRMEmail": "sabina.rupakheti@javra.com",
+        "RequestedPart": [
+          {
+            "PartNumber": "a5210-9p",
+            "PartQuantity": 10,
+            "PartUOM": "EA",
+            "PartDescription": "SLIDE",
+            "CustomerReference": "Inquiry-2023-001",
+            "Remarks": "Remarks related to the requested part number",
+            "AdditionalInfo": "Additional information provided by the customer"
+          },
+          {
+            "PartNumber": "a5210-10p",
+            "PartQuantity": 20,
+            "PartUOM": "EA",
+            "PartDescription": "SLIDE",
+            "CustomerReference": "",
+            "Remarks": "",
+            "AdditionalInfo": ""
+          },
+          {
+            "PartNumber": "a5210-12p",
+            "PartQuantity": 30,
+            "PartUOM": "EA",
+            "PartDescription": "",
+            "CustomerReference": "",
+            "Remarks": "",
+            "AdditionalInfo": ""
+          },
+          {
+            "PartNumber": "a5210-14p",
+            "PartQuantity": 40,
+            "PartUOM": "",
+            "PartDescription": "",
+            "CustomerReference": "",
+            "Remarks": "",
+            "AdditionalInfo": ""
+          },
+          {
+            "PartNumber": "a5210-16p",
+            "PartQuantity": 5,
+            "PartUOM": "",
+            "PartDescription": "",
+            "CustomerReference": "",
+            "Remarks": "",
+            "AdditionalInfo": ""
+          }
+        ]
+      }
+    ]
+  }
+}

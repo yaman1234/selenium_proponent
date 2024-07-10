@@ -1,0 +1,113 @@
+{
+    "proQuoteRequest": {
+        "sourceDetails": [
+            {
+                "messageType": "RFQ - Portal",
+                "messageSource": "SFCASE-PORTAL",
+                "receivedDate": "2023-09-04 11:03:30.000Z",
+                "processedDate": "2023-09-04 11:09:46.000Z",
+                "mailSubject": "Test Email 1693825397913",
+                "customerNumber": "11005",
+                "customerType": "",
+                "sfAccountId": "",
+                "sfContactId": "",
+                "customerContactEmail": "sabine.bos@klm.com",
+                "sfCaseId": "5008M000004RdZpQAK",
+                "sfCaseNumber": "622271",
+                "assignedCRM": "",
+                "trainingRequired": false,
+                "rfqReference": "TEST-PORTAL",
+                "messageId": "5008M000004RdZpQAK",
+                "emailRecipient": "",
+                "customerName": "KLM-ROYAL DUTCH AIRLINES",
+                "additionalInfo": "Additional info content",
+                "customerPortalURL": "https://www.proponent.com/contact/",
+                "crmEmail": "sabina.rupakheti@javra.com"
+            }
+        ],
+        "messageDetails": [
+            {
+                "contentType": "email",
+                "attachmentFile": "",
+                "sfAttachmentFileId": "",
+                "sfAttachmentFileLocation": "",
+                "sections": [
+                    {
+                        "sequenceId": 0,
+                        "sectionType": "text",
+                        "sectionContentSource": "email body",
+                        "content": "<html>\n<head>\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=us-ascii\"></head>\n<body><pre>Please quote from the Attachment</pre></body></html>",
+                        "pipelineId": "650817a72f542a5e6866f5b7",
+                        "predictedSets": [
+                            {
+                                "requestedPartNumber": "387",
+                                "requestedQuantity": 10.0,
+                                "requestedUnitOfMeasure": "EA",
+                                "predictedPosition": [
+                                    {
+                                        "text": "387",
+                                        "label": "PN",
+                                        "start": 0,
+                                        "end": 0
+                                    },
+                                    {
+                                        "text": "10",
+                                        "label": "QTY",
+                                        "start": 0,
+                                        "end": 0
+                                    },
+                                    {
+                                        "text": "EA",
+                                        "label": "UOM",
+                                        "start": 0,
+                                        "end": 0
+                                    },
+                                    {
+                                        "text": "",
+                                        "label": "AdditionalInfo",
+                                        "start": 0,
+                                        "end": 0
+                                    },
+                                    {
+                                        "text": "",
+                                        "label": "Remarks",
+                                        "start": 0,
+                                        "end": 0
+                                    },
+                                    {
+                                        "text": "Inquiry-2023-001",
+                                        "label": "CustomerReference",
+                                        "start": 0,
+                                        "end": 0
+                                    },
+                                    {
+                                        "text": "SLIDE",
+                                        "label": "PartDescription",
+                                        "start": 0,
+                                        "end": 0
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "contentType": "attachment",
+                "attachmentFile": "RFQ.json",
+                "sfAttachmentFileId": "0688M000001g0koQAA",
+                "sfAttachmentFileLocation": "/consumer/attachments/5008M000004RdZpQAK",
+                "sections": [
+                    {
+                        "sequenceId": 0,
+                        "sectionType": "text",
+                        "sectionContentSource": "json",
+                        "content": "{\n  \"RFQ\": {\n    \"Customer\": [\n      {\n        \"CustomerPortal\": \"https://www.proponent.com/contact/\",\n        \"CustomerNumber\": \"11005\",\n        \"CustomerName\": \"KLM-ROYAL DUTCH AIRLINES\",\n        \"ContactEmail\": \"sabine.bos@klm.com\",\n        \"ContactName\": \"Sabine Bos\",\n        \"CustomerReference\": \"TEST-PORTAL\",\n        \"Additional Info\": \"Additional info content\",\n        \"CRMEmail\": \"sabina.rupakheti@javra.com\",\n        \"RequestedPart\": [\n          {\n            \"PartNumber\": \"387\",\n            \"PartQuantity\": \"10\",\n            \"PartUOM\": \"EA\",\n            \"PartDescription\": \"SLIDE\",\n            \"CustomerReference\": \"Inquiry-2023-001\",\n            \"AdditionalInfo\": \"\"\n          }\n        ]\n      }\n    ]\n  }\n}",
+                        "predictedColIndex": [],
+                        "predictedSets": []
+                    }
+                ]
+            }
+        ]
+    }
+}

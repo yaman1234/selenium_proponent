@@ -1,0 +1,59 @@
+{
+  "RFQ": {
+    "Customer": [
+      {
+        "CustomerPortal": "https://www.proponent.com/contact/",
+        "CustomerNumber": "",
+        "CustomerName": "",
+        "ContactEmail": "",
+        "CIC" : "KLM",
+        "ContactName": "Robin van Oeveren",
+        "CustomerReference": "TEST-PORTAL-RFQ(1)",
+        "Additional Info": "additional information for customer",
+        "CRMEmail": "yaman.maharjan@javra.com",
+        "RequestedPart": [
+          {
+            "PartNumber": "a5210-9p",
+            "PartQuantity": "10",
+            "PartUOM": "EA",
+            "PartDescription": "SLIDE",
+            "CustomerReference": "custref 1",
+            "AdditionalInfo": "addi info 1"
+          },
+          {
+            "PartNumber": "a5210-10p",
+            "PartQuantity": "20",
+            "PartUOM": "EA",
+            "PartDescription": "SLIDE",
+            "CustomerReference": "custref 2",
+            "AdditionalInfo": "addi info 2"
+          },
+          {
+            "PartNumber": "a5210-12p",
+            "PartQuantity": "30",
+            "PartUOM": "EA",
+            "PartDescription": "",
+            "CustomerReference": "custref 3",
+            "AdditionalInfo": "addi info 3"
+          },
+          {
+            "PartNumber": "a5210-14p",
+            "PartQuantity": "40",
+            "PartUOM": "",
+            "PartDescription": "",
+            "CustomerReference": "custref 4",
+            "AdditionalInfo": "addi info 4"
+          },
+          {
+            "PartNumber": "a5210-16p",
+            "PartQuantity": "",
+            "PartUOM": "",
+            "PartDescription": "",
+            "CustomerReference": "custref 5",
+            "AdditionalInfo": "addi info 5"
+          }
+        ]
+      }
+    ]
+  }
+}

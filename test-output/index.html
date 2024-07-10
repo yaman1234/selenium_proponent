@@ -93,7 +93,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">2 methods,   2 passed</span>
+                    <span class="method-stats">3 methods,   3 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -109,7 +109,12 @@
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="monitoring.SQmonitoring" class="method navigator-link" hash-for-method="test1">test1</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="monitoring.SQmonitoring" class="method navigator-link" hash-for-method="monitor_caseEmails">monitor_caseEmails</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="monitoring.SQmonitoring" class="method navigator-link" hash-for-method="monitoring_messages">monitoring_messages</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Suite -->
@@ -132,9 +137,16 @@
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="test1">
-                  </a> <!-- test1 -->
-                  <span class="method-name">test1</span>
+                  <a name="monitor_caseEmails">
+                  </a> <!-- monitor_caseEmails -->
+                  <span class="method-name">monitor_caseEmails</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="monitoring_messages">
+                  </a> <!-- monitoring_messages -->
+                  <span class="method-name">monitoring_messages</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -207,20 +219,24 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(2);
+data.addRows(3);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'LoginTest')
-data.setCell(0, 2, 'monitoring.LoginTest_SQ')
-data.setCell(0, 3, 6507);
+data.setCell(0, 1, 'monitor_caseEmails')
+data.setCell(0, 2, 'monitoring.SQmonitoring')
+data.setCell(0, 3, 94637);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'test1')
+data.setCell(1, 1, 'monitoring_messages')
 data.setCell(1, 2, 'monitoring.SQmonitoring')
-data.setCell(1, 3, 1441);
+data.setCell(1, 3, 79825);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'LoginTest')
+data.setCell(2, 2, 'monitoring.LoginTest_SQ')
+data.setCell(2, 3, 6247);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 7 seconds</span>
+              <span class="suite-total-time">Total running time: 3 minutes</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -262,37 +278,41 @@ return data;
               </div> <!-- configuration-suite before -->
               <div class="configuration-class before">
                 <span class="method-name">beforeClass</span>
-                <span class="method-start">4066 ms</span>
+                <span class="method-start">4301 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">LoginTest</span>
-                <span class="method-start">4080 ms</span>
+                <span class="method-start">4310 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">afterClass</span>
-                <span class="method-start">10591 ms</span>
+                <span class="method-start">10560 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">monitoring.SQmonitoring</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">beforeClass</span>
-                <span class="method-start">10593 ms</span>
+                <span class="method-start">10563 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
-                <span class="method-name">test1</span>
-                <span class="method-start">10594 ms</span>
+                <span class="method-name">monitoring_messages</span>
+                <span class="method-start">10564 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">monitor_caseEmails</span>
+                <span class="method-start">90391 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">afterClass</span>
-                <span class="method-start">12036 ms</span>
+                <span class="method-start">185029 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">monitoring.LoginTest_SQ</div> <!-- chronological-class-name -->
               <div class="configuration-suite after">
                 <span class="method-name">teardown</span>
-                <span class="method-start">12052 ms</span>
+                <span class="method-start">185043 ms</span>
               </div> <!-- configuration-suite after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

@@ -5,8 +5,9 @@
     <classes>
       <class name="monitoring.SQmonitoring">
         <methods>
+          <include name="monitoring_messages"/>
           <include name="beforeClass"/>
-          <include name="test1"/>
+          <include name="afterClass"/>
           <include name="setup"/>
           <include name="teardown"/>
         </methods>
