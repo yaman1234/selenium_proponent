@@ -2,6 +2,7 @@ package utilities;
 
 import java.io.File;
 import java.io.IOException;
+
 import org.apache.commons.io.FileUtils;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
@@ -24,7 +25,8 @@ import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.reporter.ExtentSparkReporter;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
-import monitoring.LoginTest_SQ;
+import pageObjects.PQC_pageObjects;
+import pageObjects.SF_pageObjects;
 import pageObjects.SQ_pageObjects;
 
 public class UtilBase {
@@ -39,15 +41,14 @@ public class UtilBase {
 //	Reporting
 	protected static ExtentReports extent;
 	protected static ExtentTest test;
-	
-	
+
 //	global vairables
 	protected String sf_case_global = "";
-	
+
 	protected SQ_pageObjects sq_po = new SQ_pageObjects();
-	
-	
-	
+	protected SF_pageObjects sf_po = new SF_pageObjects();
+	protected PQC_pageObjects pqc_po = new PQC_pageObjects();
+
 	public static void initialiseDriver() {
 //		String browserName = ExcelRead.getData(1, 2, 0);
 		String browserName = "chrome";
@@ -62,9 +63,9 @@ public class UtilBase {
 		} else if (browserName.equalsIgnoreCase("edge")) {
 			WebDriverManager.edgedriver().setup();
 			driver = new EdgeDriver();
-		} else {				
+		} else {
 			WebDriverManager.chromedriver().setup();
-			driver = new ChromeDriver();	
+			driver = new ChromeDriver();
 		}
 		driver.manage().window().maximize();
 		driver.manage().deleteAllCookies();
@@ -74,17 +75,21 @@ public class UtilBase {
 		jsDriver = (JavascriptExecutor) driver;
 	}
 
-	public static void initialiseDriverwithprofile(String userProfilePath){
+	public static void initialiseDriverwithprofile() {
+		String chromeprofilepath = "C:\\Users\\yamah022\\Desktop\\eclipse\\chromeData";
 		WebDriverManager.chromedriver().setup();
-		  // Create a ChromeOptions object.
-        ChromeOptions options = new ChromeOptions();
+		ChromeOptions options = new ChromeOptions();
+		options.addArguments("user-data-dir=" + chromeprofilepath);
 
-        // Set the path to the user profile directory.
-        options.addArguments("user-data-dir=" + userProfilePath);
-        // Launch Chrome with the configured options.
-        driver = new ChromeDriver(options);
-        jsDriver = (JavascriptExecutor) driver;
+		try {
+			// Launch Chrome with the configured options.
+			driver = new ChromeDriver(options);
+			jsDriver = (JavascriptExecutor) driver;
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
 	}
+
 	/**
 	 * Captures screenshot of the current window of the browser driver
 	 * 
@@ -95,7 +100,6 @@ public class UtilBase {
 
 		File scrFile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
 		String screenshotPath = "screenshots//" + screenShotName + System.currentTimeMillis() + ".png";
-
 		try {
 			FileUtils.copyFile(scrFile, new File(screenshotPath));
 		} catch (IOException e) {
@@ -103,13 +107,29 @@ public class UtilBase {
 			e.printStackTrace();
 		}
 //		return screenshotPath;						
-		/* change return statement to below statement if you are not using email report	*/	
-		
-		return new File (screenshotPath).getAbsolutePath();
-		
+		/*
+		 * change return statement to below statement if you are not using email report
+		 */
+		return new File(screenshotPath).getAbsolutePath();
 	}
-	
-	
+
+	protected String capture(String path, String screenShotName) {
+
+		File scrFile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
+		String screenshotPath = path + screenShotName + System.currentTimeMillis() + ".png";
+		try {
+			FileUtils.copyFile(scrFile, new File(screenshotPath));
+		} catch (IOException e) {
+			System.err.println("Error occurred saving screenshot!!");
+			e.printStackTrace();
+		}
+//		return screenshotPath;						
+		/*
+		 * change return statement to below statement if you are not using email report
+		 */
+		return new File(screenshotPath).getAbsolutePath();
+	}
+
 	public void testPassed(String testname) {
 		test.pass("PASS :: " + testname);
 		test.addScreenCaptureFromPath(capture(testname));
@@ -124,10 +144,16 @@ public class UtilBase {
 		Assert.assertTrue(false);
 	}
 	
-	
+	public void testException(String testname, Exception e) {
+		test.fail("EXCEPTION :: " + testname);
+		test.addScreenCaptureFromPath(capture(testname));
+		logger.info("EXCEPTION :: " + e);
+		Assert.assertTrue(false);
+	}
+
 	@BeforeSuite
 	public void setup() {
-		logger=LogManager.getLogger(UtilBase.class);
+		logger = LogManager.getLogger(UtilBase.class);
 		logger.info("###########################################################");
 		logger.info("Start :: @Beforesuite, Initailizing the browser");
 //		Extent Report setup
@@ -136,17 +162,16 @@ public class UtilBase {
 		extent.attachReporter(spark);
 
 		initialiseDriver();
-		
-		
+
 	}
-	
+
 	@AfterSuite
 	public void teardown() {
-		logger=LogManager.getLogger(UtilBase.class);
+		logger = LogManager.getLogger(UtilBase.class);
 		extent.flush();
 //		 driver.quit();
 		logger.info("@Aftersuite, Closing the browser");
 		logger.info("###########################################################");
 	}
-	
+
 }

@@ -18,7 +18,7 @@ public class LoginTest_SQ extends UtilBase {
 
 //	variables
 //	SMARTER QUOTING
-	String sq_baseurl = "http://10.0.3.143";
+	String sq_baseurl = "http://10.0.3.142";
 	String sq_username = "kathmandu\\yamah022";
 	String sq_password = "1@work";
 

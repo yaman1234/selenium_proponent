@@ -1,51 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="2" total="5" passed="3" failed="0" skipped="0">
+<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-07-10T10:26:31 NPT" name="Suite" finished-at="2024-07-10T10:29:31 NPT" duration-ms="180748">
+  <suite started-at="2024-08-07T21:40:16 NPT" name="Default suite" finished-at="2024-08-07T21:41:02 NPT" duration-ms="45829">
     <groups>
     </groups>
-    <test started-at="2024-07-10T10:26:31 NPT" name="Test" finished-at="2024-07-10T10:29:31 NPT" duration-ms="180748">
-      <class name="monitoring.SQmonitoring">
-        <test-method is-config="true" signature="beforeClass()[pri:0, instance:monitoring.SQmonitoring@10e31a9a]" started-at="2024-07-10T10:26:37 NPT" name="beforeClass" finished-at="2024-07-10T10:26:37 NPT" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeClass -->
-        <test-method signature="monitoring_messages()[pri:1, instance:monitoring.SQmonitoring@10e31a9a]" started-at="2024-07-10T10:26:37 NPT" name="monitoring_messages" finished-at="2024-07-10T10:27:57 NPT" duration-ms="79825" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- monitoring_messages -->
-        <test-method signature="monitor_caseEmails()[pri:2, instance:monitoring.SQmonitoring@10e31a9a]" started-at="2024-07-10T10:27:57 NPT" name="monitor_caseEmails" finished-at="2024-07-10T10:29:31 NPT" duration-ms="94637" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- monitor_caseEmails -->
-        <test-method is-config="true" signature="afterClass()[pri:0, instance:monitoring.SQmonitoring@10e31a9a]" started-at="2024-07-10T10:29:31 NPT" name="afterClass" finished-at="2024-07-10T10:29:31 NPT" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterClass -->
-      </class> <!-- monitoring.SQmonitoring -->
-      <class name="monitoring.LoginTest_SQ">
-        <test-method is-config="true" signature="setup()[pri:0, instance:monitoring.LoginTest_SQ@564fabc8]" started-at="2024-07-10T10:26:26 NPT" name="setup" finished-at="2024-07-10T10:26:31 NPT" duration-ms="4281" status="PASS">
+    <test started-at="2024-08-07T21:40:16 NPT" name="Default test" finished-at="2024-08-07T21:41:02 NPT" duration-ms="45829">
+      <class name="automated.SystemSnapshot">
+        <test-method is-config="true" signature="setup()[pri:0, instance:automated.SystemSnapshot@72d1ad2e]" started-at="2024-08-07T21:40:16 NPT" name="setup" finished-at="2024-08-07T21:40:19 NPT" duration-ms="2748" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="beforeClass()[pri:0, instance:monitoring.LoginTest_SQ@564fabc8]" started-at="2024-07-10T10:26:31 NPT" name="beforeClass" finished-at="2024-07-10T10:26:31 NPT" duration-ms="0" status="PASS">
+        <test-method signature="loginTest()[pri:1, instance:automated.SystemSnapshot@72d1ad2e]" started-at="2024-08-07T21:40:19 NPT" name="loginTest" finished-at="2024-08-07T21:40:30 NPT" duration-ms="10975" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- beforeClass -->
-        <test-method signature="LoginTest()[pri:1, instance:monitoring.LoginTest_SQ@564fabc8]" started-at="2024-07-10T10:26:31 NPT" name="LoginTest" finished-at="2024-07-10T10:26:37 NPT" duration-ms="6247" status="PASS">
+        </test-method> <!-- loginTest -->
+        <test-method signature="casesQueueTest()[pri:2, instance:automated.SystemSnapshot@72d1ad2e]" started-at="2024-08-07T21:40:30 NPT" name="casesQueueTest" finished-at="2024-08-07T21:40:35 NPT" duration-ms="5244" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- LoginTest -->
-        <test-method is-config="true" signature="afterClass()[pri:0, instance:monitoring.LoginTest_SQ@564fabc8]" started-at="2024-07-10T10:26:37 NPT" name="afterClass" finished-at="2024-07-10T10:26:37 NPT" duration-ms="1" status="PASS">
+        </test-method> <!-- casesQueueTest -->
+        <test-method signature="myOpenRfqTest()[pri:3, instance:automated.SystemSnapshot@72d1ad2e]" started-at="2024-08-07T21:40:35 NPT" name="myOpenRfqTest" finished-at="2024-08-07T21:40:40 NPT" duration-ms="5310" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- afterClass -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:monitoring.LoginTest_SQ@564fabc8]" started-at="2024-07-10T10:29:31 NPT" name="teardown" finished-at="2024-07-10T10:29:32 NPT" duration-ms="276" status="PASS">
+        </test-method> <!-- myOpenRfqTest -->
+        <test-method signature="myTrainingRfqTest()[pri:4, instance:automated.SystemSnapshot@72d1ad2e]" started-at="2024-08-07T21:40:40 NPT" name="myTrainingRfqTest" finished-at="2024-08-07T21:40:46 NPT" duration-ms="5291" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- myTrainingRfqTest -->
+        <test-method signature="myActiveQuotesTest()[pri:5, instance:automated.SystemSnapshot@72d1ad2e]" started-at="2024-08-07T21:40:46 NPT" name="myActiveQuotesTest" finished-at="2024-08-07T21:40:51 NPT" duration-ms="5288" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- myActiveQuotesTest -->
+        <test-method signature="globalSearchTest()[pri:6, instance:automated.SystemSnapshot@72d1ad2e]" started-at="2024-08-07T21:40:51 NPT" name="globalSearchTest" finished-at="2024-08-07T21:40:56 NPT" duration-ms="5291" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- globalSearchTest -->
+        <test-method signature="createCustomerRFQTest()[pri:7, instance:automated.SystemSnapshot@72d1ad2e]" started-at="2024-08-07T21:40:56 NPT" name="createCustomerRFQTest" finished-at="2024-08-07T21:41:02 NPT" duration-ms="5349" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createCustomerRFQTest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:automated.SystemSnapshot@72d1ad2e]" started-at="2024-08-07T21:41:02 NPT" name="teardown" finished-at="2024-08-07T21:41:02 NPT" duration-ms="289" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-      </class> <!-- monitoring.LoginTest_SQ -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+      </class> <!-- automated.SystemSnapshot -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

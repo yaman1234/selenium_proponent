@@ -10,11 +10,12 @@ import utilities.UtilBase;
 
 public class template extends UtilBase{
 	
-	private static final Logger logger = LogManager.getLogger(template.class);
+	
 
 	@BeforeClass
 	public void setup() {
 		initialiseDriver();
+		logger = LogManager.getLogger(template.class);
 		logger.info("Initializing the browser");
 	}
 	

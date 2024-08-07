@@ -42,7 +42,7 @@ public class SuperEmail {
 
 		// Send the email
 		email.send();
-		System.out.println("sendEmail--------------Email Sent");
+		System.out.println("Email Sent --------------" + subject);
 	}
 
 //	send email using Html Tags (uses org.apache.commons.mail.HtmlEmail)

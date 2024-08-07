@@ -13,8 +13,6 @@ public class ExtentManager {
         	// directory where output is to be printed
         	ExtentSparkReporter spark = new ExtentSparkReporter("user/build/name/");
         	extent = new ExtentManager();
-        	
-
         }
         return extent;
     }

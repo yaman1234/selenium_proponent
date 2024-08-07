@@ -89,14 +89,16 @@ public class HelperSQ extends UtilBase {
 		
 		if(screen.equals("messages")) {
 			for (List<Object> obj : datalist) {
-				if (obj.get(4).equals(status)) {
+				String actualStr = (String) obj.get(4);
+				if (actualStr.equals(status) | actualStr.contains(status)) {
 					count++;
 				}
 			}
 		}
 		else {
 			for (List<Object> obj : datalist) {
-				if (obj.get(8).equals(status)) {
+				String actualStr = (String) obj.get(8);
+				if (actualStr.equals(status) | actualStr.contains(status)) {
 					count++;
 				}
 			}

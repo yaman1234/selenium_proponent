@@ -33,7 +33,13 @@ public class DateOperations extends UtilBase {
 	}
 	
 	
-	
+    public static String getYesterdaysDate() {
+        LocalDate today = LocalDate.now();
+        // Subtract one day to get yesterday's date
+        LocalDate yesterday = today.minusDays(1);
+        DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy-MM-dd");
+        return yesterday.format(formatter);
+    }
 	
 	
 	

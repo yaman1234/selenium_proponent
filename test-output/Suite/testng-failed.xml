@@ -3,15 +3,15 @@
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="monitoring.SQmonitoring">
+      <class name="monitoring.LoginTest_SQ">
         <methods>
-          <include name="monitoring_messages"/>
-          <include name="beforeClass"/>
+          <include name="LoginTest"/>
           <include name="afterClass"/>
+          <include name="beforeClass"/>
           <include name="setup"/>
           <include name="teardown"/>
         </methods>
-      </class> <!-- monitoring.SQmonitoring -->
+      </class> <!-- monitoring.LoginTest_SQ -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
