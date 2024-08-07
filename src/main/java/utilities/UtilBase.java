@@ -2,6 +2,7 @@ package utilities;
 
 import java.io.File;
 import java.io.IOException;
+import java.time.Duration;
 
 import org.apache.commons.io.FileUtils;
 import org.apache.logging.log4j.LogManager;
@@ -36,6 +37,7 @@ public class UtilBase {
 	protected static Actions actions = null;
 	protected static JavascriptExecutor jsDriver = null;
 
+
 //	logging
 	protected static Logger logger = null;
 //	Reporting
@@ -48,6 +50,9 @@ public class UtilBase {
 	protected SQ_pageObjects sq_po = new SQ_pageObjects();
 	protected SF_pageObjects sf_po = new SF_pageObjects();
 	protected PQC_pageObjects pqc_po = new PQC_pageObjects();
+	
+//	wait
+	protected static WaitUntil wait = null;
 
 	public static void initialiseDriver() {
 //		String browserName = ExcelRead.getData(1, 2, 0);
@@ -73,6 +78,9 @@ public class UtilBase {
 		actions = new Actions(driver);
 //		JavaScriptExecutor is an interface that provides a mechanism to execute Javascript through selenium driver.
 		jsDriver = (JavascriptExecutor) driver;
+//		wait
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(15));
+		wait = new WaitUntil();
 	}
 
 	public static void initialiseDriverwithprofile() {

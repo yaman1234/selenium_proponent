@@ -2523,3 +2523,100 @@ java.net.SocketException: Connection reset
 2024-08-07 21:40:56 INFO  SystemSnapshot:136 - PASS :: global search
 2024-08-07 21:41:02 INFO  SystemSnapshot:136 - PASS :: createCustomerRFQ
 2024-08-07 21:41:02 INFO  SystemSnapshot:145 - Closing the browser
+2024-08-07 22:30:41 INFO  SystemSnapshot:35 - Initializing the browser
+2024-08-07 22:30:43 INFO  WebDriverManager:1239 - Using chromedriver 127.0.6533.99 (resolved driver for Chrome 127)
+2024-08-07 22:30:43 INFO  WebDriverManager:1301 - Exporting webdriver.chrome.driver as C:\Users\yamah022\.cache\selenium\chromedriver\win64\127.0.6533.99\chromedriver.exe
+2024-08-07 22:30:54 INFO  SystemSnapshot:19 - SUCCESS: PQC Login succesful
+2024-08-07 22:30:54 INFO  SystemSnapshot:142 - PASS :: login test
+2024-08-07 22:30:55 INFO  SystemSnapshot:142 - PASS :: case queue
+2024-08-07 22:31:06 INFO  SystemSnapshot:149 - FAIL :: my open rfq
+2024-08-07 22:31:06 INFO  SystemSnapshot:146 - Closing the browser
+2024-08-07 22:31:58 INFO  SystemSnapshot:35 - Initializing the browser
+2024-08-07 22:31:59 INFO  WebDriverManager:1239 - Using chromedriver 127.0.6533.99 (resolved driver for Chrome 127)
+2024-08-07 22:31:59 INFO  WebDriverManager:1301 - Exporting webdriver.chrome.driver as C:\Users\yamah022\.cache\selenium\chromedriver\win64\127.0.6533.99\chromedriver.exe
+2024-08-07 22:32:14 INFO  SystemSnapshot:19 - SUCCESS: PQC Login succesful
+2024-08-07 22:32:14 INFO  SystemSnapshot:142 - PASS :: login test
+2024-08-07 22:32:14 INFO  SystemSnapshot:142 - PASS :: case queue
+2024-08-07 22:32:25 INFO  SystemSnapshot:149 - FAIL :: my open rfq
+2024-08-07 22:32:25 INFO  SystemSnapshot:146 - Closing the browser
+2024-08-07 22:37:09 INFO  SystemSnapshot:35 - Initializing the browser
+2024-08-07 22:37:10 INFO  WebDriverManager:1239 - Using chromedriver 127.0.6533.99 (resolved driver for Chrome 127)
+2024-08-07 22:37:10 INFO  WebDriverManager:1301 - Exporting webdriver.chrome.driver as C:\Users\yamah022\.cache\selenium\chromedriver\win64\127.0.6533.99\chromedriver.exe
+2024-08-07 22:37:24 INFO  SystemSnapshot:19 - SUCCESS: PQC Login succesful
+2024-08-07 22:37:24 INFO  SystemSnapshot:144 - PASS :: login test
+2024-08-07 22:37:25 INFO  SystemSnapshot:144 - PASS :: case queue
+2024-08-07 22:37:36 INFO  SystemSnapshot:151 - FAIL :: my open rfq
+2024-08-07 22:37:36 INFO  SystemSnapshot:146 - Closing the browser
+2024-08-07 22:43:13 INFO  SystemSnapshot:35 - Initializing the browser
+2024-08-07 22:43:13 INFO  WebDriverManager:1239 - Using chromedriver 127.0.6533.99 (resolved driver for Chrome 127)
+2024-08-07 22:43:13 INFO  WebDriverManager:1301 - Exporting webdriver.chrome.driver as C:\Users\yamah022\.cache\selenium\chromedriver\win64\127.0.6533.99\chromedriver.exe
+2024-08-07 22:43:26 INFO  SystemSnapshot:19 - SUCCESS: PQC Login succesful
+2024-08-07 22:43:26 INFO  SystemSnapshot:144 - PASS :: login test
+2024-08-07 22:44:20 INFO  SystemSnapshot:144 - PASS :: case queue
+2024-08-07 23:05:56 INFO  SystemSnapshot:35 - Initializing the browser
+2024-08-07 23:05:57 INFO  WebDriverManager:1239 - Using chromedriver 127.0.6533.99 (resolved driver for Chrome 127)
+2024-08-07 23:05:57 INFO  WebDriverManager:1301 - Exporting webdriver.chrome.driver as C:\Users\yamah022\.cache\selenium\chromedriver\win64\127.0.6533.99\chromedriver.exe
+2024-08-07 23:06:12 INFO  SystemSnapshot:19 - SUCCESS: PQC Login succesful
+2024-08-07 23:06:12 INFO  SystemSnapshot:144 - PASS :: login test
+2024-08-07 23:06:13 INFO  SystemSnapshot:144 - PASS :: case queue
+2024-08-07 23:06:13 INFO  SystemSnapshot:144 - PASS :: case queue
+2024-08-07 23:06:13 INFO  SystemSnapshot:149 - Closing the browser
+2024-08-07 23:07:15 INFO  SystemSnapshot:35 - Initializing the browser
+2024-08-07 23:07:15 INFO  WebDriverManager:1239 - Using chromedriver 127.0.6533.99 (resolved driver for Chrome 127)
+2024-08-07 23:07:15 INFO  WebDriverManager:1301 - Exporting webdriver.chrome.driver as C:\Users\yamah022\.cache\selenium\chromedriver\win64\127.0.6533.99\chromedriver.exe
+2024-08-07 23:07:31 INFO  SystemSnapshot:19 - SUCCESS: PQC Login succesful
+2024-08-07 23:07:31 INFO  SystemSnapshot:144 - PASS :: login test
+2024-08-07 23:07:31 INFO  SystemSnapshot:144 - PASS :: case queue
+2024-08-07 23:07:32 INFO  SystemSnapshot:144 - PASS :: case queue
+2024-08-07 23:07:32 INFO  SystemSnapshot:144 - PASS :: my open rfq
+2024-08-07 23:07:32 INFO  SystemSnapshot:144 - PASS :: my open rfq
+2024-08-07 23:07:33 INFO  SystemSnapshot:149 - Closing the browser
+2024-08-07 23:13:07 INFO  SystemSnapshot:35 - Initializing the browser
+2024-08-07 23:13:07 INFO  WebDriverManager:1239 - Using chromedriver 127.0.6533.99 (resolved driver for Chrome 127)
+2024-08-07 23:13:07 INFO  WebDriverManager:1301 - Exporting webdriver.chrome.driver as C:\Users\yamah022\.cache\selenium\chromedriver\win64\127.0.6533.99\chromedriver.exe
+2024-08-07 23:13:22 INFO  SystemSnapshot:19 - SUCCESS: PQC Login succesful
+2024-08-07 23:13:22 INFO  SystemSnapshot:144 - PASS :: login test
+2024-08-07 23:13:32 INFO  SystemSnapshot:158 - EXCEPTION :: java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebElement.isDisplayed()" because "element" is null
+2024-08-07 23:13:35 INFO  SystemSnapshot:144 - PASS :: my open rfq
+2024-08-07 23:13:35 INFO  SystemSnapshot:144 - PASS :: my open rfq
+2024-08-07 23:13:35 INFO  SystemSnapshot:149 - Closing the browser
+2024-08-07 23:18:26 INFO  SystemSnapshot:35 - Initializing the browser
+2024-08-07 23:18:26 INFO  WebDriverManager:1239 - Using chromedriver 127.0.6533.99 (resolved driver for Chrome 127)
+2024-08-07 23:18:27 INFO  WebDriverManager:1301 - Exporting webdriver.chrome.driver as C:\Users\yamah022\.cache\selenium\chromedriver\win64\127.0.6533.99\chromedriver.exe
+2024-08-07 23:18:42 INFO  SystemSnapshot:19 - SUCCESS: PQC Login succesful
+2024-08-07 23:18:42 INFO  SystemSnapshot:144 - PASS :: login test
+2024-08-07 23:18:42 INFO  SystemSnapshot:144 - PASS :: case queue
+2024-08-07 23:18:43 INFO  SystemSnapshot:144 - PASS :: my open rfq
+2024-08-07 23:18:44 INFO  SystemSnapshot:149 - Closing the browser
+2024-08-07 23:21:03 INFO  SystemSnapshot:35 - Initializing the browser
+2024-08-07 23:21:03 INFO  WebDriverManager:1239 - Using chromedriver 127.0.6533.99 (resolved driver for Chrome 127)
+2024-08-07 23:21:03 INFO  WebDriverManager:1301 - Exporting webdriver.chrome.driver as C:\Users\yamah022\.cache\selenium\chromedriver\win64\127.0.6533.99\chromedriver.exe
+2024-08-07 23:21:17 INFO  SystemSnapshot:19 - SUCCESS: PQC Login succesful
+2024-08-07 23:21:17 INFO  SystemSnapshot:144 - PASS :: login test
+2024-08-07 23:21:28 INFO  SystemSnapshot:158 - EXCEPTION :: java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebElement.isDisplayed()" because "element" is null
+2024-08-07 23:21:31 INFO  SystemSnapshot:144 - PASS :: my open rfq
+2024-08-07 23:21:31 INFO  SystemSnapshot:149 - Closing the browser
+2024-08-07 23:50:57 INFO  SystemSnapshot:35 - Initializing the browser
+2024-08-07 23:50:59 INFO  WebDriverManager:1239 - Using chromedriver 127.0.6533.99 (resolved driver for Chrome 127)
+2024-08-07 23:50:59 INFO  WebDriverManager:1301 - Exporting webdriver.chrome.driver as C:\Users\yamah022\.cache\selenium\chromedriver\win64\127.0.6533.99\chromedriver.exe
+2024-08-07 23:51:13 INFO  SystemSnapshot:19 - SUCCESS: PQC Login succesful
+2024-08-07 23:51:14 INFO  SystemSnapshot:144 - PASS :: login test
+2024-08-07 23:51:14 INFO  SystemSnapshot:144 - PASS :: case queue
+2024-08-07 23:51:18 INFO  SystemSnapshot:144 - PASS :: my open rfq
+2024-08-07 23:51:20 INFO  SystemSnapshot:144 - PASS :: my training rfq
+2024-08-07 23:51:22 INFO  SystemSnapshot:144 - PASS :: my active quotes
+2024-08-07 23:51:24 INFO  SystemSnapshot:144 - PASS :: global search
+2024-08-07 23:51:45 INFO  SystemSnapshot:151 - FAIL :: create customer rfq
+2024-08-07 23:51:46 INFO  SystemSnapshot:158 - Closing the browser
+2024-08-07 23:53:58 INFO  SystemSnapshot:35 - Initializing the browser
+2024-08-07 23:53:59 INFO  WebDriverManager:1239 - Using chromedriver 127.0.6533.99 (resolved driver for Chrome 127)
+2024-08-07 23:53:59 INFO  WebDriverManager:1301 - Exporting webdriver.chrome.driver as C:\Users\yamah022\.cache\selenium\chromedriver\win64\127.0.6533.99\chromedriver.exe
+2024-08-07 23:54:12 INFO  SystemSnapshot:19 - SUCCESS: PQC Login succesful
+2024-08-07 23:54:12 INFO  SystemSnapshot:144 - PASS :: login test
+2024-08-07 23:54:12 INFO  SystemSnapshot:144 - PASS :: case queue
+2024-08-07 23:54:15 INFO  SystemSnapshot:144 - PASS :: my open rfq
+2024-08-07 23:54:17 INFO  SystemSnapshot:144 - PASS :: my training rfq
+2024-08-07 23:54:20 INFO  SystemSnapshot:144 - PASS :: my active quotes
+2024-08-07 23:54:21 INFO  SystemSnapshot:144 - PASS :: global search
+2024-08-07 23:54:22 INFO  SystemSnapshot:144 - PASS :: create customer rfq
+2024-08-07 23:54:22 INFO  SystemSnapshot:158 - Closing the browser

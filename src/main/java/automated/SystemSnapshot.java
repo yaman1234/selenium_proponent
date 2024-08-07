@@ -3,6 +3,7 @@ package automated;
 import java.time.Duration;
 
 import org.apache.logging.log4j.LogManager;
+import org.openqa.selenium.WebElement;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
@@ -64,9 +65,11 @@ public class SystemSnapshot extends UtilBase {
 		String testname = "case queue";
 		test = extent.createTest(testname);
 		try {
-			pqc_po.caseQueue_link().click();
-			Thread.sleep(5000);
-			testPassed(testname);
+			if (cmd_pqc.caseQueue_linkClick(testname)) {
+				testPassed(testname);
+			} else {
+				testFailed(testname);
+			}
 		} catch (Exception e) {
 			testException(testname, e);
 		}
@@ -77,10 +80,11 @@ public class SystemSnapshot extends UtilBase {
 		String testname = "my open rfq";
 		test = extent.createTest(testname);
 		try {
-			pqc_po.myOpenRfq_link().click();
-			Thread.sleep(5000);
-			testPassed(testname);
-
+			if (cmd_pqc.myOpenRfq_linkClick(testname)) {
+				testPassed(testname);
+			} else {
+				testFailed(testname);
+			}
 		} catch (Exception e) {
 			testException(testname, e);
 		}
@@ -91,9 +95,12 @@ public class SystemSnapshot extends UtilBase {
 		String testname = "my training rfq";
 		test = extent.createTest(testname);
 		try {
-			pqc_po.myTrainingRfq_link().click();
-			Thread.sleep(5000);
-			testPassed(testname);
+			if(cmd_pqc.myTrainingRfq_linkClick(testname)) {
+				testPassed(testname);
+			}else {
+				testFailed(testname);
+			}
+			
 		} catch (Exception e) {
 			testException(testname, e);
 		}
@@ -104,9 +111,11 @@ public class SystemSnapshot extends UtilBase {
 		String testname = "my active quotes";
 		test = extent.createTest(testname);
 		try {
-			pqc_po.myActiveQuotes_link().click();
-			Thread.sleep(5000);
-			testPassed(testname);
+			if(cmd_pqc.myActiveQuotes_linkClick(testname)) {
+				testPassed(testname);
+			}else {
+				testFailed(testname);
+			}
 		} catch (Exception e) {
 			testException(testname, e);
 		}
@@ -117,9 +126,11 @@ public class SystemSnapshot extends UtilBase {
 		String testname = "global search";
 		test = extent.createTest(testname);
 		try {
-			pqc_po.globalSearch_link().click();
-			Thread.sleep(5000);
-			testPassed(testname);
+			if(cmd_pqc.globalSearch_linkClick(testname)) {
+				testPassed(testname);
+			}else {
+				testFailed(testname);
+			}
 		} catch (Exception e) {
 			testException(testname, e);
 		}
@@ -130,9 +141,11 @@ public class SystemSnapshot extends UtilBase {
 		String testname = "create customer rfq";
 		test = extent.createTest(testname);
 		try {
-			pqc_po.createCustomerRFQ_link().click();
-			Thread.sleep(5000);
-			testPassed(testname);
+			if(cmd_pqc.createCustomerRfq_linkClick(testname)) {
+				testPassed(testname);
+			}else {
+				testFailed(testname);
+			}
 		} catch (Exception e) {
 			testException(testname, e);
 		}

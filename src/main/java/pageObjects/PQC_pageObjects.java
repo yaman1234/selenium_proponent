@@ -5,6 +5,12 @@ import org.openqa.selenium.WebElement;
 import utilities.WebElementLib;
 
 public class PQC_pageObjects {
+	
+//	loading
+	public WebElement loading() {
+		return WebElementLib.findMyElement("xpath", "//span[@aria-label='loading']//*[name()='svg']");
+	}
+	
 
 	/***************************** NAVBAR ***************************/
 	public WebElement caseQueue_link() {
@@ -31,22 +37,7 @@ public class PQC_pageObjects {
 		return WebElementLib.findMyElement("xpath", "//*[@id='root']/div/div/div/header/nav/ul/li[6]/span/span/a");
 	}
 
-//	GLOBAL SEARCH PAGE ELEMENTS
-	public WebElement search_button() {
-		return WebElementLib.findMyElement("xpath", "//*[@id=\"root\"]/div/div/div/main/div/div[1]/form/div[1]/div[5]/button");
-	}
 
-	public WebElement caseNumber_input() {
-		return WebElementLib.findMyElement("xpath", "//*[@id=\"root\"]/div/div/div/main/div/div[1]/form/div[2]/div[1]/div[6]/div[2]/div/div/input");
-	}
-
-	public WebElement rfqNumber_input() {
-		return WebElementLib.findMyElement("xpath", "//*[@id=\"root\"]/div/div/div/main/div/div[1]/form/div[2]/div[1]/div[5]/div[2]/div/div/input");
-	}
-
-	public WebElement table_table() {
-		return WebElementLib.findMyElement("xpath", "//table");
-	}
 
 	/************* PROCESSED CUSTOMER RFQ ***************************/
 	public WebElement customerNumber_input_main() {
@@ -93,8 +84,67 @@ public class PQC_pageObjects {
 	}
 	
 	
+	/*********************     Cases Queue      ************************/
 	
+	public WebElement assignToMe_button_cq() {
+		return WebElementLib.findMyElement("xpath", "//span[normalize-space()='Assign to me']");
+	}
 	
-	
+	public WebElement assignToOthers_button_cq() {
+		return WebElementLib.findMyElement("xpath", "//span[normalize-space()='Assign to others']");
+	}
 
+	/*********************     my open rfq      ************************/
+	public WebElement reassignMyRfq_button_mor() {
+		return WebElementLib.findMyElement("xpath", "//span[normalize-space()='Reassign my RFQs']");
+	}
+	
+	public WebElement cancelSelectedLines_button_mor() {
+		return WebElementLib.findMyElement("xpath", "//span[normalize-space()='Cancel Selected Lines']");
+	}
+	
+	
+	/*********************     MY TRAINING RFQs      ************************/
+	public WebElement reassign_button_mtr() {
+		return WebElementLib.findMyElement("xpath", "//span[normalize-space()='Reassign']");
+	}
+	
+	
+	/*********************     MY ACTIVE QUOTES      ************************/
+	public WebElement maq_statusFilter() {
+		return WebElementLib.findMyElement("xpath", "//div[@class='status-filter']");
+	}
+	
+	public WebElement maq_openFor() {
+		return WebElementLib.findMyElement("xpath", "//div[@class='status-filter no-border']");
+	}
+
+	/************* 	GLOBAL SEARCH PAGE ELEMENTS ***************************/
+	public WebElement gs_showClosed_label() {
+		return WebElementLib.findMyElement("xpath", "//label[normalize-space()='Show Closed']");
+	}
+	
+	public WebElement search_button() {
+		return WebElementLib.findMyElement("xpath", "//*[@id=\"root\"]/div/div/div/main/div/div[1]/form/div[1]/div[5]/button");
+	}
+
+	public WebElement caseNumber_input() {
+		return WebElementLib.findMyElement("xpath", "//*[@id=\"root\"]/div/div/div/main/div/div[1]/form/div[2]/div[1]/div[6]/div[2]/div/div/input");
+	}
+
+	public WebElement rfqNumber_input() {
+		return WebElementLib.findMyElement("xpath", "//*[@id=\"root\"]/div/div/div/main/div/div[1]/form/div[2]/div[1]/div[5]/div[2]/div/div/input");
+	}
+
+	public WebElement table_table() {
+		return WebElementLib.findMyElement("xpath", "//table");
+	}
+	
+	/************* 		CREATE CUSTOMER RFQ		 ********************/
+	public WebElement ccr_deleteAll_button() {
+		return WebElementLib.findMyElement("xpath", "//div[@class='ant-col ant-col-8']//button[2]");
+	}
+	public WebElement ccr_createRfq_button() {
+		return WebElementLib.findMyElement("xpath", "//button[@ant-click-animating-without-extra-node='false']//span[@aria-label='check']//*[name()='svg']");
+	}
 }

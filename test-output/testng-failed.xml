@@ -5,8 +5,8 @@
     <classes>
       <class name="automated.SystemSnapshot">
         <methods>
+          <include name="createCustomerRFQTest"/>
           <include name="setup"/>
-          <include name="loginTest"/>
           <include name="teardown"/>
         </methods>
       </class> <!-- automated.SystemSnapshot -->
