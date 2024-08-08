@@ -2620,3 +2620,43 @@ java.net.SocketException: Connection reset
 2024-08-07 23:54:21 INFO  SystemSnapshot:144 - PASS :: global search
 2024-08-07 23:54:22 INFO  SystemSnapshot:144 - PASS :: create customer rfq
 2024-08-07 23:54:22 INFO  SystemSnapshot:158 - Closing the browser
+2024-08-08 14:35:26 INFO  SystemSnapshot:35 - Initializing the browser
+2024-08-08 14:35:27 INFO  WebDriverManager:1239 - Using chromedriver 127.0.6533.99 (resolved driver for Chrome 127)
+2024-08-08 14:35:27 INFO  WebDriverManager:1301 - Exporting webdriver.chrome.driver as C:\Users\yamah022\.cache\selenium\chromedriver\win64\127.0.6533.99\chromedriver.exe
+2024-08-08 14:35:44 INFO  SystemSnapshot:19 - SUCCESS: PQC Login succesful
+2024-08-08 14:35:44 INFO  SystemSnapshot:144 - PASS :: login test
+2024-08-08 14:35:46 INFO  SystemSnapshot:158 - EXCEPTION :: org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <a href="/CaseQueue">...</a> is not clickable at point (311, 39). Other element would receive the click: <div class="ant-spin ant-spin-spinning">...</div>
+  (Session info: chrome=127.0.6533.90)
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [3eb3b1a4cafa7bf5134d3aa396e9ea84, clickElement {id=f.B1335FB77DC3AA6F31EEB97DFB75F8A5.d.A63AD5265A8775ED5D4857F184E1C5D9.e.30}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 127.0.6533.90, chrome: {chromedriverVersion: 127.0.6533.99 (f31af5097d90..., userDataDir: C:\Users\yamah022\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65290}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65290/devtoo..., se:cdpVersion: 127.0.6533.90, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (3eb3b1a4cafa7bf5134d3aa396e9ea84)] -> xpath: //*[@id='root']/div/div/div/header/nav/ul/li[1]/span/span/a]
+Session ID: 3eb3b1a4cafa7bf5134d3aa396e9ea84
+2024-08-08 14:35:47 INFO  SystemSnapshot:158 - EXCEPTION :: org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <a href="/OpenRFQ">...</a> is not clickable at point (444, 39). Other element would receive the click: <div class="ant-spin ant-spin-spinning">...</div>
+  (Session info: chrome=127.0.6533.90)
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [3eb3b1a4cafa7bf5134d3aa396e9ea84, clickElement {id=f.B1335FB77DC3AA6F31EEB97DFB75F8A5.d.A63AD5265A8775ED5D4857F184E1C5D9.e.31}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 127.0.6533.90, chrome: {chromedriverVersion: 127.0.6533.99 (f31af5097d90..., userDataDir: C:\Users\yamah022\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65290}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65290/devtoo..., se:cdpVersion: 127.0.6533.90, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (3eb3b1a4cafa7bf5134d3aa396e9ea84)] -> xpath: //*[@id='root']/div/div/div/header/nav/ul/li[2]/span/span/a]
+Session ID: 3eb3b1a4cafa7bf5134d3aa396e9ea84
+2024-08-08 14:35:50 INFO  SystemSnapshot:144 - PASS :: my training rfq
+2024-08-08 14:35:54 INFO  SystemSnapshot:144 - PASS :: my active quotes
+2024-08-08 14:36:00 INFO  SystemSnapshot:144 - PASS :: global search
+2024-08-08 14:36:01 INFO  SystemSnapshot:144 - PASS :: create customer rfq
+2024-08-08 14:36:01 INFO  SystemSnapshot:158 - Closing the browser
+2024-08-08 14:38:53 INFO  SystemSnapshot:35 - Initializing the browser
+2024-08-08 14:38:53 INFO  WebDriverManager:1239 - Using chromedriver 127.0.6533.99 (resolved driver for Chrome 127)
+2024-08-08 14:38:53 INFO  WebDriverManager:1301 - Exporting webdriver.chrome.driver as C:\Users\yamah022\.cache\selenium\chromedriver\win64\127.0.6533.99\chromedriver.exe
+2024-08-08 14:39:06 INFO  SystemSnapshot:19 - SUCCESS: PQC Login succesful
+2024-08-08 14:39:06 INFO  SystemSnapshot:144 - PASS :: login test
+2024-08-08 14:39:07 INFO  SystemSnapshot:144 - PASS :: case queue
+2024-08-08 14:39:12 INFO  SystemSnapshot:144 - PASS :: my open rfq
+2024-08-08 14:39:16 INFO  SystemSnapshot:144 - PASS :: my training rfq
+2024-08-08 14:39:19 INFO  SystemSnapshot:144 - PASS :: my active quotes
+2024-08-08 14:39:22 INFO  SystemSnapshot:144 - PASS :: global search
+2024-08-08 14:39:23 INFO  SystemSnapshot:144 - PASS :: create customer rfq
+2024-08-08 14:39:23 INFO  SystemSnapshot:158 - Closing the browser

@@ -16,10 +16,10 @@ public class SendEmails {
 //	Default values	
 	String username_yaman = "yaman.maharjan@javra.com";
 	String password_yaman = "Maharjan15772";
-	
+
 	String username_test = "javra.proponent@outlook.com";
 	String password_test = "QUx*$WRfhg2j62";
-	
+
 //	EMAIL VARIABLES
 	String to_esbox = "support@f9ya21ztyjdgxkc2qww8ub2mztcoxgpplv2c4lijqzc1dgvac.8m-mifuae.cs225.case.sandbox.salesforce.com";
 	String to_sandy = "support@1ldrexti4r7nerq9kguybppid0t01nldqok5u0sa6cfwyl84pk.8h-4i4uuaa.cs220.case.sandbox.salesforce.com";
@@ -37,8 +37,8 @@ public class SendEmails {
 	String message = "quote from the attachment";
 
 	/*
-	 * CHOOSE SalesForce environment String salesforce = to_esbox;
-	 * String salesforce = to_sandy;
+	 * CHOOSE SalesForce environment String salesforce = to_esbox; String salesforce
+	 * = to_sandy;
 	 */
 //	salesforce setup
 	String salesforce = to_esbox;
@@ -49,7 +49,8 @@ public class SendEmails {
 //		sendILS(username_yaman, password_yaman, salesforce);
 //		sendPortal(username_yaman, password_yaman, salesforce);
 
-		sendRfq(username_yaman, password_yaman, salesforce, "rfq");
+		sendRfqAttachmentsEmails(username_yaman, password_yaman, salesforce, "rfq");
+//		sendRfq(username_yaman, password_yaman, salesforce, "rfq");
 //		sendRfq(username_test, password_test, salesforce, "chainEmails"ss);
 //		sendRfqAttachments(username_yaman, password_yaman, salesforce);
 //		sendPurchaseOrder(username_test, password_test, salesforce);
@@ -57,8 +58,23 @@ public class SendEmails {
 //		sendReferral(username_yaman, password_yaman, salesforce);
 
 	}
-	
-	
+
+	public void sendRfqAttachmentsEmails(String username, String password, String salesforce, String sheet) {
+		String sheetname = sheet;
+		int count = ExcelRead.getRowCount(sheetname);
+		for (int i = 1; i <= count; i++) {
+//			String file_name = ExcelRead.getData(i, 0, "rfqAttachment");
+//			String file_directory = ExcelRead.getData(1, 1, "rfqAttachment");
+			String subject = ExcelRead.getData(i, 0, sheetname);
+			String description = ExcelRead.getData(i, 1, sheetname);
+			String attachment = ExcelRead.getData(i, 2, sheetname);
+			System.out.println(i);
+			System.out.println(attachment);
+			SuperEmail.sendEmailWithFileAttachment(username, password, salesforce, subject, description, attachment);
+//			break;
+		}
+	}
+
 	public void sendRfq(String username, String password, String salesforce, String sheet) throws Exception {
 		String sheetname = sheet;
 		int count = ExcelRead.getRowCount(sheetname);
@@ -72,7 +88,6 @@ public class SendEmails {
 //			break;
 		}
 	}
-
 
 	public void sendProcart(String username, String password, String salesforce) throws Exception {
 
@@ -116,7 +131,6 @@ public class SendEmails {
 		}
 	}
 
-
 	public void sendRfqAttachments(String username, String password, String salesforce) {
 		// send RFQ emails with attachment
 		int count = ExcelRead.getRowCount("rfqAttachment");
@@ -154,8 +168,6 @@ public class SendEmails {
 
 		}
 	}
-
-	
 
 	public void sendOrderStatus(String username, String password, String salesforce) throws Exception {
 		int count = ExcelRead.getRowCount("orderStatus");

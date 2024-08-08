@@ -2,44 +2,44 @@
 <testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-08-07T23:53:58 NPT" name="Default suite" finished-at="2024-08-07T23:54:22 NPT" duration-ms="24018">
+  <suite started-at="2024-08-08T14:38:52 NPT" name="Default suite" finished-at="2024-08-08T14:39:23 NPT" duration-ms="31422">
     <groups>
     </groups>
-    <test started-at="2024-08-07T23:53:58 NPT" name="Default test" finished-at="2024-08-07T23:54:22 NPT" duration-ms="24018">
+    <test started-at="2024-08-08T14:38:52 NPT" name="Default test" finished-at="2024-08-08T14:39:23 NPT" duration-ms="31422">
       <class name="automated.SystemSnapshot">
-        <test-method is-config="true" signature="setup()[pri:0, instance:automated.SystemSnapshot@72d1ad2e]" started-at="2024-08-07T23:53:58 NPT" name="setup" finished-at="2024-08-07T23:54:01 NPT" duration-ms="2774" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:automated.SystemSnapshot@72d1ad2e]" started-at="2024-08-08T14:38:52 NPT" name="setup" finished-at="2024-08-08T14:38:55 NPT" duration-ms="3171" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="loginTest()[pri:1, instance:automated.SystemSnapshot@72d1ad2e]" started-at="2024-08-07T23:54:01 NPT" name="loginTest" finished-at="2024-08-07T23:54:12 NPT" duration-ms="11355" status="PASS">
+        <test-method signature="loginTest()[pri:1, instance:automated.SystemSnapshot@72d1ad2e]" started-at="2024-08-08T14:38:55 NPT" name="loginTest" finished-at="2024-08-08T14:39:06 NPT" duration-ms="11237" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest -->
-        <test-method signature="casesQueueTest()[pri:2, instance:automated.SystemSnapshot@72d1ad2e]" started-at="2024-08-07T23:54:12 NPT" name="casesQueueTest" finished-at="2024-08-07T23:54:12 NPT" duration-ms="376" status="PASS">
+        <test-method signature="casesQueueTest()[pri:2, instance:automated.SystemSnapshot@72d1ad2e]" started-at="2024-08-08T14:39:06 NPT" name="casesQueueTest" finished-at="2024-08-08T14:39:07 NPT" duration-ms="436" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- casesQueueTest -->
-        <test-method signature="myOpenRfqTest()[pri:3, instance:automated.SystemSnapshot@72d1ad2e]" started-at="2024-08-07T23:54:12 NPT" name="myOpenRfqTest" finished-at="2024-08-07T23:54:15 NPT" duration-ms="2493" status="PASS">
+        <test-method signature="myOpenRfqTest()[pri:3, instance:automated.SystemSnapshot@72d1ad2e]" started-at="2024-08-08T14:39:07 NPT" name="myOpenRfqTest" finished-at="2024-08-08T14:39:12 NPT" duration-ms="5124" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- myOpenRfqTest -->
-        <test-method signature="myTrainingRfqTest()[pri:4, instance:automated.SystemSnapshot@72d1ad2e]" started-at="2024-08-07T23:54:15 NPT" name="myTrainingRfqTest" finished-at="2024-08-07T23:54:17 NPT" duration-ms="2014" status="PASS">
+        <test-method signature="myTrainingRfqTest()[pri:4, instance:automated.SystemSnapshot@72d1ad2e]" started-at="2024-08-08T14:39:12 NPT" name="myTrainingRfqTest" finished-at="2024-08-08T14:39:16 NPT" duration-ms="4227" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- myTrainingRfqTest -->
-        <test-method signature="myActiveQuotesTest()[pri:5, instance:automated.SystemSnapshot@72d1ad2e]" started-at="2024-08-07T23:54:17 NPT" name="myActiveQuotesTest" finished-at="2024-08-07T23:54:20 NPT" duration-ms="2636" status="PASS">
+        <test-method signature="myActiveQuotesTest()[pri:5, instance:automated.SystemSnapshot@72d1ad2e]" started-at="2024-08-08T14:39:16 NPT" name="myActiveQuotesTest" finished-at="2024-08-08T14:39:19 NPT" duration-ms="2638" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- myActiveQuotesTest -->
-        <test-method signature="globalSearchTest()[pri:6, instance:automated.SystemSnapshot@72d1ad2e]" started-at="2024-08-07T23:54:20 NPT" name="globalSearchTest" finished-at="2024-08-07T23:54:21 NPT" duration-ms="991" status="PASS">
+        <test-method signature="globalSearchTest()[pri:6, instance:automated.SystemSnapshot@72d1ad2e]" started-at="2024-08-08T14:39:19 NPT" name="globalSearchTest" finished-at="2024-08-08T14:39:22 NPT" duration-ms="3168" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- globalSearchTest -->
-        <test-method signature="createCustomerRFQTest()[pri:7, instance:automated.SystemSnapshot@72d1ad2e]" started-at="2024-08-07T23:54:21 NPT" name="createCustomerRFQTest" finished-at="2024-08-07T23:54:22 NPT" duration-ms="955" status="PASS">
+        <test-method signature="createCustomerRFQTest()[pri:7, instance:automated.SystemSnapshot@72d1ad2e]" started-at="2024-08-08T14:39:22 NPT" name="createCustomerRFQTest" finished-at="2024-08-08T14:39:23 NPT" duration-ms="1045" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createCustomerRFQTest -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:automated.SystemSnapshot@72d1ad2e]" started-at="2024-08-07T23:54:22 NPT" name="teardown" finished-at="2024-08-07T23:54:22 NPT" duration-ms="379" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:automated.SystemSnapshot@72d1ad2e]" started-at="2024-08-08T14:39:23 NPT" name="teardown" finished-at="2024-08-08T14:39:23 NPT" duration-ms="329" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
