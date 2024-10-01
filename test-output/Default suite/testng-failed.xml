@@ -5,8 +5,12 @@
     <classes>
       <class name="automated.SystemSnapshot">
         <methods>
+          <include name="loginTest_PQS"/>
           <include name="myOpenRfqTest"/>
           <include name="casesQueueTest"/>
+          <include name="test_click_BIreport"/>
+          <include name="myTrainingRfqTest"/>
+          <include name="test_click_createSupplierRfq"/>
           <include name="setup"/>
           <include name="teardown"/>
         </methods>

@@ -2660,3 +2660,1393 @@ Session ID: 3eb3b1a4cafa7bf5134d3aa396e9ea84
 2024-08-08 14:39:22 INFO  SystemSnapshot:144 - PASS :: global search
 2024-08-08 14:39:23 INFO  SystemSnapshot:144 - PASS :: create customer rfq
 2024-08-08 14:39:23 INFO  SystemSnapshot:158 - Closing the browser
+2024-08-08 14:44:10 INFO  UtilBase:165 - ###########################################################
+2024-08-08 14:44:10 INFO  UtilBase:166 - Start :: @Beforesuite, Initailizing the browser
+2024-08-08 14:44:11 INFO  WebDriverManager:1239 - Using chromedriver 127.0.6533.99 (resolved driver for Chrome 127)
+2024-08-08 14:44:11 INFO  WebDriverManager:1301 - Exporting webdriver.chrome.driver as C:\Users\yamah022\.cache\selenium\chromedriver\win64\127.0.6533.99\chromedriver.exe
+2024-08-08 14:44:13 INFO  LoginTest_SQ:31 - Start :: Login Test 
+2024-08-08 14:44:23 INFO  LoginTest_SQ:144 - PASS :: Login Test
+2024-08-08 14:44:23 INFO  LoginTest_SQ:66 - END :: Login Test 
+2024-08-08 14:44:23 INFO  SQmonitoring:29 - start :: SQmonitoring
+2024-08-08 14:44:50 INFO  SQmonitoring:67 - Exception Occured ::java.lang.NullPointerException: Cannot invoke "java.util.List.size()" because "pageList" is null
+2024-08-08 14:45:19 ERROR SQmonitoring:110 - Exception caught :: java.lang.NullPointerException: Cannot invoke "java.util.List.size()" because "pageList" is null
+2024-08-08 14:45:19 INFO  SQmonitoring:162 - END :: SQmonitoring
+2024-08-08 14:45:19 INFO  UtilBase:181 - @Aftersuite, Closing the browser
+2024-08-08 14:45:19 INFO  UtilBase:182 - ###########################################################
+2024-08-08 14:45:53 INFO  UtilBase:165 - ###########################################################
+2024-08-08 14:45:53 INFO  UtilBase:166 - Start :: @Beforesuite, Initailizing the browser
+2024-08-08 14:45:54 INFO  WebDriverManager:1239 - Using chromedriver 127.0.6533.99 (resolved driver for Chrome 127)
+2024-08-08 14:45:54 INFO  WebDriverManager:1301 - Exporting webdriver.chrome.driver as C:\Users\yamah022\.cache\selenium\chromedriver\win64\127.0.6533.99\chromedriver.exe
+2024-08-08 14:45:55 INFO  LoginTest_SQ:31 - Start :: Login Test 
+2024-08-08 14:46:03 INFO  LoginTest_SQ:144 - PASS :: Login Test
+2024-08-08 14:46:03 INFO  LoginTest_SQ:66 - END :: Login Test 
+2024-08-08 14:46:03 INFO  SQmonitoring:29 - start :: SQmonitoring
+2024-08-08 14:46:15 INFO  SQmonitoring:36 - Title :: 
+2024-08-08 14:46:15 INFO  SQmonitoring:51 - Last Page :: 34
+2024-08-08 14:46:15 INFO  SQmonitoring:120 - Page no :: 1
+2024-08-08 14:46:15 INFO  SQmonitoring:145 - Rowcount :: 20, ColCount :: 5
+2024-08-08 14:47:37 INFO  UtilBase:165 - ###########################################################
+2024-08-08 14:47:37 INFO  UtilBase:166 - Start :: @Beforesuite, Initailizing the browser
+2024-08-08 14:47:38 INFO  WebDriverManager:1239 - Using chromedriver 127.0.6533.99 (resolved driver for Chrome 127)
+2024-08-08 14:47:38 INFO  WebDriverManager:1301 - Exporting webdriver.chrome.driver as C:\Users\yamah022\.cache\selenium\chromedriver\win64\127.0.6533.99\chromedriver.exe
+2024-08-08 14:47:40 INFO  LoginTest_SQ:31 - Start :: Login Test 
+2024-08-08 14:47:47 INFO  LoginTest_SQ:144 - PASS :: Login Test
+2024-08-08 14:47:47 INFO  LoginTest_SQ:66 - END :: Login Test 
+2024-08-08 14:47:47 INFO  SQmonitoring:29 - start :: SQmonitoring
+2024-08-08 14:47:59 INFO  SQmonitoring:36 - Title :: 
+2024-08-08 14:47:59 INFO  SQmonitoring:51 - Last Page :: 34
+2024-08-08 14:47:59 INFO  SQmonitoring:120 - Page no :: 1
+2024-08-08 14:47:59 INFO  SQmonitoring:145 - Rowcount :: 20, ColCount :: 5
+2024-08-08 14:50:16 INFO  UtilBase:165 - ###########################################################
+2024-08-08 14:50:16 INFO  UtilBase:166 - Start :: @Beforesuite, Initailizing the browser
+2024-08-08 14:50:17 INFO  WebDriverManager:1239 - Using chromedriver 127.0.6533.99 (resolved driver for Chrome 127)
+2024-08-08 14:50:17 INFO  WebDriverManager:1301 - Exporting webdriver.chrome.driver as C:\Users\yamah022\.cache\selenium\chromedriver\win64\127.0.6533.99\chromedriver.exe
+2024-08-08 14:50:20 INFO  LoginTest_SQ:31 - Start :: Login Test 
+2024-08-08 14:50:26 INFO  LoginTest_SQ:144 - PASS :: Login Test
+2024-08-08 14:50:26 INFO  LoginTest_SQ:66 - END :: Login Test 
+2024-08-08 14:50:26 INFO  SQmonitoring:29 - start :: SQmonitoring
+2024-08-08 14:50:38 INFO  SQmonitoring:36 - Title :: 
+2024-08-08 14:50:38 INFO  SQmonitoring:51 - Last Page :: 34
+2024-08-08 14:50:38 INFO  SQmonitoring:120 - Page no :: 1
+2024-08-08 14:50:38 INFO  SQmonitoring:145 - Rowcount :: 20, ColCount :: 5
+2024-08-08 14:52:01 INFO  UtilBase:165 - ###########################################################
+2024-08-08 14:52:01 INFO  UtilBase:166 - Start :: @Beforesuite, Initailizing the browser
+2024-08-08 14:52:01 INFO  WebDriverManager:1239 - Using chromedriver 127.0.6533.99 (resolved driver for Chrome 127)
+2024-08-08 14:52:01 INFO  WebDriverManager:1301 - Exporting webdriver.chrome.driver as C:\Users\yamah022\.cache\selenium\chromedriver\win64\127.0.6533.99\chromedriver.exe
+2024-08-08 14:52:03 INFO  LoginTest_SQ:31 - Start :: Login Test 
+2024-08-08 14:52:14 INFO  LoginTest_SQ:144 - PASS :: Login Test
+2024-08-08 14:52:14 INFO  LoginTest_SQ:66 - END :: Login Test 
+2024-08-08 14:52:14 INFO  SQmonitoring:28 - start :: SQmonitoring
+2024-08-08 14:52:26 INFO  SQmonitoring:36 - Title :: Next Page
+2024-08-08 14:52:26 INFO  SQmonitoring:42 - Total Pages :: 1
+2024-08-08 14:52:26 INFO  SQmonitoring:50 - Last Page :: 1
+2024-08-08 14:52:26 INFO  SQmonitoring:120 - Page no :: 1
+2024-08-08 14:52:26 INFO  SQmonitoring:145 - Rowcount :: 5, ColCount :: 5
+2024-08-08 14:53:09 INFO  SQmonitoring:156 - [630812, 2024/08/08 06:59:21 AM, RFQ, Yes, RECEIVED]
+2024-08-08 14:54:36 INFO  UtilBase:165 - ###########################################################
+2024-08-08 14:54:36 INFO  UtilBase:166 - Start :: @Beforesuite, Initailizing the browser
+2024-08-08 14:54:38 INFO  WebDriverManager:1239 - Using chromedriver 127.0.6533.99 (resolved driver for Chrome 127)
+2024-08-08 14:54:38 INFO  WebDriverManager:1301 - Exporting webdriver.chrome.driver as C:\Users\yamah022\.cache\selenium\chromedriver\win64\127.0.6533.99\chromedriver.exe
+2024-08-08 14:54:41 INFO  LoginTest_SQ:31 - Start :: Login Test 
+2024-08-08 14:54:52 INFO  LoginTest_SQ:144 - PASS :: Login Test
+2024-08-08 14:54:52 INFO  LoginTest_SQ:66 - END :: Login Test 
+2024-08-08 14:54:52 INFO  SQmonitoring:28 - start :: SQmonitoring
+2024-08-08 14:55:05 INFO  SQmonitoring:36 - Title :: Next Page
+2024-08-08 14:55:05 INFO  SQmonitoring:42 - Total Pages :: 1
+2024-08-08 14:55:05 INFO  SQmonitoring:50 - Last Page :: 1
+2024-08-08 14:55:05 INFO  SQmonitoring:120 - Page no :: 1
+2024-08-08 14:55:05 INFO  SQmonitoring:145 - Rowcount :: 5, ColCount :: 5
+2024-08-08 14:57:37 INFO  SQmonitoring:156 - [629998, 2024/08/02 06:03:38 AM, RFQ, Yes, RECEIVED]
+2024-08-08 15:00:08 INFO  SQmonitoring:156 - [629997, 2024/08/02 05:59:54 AM, RFQ, Yes, RECEIVED]
+2024-08-08 15:02:39 INFO  SQmonitoring:156 - [629996, 2024/08/02 04:48:02 AM, RFQ, Yes, RECEIVED]
+2024-08-08 15:03:56 INFO  UtilBase:165 - ###########################################################
+2024-08-08 15:03:56 INFO  UtilBase:166 - Start :: @Beforesuite, Initailizing the browser
+2024-08-08 15:03:57 INFO  WebDriverManager:1239 - Using chromedriver 127.0.6533.99 (resolved driver for Chrome 127)
+2024-08-08 15:03:57 INFO  WebDriverManager:1301 - Exporting webdriver.chrome.driver as C:\Users\yamah022\.cache\selenium\chromedriver\win64\127.0.6533.99\chromedriver.exe
+2024-08-08 15:04:00 INFO  LoginTest_SQ:31 - Start :: Login Test 
+2024-08-08 15:04:11 INFO  LoginTest_SQ:144 - PASS :: Login Test
+2024-08-08 15:04:11 INFO  LoginTest_SQ:66 - END :: Login Test 
+2024-08-08 15:04:11 INFO  SQmonitoring:28 - start :: SQmonitoring
+2024-08-08 15:04:24 INFO  SQmonitoring:36 - Title :: Next Page
+2024-08-08 15:04:24 INFO  SQmonitoring:42 - Total Pages :: 1
+2024-08-08 15:04:24 INFO  SQmonitoring:50 - Last Page :: 1
+2024-08-08 15:04:24 INFO  SQmonitoring:120 - Page no :: 1
+2024-08-08 15:05:05 INFO  SQmonitoring:145 - Rowcount :: 5, ColCount :: 5
+2024-08-08 15:05:11 INFO  SQmonitoring:156 - [629995, 2024/08/02 04:36:40 AM, RFQ, Yes, RECEIVED]
+2024-08-08 15:06:09 INFO  UtilBase:165 - ###########################################################
+2024-08-08 15:06:09 INFO  UtilBase:166 - Start :: @Beforesuite, Initailizing the browser
+2024-08-08 15:06:11 INFO  WebDriverManager:1239 - Using chromedriver 127.0.6533.99 (resolved driver for Chrome 127)
+2024-08-08 15:06:11 INFO  WebDriverManager:1301 - Exporting webdriver.chrome.driver as C:\Users\yamah022\.cache\selenium\chromedriver\win64\127.0.6533.99\chromedriver.exe
+2024-08-08 15:06:26 INFO  UtilBase:165 - ###########################################################
+2024-08-08 15:06:26 INFO  UtilBase:166 - Start :: @Beforesuite, Initailizing the browser
+2024-08-08 15:06:27 INFO  WebDriverManager:1239 - Using chromedriver 127.0.6533.99 (resolved driver for Chrome 127)
+2024-08-08 15:06:28 INFO  WebDriverManager:1301 - Exporting webdriver.chrome.driver as C:\Users\yamah022\.cache\selenium\chromedriver\win64\127.0.6533.99\chromedriver.exe
+2024-08-08 15:06:31 INFO  SQmonitoring:28 - start :: SQmonitoring
+2024-08-08 15:06:46 INFO  SQmonitoring:67 - Exception Occured ::java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebElement.click()" because the return value of "pageObjects.SQ_pageObjects.messages_link()" is null
+2024-08-08 15:07:01 ERROR SQmonitoring:110 - Exception caught :: java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebElement.click()" because the return value of "pageObjects.SQ_pageObjects.caseEmails_link()" is null
+2024-08-08 15:07:01 INFO  SQmonitoring:162 - END :: SQmonitoring
+2024-08-08 15:07:01 INFO  UtilBase:181 - @Aftersuite, Closing the browser
+2024-08-08 15:07:01 INFO  UtilBase:182 - ###########################################################
+2024-08-08 15:07:16 INFO  SQmonitoring:135 - org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [00f953091a6cad9919a0fc414da425bb, getElementText {id=f.DCDB03A1AD46BA95A99E2F1A12BE12EC.d.2F1DA66DC28638224EA9B5155054A138.e.97}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 127.0.6533.90, chrome: {chromedriverVersion: 127.0.6533.99 (f31af5097d90..., userDataDir: C:\Users\yamah022\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51330}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51330/devtoo..., se:cdpVersion: 127.0.6533.90, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[[[[[ChromeDriver: chrome on windows (00f953091a6cad9919a0fc414da425bb)] -> xpath: //div[@class='ant-table-body']/table]] -> tag name: tr]] -> xpath: ./*]
+Session ID: 00f953091a6cad9919a0fc414da425bb
+2024-08-08 15:07:16 INFO  SQmonitoring:54 - /*-----------------------------------------------------------------
+2024-08-08 15:07:16 INFO  SQmonitoring:55 - Total Cases 	:: 0
+2024-08-08 15:07:16 INFO  SQmonitoring:56 - NEW  			:: 0
+2024-08-08 15:07:16 INFO  SQmonitoring:57 - RECEIVED  		:: 0
+2024-08-08 15:07:16 INFO  SQmonitoring:58 - PROCESSING  	:: 0
+2024-08-08 15:07:16 INFO  SQmonitoring:59 - DUPLICATE 		:: 0
+2024-08-08 15:07:16 INFO  SQmonitoring:60 - IGNORED 		:: 0
+2024-08-08 15:07:16 INFO  SQmonitoring:61 - FAILED 		:: 0
+2024-08-08 15:07:16 INFO  SQmonitoring:62 - NOT_IDENTIFIED :: 0
+2024-08-08 15:07:16 INFO  SQmonitoring:64 - /*-----------------------------------------------------------------
+2024-08-08 15:07:16 ERROR SQmonitoring:110 - Exception caught :: java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebElement.click()" because the return value of "pageObjects.SQ_pageObjects.caseEmails_link()" is null
+2024-08-08 15:07:16 INFO  SQmonitoring:162 - END :: SQmonitoring
+2024-08-08 15:07:16 INFO  UtilBase:181 - @Aftersuite, Closing the browser
+2024-08-08 15:07:16 INFO  UtilBase:182 - ###########################################################
+2024-08-08 15:07:24 INFO  UtilBase:165 - ###########################################################
+2024-08-08 15:07:24 INFO  UtilBase:166 - Start :: @Beforesuite, Initailizing the browser
+2024-08-08 15:07:25 INFO  WebDriverManager:1239 - Using chromedriver 127.0.6533.99 (resolved driver for Chrome 127)
+2024-08-08 15:07:25 INFO  WebDriverManager:1301 - Exporting webdriver.chrome.driver as C:\Users\yamah022\.cache\selenium\chromedriver\win64\127.0.6533.99\chromedriver.exe
+2024-08-08 15:07:28 INFO  LoginTest_SQ:31 - Start :: Login Test 
+2024-08-08 15:07:39 INFO  LoginTest_SQ:144 - PASS :: Login Test
+2024-08-08 15:07:39 INFO  LoginTest_SQ:66 - END :: Login Test 
+2024-08-08 15:07:39 INFO  SQmonitoring:28 - start :: SQmonitoring
+2024-08-08 15:07:52 INFO  SQmonitoring:36 - Title :: Next Page
+2024-08-08 15:07:52 INFO  SQmonitoring:42 - Total Pages :: 1
+2024-08-08 15:07:52 INFO  SQmonitoring:50 - Last Page :: 1
+2024-08-08 15:08:14 INFO  SQmonitoring:120 - Page no :: 1
+2024-08-08 15:08:23 INFO  SQmonitoring:145 - Rowcount :: 5, ColCount :: 5
+2024-08-08 17:35:02 INFO  SystemSnapshot:35 - Initializing the browser
+2024-08-08 17:35:03 INFO  WebDriverManager:1239 - Using chromedriver 127.0.6533.99 (resolved driver for Chrome 127)
+2024-08-08 17:35:03 INFO  WebDriverManager:1301 - Exporting webdriver.chrome.driver as C:\Users\yamah022\.cache\selenium\chromedriver\win64\127.0.6533.99\chromedriver.exe
+2024-08-08 17:35:26 INFO  SystemSnapshot:19 - SUCCESS: PQC Login succesful
+2024-08-08 17:35:26 INFO  SystemSnapshot:144 - PASS :: login test
+2024-08-08 17:35:28 INFO  SystemSnapshot:144 - PASS :: case queue
+2024-08-08 17:35:33 INFO  SystemSnapshot:144 - PASS :: my open rfq
+2024-08-08 17:35:37 INFO  SystemSnapshot:144 - PASS :: my training rfq
+2024-08-08 17:35:39 INFO  SystemSnapshot:144 - PASS :: my active quotes
+2024-08-08 17:35:43 INFO  SystemSnapshot:144 - PASS :: global search
+2024-08-08 17:35:44 INFO  SystemSnapshot:144 - PASS :: create customer rfq
+2024-08-08 17:35:44 INFO  SystemSnapshot:158 - Closing the browser
+2024-08-08 19:23:43 INFO  SystemSnapshot:36 - Initializing the browser
+2024-08-08 19:23:44 INFO  WebDriverManager:1239 - Using chromedriver 127.0.6533.99 (resolved driver for Chrome 127)
+2024-08-08 19:23:44 INFO  WebDriverManager:1301 - Exporting webdriver.chrome.driver as C:\Users\yamah022\.cache\selenium\chromedriver\win64\127.0.6533.99\chromedriver.exe
+2024-08-08 19:24:31 INFO  SystemSnapshot:158 - EXCEPTION :: org.openqa.selenium.WebDriverException: unknown error: net::ERR_CONNECTION_TIMED_OUT
+  (Session info: chrome=127.0.6533.90)
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [fd14dd0f47660d0c4576b64253cf9ad0, get {url=http://yamah022:1@work@10.0.1.62:80}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 127.0.6533.90, chrome: {chromedriverVersion: 127.0.6533.99 (f31af5097d90..., userDataDir: C:\Users\yamah022\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51516}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51516/devtoo..., se:cdpVersion: 127.0.6533.90, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: fd14dd0f47660d0c4576b64253cf9ad0
+2024-08-08 19:24:41 INFO  SystemSnapshot:158 - EXCEPTION :: java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebElement.click()" because "element" is null
+2024-08-08 19:24:52 INFO  SystemSnapshot:158 - EXCEPTION :: java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebElement.click()" because "element" is null
+2024-08-08 19:25:02 INFO  SystemSnapshot:158 - EXCEPTION :: java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebElement.click()" because "element" is null
+2024-08-08 19:25:14 INFO  SystemSnapshot:36 - Initializing the browser
+2024-08-08 19:25:15 INFO  WebDriverManager:1239 - Using chromedriver 127.0.6533.99 (resolved driver for Chrome 127)
+2024-08-08 19:25:15 INFO  WebDriverManager:1301 - Exporting webdriver.chrome.driver as C:\Users\yamah022\.cache\selenium\chromedriver\win64\127.0.6533.99\chromedriver.exe
+2024-08-08 19:25:48 INFO  SystemSnapshot:26 - SUCCESS: PQC Login succesful
+2024-08-08 19:25:48 INFO  SystemSnapshot:144 - PASS :: login test
+2024-08-08 19:25:49 INFO  SystemSnapshot:144 - PASS :: case queue
+2024-08-08 19:25:53 INFO  SystemSnapshot:144 - PASS :: my open rfq
+2024-08-08 19:25:55 INFO  SystemSnapshot:144 - PASS :: my training rfq
+2024-08-08 19:25:58 INFO  SystemSnapshot:144 - PASS :: my active quotes
+2024-08-08 19:25:59 INFO  SystemSnapshot:144 - PASS :: global search
+2024-08-08 19:26:01 INFO  SystemSnapshot:144 - PASS :: create customer rfq
+2024-08-08 19:26:01 INFO  SystemSnapshot:159 - Closing the browser
+2024-08-08 20:42:12 INFO  SystemSnapshot:41 - Initializing the browser
+2024-08-08 20:42:13 INFO  WebDriverManager:1239 - Using chromedriver 127.0.6533.99 (resolved driver for Chrome 127)
+2024-08-08 20:42:13 INFO  WebDriverManager:1301 - Exporting webdriver.chrome.driver as C:\Users\yamah022\.cache\selenium\chromedriver\win64\127.0.6533.99\chromedriver.exe
+2024-08-08 20:42:42 INFO  SystemSnapshot:26 - SUCCESS: PQC Login succesful
+2024-08-08 20:42:42 INFO  SystemSnapshot:146 - PASS :: login test
+2024-08-08 20:42:44 INFO  SystemSnapshot:160 - EXCEPTION :: org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <a href="/CaseQueue">...</a> is not clickable at point (311, 39). Other element would receive the click: <div class="ant-spin ant-spin-spinning">...</div>
+  (Session info: chrome=127.0.6533.90)
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [dbbc6aaf798b108553f1a2ba12e28a6c, clickElement {id=f.5D825E69E39AF4D5C8198BAE7BBC99B8.d.A1D85BE65ADBE38C2D32C94957FE5389.e.29}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 127.0.6533.90, chrome: {chromedriverVersion: 127.0.6533.99 (f31af5097d90..., userDataDir: C:\Users\yamah022\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53951}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53951/devtoo..., se:cdpVersion: 127.0.6533.90, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (dbbc6aaf798b108553f1a2ba12e28a6c)] -> xpath: //*[@id='root']/div/div/div/header/nav/ul/li[1]/span/span/a]
+Session ID: dbbc6aaf798b108553f1a2ba12e28a6c
+2024-08-08 20:42:45 INFO  SystemSnapshot:160 - EXCEPTION :: org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <a href="/OpenRFQ">...</a> is not clickable at point (444, 39). Other element would receive the click: <div class="ant-spin ant-spin-spinning">...</div>
+  (Session info: chrome=127.0.6533.90)
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [dbbc6aaf798b108553f1a2ba12e28a6c, clickElement {id=f.5D825E69E39AF4D5C8198BAE7BBC99B8.d.A1D85BE65ADBE38C2D32C94957FE5389.e.30}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 127.0.6533.90, chrome: {chromedriverVersion: 127.0.6533.99 (f31af5097d90..., userDataDir: C:\Users\yamah022\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53951}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53951/devtoo..., se:cdpVersion: 127.0.6533.90, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (dbbc6aaf798b108553f1a2ba12e28a6c)] -> xpath: //*[@id='root']/div/div/div/header/nav/ul/li[2]/span/span/a]
+Session ID: dbbc6aaf798b108553f1a2ba12e28a6c
+2024-08-08 20:42:46 INFO  SystemSnapshot:160 - EXCEPTION :: org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <a href="/TrainRFQ">...</a> is not clickable at point (592, 39). Other element would receive the click: <div class="ant-spin ant-spin-spinning">...</div>
+  (Session info: chrome=127.0.6533.90)
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [dbbc6aaf798b108553f1a2ba12e28a6c, clickElement {id=f.5D825E69E39AF4D5C8198BAE7BBC99B8.d.A1D85BE65ADBE38C2D32C94957FE5389.e.31}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 127.0.6533.90, chrome: {chromedriverVersion: 127.0.6533.99 (f31af5097d90..., userDataDir: C:\Users\yamah022\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53951}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53951/devtoo..., se:cdpVersion: 127.0.6533.90, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (dbbc6aaf798b108553f1a2ba12e28a6c)] -> xpath: //*[@id='root']/div/div/div/header/nav/ul/li[3]/span/span/a]
+Session ID: dbbc6aaf798b108553f1a2ba12e28a6c
+2024-08-08 20:42:50 INFO  SystemSnapshot:146 - PASS :: my active quotes
+2024-08-08 20:42:52 INFO  SystemSnapshot:146 - PASS :: global search
+2024-08-08 20:42:53 INFO  SystemSnapshot:146 - PASS :: create customer rfq
+2024-08-08 20:43:14 INFO  SystemSnapshot:31 - WARNING: could not verify login 
+2024-08-08 20:43:15 INFO  SystemSnapshot:153 - FAIL :: PQS login test
+2024-08-08 20:43:15 INFO  SystemSnapshot:146 - PASS :: Open Queue
+2024-08-08 20:43:25 INFO  SystemSnapshot:160 - EXCEPTION :: java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebElement.isDisplayed()" because "element" is null
+2024-08-08 20:43:26 INFO  SystemSnapshot:146 - PASS :: send rfq
+2024-08-08 20:43:29 INFO  SystemSnapshot:146 - PASS :: supplier quote queue
+2024-08-08 20:43:31 INFO  SystemSnapshot:146 - PASS :: search
+2024-08-08 20:43:41 INFO  SystemSnapshot:160 - EXCEPTION :: java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebElement.isDisplayed()" because "element" is null
+2024-08-08 20:43:41 INFO  SystemSnapshot:275 - Closing the browser
+2024-08-08 20:44:57 INFO  SystemSnapshot:41 - Initializing the browser
+2024-08-08 20:44:58 INFO  WebDriverManager:1239 - Using chromedriver 127.0.6533.99 (resolved driver for Chrome 127)
+2024-08-08 20:44:58 INFO  WebDriverManager:1301 - Exporting webdriver.chrome.driver as C:\Users\yamah022\.cache\selenium\chromedriver\win64\127.0.6533.99\chromedriver.exe
+2024-08-08 20:45:11 INFO  SystemSnapshot:26 - SUCCESS: PQC Login succesful
+2024-08-08 20:45:11 INFO  SystemSnapshot:146 - PASS :: login test
+2024-08-08 20:45:12 INFO  SystemSnapshot:160 - EXCEPTION :: org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <a href="/CaseQueue">...</a> is not clickable at point (311, 39). Other element would receive the click: <div class="ant-spin ant-spin-spinning">...</div>
+  (Session info: chrome=127.0.6533.90)
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [fd8da5544ea360fad23e247e88f13eed, clickElement {id=f.84E40D5C4501ACB0E065A1C2B29E3A40.d.1CA4F9103138BFB2B91F1656EDFB29BF.e.127}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 127.0.6533.90, chrome: {chromedriverVersion: 127.0.6533.99 (f31af5097d90..., userDataDir: C:\Users\yamah022\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54005}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54005/devtoo..., se:cdpVersion: 127.0.6533.90, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (fd8da5544ea360fad23e247e88f13eed)] -> xpath: //*[@id='root']/div/div/div/header/nav/ul/li[1]/span/span/a]
+Session ID: fd8da5544ea360fad23e247e88f13eed
+2024-08-08 20:45:15 INFO  SystemSnapshot:146 - PASS :: my open rfq
+2024-08-08 20:45:18 INFO  SystemSnapshot:146 - PASS :: my training rfq
+2024-08-08 20:45:20 INFO  SystemSnapshot:146 - PASS :: my active quotes
+2024-08-08 20:45:20 INFO  SystemSnapshot:146 - PASS :: global search
+2024-08-08 20:45:21 INFO  SystemSnapshot:146 - PASS :: create customer rfq
+2024-08-08 20:45:44 INFO  SystemSnapshot:31 - WARNING: could not verify login 
+2024-08-08 20:45:44 INFO  SystemSnapshot:153 - FAIL :: PQS login test
+2024-08-08 20:45:45 INFO  SystemSnapshot:146 - PASS :: Open Queue
+2024-08-08 20:45:55 INFO  SystemSnapshot:160 - EXCEPTION :: java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebElement.isDisplayed()" because "element" is null
+2024-08-08 20:45:56 INFO  SystemSnapshot:146 - PASS :: send rfq
+2024-08-08 20:45:58 INFO  SystemSnapshot:146 - PASS :: supplier quote queue
+2024-08-08 20:45:59 INFO  SystemSnapshot:146 - PASS :: search
+2024-08-08 20:46:10 INFO  SystemSnapshot:160 - EXCEPTION :: java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebElement.isDisplayed()" because "element" is null
+2024-08-08 20:46:10 INFO  SystemSnapshot:275 - Closing the browser
+2024-08-12 11:01:41 INFO  SQmonitoring:46 - ###########################################################
+2024-08-12 11:01:41 INFO  SQmonitoring:47 - Start :: @Beforesuite, Initailizing the browser
+2024-08-12 11:01:43 INFO  WebDriverManager:1239 - Using chromedriver 127.0.6533.99 (resolved driver for Chrome 127)
+2024-08-12 11:01:43 INFO  WebDriverManager:1301 - Exporting webdriver.chrome.driver as C:\Users\yamah022\.cache\selenium\chromedriver\win64\127.0.6533.99\chromedriver.exe
+2024-08-12 11:01:56 INFO  SQmonitoring:146 - PASS :: Login Test
+2024-08-12 11:02:08 INFO  SQmonitoring:36 - Title :: Next Page
+2024-08-12 11:02:08 INFO  SQmonitoring:42 - Total Pages :: 1
+2024-08-12 11:02:08 INFO  SQmonitoring:118 - Last Page :: 1
+2024-08-12 11:02:08 INFO  SQmonitoring:188 - Page no :: 1
+2024-08-12 11:02:08 INFO  SQmonitoring:213 - Rowcount :: 5, ColCount :: 5
+2024-08-12 11:04:39 INFO  SQmonitoring:224 - [629998, 2024/08/02 06:03:38 AM, RFQ, Yes, RECEIVED]
+2024-08-12 11:07:09 INFO  SQmonitoring:224 - [629997, 2024/08/02 05:59:54 AM, RFQ, Yes, RECEIVED]
+2024-08-12 11:09:31 INFO  SQmonitoring:46 - ###########################################################
+2024-08-12 11:09:31 INFO  SQmonitoring:47 - Start :: @Beforesuite, Initailizing the browser
+2024-08-12 11:09:32 INFO  WebDriverManager:1239 - Using chromedriver 127.0.6533.99 (resolved driver for Chrome 127)
+2024-08-12 11:09:32 INFO  WebDriverManager:1301 - Exporting webdriver.chrome.driver as C:\Users\yamah022\.cache\selenium\chromedriver\win64\127.0.6533.99\chromedriver.exe
+2024-08-12 11:09:44 INFO  SQmonitoring:146 - PASS :: Login Test
+2024-08-12 11:09:56 INFO  SQmonitoring:36 - Title :: Next Page
+2024-08-12 11:09:56 INFO  SQmonitoring:42 - Total Pages :: 1
+2024-08-12 11:09:56 INFO  SQmonitoring:118 - Last Page :: 1
+2024-08-12 11:10:34 INFO  SQmonitoring:188 - Page no :: 1
+2024-08-12 11:10:35 INFO  SQmonitoring:213 - Rowcount :: 5, ColCount :: 5
+2024-08-12 11:12:10 INFO  SQmonitoring:46 - ###########################################################
+2024-08-12 11:12:10 INFO  SQmonitoring:47 - Start :: @Beforesuite, Initailizing the browser
+2024-08-12 11:12:10 INFO  WebDriverManager:1239 - Using chromedriver 127.0.6533.99 (resolved driver for Chrome 127)
+2024-08-12 11:12:10 INFO  WebDriverManager:1301 - Exporting webdriver.chrome.driver as C:\Users\yamah022\.cache\selenium\chromedriver\win64\127.0.6533.99\chromedriver.exe
+2024-08-12 11:12:23 INFO  SQmonitoring:146 - PASS :: Login Test
+2024-08-12 11:12:35 INFO  SQmonitoring:36 - Title :: Next Page
+2024-08-12 11:12:35 INFO  SQmonitoring:42 - Total Pages :: 1
+2024-08-12 11:12:35 INFO  SQmonitoring:118 - Last Page :: 1
+2024-08-12 11:12:35 INFO  SQmonitoring:188 - Page no :: 1
+2024-08-12 11:12:35 INFO  SQmonitoring:213 - Rowcount :: 5, ColCount :: 5
+2024-08-12 11:18:56 INFO  SQmonitoring:46 - ###########################################################
+2024-08-12 11:18:56 INFO  SQmonitoring:47 - Start :: @Beforesuite, Initailizing the browser
+2024-08-12 11:18:57 INFO  WebDriverManager:1239 - Using chromedriver 127.0.6533.99 (resolved driver for Chrome 127)
+2024-08-12 11:18:57 INFO  WebDriverManager:1301 - Exporting webdriver.chrome.driver as C:\Users\yamah022\.cache\selenium\chromedriver\win64\127.0.6533.99\chromedriver.exe
+2024-08-12 11:19:09 INFO  SQmonitoring:145 - PASS :: Login Test
+2024-08-12 11:19:21 INFO  SQmonitoring:36 - Title :: Next Page
+2024-08-12 11:19:21 INFO  SQmonitoring:42 - Total Pages :: 1
+2024-08-12 11:19:21 INFO  SQmonitoring:118 - Last Page :: 1
+2024-08-12 11:19:21 INFO  SQmonitoring:188 - Page no :: 1
+2024-08-12 11:19:21 INFO  SQmonitoring:213 - Rowcount :: 5, ColCount :: 5
+2024-08-12 11:23:24 INFO  SQmonitoring:217 - [629998, 2024/08/02 06:03:38 AM, RFQ, Yes, RECEIVED]
+2024-08-12 11:24:18 INFO  SQmonitoring:225 - [629998, 2024/08/02 06:03:38 AM, RFQ, Yes, RECEIVED]
+2024-08-12 11:24:26 INFO  SQmonitoring:217 - [629997, 2024/08/02 05:59:54 AM, RFQ, Yes, RECEIVED]
+2024-08-12 11:24:46 INFO  SQmonitoring:225 - [629997, 2024/08/02 05:59:54 AM, RFQ, Yes, RECEIVED]
+2024-08-12 11:24:53 INFO  SQmonitoring:217 - [629996, 2024/08/02 04:48:02 AM, RFQ, Yes, RECEIVED]
+2024-08-12 11:24:53 INFO  SQmonitoring:225 - [629996, 2024/08/02 04:48:02 AM, RFQ, Yes, RECEIVED]
+2024-08-12 11:24:54 INFO  SQmonitoring:217 - [629995, 2024/08/02 04:36:40 AM, RFQ, Yes, RECEIVED]
+2024-08-12 11:24:54 INFO  SQmonitoring:225 - [629995, 2024/08/02 04:36:40 AM, RFQ, Yes, RECEIVED]
+2024-08-12 11:24:55 INFO  SQmonitoring:217 - [629994, 2024/08/02 04:12:05 AM, RFQ, Yes, RECEIVED]
+2024-08-12 11:24:55 INFO  SQmonitoring:225 - [629994, 2024/08/02 04:12:05 AM, RFQ, Yes, RECEIVED]
+2024-08-12 11:24:58 INFO  SQmonitoring:122 - /*-----------------------------------------------------------------
+2024-08-12 11:24:58 INFO  SQmonitoring:123 - Total Cases 	:: 5
+2024-08-12 11:24:58 INFO  SQmonitoring:124 - NEW  			:: 0
+2024-08-12 11:24:58 INFO  SQmonitoring:125 - RECEIVED  		:: 5
+2024-08-12 11:24:58 INFO  SQmonitoring:126 - PROCESSING  	:: 0
+2024-08-12 11:24:58 INFO  SQmonitoring:127 - DUPLICATE 		:: 0
+2024-08-12 11:24:58 INFO  SQmonitoring:128 - IGNORED 		:: 0
+2024-08-12 11:24:58 INFO  SQmonitoring:129 - FAILED 		:: 0
+2024-08-12 11:24:58 INFO  SQmonitoring:130 - NOT_IDENTIFIED :: 0
+2024-08-12 11:24:58 INFO  SQmonitoring:132 - /*-----------------------------------------------------------------
+2024-08-12 11:25:15 ERROR SQmonitoring:178 - Exception caught :: java.lang.NullPointerException: Cannot invoke "java.util.List.size()" because "pageList" is null
+2024-08-12 11:25:15 INFO  UtilBase:62 - @Aftersuite, Closing the browser
+2024-08-12 11:25:15 INFO  UtilBase:63 - ###########################################################
+2024-08-12 11:25:45 INFO  SQmonitoring:46 - ###########################################################
+2024-08-12 11:25:45 INFO  SQmonitoring:47 - Start :: @Beforesuite, Initailizing the browser
+2024-08-12 11:25:45 INFO  WebDriverManager:1239 - Using chromedriver 127.0.6533.99 (resolved driver for Chrome 127)
+2024-08-12 11:25:45 INFO  WebDriverManager:1301 - Exporting webdriver.chrome.driver as C:\Users\yamah022\.cache\selenium\chromedriver\win64\127.0.6533.99\chromedriver.exe
+2024-08-12 11:29:50 INFO  SQmonitoring:49 - ###########################################################
+2024-08-12 11:29:50 INFO  SQmonitoring:50 - Start :: @Beforesuite, Initailizing the browser
+2024-08-12 11:29:50 INFO  WebDriverManager:1239 - Using chromedriver 127.0.6533.99 (resolved driver for Chrome 127)
+2024-08-12 11:29:50 INFO  WebDriverManager:1301 - Exporting webdriver.chrome.driver as C:\Users\yamah022\.cache\selenium\chromedriver\win64\127.0.6533.99\chromedriver.exe
+2024-08-12 11:29:58 INFO  SQmonitoring:145 - PASS :: Login Test
+2024-08-12 11:30:10 INFO  SQmonitoring:36 - Title :: 
+2024-08-12 11:30:10 INFO  SQmonitoring:123 - Last Page :: 5
+2024-08-12 11:30:10 INFO  SQmonitoring:189 - Page no :: 1
+2024-08-12 11:30:10 INFO  SQmonitoring:214 - Rowcount :: 20, ColCount :: 5
+2024-08-12 11:30:11 INFO  SQmonitoring:218 - [631222, 2024/08/12 05:07:26 AM, RFQ, Yes, RECEIVED]
+2024-08-12 11:30:11 INFO  SQmonitoring:226 - [631222, 2024/08/12 05:07:26 AM, RFQ, Yes, RECEIVED]
+2024-08-12 11:30:11 INFO  SQmonitoring:218 - [631220, 2024/08/12 05:06:48 AM, RFQ, Yes, RECEIVED]
+2024-08-12 11:30:11 INFO  SQmonitoring:226 - [631220, 2024/08/12 05:06:48 AM, RFQ, Yes, RECEIVED]
+2024-08-12 11:30:12 INFO  SQmonitoring:218 - [631221, 2024/08/12 05:06:48 AM, RFQ, Yes, RECEIVED]
+2024-08-12 11:30:12 INFO  SQmonitoring:226 - [631221, 2024/08/12 05:06:48 AM, RFQ, Yes, RECEIVED]
+2024-08-12 11:30:12 INFO  SQmonitoring:218 - [631219, 2024/08/12 05:06:30 AM, RFQ, Yes, RECEIVED]
+2024-08-12 11:30:12 INFO  SQmonitoring:226 - [631219, 2024/08/12 05:06:30 AM, RFQ, Yes, RECEIVED]
+2024-08-12 11:30:13 INFO  SQmonitoring:218 - [631214, 2024/08/12 05:06:12 AM, Other, Yes, IGNORED]
+2024-08-12 11:30:13 INFO  SQmonitoring:226 - [631214, 2024/08/12 05:06:12 AM, Other, Yes, IGNORED]
+2024-08-12 11:30:13 INFO  SQmonitoring:218 - [631218, 2024/08/12 05:05:58 AM, RFQ, Yes, RECEIVED]
+2024-08-12 11:30:13 INFO  SQmonitoring:226 - [631218, 2024/08/12 05:05:58 AM, RFQ, Yes, RECEIVED]
+2024-08-12 11:30:14 INFO  SQmonitoring:218 - [631217, 2024/08/12 05:05:31 AM, RFQ, Yes, RECEIVED]
+2024-08-12 11:30:14 INFO  SQmonitoring:226 - [631217, 2024/08/12 05:05:31 AM, RFQ, Yes, RECEIVED]
+2024-08-12 11:30:14 INFO  SQmonitoring:218 - [631216, 2024/08/12 05:05:31 AM, Other, Yes, IGNORED]
+2024-08-12 11:30:14 INFO  SQmonitoring:226 - [631216, 2024/08/12 05:05:31 AM, Other, Yes, IGNORED]
+2024-08-12 11:30:14 INFO  SQmonitoring:218 - [631215, 2024/08/12 05:05:19 AM, RFQ, Yes, RECEIVED]
+2024-08-12 11:30:14 INFO  SQmonitoring:226 - [631215, 2024/08/12 05:05:19 AM, RFQ, Yes, RECEIVED]
+2024-08-12 11:30:15 INFO  SQmonitoring:218 - [631213, 2024/08/12 05:05:06 AM, Other, Yes, IGNORED]
+2024-08-12 11:30:15 INFO  SQmonitoring:226 - [631213, 2024/08/12 05:05:06 AM, Other, Yes, IGNORED]
+2024-08-12 11:30:15 INFO  SQmonitoring:218 - [631212, 2024/08/12 05:04:53 AM, RFQ, Yes, RECEIVED]
+2024-08-12 11:30:15 INFO  SQmonitoring:226 - [631212, 2024/08/12 05:04:53 AM, RFQ, Yes, RECEIVED]
+2024-08-12 11:30:15 INFO  SQmonitoring:218 - [631211, 2024/08/12 05:04:37 AM, Other, Yes, IGNORED]
+2024-08-12 11:30:15 INFO  SQmonitoring:226 - [631211, 2024/08/12 05:04:37 AM, Other, Yes, IGNORED]
+2024-08-12 11:30:16 INFO  SQmonitoring:218 - [631210, 2024/08/12 05:04:24 AM, RFQ, Yes, RECEIVED]
+2024-08-12 11:30:16 INFO  SQmonitoring:226 - [631210, 2024/08/12 05:04:24 AM, RFQ, Yes, RECEIVED]
+2024-08-12 11:30:16 INFO  SQmonitoring:218 - [631209, 2024/08/12 05:04:11 AM, RFQ, Yes, RECEIVED]
+2024-08-12 11:30:16 INFO  SQmonitoring:226 - [631209, 2024/08/12 05:04:11 AM, RFQ, Yes, RECEIVED]
+2024-08-12 11:30:17 INFO  SQmonitoring:218 - [631208, 2024/08/12 05:03:58 AM, RFQ, Yes, RECEIVED]
+2024-08-12 11:30:17 INFO  SQmonitoring:226 - [631208, 2024/08/12 05:03:58 AM, RFQ, Yes, RECEIVED]
+2024-08-12 11:30:17 INFO  SQmonitoring:218 - [631207, 2024/08/12 05:03:46 AM, RFQ, Yes, RECEIVED]
+2024-08-12 11:30:17 INFO  SQmonitoring:226 - [631207, 2024/08/12 05:03:46 AM, RFQ, Yes, RECEIVED]
+2024-08-12 11:30:17 INFO  SQmonitoring:218 - [631206, 2024/08/12 05:03:33 AM, RFQ, Yes, RECEIVED]
+2024-08-12 11:30:17 INFO  SQmonitoring:226 - [631206, 2024/08/12 05:03:33 AM, RFQ, Yes, RECEIVED]
+2024-08-12 11:30:18 INFO  SQmonitoring:218 - [631205, 2024/08/12 05:03:20 AM, RFQ, Yes, RECEIVED]
+2024-08-12 11:30:18 INFO  SQmonitoring:226 - [631205, 2024/08/12 05:03:20 AM, RFQ, Yes, RECEIVED]
+2024-08-12 11:30:18 INFO  SQmonitoring:218 - [631204, 2024/08/12 05:03:07 AM, RFQ, Yes, RECEIVED]
+2024-08-12 11:30:18 INFO  SQmonitoring:226 - [631204, 2024/08/12 05:03:07 AM, RFQ, Yes, RECEIVED]
+2024-08-12 11:30:18 INFO  SQmonitoring:218 - [631203, 2024/08/12 05:02:54 AM, Other, Yes, IGNORED]
+2024-08-12 11:30:18 INFO  SQmonitoring:226 - [631203, 2024/08/12 05:02:54 AM, Other, Yes, IGNORED]
+2024-08-12 11:30:22 INFO  SQmonitoring:189 - Page no :: 2
+2024-08-12 11:30:22 INFO  SQmonitoring:214 - Rowcount :: 20, ColCount :: 5
+2024-08-12 11:30:22 INFO  SQmonitoring:218 - [631201, 2024/08/12 05:02:41 AM, RFQ, Yes, RECEIVED]
+2024-08-12 11:30:22 INFO  SQmonitoring:226 - [631201, 2024/08/12 05:02:41 AM, RFQ, Yes, RECEIVED]
+2024-08-12 11:30:22 INFO  SQmonitoring:218 - [631202, 2024/08/12 05:02:28 AM, RFQ, Yes, RECEIVED]
+2024-08-12 11:30:22 INFO  SQmonitoring:226 - [631202, 2024/08/12 05:02:28 AM, RFQ, Yes, RECEIVED]
+2024-08-12 11:30:23 INFO  SQmonitoring:218 - [631200, 2024/08/12 05:02:15 AM, RFQ, Yes, RECEIVED]
+2024-08-12 11:30:23 INFO  SQmonitoring:226 - [631200, 2024/08/12 05:02:15 AM, RFQ, Yes, RECEIVED]
+2024-08-12 11:30:23 INFO  SQmonitoring:218 - [631199, 2024/08/12 05:02:02 AM, Other, Yes, IGNORED]
+2024-08-12 11:30:23 INFO  SQmonitoring:226 - [631199, 2024/08/12 05:02:02 AM, Other, Yes, IGNORED]
+2024-08-12 11:30:24 INFO  SQmonitoring:218 - [631197, 2024/08/12 05:01:49 AM, RFQ, Yes, RECEIVED]
+2024-08-12 11:30:24 INFO  SQmonitoring:226 - [631197, 2024/08/12 05:01:49 AM, RFQ, Yes, RECEIVED]
+2024-08-12 14:51:45 INFO  SQmonitoring:49 - ###########################################################
+2024-08-12 14:51:45 INFO  SQmonitoring:50 - Start :: @Beforesuite, Initailizing the browser
+2024-08-12 14:51:47 INFO  WebDriverManager:1239 - Using chromedriver 127.0.6533.99 (resolved driver for Chrome 127)
+2024-08-12 14:51:47 INFO  WebDriverManager:1301 - Exporting webdriver.chrome.driver as C:\Users\yamah022\.cache\selenium\chromedriver\win64\127.0.6533.99\chromedriver.exe
+2024-08-12 14:51:58 INFO  SQmonitoring:152 - FAIL :: Login Test
+2024-08-12 14:51:58 INFO  SQmonitoring:140 - Exception Occured ::java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebElement.click()" because the return value of "pageObjects.SQ_pageObjects.messages_link()" is null
+2024-08-12 14:51:58 ERROR SQmonitoring:179 - Exception caught :: java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebElement.click()" because the return value of "pageObjects.SQ_pageObjects.caseEmails_link()" is null
+2024-08-12 14:51:59 INFO  UtilBase:65 - @Aftersuite, Closing the browser
+2024-08-12 14:51:59 INFO  UtilBase:66 - ###########################################################
+2024-08-12 14:52:18 INFO  SQmonitoring:49 - ###########################################################
+2024-08-12 14:52:18 INFO  SQmonitoring:50 - Start :: @Beforesuite, Initailizing the browser
+2024-08-12 14:52:19 INFO  WebDriverManager:1239 - Using chromedriver 127.0.6533.99 (resolved driver for Chrome 127)
+2024-08-12 14:52:19 INFO  WebDriverManager:1301 - Exporting webdriver.chrome.driver as C:\Users\yamah022\.cache\selenium\chromedriver\win64\127.0.6533.99\chromedriver.exe
+2024-08-12 14:52:30 INFO  SQmonitoring:145 - PASS :: Login Test
+2024-08-12 14:52:42 INFO  SQmonitoring:36 - Title :: 
+2024-08-12 14:52:42 INFO  SQmonitoring:123 - Last Page :: 18
+2024-08-12 14:52:42 INFO  SQmonitoring:189 - Page no :: 1
+2024-08-12 14:52:42 INFO  SQmonitoring:214 - Rowcount :: 20, ColCount :: 5
+2024-08-12 14:52:43 INFO  SQmonitoring:226 - [631482, 2024/08/12 06:46:28 AM, RFQ, Yes, RECEIVED]
+2024-08-12 14:52:44 INFO  SQmonitoring:226 - [631481, 2024/08/12 06:46:15 AM, RFQ, Yes, RECEIVED]
+2024-08-12 14:52:45 INFO  SQmonitoring:226 - [631480, 2024/08/12 06:46:02 AM, RFQ, Yes, RECEIVED]
+2024-08-12 14:52:46 INFO  SQmonitoring:226 - [631479, 2024/08/12 06:45:45 AM, Other, Yes, IGNORED]
+2024-08-12 14:52:47 INFO  SQmonitoring:226 - [631478, 2024/08/12 06:45:20 AM, RFQ, Yes, RECEIVED]
+2024-08-12 14:52:47 INFO  SQmonitoring:226 - [631477, 2024/08/12 06:45:20 AM, RFQ, Yes, RECEIVED]
+2024-08-12 14:52:48 INFO  SQmonitoring:226 - [631476, 2024/08/12 06:45:06 AM, RFQ, Yes, RECEIVED]
+2024-08-12 14:52:49 INFO  SQmonitoring:226 - [631475, 2024/08/12 06:44:53 AM, RFQ, Yes, RECEIVED]
+2024-08-12 14:52:50 INFO  SQmonitoring:226 - [631470, 2024/08/12 06:44:39 AM, RFQ, Yes, RECEIVED]
+2024-08-12 14:52:50 INFO  SQmonitoring:226 - [631474, 2024/08/12 06:44:27 AM, RFQ, Yes, RECEIVED]
+2024-08-12 14:52:51 INFO  SQmonitoring:226 - [631472, 2024/08/12 06:44:13 AM, RFQ, Yes, RECEIVED]
+2024-08-12 14:52:52 INFO  SQmonitoring:226 - [631473, 2024/08/12 06:44:00 AM, RFQ, Yes, RECEIVED]
+2024-08-12 14:52:53 INFO  SQmonitoring:226 - [631471, 2024/08/12 06:43:47 AM, RFQ, Yes, RECEIVED]
+2024-08-12 14:52:53 INFO  SQmonitoring:226 - [631469, 2024/08/12 06:43:34 AM, RFQ, Yes, RECEIVED]
+2024-08-12 14:52:54 INFO  SQmonitoring:226 - [631468, 2024/08/12 06:43:20 AM, RFQ, Yes, RECEIVED]
+2024-08-12 14:52:55 INFO  SQmonitoring:226 - [631467, 2024/08/12 06:43:07 AM, RFQ, Yes, RECEIVED]
+2024-08-12 14:53:32 INFO  SQmonitoring:49 - ###########################################################
+2024-08-12 14:53:32 INFO  SQmonitoring:50 - Start :: @Beforesuite, Initailizing the browser
+2024-08-12 14:53:33 INFO  WebDriverManager:1239 - Using chromedriver 127.0.6533.99 (resolved driver for Chrome 127)
+2024-08-12 14:53:33 INFO  WebDriverManager:1301 - Exporting webdriver.chrome.driver as C:\Users\yamah022\.cache\selenium\chromedriver\win64\127.0.6533.99\chromedriver.exe
+2024-08-12 14:53:43 INFO  SQmonitoring:145 - PASS :: Login Test
+2024-08-12 14:53:56 INFO  SQmonitoring:36 - Title :: 
+2024-08-12 14:53:57 INFO  SQmonitoring:123 - Last Page :: 18
+2024-08-12 14:53:57 INFO  SQmonitoring:189 - Page no :: 1
+2024-08-12 14:53:57 INFO  SQmonitoring:214 - Rowcount :: 20, ColCount :: 5
+2024-08-12 14:53:58 INFO  SQmonitoring:226 - [631482, 2024/08/12 06:46:28 AM, RFQ, Yes, RECEIVED]
+2024-08-12 14:53:58 INFO  SQmonitoring:226 - [631481, 2024/08/12 06:46:15 AM, RFQ, Yes, RECEIVED]
+2024-08-12 14:53:59 INFO  SQmonitoring:226 - [631480, 2024/08/12 06:46:02 AM, RFQ, Yes, RECEIVED]
+2024-08-12 14:54:00 INFO  SQmonitoring:226 - [631479, 2024/08/12 06:45:45 AM, Other, Yes, IGNORED]
+2024-08-12 14:54:01 INFO  SQmonitoring:226 - [631478, 2024/08/12 06:45:20 AM, RFQ, Yes, RECEIVED]
+2024-08-12 14:54:01 INFO  SQmonitoring:226 - [631477, 2024/08/12 06:45:20 AM, RFQ, Yes, RECEIVED]
+2024-08-12 14:54:02 INFO  SQmonitoring:226 - [631476, 2024/08/12 06:45:06 AM, RFQ, Yes, RECEIVED]
+2024-08-12 14:54:03 INFO  SQmonitoring:226 - [631475, 2024/08/12 06:44:53 AM, RFQ, Yes, RECEIVED]
+2024-08-12 14:54:03 INFO  SQmonitoring:226 - [631470, 2024/08/12 06:44:39 AM, RFQ, Yes, RECEIVED]
+2024-08-12 14:54:04 INFO  SQmonitoring:226 - [631474, 2024/08/12 06:44:27 AM, RFQ, Yes, RECEIVED]
+2024-08-12 14:54:05 INFO  SQmonitoring:226 - [631472, 2024/08/12 06:44:13 AM, RFQ, Yes, RECEIVED]
+2024-08-12 14:54:05 INFO  SQmonitoring:226 - [631473, 2024/08/12 06:44:00 AM, RFQ, Yes, RECEIVED]
+2024-08-12 14:54:06 INFO  SQmonitoring:226 - [631471, 2024/08/12 06:43:47 AM, RFQ, Yes, RECEIVED]
+2024-08-12 14:54:07 INFO  SQmonitoring:226 - [631469, 2024/08/12 06:43:34 AM, RFQ, Yes, RECEIVED]
+2024-08-12 14:54:07 INFO  SQmonitoring:226 - [631468, 2024/08/12 06:43:20 AM, RFQ, Yes, RECEIVED]
+2024-08-12 14:54:08 INFO  SQmonitoring:226 - [631467, 2024/08/12 06:43:07 AM, RFQ, Yes, RECEIVED]
+2024-08-12 14:54:09 INFO  SQmonitoring:226 - [631466, 2024/08/12 06:42:54 AM, RFQ, Yes, RECEIVED]
+2024-08-12 14:54:09 INFO  SQmonitoring:226 - [631463, 2024/08/12 06:42:42 AM, RFQ, Yes, RECEIVED]
+2024-08-12 14:54:10 INFO  SQmonitoring:226 - [631465, 2024/08/12 06:42:29 AM, RFQ, Yes, RECEIVED]
+2024-08-12 14:54:11 INFO  SQmonitoring:226 - [631464, 2024/08/12 06:42:16 AM, RFQ, Yes, RECEIVED]
+2024-08-12 14:54:14 INFO  SQmonitoring:189 - Page no :: 2
+2024-08-12 14:54:14 INFO  SQmonitoring:214 - Rowcount :: 20, ColCount :: 5
+2024-08-12 14:54:15 INFO  SQmonitoring:226 - [631461, 2024/08/12 06:42:02 AM, RFQ, Yes, RECEIVED]
+2024-08-12 14:54:17 INFO  SQmonitoring:226 - [631462, 2024/08/12 06:41:49 AM, RFQ, Yes, RECEIVED]
+2024-08-12 14:54:18 INFO  SQmonitoring:226 - [631460, 2024/08/12 06:41:34 AM, RFQ, Yes, RECEIVED]
+2024-08-12 14:54:18 INFO  SQmonitoring:226 - [631459, 2024/08/12 06:41:21 AM, RFQ, Yes, RECEIVED]
+2024-08-12 14:54:19 INFO  SQmonitoring:226 - [631458, 2024/08/12 06:41:08 AM, RFQ, Yes, RECEIVED]
+2024-08-12 14:54:20 INFO  SQmonitoring:226 - [631457, 2024/08/12 06:40:56 AM, RFQ, Yes, RECEIVED]
+2024-08-12 14:54:21 INFO  SQmonitoring:226 - [631456, 2024/08/12 06:40:43 AM, RFQ, Yes, RECEIVED]
+2024-08-12 14:54:21 INFO  SQmonitoring:226 - [631455, 2024/08/12 06:40:29 AM, RFQ, Yes, RECEIVED]
+2024-08-12 14:54:22 INFO  SQmonitoring:226 - [631454, 2024/08/12 06:40:05 AM, RFQ, Yes, RECEIVED]
+2024-08-12 14:54:23 INFO  SQmonitoring:226 - [631453, 2024/08/12 06:39:52 AM, RFQ, Yes, RECEIVED]
+2024-08-12 14:54:24 INFO  SQmonitoring:226 - [631452, 2024/08/12 06:39:38 AM, RFQ, Yes, RECEIVED]
+2024-08-12 14:54:24 INFO  SQmonitoring:226 - [631449, 2024/08/12 06:39:26 AM, RFQ, Yes, RECEIVED]
+2024-08-12 14:54:25 INFO  SQmonitoring:226 - [631451, 2024/08/12 06:39:12 AM, RFQ, Yes, RECEIVED]
+2024-08-12 14:54:26 INFO  SQmonitoring:226 - [631446, 2024/08/12 06:38:59 AM, RFQ, Yes, RECEIVED]
+2024-08-12 14:54:27 INFO  SQmonitoring:226 - [631450, 2024/08/12 06:38:46 AM, RFQ, Yes, RECEIVED]
+2024-08-12 14:54:27 INFO  SQmonitoring:226 - [631448, 2024/08/12 06:38:33 AM, RFQ, Yes, RECEIVED]
+2024-08-12 14:54:28 INFO  SQmonitoring:226 - [631447, 2024/08/12 06:38:18 AM, RFQ, Yes, RECEIVED]
+2024-08-12 14:54:29 INFO  SQmonitoring:226 - [631445, 2024/08/12 06:37:53 AM, RFQ, Yes, RECEIVED]
+2024-08-12 14:54:30 INFO  SQmonitoring:226 - [631444, 2024/08/12 06:37:40 AM, RFQ, Yes, RECEIVED]
+2024-08-12 14:54:30 INFO  SQmonitoring:226 - [631443, 2024/08/12 06:37:27 AM, RFQ, Yes, RECEIVED]
+2024-08-12 14:54:34 INFO  SQmonitoring:189 - Page no :: 3
+2024-08-12 14:54:34 INFO  SQmonitoring:214 - Rowcount :: 20, ColCount :: 5
+2024-08-12 14:54:35 INFO  SQmonitoring:226 - [631442, 2024/08/12 06:37:14 AM, RFQ, Yes, RECEIVED]
+2024-08-12 14:54:35 INFO  SQmonitoring:226 - [631429, 2024/08/12 06:36:59 AM, RFQ, Yes, RECEIVED]
+2024-08-12 14:54:36 INFO  SQmonitoring:226 - [631441, 2024/08/12 06:36:46 AM, RFQ, Yes, RECEIVED]
+2024-08-12 14:54:37 INFO  SQmonitoring:226 - [631440, 2024/08/12 06:36:32 AM, RFQ, Yes, RECEIVED]
+2024-08-12 14:54:38 INFO  SQmonitoring:226 - [631439, 2024/08/12 06:35:58 AM, RFQ, Yes, RECEIVED]
+2024-08-12 14:54:38 INFO  SQmonitoring:226 - [631436, 2024/08/12 06:35:58 AM, RFQ, Yes, RECEIVED]
+2024-08-12 14:54:39 INFO  SQmonitoring:226 - [631437, 2024/08/12 06:35:45 AM, RFQ, Yes, RECEIVED]
+2024-08-12 14:54:40 INFO  SQmonitoring:226 - [631438, 2024/08/12 06:35:32 AM, RFQ, Yes, RECEIVED]
+2024-08-12 14:54:41 INFO  SQmonitoring:226 - [631428, 2024/08/12 06:35:09 AM, RFQ, Yes, RECEIVED]
+2024-08-12 14:54:41 INFO  SQmonitoring:226 - [631435, 2024/08/12 06:34:56 AM, RFQ, Yes, RECEIVED]
+2024-08-12 14:54:42 INFO  SQmonitoring:226 - [631434, 2024/08/12 06:34:43 AM, RFQ, Yes, RECEIVED]
+2024-08-12 14:54:43 INFO  SQmonitoring:226 - [631432, 2024/08/12 06:34:30 AM, RFQ, Yes, RECEIVED]
+2024-08-12 14:54:44 INFO  SQmonitoring:226 - [631430, 2024/08/12 06:34:16 AM, RFQ, Yes, RECEIVED]
+2024-08-12 14:54:45 INFO  SQmonitoring:226 - [631433, 2024/08/12 06:34:03 AM, RFQ, Yes, RECEIVED]
+2024-08-12 14:54:45 INFO  SQmonitoring:226 - [631422, 2024/08/12 06:33:50 AM, RFQ, Yes, RECEIVED]
+2024-08-12 14:54:46 INFO  SQmonitoring:226 - [631431, 2024/08/12 06:33:37 AM, RFQ, Yes, RECEIVED]
+2024-08-12 14:54:47 INFO  SQmonitoring:226 - [631427, 2024/08/12 06:33:24 AM, RFQ, Yes, RECEIVED]
+2024-08-12 14:54:48 INFO  SQmonitoring:226 - [631425, 2024/08/12 06:32:58 AM, RFQ, Yes, RECEIVED]
+2024-08-12 14:54:48 INFO  SQmonitoring:226 - [631423, 2024/08/12 06:32:58 AM, RFQ, Yes, RECEIVED]
+2024-08-12 14:54:49 INFO  SQmonitoring:226 - [631426, 2024/08/12 06:32:44 AM, RFQ, Yes, RECEIVED]
+2024-08-12 14:54:52 INFO  SQmonitoring:189 - Page no :: 4
+2024-08-12 14:54:52 INFO  SQmonitoring:214 - Rowcount :: 20, ColCount :: 5
+2024-08-12 14:54:53 INFO  SQmonitoring:226 - [631424, 2024/08/12 06:32:32 AM, RFQ, Yes, RECEIVED]
+2024-08-12 14:54:54 INFO  SQmonitoring:226 - [631420, 2024/08/12 06:32:19 AM, RFQ, Yes, RECEIVED]
+2024-08-12 14:54:55 INFO  SQmonitoring:226 - [631421, 2024/08/12 06:32:04 AM, RFQ, Yes, RECEIVED]
+2024-08-12 14:54:55 INFO  SQmonitoring:226 - [631417, 2024/08/12 06:31:51 AM, RFQ, Yes, RECEIVED]
+2024-08-12 14:54:56 INFO  SQmonitoring:226 - [631419, 2024/08/12 06:31:37 AM, RFQ, Yes, RECEIVED]
+2024-08-12 14:54:57 INFO  SQmonitoring:226 - [631418, 2024/08/12 06:31:21 AM, RFQ, Yes, RECEIVED]
+2024-08-12 14:54:58 INFO  SQmonitoring:226 - [631416, 2024/08/12 06:31:08 AM, RFQ, Yes, RECEIVED]
+2024-08-12 14:54:58 INFO  SQmonitoring:226 - [631407, 2024/08/12 06:30:54 AM, RFQ, Yes, RECEIVED]
+2024-08-12 14:54:59 INFO  SQmonitoring:226 - [631414, 2024/08/12 06:30:36 AM, RFQ, Yes, RECEIVED]
+2024-08-12 14:55:00 INFO  SQmonitoring:226 - [631415, 2024/08/12 06:30:23 AM, RFQ, Yes, RECEIVED]
+2024-08-12 14:55:00 INFO  SQmonitoring:226 - [631413, 2024/08/12 06:30:09 AM, RFQ, Yes, RECEIVED]
+2024-08-12 14:55:01 INFO  SQmonitoring:226 - [631411, 2024/08/12 06:29:56 AM, RFQ, Yes, RECEIVED]
+2024-08-12 14:55:02 INFO  SQmonitoring:226 - [631408, 2024/08/12 06:29:43 AM, RFQ, Yes, RECEIVED]
+2024-08-12 14:55:03 INFO  SQmonitoring:226 - [631412, 2024/08/12 06:29:28 AM, RFQ, Yes, RECEIVED]
+2024-08-12 14:55:03 INFO  SQmonitoring:226 - [631410, 2024/08/12 06:29:14 AM, RFQ, Yes, RECEIVED]
+2024-08-12 14:55:04 INFO  SQmonitoring:226 - [631409, 2024/08/12 06:29:02 AM, RFQ, Yes, RECEIVED]
+2024-08-12 14:55:05 INFO  SQmonitoring:226 - [631406, 2024/08/12 06:28:35 AM, RFQ, Yes, RECEIVED]
+2024-08-12 14:55:06 INFO  SQmonitoring:226 - [631404, 2024/08/12 06:28:35 AM, RFQ, Yes, RECEIVED]
+2024-08-12 14:55:06 INFO  SQmonitoring:226 - [631405, 2024/08/12 06:28:22 AM, RFQ, Yes, RECEIVED]
+2024-08-12 14:55:07 INFO  SQmonitoring:226 - [631402, 2024/08/12 06:28:09 AM, RFQ, Yes, RECEIVED]
+2024-08-12 14:55:10 INFO  SQmonitoring:189 - Page no :: 5
+2024-08-12 14:55:10 INFO  SQmonitoring:214 - Rowcount :: 20, ColCount :: 5
+2024-08-12 14:55:11 INFO  SQmonitoring:226 - [631403, 2024/08/12 06:27:56 AM, RFQ, Yes, RECEIVED]
+2024-08-12 14:55:12 INFO  SQmonitoring:226 - [631401, 2024/08/12 06:27:43 AM, RFQ, Yes, RECEIVED]
+2024-08-12 14:55:13 INFO  SQmonitoring:226 - [631400, 2024/08/12 06:27:30 AM, RFQ, Yes, RECEIVED]
+2024-08-12 14:55:13 INFO  SQmonitoring:226 - [631399, 2024/08/12 06:27:17 AM, RFQ, Yes, RECEIVED]
+2024-08-12 14:55:14 INFO  SQmonitoring:226 - [631398, 2024/08/12 06:27:04 AM, RFQ, Yes, RECEIVED]
+2024-08-12 14:55:15 INFO  SQmonitoring:226 - [631396, 2024/08/12 06:26:51 AM, RFQ, Yes, RECEIVED]
+2024-08-12 14:55:16 INFO  SQmonitoring:226 - [631397, 2024/08/12 06:26:38 AM, RFQ, Yes, RECEIVED]
+2024-08-12 14:55:16 INFO  SQmonitoring:226 - [631395, 2024/08/12 06:26:25 AM, RFQ, Yes, RECEIVED]
+2024-08-12 14:55:17 INFO  SQmonitoring:226 - [631394, 2024/08/12 06:26:12 AM, RFQ, Yes, RECEIVED]
+2024-08-12 14:55:18 INFO  SQmonitoring:226 - [631393, 2024/08/12 06:25:59 AM, RFQ, Yes, RECEIVED]
+2024-08-12 14:55:19 INFO  SQmonitoring:226 - [631392, 2024/08/12 06:25:46 AM, RFQ, Yes, RECEIVED]
+2024-08-12 14:55:19 INFO  SQmonitoring:226 - [631391, 2024/08/12 06:25:33 AM, RFQ, Yes, RECEIVED]
+2024-08-12 14:55:20 INFO  SQmonitoring:226 - [631390, 2024/08/12 06:25:18 AM, RFQ, Yes, RECEIVED]
+2024-08-12 14:55:21 INFO  SQmonitoring:226 - [631389, 2024/08/12 06:25:06 AM, RFQ, Yes, RECEIVED]
+2024-08-12 14:55:22 INFO  SQmonitoring:226 - [631388, 2024/08/12 06:24:52 AM, RFQ, Yes, RECEIVED]
+2024-08-12 14:55:23 INFO  SQmonitoring:226 - [631385, 2024/08/12 06:24:40 AM, RFQ, Yes, RECEIVED]
+2024-08-12 14:55:24 INFO  SQmonitoring:226 - [631387, 2024/08/12 06:24:26 AM, RFQ, Yes, RECEIVED]
+2024-08-12 14:55:24 INFO  SQmonitoring:226 - [631386, 2024/08/12 06:24:13 AM, RFQ, Yes, RECEIVED]
+2024-08-12 14:55:25 INFO  SQmonitoring:226 - [631384, 2024/08/12 06:23:51 AM, RFQ, Yes, RECEIVED]
+2024-08-12 14:55:26 INFO  SQmonitoring:226 - [631383, 2024/08/12 06:23:37 AM, RFQ, Yes, RECEIVED]
+2024-08-12 14:55:29 INFO  SQmonitoring:189 - Page no :: 6
+2024-08-12 14:55:29 INFO  SQmonitoring:214 - Rowcount :: 20, ColCount :: 5
+2024-08-12 14:55:30 INFO  SQmonitoring:226 - [631382, 2024/08/12 06:23:24 AM, RFQ, Yes, RECEIVED]
+2024-08-12 14:55:31 INFO  SQmonitoring:226 - [631381, 2024/08/12 06:23:12 AM, RFQ, Yes, RECEIVED]
+2024-08-12 14:55:31 INFO  SQmonitoring:226 - [631380, 2024/08/12 06:22:59 AM, RFQ, Yes, RECEIVED]
+2024-08-12 14:55:32 INFO  SQmonitoring:226 - [631379, 2024/08/12 06:22:46 AM, RFQ, Yes, RECEIVED]
+2024-08-12 14:55:33 INFO  SQmonitoring:226 - [631377, 2024/08/12 06:22:33 AM, RFQ, Yes, RECEIVED]
+2024-08-12 14:55:33 INFO  SQmonitoring:226 - [631378, 2024/08/12 06:22:19 AM, RFQ, Yes, RECEIVED]
+2024-08-12 14:55:34 INFO  SQmonitoring:226 - [631376, 2024/08/12 06:22:06 AM, RFQ, Yes, RECEIVED]
+2024-08-12 14:55:35 INFO  SQmonitoring:226 - [631375, 2024/08/12 06:21:54 AM, RFQ, Yes, RECEIVED]
+2024-08-12 14:55:36 INFO  SQmonitoring:226 - [631374, 2024/08/12 06:21:27 AM, RFQ, Yes, RECEIVED]
+2024-08-12 14:55:37 INFO  SQmonitoring:226 - [631373, 2024/08/12 06:21:27 AM, RFQ, Yes, RECEIVED]
+2024-08-12 14:55:38 INFO  SQmonitoring:226 - [631371, 2024/08/12 06:21:14 AM, RFQ, Yes, RECEIVED]
+2024-08-12 14:55:39 INFO  SQmonitoring:226 - [631372, 2024/08/12 06:21:01 AM, RFQ, Yes, RECEIVED]
+2024-08-12 14:55:40 INFO  SQmonitoring:226 - [631370, 2024/08/12 06:20:47 AM, RFQ, Yes, RECEIVED]
+2024-08-12 14:55:40 INFO  SQmonitoring:226 - [631369, 2024/08/12 06:20:34 AM, RFQ, Yes, RECEIVED]
+2024-08-12 14:55:41 INFO  SQmonitoring:226 - [631368, 2024/08/12 06:20:20 AM, RFQ, Yes, RECEIVED]
+2024-08-12 14:55:42 INFO  SQmonitoring:226 - [631367, 2024/08/12 06:20:07 AM, RFQ, Yes, RECEIVED]
+2024-08-12 14:55:43 INFO  SQmonitoring:226 - [631366, 2024/08/12 06:19:53 AM, RFQ, Yes, RECEIVED]
+2024-08-12 14:55:44 INFO  SQmonitoring:226 - [631365, 2024/08/12 06:19:40 AM, RFQ, Yes, RECEIVED]
+2024-08-12 14:55:45 INFO  SQmonitoring:226 - [631363, 2024/08/12 06:19:27 AM, RFQ, Yes, RECEIVED]
+2024-08-12 14:55:46 INFO  SQmonitoring:226 - [631364, 2024/08/12 06:19:14 AM, RFQ, Yes, RECEIVED]
+2024-08-12 14:55:49 INFO  SQmonitoring:189 - Page no :: 7
+2024-08-12 14:55:49 INFO  SQmonitoring:214 - Rowcount :: 20, ColCount :: 5
+2024-08-12 14:55:50 INFO  SQmonitoring:226 - [631362, 2024/08/12 06:18:57 AM, RFQ, Yes, RECEIVED]
+2024-08-12 14:55:51 INFO  SQmonitoring:226 - [631361, 2024/08/12 06:18:45 AM, RFQ, Yes, RECEIVED]
+2024-08-12 14:55:52 INFO  SQmonitoring:226 - [631360, 2024/08/12 06:18:19 AM, RFQ, Yes, RECEIVED]
+2024-08-12 14:55:53 INFO  SQmonitoring:226 - [631359, 2024/08/12 06:18:06 AM, RFQ, Yes, RECEIVED]
+2024-08-12 14:55:54 INFO  SQmonitoring:226 - [631358, 2024/08/12 06:17:53 AM, RFQ, Yes, RECEIVED]
+2024-08-12 14:55:54 INFO  SQmonitoring:226 - [631357, 2024/08/12 06:17:40 AM, RFQ, Yes, RECEIVED]
+2024-08-12 14:55:55 INFO  SQmonitoring:226 - [631355, 2024/08/12 06:17:26 AM, RFQ, Yes, RECEIVED]
+2024-08-12 14:55:56 INFO  SQmonitoring:226 - [631356, 2024/08/12 06:17:12 AM, RFQ, Yes, RECEIVED]
+2024-08-12 14:55:56 INFO  SQmonitoring:226 - [631353, 2024/08/12 06:16:59 AM, RFQ, Yes, RECEIVED]
+2024-08-12 14:55:57 INFO  SQmonitoring:226 - [631354, 2024/08/12 06:16:46 AM, RFQ, Yes, RECEIVED]
+2024-08-12 14:55:58 INFO  SQmonitoring:226 - [631352, 2024/08/12 06:16:33 AM, RFQ, Yes, RECEIVED]
+2024-08-12 14:55:58 INFO  SQmonitoring:226 - [631351, 2024/08/12 06:16:19 AM, RFQ, Yes, RECEIVED]
+2024-08-12 14:55:59 INFO  SQmonitoring:226 - [631350, 2024/08/12 06:16:06 AM, RFQ, Yes, RECEIVED]
+2024-08-12 14:56:00 INFO  SQmonitoring:226 - [631349, 2024/08/12 06:15:40 AM, RFQ, Yes, RECEIVED]
+2024-08-12 14:56:00 INFO  SQmonitoring:226 - [631348, 2024/08/12 06:15:40 AM, RFQ, Yes, RECEIVED]
+2024-08-12 14:56:01 INFO  SQmonitoring:226 - [631347, 2024/08/12 06:15:28 AM, RFQ, Yes, RECEIVED]
+2024-08-12 14:56:02 INFO  SQmonitoring:226 - [631346, 2024/08/12 06:15:13 AM, RFQ, Yes, RECEIVED]
+2024-08-12 14:56:02 INFO  SQmonitoring:226 - [631345, 2024/08/12 06:15:00 AM, RFQ, Yes, RECEIVED]
+2024-08-12 14:56:03 INFO  SQmonitoring:226 - [631341, 2024/08/12 06:14:46 AM, RFQ, Yes, RECEIVED]
+2024-08-12 14:56:03 INFO  SQmonitoring:226 - [631344, 2024/08/12 06:14:33 AM, RFQ, Yes, RECEIVED]
+2024-08-12 14:56:07 INFO  SQmonitoring:189 - Page no :: 8
+2024-08-12 14:56:07 INFO  SQmonitoring:214 - Rowcount :: 20, ColCount :: 5
+2024-08-12 14:56:07 INFO  SQmonitoring:226 - [631343, 2024/08/12 06:14:21 AM, RFQ, Yes, RECEIVED]
+2024-08-12 14:56:08 INFO  SQmonitoring:226 - [631342, 2024/08/12 06:14:08 AM, RFQ, Yes, RECEIVED]
+2024-08-12 14:56:09 INFO  SQmonitoring:226 - [631340, 2024/08/12 06:13:55 AM, RFQ, Yes, RECEIVED]
+2024-08-12 14:56:09 INFO  SQmonitoring:226 - [631339, 2024/08/12 06:13:43 AM, RFQ, Yes, RECEIVED]
+2024-08-12 14:56:10 INFO  SQmonitoring:226 - [631337, 2024/08/12 06:13:17 AM, RFQ, Yes, RECEIVED]
+2024-08-12 14:56:10 INFO  SQmonitoring:226 - [631338, 2024/08/12 06:13:17 AM, RFQ, Yes, RECEIVED]
+2024-08-12 14:56:11 INFO  SQmonitoring:226 - [631336, 2024/08/12 06:13:03 AM, RFQ, Yes, RECEIVED]
+2024-08-12 14:56:12 INFO  SQmonitoring:226 - [631335, 2024/08/12 06:12:49 AM, RFQ, Yes, RECEIVED]
+2024-08-12 14:56:12 INFO  SQmonitoring:226 - [631334, 2024/08/12 06:12:36 AM, RFQ, Yes, RECEIVED]
+2024-08-12 14:56:13 INFO  SQmonitoring:226 - [631333, 2024/08/12 06:12:24 AM, RFQ, Yes, RECEIVED]
+2024-08-12 14:56:13 INFO  SQmonitoring:226 - [631331, 2024/08/12 06:12:11 AM, RFQ, Yes, RECEIVED]
+2024-08-12 14:56:14 INFO  SQmonitoring:226 - [631332, 2024/08/12 06:11:58 AM, RFQ, Yes, RECEIVED]
+2024-08-12 14:56:15 INFO  SQmonitoring:226 - [631329, 2024/08/12 06:11:44 AM, RFQ, Yes, RECEIVED]
+2024-08-12 14:56:15 INFO  SQmonitoring:226 - [631330, 2024/08/12 06:11:31 AM, RFQ, Yes, RECEIVED]
+2024-08-12 14:56:16 INFO  SQmonitoring:226 - [631327, 2024/08/12 06:11:18 AM, RFQ, Yes, RECEIVED]
+2024-08-12 14:56:16 INFO  SQmonitoring:226 - [631324, 2024/08/12 06:11:05 AM, RFQ, Yes, RECEIVED]
+2024-08-12 14:56:17 INFO  SQmonitoring:226 - [631328, 2024/08/12 06:10:53 AM, RFQ, Yes, RECEIVED]
+2024-08-12 14:56:18 INFO  SQmonitoring:226 - [631326, 2024/08/12 06:10:27 AM, RFQ, Yes, RECEIVED]
+2024-08-12 14:56:18 INFO  SQmonitoring:226 - [631325, 2024/08/12 06:10:27 AM, RFQ, Yes, RECEIVED]
+2024-08-12 14:56:19 INFO  SQmonitoring:226 - [631323, 2024/08/12 06:10:14 AM, RFQ, Yes, RECEIVED]
+2024-08-12 14:56:22 INFO  SQmonitoring:189 - Page no :: 9
+2024-08-12 14:56:22 INFO  SQmonitoring:214 - Rowcount :: 20, ColCount :: 5
+2024-08-12 14:56:23 INFO  SQmonitoring:226 - [631322, 2024/08/12 06:10:02 AM, RFQ, Yes, RECEIVED]
+2024-08-12 14:56:23 INFO  SQmonitoring:226 - [631321, 2024/08/12 06:09:49 AM, RFQ, Yes, RECEIVED]
+2024-08-12 14:56:24 INFO  SQmonitoring:226 - [631320, 2024/08/12 06:09:14 AM, RFQ, Yes, RECEIVED]
+2024-08-12 14:56:24 INFO  SQmonitoring:226 - [631319, 2024/08/12 06:09:14 AM, RFQ, Yes, RECEIVED]
+2024-08-12 14:56:25 INFO  SQmonitoring:226 - [631318, 2024/08/12 06:09:01 AM, RFQ, Yes, RECEIVED]
+2024-08-12 14:56:26 INFO  SQmonitoring:226 - [631317, 2024/08/12 06:08:48 AM, RFQ, Yes, RECEIVED]
+2024-08-12 14:56:26 INFO  SQmonitoring:226 - [631314, 2024/08/12 06:08:20 AM, RFQ, Yes, RECEIVED]
+2024-08-12 14:56:27 INFO  SQmonitoring:226 - [631315, 2024/08/12 06:08:20 AM, RFQ, Yes, RECEIVED]
+2024-08-12 14:56:27 INFO  SQmonitoring:226 - [631316, 2024/08/12 06:08:07 AM, RFQ, Yes, RECEIVED]
+2024-08-12 14:56:28 INFO  SQmonitoring:226 - [631312, 2024/08/12 06:07:54 AM, RFQ, Yes, RECEIVED]
+2024-08-12 14:56:29 INFO  SQmonitoring:226 - [631313, 2024/08/12 06:07:41 AM, RFQ, Yes, RECEIVED]
+2024-08-12 14:56:29 INFO  SQmonitoring:226 - [631311, 2024/08/12 06:07:26 AM, RFQ, Yes, RECEIVED]
+2024-08-12 14:56:30 INFO  SQmonitoring:226 - [631310, 2024/08/12 06:07:12 AM, RFQ, Yes, RECEIVED]
+2024-08-12 14:56:31 INFO  SQmonitoring:226 - [631308, 2024/08/12 06:06:46 AM, RFQ, Yes, RECEIVED]
+2024-08-12 14:56:31 INFO  SQmonitoring:226 - [631309, 2024/08/12 06:06:46 AM, RFQ, Yes, RECEIVED]
+2024-08-12 14:56:32 INFO  SQmonitoring:226 - [631307, 2024/08/12 06:06:33 AM, RFQ, Yes, RECEIVED]
+2024-08-12 14:56:33 INFO  SQmonitoring:226 - [631306, 2024/08/12 06:06:21 AM, RFQ, Yes, RECEIVED]
+2024-08-12 14:56:33 INFO  SQmonitoring:226 - [631305, 2024/08/12 06:06:06 AM, RFQ, Yes, RECEIVED]
+2024-08-12 14:56:34 INFO  SQmonitoring:226 - [631302, 2024/08/12 06:05:52 AM, RFQ, Yes, RECEIVED]
+2024-08-12 14:56:34 INFO  SQmonitoring:226 - [631304, 2024/08/12 06:05:39 AM, RFQ, Yes, RECEIVED]
+2024-08-12 14:56:38 INFO  SQmonitoring:189 - Page no :: 10
+2024-08-12 14:56:38 INFO  SQmonitoring:214 - Rowcount :: 20, ColCount :: 5
+2024-08-12 14:56:38 INFO  SQmonitoring:226 - [631303, 2024/08/12 06:05:26 AM, RFQ, Yes, RECEIVED]
+2024-08-12 14:56:39 INFO  SQmonitoring:226 - [631300, 2024/08/12 06:05:13 AM, RFQ, Yes, RECEIVED]
+2024-08-12 14:56:40 INFO  SQmonitoring:226 - [631301, 2024/08/12 06:05:01 AM, RFQ, Yes, RECEIVED]
+2024-08-12 14:56:40 INFO  SQmonitoring:226 - [631299, 2024/08/12 06:04:48 AM, RFQ, Yes, RECEIVED]
+2024-08-12 14:56:41 INFO  SQmonitoring:226 - [631298, 2024/08/12 06:04:33 AM, RFQ, Yes, RECEIVED]
+2024-08-12 14:56:41 INFO  SQmonitoring:226 - [631297, 2024/08/12 06:04:21 AM, RFQ, Yes, RECEIVED]
+2024-08-12 14:56:42 INFO  SQmonitoring:226 - [631296, 2024/08/12 06:04:08 AM, RFQ, Yes, RECEIVED]
+2024-08-12 14:56:43 INFO  SQmonitoring:226 - [631295, 2024/08/12 06:03:54 AM, RFQ, Yes, RECEIVED]
+2024-08-12 14:56:43 INFO  SQmonitoring:226 - [631294, 2024/08/12 06:03:41 AM, RFQ, Yes, RECEIVED]
+2024-08-12 14:56:44 INFO  SQmonitoring:226 - [631292, 2024/08/12 06:03:28 AM, RFQ, Yes, RECEIVED]
+2024-08-12 14:56:45 INFO  SQmonitoring:226 - [631293, 2024/08/12 06:03:12 AM, RFQ, Yes, RECEIVED]
+2024-08-12 14:56:45 INFO  SQmonitoring:226 - [631291, 2024/08/12 06:02:58 AM, RFQ, Yes, RECEIVED]
+2024-08-12 14:56:46 INFO  SQmonitoring:226 - [631290, 2024/08/12 06:02:35 AM, RFQ, Yes, RECEIVED]
+2024-08-12 14:56:46 INFO  SQmonitoring:226 - [631287, 2024/08/12 06:01:54 AM, RFQ, Yes, RECEIVED]
+2024-08-12 14:56:47 INFO  SQmonitoring:226 - [631289, 2024/08/12 06:01:35 AM, RFQ, Yes, RECEIVED]
+2024-08-12 14:56:48 INFO  SQmonitoring:226 - [631288, 2024/08/12 06:01:22 AM, RFQ, Yes, RECEIVED]
+2024-08-12 14:56:48 INFO  SQmonitoring:226 - [631286, 2024/08/12 06:01:10 AM, RFQ, Yes, RECEIVED]
+2024-08-12 14:56:49 INFO  SQmonitoring:226 - [631285, 2024/08/12 06:00:56 AM, RFQ, Yes, RECEIVED]
+2024-08-12 14:56:49 INFO  SQmonitoring:226 - [631283, 2024/08/12 06:00:43 AM, RFQ, Yes, RECEIVED]
+2024-08-12 14:56:50 INFO  SQmonitoring:226 - [631284, 2024/08/12 06:00:28 AM, RFQ, Yes, RECEIVED]
+2024-08-12 14:56:53 INFO  SQmonitoring:189 - Page no :: 11
+2024-08-12 14:56:53 INFO  SQmonitoring:214 - Rowcount :: 20, ColCount :: 5
+2024-08-12 14:56:54 INFO  SQmonitoring:226 - [631280, 2024/08/12 06:00:01 AM, RFQ, Yes, RECEIVED]
+2024-08-12 14:56:54 INFO  SQmonitoring:226 - [631282, 2024/08/12 06:00:01 AM, RFQ, Yes, RECEIVED]
+2024-08-12 14:56:55 INFO  SQmonitoring:226 - [631281, 2024/08/12 05:59:48 AM, RFQ, Yes, RECEIVED]
+2024-08-12 14:56:56 INFO  SQmonitoring:226 - [631278, 2024/08/12 05:59:36 AM, RFQ, Yes, RECEIVED]
+2024-08-12 14:56:56 INFO  SQmonitoring:226 - [631279, 2024/08/12 05:59:22 AM, RFQ, Yes, RECEIVED]
+2024-08-12 14:56:57 INFO  SQmonitoring:226 - [631277, 2024/08/12 05:59:09 AM, RFQ, Yes, RECEIVED]
+2024-08-12 14:56:58 INFO  SQmonitoring:226 - [631276, 2024/08/12 05:58:56 AM, RFQ, Yes, RECEIVED]
+2024-08-12 14:56:58 INFO  SQmonitoring:226 - [631275, 2024/08/12 05:58:43 AM, RFQ, Yes, RECEIVED]
+2024-08-12 14:56:59 INFO  SQmonitoring:226 - [631272, 2024/08/12 05:58:31 AM, RFQ, Yes, RECEIVED]
+2024-08-12 14:56:59 INFO  SQmonitoring:226 - [631274, 2024/08/12 05:58:17 AM, RFQ, Yes, RECEIVED]
+2024-08-12 14:57:00 INFO  SQmonitoring:226 - [631273, 2024/08/12 05:58:04 AM, RFQ, Yes, RECEIVED]
+2024-08-12 14:57:01 INFO  SQmonitoring:226 - [631270, 2024/08/12 05:57:49 AM, RFQ, Yes, RECEIVED]
+2024-08-12 14:57:01 INFO  SQmonitoring:226 - [631271, 2024/08/12 05:57:36 AM, RFQ, Yes, RECEIVED]
+2024-08-12 14:57:02 INFO  SQmonitoring:226 - [631269, 2024/08/12 05:57:23 AM, RFQ, Yes, RECEIVED]
+2024-08-12 14:57:03 INFO  SQmonitoring:226 - [631268, 2024/08/12 05:57:10 AM, RFQ, Yes, RECEIVED]
+2024-08-12 14:57:03 INFO  SQmonitoring:226 - [631266, 2024/08/12 05:56:43 AM, RFQ, Yes, RECEIVED]
+2024-08-12 14:57:04 INFO  SQmonitoring:226 - [631267, 2024/08/12 05:56:43 AM, RFQ, Yes, RECEIVED]
+2024-08-12 14:57:04 INFO  SQmonitoring:226 - [631265, 2024/08/12 05:56:31 AM, RFQ, Yes, RECEIVED]
+2024-08-12 14:57:05 INFO  SQmonitoring:226 - [631264, 2024/08/12 05:56:17 AM, RFQ, Yes, RECEIVED]
+2024-08-12 14:57:06 INFO  SQmonitoring:226 - [631263, 2024/08/12 05:56:05 AM, RFQ, Yes, RECEIVED]
+2024-08-12 14:57:09 INFO  SQmonitoring:189 - Page no :: 12
+2024-08-12 14:57:09 INFO  SQmonitoring:214 - Rowcount :: 20, ColCount :: 5
+2024-08-12 14:57:09 INFO  SQmonitoring:226 - [631262, 2024/08/12 05:55:51 AM, RFQ, Yes, RECEIVED]
+2024-08-12 14:57:10 INFO  SQmonitoring:226 - [631260, 2024/08/12 05:55:22 AM, RFQ, Yes, RECEIVED]
+2024-08-12 14:57:11 INFO  SQmonitoring:226 - [631261, 2024/08/12 05:55:22 AM, RFQ, Yes, RECEIVED]
+2024-08-12 14:57:11 INFO  SQmonitoring:226 - [631259, 2024/08/12 05:55:10 AM, RFQ, Yes, RECEIVED]
+2024-08-12 14:57:12 INFO  SQmonitoring:226 - [631258, 2024/08/12 05:54:57 AM, RFQ, Yes, RECEIVED]
+2024-08-12 14:57:13 INFO  SQmonitoring:226 - [631257, 2024/08/12 05:54:44 AM, RFQ, Yes, RECEIVED]
+2024-08-12 14:57:13 INFO  SQmonitoring:226 - [631256, 2024/08/12 05:54:31 AM, RFQ, Yes, RECEIVED]
+2024-08-12 14:57:14 INFO  SQmonitoring:226 - [631255, 2024/08/12 05:54:18 AM, RFQ, Yes, RECEIVED]
+2024-08-12 14:57:15 INFO  SQmonitoring:226 - [631252, 2024/08/12 05:53:52 AM, RFQ, Yes, RECEIVED]
+2024-08-12 14:57:15 INFO  SQmonitoring:226 - [631254, 2024/08/12 05:53:52 AM, RFQ, Yes, RECEIVED]
+2024-08-12 14:57:16 INFO  SQmonitoring:226 - [631253, 2024/08/12 05:53:38 AM, RFQ, Yes, RECEIVED]
+2024-08-12 14:57:17 INFO  SQmonitoring:226 - [631251, 2024/08/12 05:53:25 AM, RFQ, Yes, RECEIVED]
+2024-08-12 14:57:17 INFO  SQmonitoring:226 - [631250, 2024/08/12 05:53:11 AM, RFQ, Yes, RECEIVED]
+2024-08-12 14:57:18 INFO  SQmonitoring:226 - [631249, 2024/08/12 05:52:58 AM, RFQ, Yes, RECEIVED]
+2024-08-12 14:57:18 INFO  SQmonitoring:226 - [631248, 2024/08/12 05:52:45 AM, RFQ, Yes, RECEIVED]
+2024-08-12 14:57:19 INFO  SQmonitoring:226 - [631247, 2024/08/12 05:52:31 AM, RFQ, Yes, RECEIVED]
+2024-08-12 14:57:20 INFO  SQmonitoring:226 - [631246, 2024/08/12 05:52:15 AM, RFQ, Yes, RECEIVED]
+2024-08-12 14:57:20 INFO  SQmonitoring:226 - [631243, 2024/08/12 05:51:49 AM, RFQ, Yes, RECEIVED]
+2024-08-12 14:57:21 INFO  SQmonitoring:226 - [631245, 2024/08/12 05:51:49 AM, RFQ, Yes, RECEIVED]
+2024-08-12 14:57:21 INFO  SQmonitoring:226 - [631244, 2024/08/12 05:51:35 AM, RFQ, Yes, RECEIVED]
+2024-08-12 14:57:24 INFO  SQmonitoring:189 - Page no :: 13
+2024-08-12 14:57:25 INFO  SQmonitoring:214 - Rowcount :: 20, ColCount :: 5
+2024-08-12 14:57:25 INFO  SQmonitoring:226 - [631241, 2024/08/12 05:51:13 AM, RFQ, Yes, RECEIVED]
+2024-08-12 14:57:26 INFO  SQmonitoring:226 - [631242, 2024/08/12 05:51:00 AM, RFQ, Yes, RECEIVED]
+2024-08-12 14:57:26 INFO  SQmonitoring:226 - [631240, 2024/08/12 05:50:47 AM, RFQ, Yes, RECEIVED]
+2024-08-12 14:57:27 INFO  SQmonitoring:226 - [631239, 2024/08/12 05:50:33 AM, RFQ, Yes, RECEIVED]
+2024-08-12 14:57:28 INFO  SQmonitoring:226 - [631238, 2024/08/12 05:50:20 AM, RFQ, Yes, RECEIVED]
+2024-08-12 14:57:28 INFO  SQmonitoring:226 - [631237, 2024/08/12 05:50:07 AM, RFQ, Yes, RECEIVED]
+2024-08-12 14:57:29 INFO  SQmonitoring:226 - [631236, 2024/08/12 05:49:39 AM, RFQ, Yes, RECEIVED]
+2024-08-12 14:57:29 INFO  SQmonitoring:226 - [631234, 2024/08/12 05:49:39 AM, RFQ, Yes, RECEIVED]
+2024-08-12 14:57:30 INFO  SQmonitoring:226 - [631235, 2024/08/12 05:49:25 AM, RFQ, Yes, RECEIVED]
+2024-08-12 14:57:31 INFO  SQmonitoring:226 - [631232, 2024/08/12 05:48:58 AM, RFQ, Yes, RECEIVED]
+2024-08-12 14:57:31 INFO  SQmonitoring:226 - [631233, 2024/08/12 05:48:58 AM, RFQ, Yes, RECEIVED]
+2024-08-12 14:57:32 INFO  SQmonitoring:226 - [631231, 2024/08/12 05:48:44 AM, RFQ, Yes, RECEIVED]
+2024-08-12 14:57:32 INFO  SQmonitoring:226 - [631230, 2024/08/12 05:48:31 AM, RFQ, Yes, RECEIVED]
+2024-08-12 14:57:33 INFO  SQmonitoring:226 - [631229, 2024/08/12 05:48:17 AM, RFQ, Yes, RECEIVED]
+2024-08-12 14:57:34 INFO  SQmonitoring:226 - [631228, 2024/08/12 05:48:04 AM, RFQ, Yes, RECEIVED]
+2024-08-12 14:57:34 INFO  SQmonitoring:226 - [631227, 2024/08/12 05:47:50 AM, RFQ, Yes, RECEIVED]
+2024-08-12 14:57:35 INFO  SQmonitoring:226 - [631226, 2024/08/12 05:47:36 AM, RFQ, Yes, RECEIVED]
+2024-08-12 14:57:35 INFO  SQmonitoring:226 - [631224, 2024/08/12 05:47:09 AM, RFQ, Yes, RECEIVED]
+2024-08-12 14:57:36 INFO  SQmonitoring:226 - [631225, 2024/08/12 05:47:09 AM, RFQ, Yes, RECEIVED]
+2024-08-12 14:57:37 INFO  SQmonitoring:226 - [631223, 2024/08/12 05:46:49 AM, RFQ, Yes, RECEIVED]
+2024-08-12 14:57:40 INFO  SQmonitoring:189 - Page no :: 14
+2024-08-12 14:57:40 INFO  SQmonitoring:214 - Rowcount :: 20, ColCount :: 5
+2024-08-12 14:57:41 INFO  SQmonitoring:226 - [631222, 2024/08/12 05:07:26 AM, RFQ, Yes, RECEIVED]
+2024-08-12 14:57:41 INFO  SQmonitoring:226 - [631220, 2024/08/12 05:06:48 AM, RFQ, Yes, RECEIVED]
+2024-08-12 14:57:42 INFO  SQmonitoring:226 - [631221, 2024/08/12 05:06:48 AM, RFQ, Yes, RECEIVED]
+2024-08-12 14:57:42 INFO  SQmonitoring:226 - [631219, 2024/08/12 05:06:30 AM, RFQ, Yes, RECEIVED]
+2024-08-12 14:57:43 INFO  SQmonitoring:226 - [631214, 2024/08/12 05:06:12 AM, Other, Yes, IGNORED]
+2024-08-12 14:57:44 INFO  SQmonitoring:226 - [631218, 2024/08/12 05:05:58 AM, RFQ, Yes, RECEIVED]
+2024-08-12 14:57:44 INFO  SQmonitoring:226 - [631217, 2024/08/12 05:05:31 AM, RFQ, Yes, RECEIVED]
+2024-08-12 14:57:45 INFO  SQmonitoring:226 - [631216, 2024/08/12 05:05:31 AM, Other, Yes, IGNORED]
+2024-08-12 14:57:46 INFO  SQmonitoring:226 - [631215, 2024/08/12 05:05:19 AM, RFQ, Yes, RECEIVED]
+2024-08-12 14:57:46 INFO  SQmonitoring:226 - [631213, 2024/08/12 05:05:06 AM, Other, Yes, IGNORED]
+2024-08-12 14:57:47 INFO  SQmonitoring:226 - [631212, 2024/08/12 05:04:53 AM, RFQ, Yes, RECEIVED]
+2024-08-12 14:57:48 INFO  SQmonitoring:226 - [631211, 2024/08/12 05:04:37 AM, Other, Yes, IGNORED]
+2024-08-12 14:57:48 INFO  SQmonitoring:226 - [631210, 2024/08/12 05:04:24 AM, RFQ, Yes, RECEIVED]
+2024-08-12 14:57:49 INFO  SQmonitoring:226 - [631209, 2024/08/12 05:04:11 AM, RFQ, Yes, RECEIVED]
+2024-08-12 14:57:49 INFO  SQmonitoring:226 - [631208, 2024/08/12 05:03:58 AM, RFQ, Yes, RECEIVED]
+2024-08-12 14:57:50 INFO  SQmonitoring:226 - [631207, 2024/08/12 05:03:46 AM, RFQ, Yes, RECEIVED]
+2024-08-12 14:57:51 INFO  SQmonitoring:226 - [631206, 2024/08/12 05:03:33 AM, RFQ, Yes, RECEIVED]
+2024-08-12 14:57:51 INFO  SQmonitoring:226 - [631205, 2024/08/12 05:03:20 AM, RFQ, Yes, RECEIVED]
+2024-08-12 14:57:52 INFO  SQmonitoring:226 - [631204, 2024/08/12 05:03:07 AM, RFQ, Yes, RECEIVED]
+2024-08-12 14:57:52 INFO  SQmonitoring:226 - [631203, 2024/08/12 05:02:54 AM, Other, Yes, IGNORED]
+2024-08-12 14:57:56 INFO  SQmonitoring:189 - Page no :: 15
+2024-08-12 14:57:56 INFO  SQmonitoring:214 - Rowcount :: 20, ColCount :: 5
+2024-08-12 14:57:56 INFO  SQmonitoring:226 - [631201, 2024/08/12 05:02:41 AM, RFQ, Yes, RECEIVED]
+2024-08-12 14:57:57 INFO  SQmonitoring:226 - [631202, 2024/08/12 05:02:28 AM, RFQ, Yes, RECEIVED]
+2024-08-12 14:57:57 INFO  SQmonitoring:226 - [631200, 2024/08/12 05:02:15 AM, RFQ, Yes, RECEIVED]
+2024-08-12 14:57:58 INFO  SQmonitoring:226 - [631199, 2024/08/12 05:02:02 AM, Other, Yes, IGNORED]
+2024-08-12 14:57:59 INFO  SQmonitoring:226 - [631197, 2024/08/12 05:01:49 AM, RFQ, Yes, RECEIVED]
+2024-08-12 14:57:59 INFO  SQmonitoring:226 - [631198, 2024/08/12 05:01:35 AM, Other, Yes, IGNORED]
+2024-08-12 14:58:00 INFO  SQmonitoring:226 - [631196, 2024/08/12 05:01:21 AM, Other, Yes, IGNORED]
+2024-08-12 14:58:00 INFO  SQmonitoring:226 - [631195, 2024/08/12 05:01:08 AM, RFQ, Yes, RECEIVED]
+2024-08-12 14:58:01 INFO  SQmonitoring:226 - [631194, 2024/08/12 05:00:55 AM, Other, Yes, IGNORED]
+2024-08-12 14:58:02 INFO  SQmonitoring:226 - [631193, 2024/08/12 05:00:42 AM, RFQ, Yes, RECEIVED]
+2024-08-12 14:58:03 INFO  SQmonitoring:226 - [631192, 2024/08/12 05:00:28 AM, Other, Yes, IGNORED]
+2024-08-12 14:58:03 INFO  SQmonitoring:226 - [631191, 2024/08/12 05:00:16 AM, Other, Yes, IGNORED]
+2024-08-12 14:58:04 INFO  SQmonitoring:226 - [631190, 2024/08/12 05:00:02 AM, Other, Yes, IGNORED]
+2024-08-12 14:58:05 INFO  SQmonitoring:226 - [631189, 2024/08/12 04:59:48 AM, RFQ, Yes, RECEIVED]
+2024-08-12 14:58:06 INFO  SQmonitoring:226 - [631188, 2024/08/12 04:59:22 AM, RFQ, Yes, RECEIVED]
+2024-08-12 14:58:06 INFO  SQmonitoring:226 - [631182, 2024/08/12 04:59:22 AM, RFQ, Yes, RECEIVED]
+2024-08-12 14:58:07 INFO  SQmonitoring:226 - [631187, 2024/08/12 04:59:09 AM, Other, Yes, IGNORED]
+2024-08-12 14:58:08 INFO  SQmonitoring:226 - [631186, 2024/08/12 04:58:56 AM, Other, Yes, IGNORED]
+2024-08-12 14:58:08 INFO  SQmonitoring:226 - [631185, 2024/08/12 04:58:43 AM, RFQ, Yes, RECEIVED]
+2024-08-12 14:58:09 INFO  SQmonitoring:226 - [631184, 2024/08/12 04:58:30 AM, RFQ, Yes, RECEIVED]
+2024-08-12 14:58:12 INFO  SQmonitoring:189 - Page no :: 16
+2024-08-12 14:58:12 INFO  SQmonitoring:214 - Rowcount :: 20, ColCount :: 5
+2024-08-12 14:58:13 INFO  SQmonitoring:226 - [631183, 2024/08/12 04:58:09 AM, RFQ, Yes, RECEIVED]
+2024-08-12 14:58:13 INFO  SQmonitoring:226 - [631181, 2024/08/12 04:57:47 AM, RFQ, Yes, RECEIVED]
+2024-08-12 14:58:14 INFO  SQmonitoring:226 - [631180, 2024/08/12 04:57:24 AM, RFQ, Yes, RECEIVED]
+2024-08-12 14:58:15 INFO  SQmonitoring:226 - [631178, 2024/08/12 04:56:57 AM, Other, Yes, IGNORED]
+2024-08-12 14:58:15 INFO  SQmonitoring:226 - [631176, 2024/08/12 04:56:57 AM, Other, Yes, IGNORED]
+2024-08-12 14:58:16 INFO  SQmonitoring:226 - [631179, 2024/08/12 04:56:44 AM, Other, Yes, IGNORED]
+2024-08-12 14:58:16 INFO  SQmonitoring:226 - [631177, 2024/08/12 04:56:32 AM, Other, Yes, IGNORED]
+2024-08-12 14:58:17 INFO  SQmonitoring:226 - [631174, 2024/08/12 04:55:56 AM, RFQ, Yes, RECEIVED]
+2024-08-12 14:58:18 INFO  SQmonitoring:226 - [631175, 2024/08/12 04:55:56 AM, RFQ, Yes, RECEIVED]
+2024-08-12 14:58:18 INFO  SQmonitoring:226 - [631173, 2024/08/12 04:55:43 AM, Other, Yes, IGNORED]
+2024-08-12 14:58:19 INFO  SQmonitoring:226 - [631172, 2024/08/12 04:55:31 AM, Other, Yes, IGNORED]
+2024-08-12 14:58:19 INFO  SQmonitoring:226 - [631169, 2024/08/12 04:55:17 AM, Other, Yes, IGNORED]
+2024-08-12 14:58:20 INFO  SQmonitoring:226 - [631171, 2024/08/12 04:55:03 AM, Other, Yes, IGNORED]
+2024-08-12 14:58:21 INFO  SQmonitoring:226 - [631170, 2024/08/12 04:54:50 AM, Other, Yes, IGNORED]
+2024-08-12 14:58:21 INFO  SQmonitoring:226 - [631168, 2024/08/12 04:54:37 AM, RFQ, Yes, RECEIVED]
+2024-08-12 14:58:22 INFO  SQmonitoring:226 - [631166, 2024/08/12 04:54:24 AM, Other, Yes, IGNORED]
+2024-08-12 14:58:22 INFO  SQmonitoring:226 - [631167, 2024/08/12 04:54:11 AM, Other, Yes, IGNORED]
+2024-08-12 14:58:23 INFO  SQmonitoring:226 - [631164, 2024/08/12 04:53:58 AM, Other, Yes, IGNORED]
+2024-08-12 14:58:24 INFO  SQmonitoring:226 - [631163, 2024/08/12 04:53:45 AM, RFQ, Yes, RECEIVED]
+2024-08-12 14:58:24 INFO  SQmonitoring:226 - [631159, 2024/08/12 04:53:32 AM, Other, Yes, IGNORED]
+2024-08-12 14:58:28 INFO  SQmonitoring:189 - Page no :: 17
+2024-08-12 14:58:28 INFO  SQmonitoring:214 - Rowcount :: 20, ColCount :: 5
+2024-08-12 14:58:28 INFO  SQmonitoring:226 - [631165, 2024/08/12 04:53:15 AM, RFQ, Yes, RECEIVED]
+2024-08-12 14:58:29 INFO  SQmonitoring:226 - [631162, 2024/08/12 04:53:02 AM, RFQ, Yes, RECEIVED]
+2024-08-12 14:58:29 INFO  SQmonitoring:226 - [631160, 2024/08/12 04:52:50 AM, Other, Yes, IGNORED]
+2024-08-12 14:58:30 INFO  SQmonitoring:226 - [631161, 2024/08/12 04:52:37 AM, Other, Yes, IGNORED]
+2024-08-12 14:58:31 INFO  SQmonitoring:226 - [631158, 2024/08/12 04:52:23 AM, Other, Yes, IGNORED]
+2024-08-12 14:58:31 INFO  SQmonitoring:226 - [631157, 2024/08/12 04:52:10 AM, RFQ, Yes, RECEIVED]
+2024-08-12 14:58:32 INFO  SQmonitoring:226 - [631156, 2024/08/12 04:51:46 AM, RFQ, Yes, RECEIVED]
+2024-08-12 14:58:32 INFO  SQmonitoring:226 - [631155, 2024/08/12 04:51:33 AM, RFQ, Yes, RECEIVED]
+2024-08-12 14:58:33 INFO  SQmonitoring:226 - [631148, 2024/08/12 04:51:20 AM, Other, Yes, IGNORED]
+2024-08-12 14:58:34 INFO  SQmonitoring:226 - [631144, 2024/08/12 04:51:07 AM, Other, Yes, IGNORED]
+2024-08-12 14:58:34 INFO  SQmonitoring:226 - [631154, 2024/08/12 04:50:53 AM, Other, Yes, IGNORED]
+2024-08-12 14:58:35 INFO  SQmonitoring:226 - [631153, 2024/08/12 04:50:40 AM, Other, Yes, IGNORED]
+2024-08-12 14:58:35 INFO  SQmonitoring:226 - [631152, 2024/08/12 04:50:27 AM, Other, Yes, IGNORED]
+2024-08-12 14:58:36 INFO  SQmonitoring:226 - [631151, 2024/08/12 04:50:14 AM, RFQ, Yes, RECEIVED]
+2024-08-12 14:58:37 INFO  SQmonitoring:226 - [631150, 2024/08/12 04:50:01 AM, Other, Yes, IGNORED]
+2024-08-12 14:58:37 INFO  SQmonitoring:226 - [631149, 2024/08/12 04:49:48 AM, Other, Yes, IGNORED]
+2024-08-12 14:58:38 INFO  SQmonitoring:226 - [631143, 2024/08/12 04:49:34 AM, RFQ, Yes, RECEIVED]
+2024-08-12 14:58:39 INFO  SQmonitoring:226 - [631147, 2024/08/12 04:49:22 AM, Other, Yes, IGNORED]
+2024-08-12 14:58:39 INFO  SQmonitoring:226 - [631146, 2024/08/12 04:49:02 AM, RFQ, Yes, RECEIVED]
+2024-08-12 14:58:40 INFO  SQmonitoring:226 - [631145, 2024/08/12 04:48:49 AM, RFQ, Yes, RECEIVED]
+2024-08-12 14:58:43 INFO  SQmonitoring:189 - Page no :: 18
+2024-08-12 14:58:43 INFO  SQmonitoring:214 - Rowcount :: 20, ColCount :: 5
+2024-08-12 14:58:44 INFO  SQmonitoring:226 - [631142, 2024/08/12 04:48:36 AM, RFQ, Yes, RECEIVED]
+2024-08-12 14:58:44 INFO  SQmonitoring:226 - [631141, 2024/08/12 04:48:23 AM, Other, Yes, IGNORED]
+2024-08-12 14:58:45 INFO  SQmonitoring:226 - [631140, 2024/08/12 04:48:10 AM, Other, Yes, IGNORED]
+2024-08-12 14:58:46 INFO  SQmonitoring:226 - [631139, 2024/08/12 04:47:57 AM, RFQ, Yes, RECEIVED]
+2024-08-12 14:58:46 INFO  SQmonitoring:226 - [631138, 2024/08/12 04:47:43 AM, RFQ, Yes, RECEIVED]
+2024-08-12 14:58:47 INFO  SQmonitoring:226 - [631137, 2024/08/12 04:47:30 AM, Other, Yes, IGNORED]
+2024-08-12 14:58:48 INFO  SQmonitoring:226 - [631136, 2024/08/12 04:47:17 AM, Other, Yes, IGNORED]
+2024-08-12 14:58:48 INFO  SQmonitoring:226 - [631135, 2024/08/12 04:47:04 AM, Other, Yes, IGNORED]
+2024-08-12 14:58:49 INFO  SQmonitoring:226 - [631134, 2024/08/12 04:46:37 AM, Other, Yes, IGNORED]
+2024-08-12 14:58:49 INFO  SQmonitoring:226 - [631133, 2024/08/12 04:46:37 AM, RFQ, Yes, RECEIVED]
+2024-08-12 14:58:50 INFO  SQmonitoring:226 - [631132, 2024/08/12 04:46:24 AM, Other, Yes, IGNORED]
+2024-08-12 14:58:50 INFO  SQmonitoring:226 - [631131, 2024/08/12 04:46:10 AM, Other, Yes, IGNORED]
+2024-08-12 14:58:51 INFO  SQmonitoring:226 - [631130, 2024/08/12 04:45:57 AM, RFQ, Yes, RECEIVED]
+2024-08-12 14:58:52 INFO  SQmonitoring:226 - [631129, 2024/08/12 04:45:44 AM, Other, Yes, IGNORED]
+2024-08-12 14:58:52 INFO  SQmonitoring:226 - [631127, 2024/08/12 04:45:31 AM, Other, Yes, IGNORED]
+2024-08-12 14:58:53 INFO  SQmonitoring:226 - [631128, 2024/08/12 04:45:18 AM, RFQ, Yes, RECEIVED]
+2024-08-12 14:58:53 INFO  SQmonitoring:226 - [631126, 2024/08/12 04:45:05 AM, RFQ, Yes, RECEIVED]
+2024-08-12 14:58:54 INFO  SQmonitoring:226 - [631125, 2024/08/12 04:44:49 AM, RFQ, Yes, RECEIVED]
+2024-08-12 14:58:55 INFO  SQmonitoring:226 - [631123, 2024/08/12 04:44:35 AM, RFQ, Yes, RECEIVED]
+2024-08-12 14:58:55 INFO  SQmonitoring:226 - [631124, 2024/08/12 04:44:21 AM, RFQ, Yes, RECEIVED]
+2024-08-12 14:58:58 INFO  SQmonitoring:127 - /*-----------------------------------------------------------------
+2024-08-12 14:58:58 INFO  SQmonitoring:128 - Total Cases 	:: 360
+2024-08-12 14:58:58 INFO  SQmonitoring:129 - NEW  			:: 0
+2024-08-12 14:58:58 INFO  SQmonitoring:130 - RECEIVED  		:: 311
+2024-08-12 14:58:58 INFO  SQmonitoring:131 - PROCESSING  	:: 0
+2024-08-12 14:58:58 INFO  SQmonitoring:132 - DUPLICATE 		:: 0
+2024-08-12 14:58:58 INFO  SQmonitoring:133 - IGNORED 		:: 49
+2024-08-12 14:58:58 INFO  SQmonitoring:134 - FAILED 		:: 0
+2024-08-12 14:58:58 INFO  SQmonitoring:135 - NOT_IDENTIFIED :: 0
+2024-08-12 14:58:58 INFO  SQmonitoring:137 - /*-----------------------------------------------------------------
+2024-08-12 14:59:13 INFO  SQmonitoring:56 - Title :: 
+2024-08-12 14:59:13 INFO  SQmonitoring:162 - Last Page :: 26023
+2024-08-12 14:59:13 INFO  SQmonitoring:189 - Page no :: 1
+2024-08-12 14:59:13 INFO  SQmonitoring:214 - Rowcount :: 20, ColCount :: 9
+2024-08-12 14:59:14 INFO  SQmonitoring:226 - [, 631482, 11005, yaman.maharjan@javra.com, RFQ 06032024 Boeing Fleet, SFCASE, 2024/08/12 06:06:03 AM, 2024/08/12 08:21:42 AM, Re-processCOMPLETED]
+2024-08-12 14:59:15 INFO  SQmonitoring:226 - [, 631481, 11005, yaman.maharjan@javra.com, RFQ HMS10219, SFCASE, 2024/08/12 06:05:58 AM, 2024/08/12 08:21:31 AM, Re-processCOMPLETED]
+2024-08-12 14:59:16 INFO  SQmonitoring:226 - [, 631480, 11005, yaman.maharjan@javra.com, RFQ - From Aerospace Technical Services Entry Code:GE3Q-IISN-PZT1, SFCASE, 2024/08/12 06:05:55 AM, 2024/08/12 08:21:19 AM, Re-processCOMPLETED]
+2024-08-12 14:59:17 INFO  SQmonitoring:226 - [, 631477, 11005, yaman.maharjan@javra.com, NEED RFQ - Item_S2431218-12C20G & S2431218-6-22H & S2431218-9D20F // WASHER, SFCASE, 2024/08/12 06:05:38 AM, 2024/08/12 08:19:08 AM, Re-processCOMPLETED]
+2024-08-12 14:59:19 INFO  SQmonitoring:226 - [, 631478, 11005, yaman.maharjan@javra.com, 060324 - REQUEST FOR IMMEDIATE QUOTE FOE EOL V8-RBX PN: D5754054420400 / BOLT, SFCASE, 2024/08/12 06:05:42 AM, 2024/08/12 08:18:57 AM, Re-processCOMPLETED]
+2024-08-12 14:59:20 INFO  SQmonitoring:226 - [, 631476, 11005, yaman.maharjan@javra.com, RP-C 8763_DSS RFQ CLOSING DATE: MAR 7, 2024 @ 1100H, SFCASE, 2024/08/12 06:05:35 AM, 2024/08/12 08:18:45 AM, Re-processCOMPLETED]
+2024-08-12 14:59:21 INFO  SQmonitoring:226 - [, 631475, 11005, yaman.maharjan@javra.com, RP-C 8763_DSS RFQ CLOSING DATE: MAR 7, 2024 @ 1100H, SFCASE, 2024/08/12 06:05:31 AM, 2024/08/12 08:18:33 AM, Re-processCOMPLETED]
+2024-08-12 14:59:22 INFO  SQmonitoring:226 - [, 631470, 11005, yaman.maharjan@javra.com, RFQs, SFCASE, 2024/08/12 06:05:06 AM, 2024/08/12 08:18:17 AM, Re-processCOMPLETED]
+2024-08-12 14:59:23 INFO  SQmonitoring:226 - [, 631474, 11005, yaman.maharjan@javra.com, RFQ - From Aves AeroTechnic Aviation Entry Code:JXRF-SD5C-J728, SFCASE, 2024/08/12 06:05:24 AM, 2024/08/12 08:18:06 AM, Re-processCOMPLETED]
+2024-08-12 14:59:24 INFO  SQmonitoring:226 - [, 631472, 11005, yaman.maharjan@javra.com, RFQ - From Rockdove Aviation Entry Code:VX90-G6FX-YDHI, SFCASE, 2024/08/12 06:05:15 AM, 2024/08/12 08:17:54 AM, Re-processCOMPLETED]
+2024-08-12 14:59:25 INFO  SQmonitoring:226 - [, 631473, 11005, yaman.maharjan@javra.com, RFQ - From Aerospace Technical Services Entry Code:A1SU-2Q3V-NXOO, SFCASE, 2024/08/12 06:05:19 AM, 2024/08/12 08:17:43 AM, Re-processCOMPLETED]
+2024-08-12 14:59:26 INFO  SQmonitoring:226 - [, 631471, 11005, yaman.maharjan@javra.com, [AAR] RFQ for PN ABS0571-08, 2EA, SFCASE, 2024/08/12 06:05:11 AM, 2024/08/12 08:17:31 AM, Re-processCOMPLETED]
+2024-08-12 14:59:27 INFO  SQmonitoring:226 - [, 631469, 11005, yaman.maharjan@javra.com, RFQ-IL24112, SFCASE, 2024/08/12 06:05:00 AM, 2024/08/12 08:17:20 AM, Re-processCOMPLETED]
+2024-08-12 14:59:28 INFO  SQmonitoring:226 - [, 631468, 11005, yaman.maharjan@javra.com, RFQ E0054N14B19PNE, SFCASE, 2024/08/12 06:04:56 AM, 2024/08/12 08:16:04 AM, Re-processCOMPLETED]
+2024-08-12 14:59:29 INFO  SQmonitoring:226 - [, 631467, 11005, yaman.maharjan@javra.com, CRITICAL RFQ FOR LY-STE & OE-IHV 2024/3/6 (3), SFCASE, 2024/08/12 06:04:54 AM, 2024/08/12 08:15:54 AM, Re-processCOMPLETED]
+2024-08-12 14:59:30 INFO  SQmonitoring:226 - [, 631466, 11005, yaman.maharjan@javra.com, RFQ # 806-202412941 - New RFQ : Request Quotation from ST Engineering Aerospace Services Company Pte. Ltd. Buyer : Tan Xiang Yu, SFCASE, 2024/08/12 06:04:50 AM, 2024/08/12 08:15:42 AM, Re-processCOMPLETED]
+2024-08-12 14:59:31 INFO  SQmonitoring:226 - [, 631463, 11005, yaman.maharjan@javra.com, NEED RFQ - Item_S2245042S9-7200 // PIN, LOCK - STAINLESS STEEL HINGE, SFCASE, 2024/08/12 06:04:38 AM, 2024/08/12 08:15:31 AM, Re-processCOMPLETED]
+2024-08-12 14:59:32 INFO  SQmonitoring:226 - [, 631465, 11005, yaman.maharjan@javra.com, REQ 176123 // AOG RFQ to NQZ, SFCASE, 2024/08/12 06:04:44 AM, 2024/08/12 08:15:19 AM, Re-processCOMPLETED]
+2024-08-12 14:59:33 INFO  SQmonitoring:226 - [, 631464, 11005, yaman.maharjan@javra.com, RFQ # 806-202412944 - New RFQ : Request Quotation from ST Engineering Aerospace Services Company Pte. Ltd. Buyer : Alice Lau, SFCASE, 2024/08/12 06:04:43 AM, 2024/08/12 08:15:07 AM, Re-processCOMPLETED]
+2024-08-12 14:59:34 INFO  SQmonitoring:226 - [, 631461, 11005, yaman.maharjan@javra.com, URGENT // RFQ A06032024-01, SFCASE, 2024/08/12 06:04:30 AM, 2024/08/12 08:14:56 AM, Re-processCOMPLETED]
+2024-08-12 14:59:37 INFO  SQmonitoring:189 - Page no :: 2
+2024-08-12 14:59:37 INFO  SQmonitoring:214 - Rowcount :: 20, ColCount :: 9
+2024-08-12 14:59:38 INFO  SQmonitoring:226 - [, 631462, 11005, yaman.maharjan@javra.com, REQUEST FOR QUOTE REF: MMD/RP/RFQ24/0280 MT( CLOSING DATE 11-Mar-24 ), SFCASE, 2024/08/12 06:04:34 AM, 2024/08/12 08:14:44 AM, Re-processCOMPLETED]
+2024-08-12 14:59:39 INFO  SQmonitoring:226 - [, 631460, 11005, yaman.maharjan@javra.com, AE1502U02 INQUIRY, SFCASE, 2024/08/12 06:04:27 AM, 2024/08/12 08:14:33 AM, Re-processCOMPLETED]
+2024-08-12 14:59:40 INFO  SQmonitoring:226 - [, 631459, 11005, yaman.maharjan@javra.com, RFQ # 806-202412928 - New RFQ : Request Quotation from ST Engineering Aerospace Services Company Pte. Ltd. Buyer : Tan Xiang Yu, SFCASE, 2024/08/12 06:04:23 AM, 2024/08/12 08:14:20 AM, Re-processCOMPLETED]
+2024-08-12 14:59:41 INFO  SQmonitoring:226 - [, 631458, 11005, yaman.maharjan@javra.com, RFQ // PN: AS5230J1208 DESC: UNION, SFCASE, 2024/08/12 06:04:16 AM, 2024/08/12 08:13:02 AM, Re-processCOMPLETED]
+2024-08-12 14:59:42 INFO  SQmonitoring:226 - [, 631457, 11005, yaman.maharjan@javra.com, RFQ PN 292-24, SFCASE, 2024/08/12 06:04:14 AM, 2024/08/12 08:12:51 AM, Re-processCOMPLETED]
+2024-08-12 14:59:43 INFO  SQmonitoring:226 - [, 631456, 11005, yaman.maharjan@javra.com, RFQ / PN # NSA5527-03-03, SFCASE, 2024/08/12 06:04:09 AM, 2024/08/12 08:12:40 AM, Re-processCOMPLETED]
+2024-08-12 14:59:44 INFO  SQmonitoring:226 - [, 631455, 11005, yaman.maharjan@javra.com, RFQ202403060001-航材（A320）, SFCASE, 2024/08/12 06:04:08 AM, 2024/08/12 08:12:29 AM, Re-processCOMPLETED]
+2024-08-12 14:59:45 INFO  SQmonitoring:226 - [, 631454, 11005, yaman.maharjan@javra.com, MMD/IPAM/RFQ24/0281ZF (Closing Date: 06MAR2024), SFCASE, 2024/08/12 06:03:58 AM, 2024/08/12 08:12:18 AM, Re-processCOMPLETED]
+2024-08-12 14:59:46 INFO  SQmonitoring:226 - [, 631453, 11005, yaman.maharjan@javra.com, RFQ# C20240306-0064, SFCASE, 2024/08/12 06:03:56 AM, 2024/08/12 08:12:06 AM, Re-processCOMPLETED]
+2024-08-12 14:59:47 INFO  SQmonitoring:226 - [, 631452, 11005, yaman.maharjan@javra.com, request for exchange + cost quote for PN 810207-9, SFCASE, 2024/08/12 06:03:52 AM, 2024/08/12 08:11:55 AM, Re-processCOMPLETED]
+2024-08-12 14:59:48 INFO  SQmonitoring:226 - [, 631449, 11005, yaman.maharjan@javra.com, CRITICAL RFQ 2024/3/6 (1), SFCASE, 2024/08/12 06:03:36 AM, 2024/08/12 08:11:43 AM, Re-processCOMPLETED]
+2024-08-12 14:59:49 INFO  SQmonitoring:226 - [, 631451, 11005, yaman.maharjan@javra.com, RFQ / PN # 80-116-03, SFCASE, 2024/08/12 06:03:47 AM, 2024/08/12 08:11:31 AM, Re-processCOMPLETED]
+2024-08-12 14:59:50 INFO  SQmonitoring:226 - [, 631446, 11005, yaman.maharjan@javra.com, E-190 VP-BRU HEADREST COVER P/N 41191124-543, SFCASE, 2024/08/12 06:03:23 AM, 2024/08/12 08:11:19 AM, Re-processCOMPLETED]
+2024-08-12 14:59:51 INFO  SQmonitoring:226 - [, 631450, 11005, yaman.maharjan@javra.com, RFQ 06 Mar 2024, SFCASE, 2024/08/12 06:03:42 AM, 2024/08/12 08:09:13 AM, Re-processCOMPLETED]
+2024-08-12 14:59:52 INFO  SQmonitoring:226 - [, 631448, 11005, yaman.maharjan@javra.com, RFQ # 806-202412908 - New RFQ : Request Quotation from ST Engineering Aerospace Services Company Pte. Ltd. Buyer : Alice Lau, SFCASE, 2024/08/12 06:03:34 AM, 2024/08/12 08:09:01 AM, Re-processCOMPLETED]
+2024-08-12 14:59:53 INFO  SQmonitoring:226 - [, 631447, 11005, yaman.maharjan@javra.com, [RFQ] - AOG / POG / 8AA / 1018190815 / ABS1847A01-03A:FAPE3 /, SFCASE, 2024/08/12 06:03:28 AM, 2024/08/12 08:08:46 AM, Re-processCOMPLETED]
+2024-08-12 14:59:54 INFO  SQmonitoring:226 - [, 631445, 11005, yaman.maharjan@javra.com, EGAT RFQ PN NAS514P1032-20, SFCASE, 2024/08/12 06:03:17 AM, 2024/08/12 08:08:35 AM, Re-processCOMPLETED]
+2024-08-12 14:59:55 INFO  SQmonitoring:226 - [, 631444, 11005, yaman.maharjan@javra.com, RFQ FOR PN CSP376-44 ,CSP313-79 ,CSP377-14 ,NAS6303-25 ,NAS6303-27 ,82974216-003, SFCASE, 2024/08/12 06:03:13 AM, 2024/08/12 08:08:23 AM, Re-processCOMPLETED]
+2024-08-12 14:59:56 INFO  SQmonitoring:226 - [, 631443, 11005, yaman.maharjan@javra.com, [RFQ] - WSP / POG / W7B / 1018170511 / E0052R12B10SNE:F5442 /, SFCASE, 2024/08/12 06:03:12 AM, 2024/08/12 08:08:12 AM, Re-processCOMPLETED]
+2024-08-12 14:59:57 INFO  SQmonitoring:226 - [, 631442, 11005, yaman.maharjan@javra.com, RFQ OF RMS20240306-L2 PRELOAD, SFCASE, 2024/08/12 06:03:09 AM, 2024/08/12 08:07:57 AM, Re-processCOMPLETED]
+2024-08-12 15:00:00 INFO  SQmonitoring:189 - Page no :: 3
+2024-08-12 15:00:00 INFO  SQmonitoring:214 - Rowcount :: 20, ColCount :: 9
+2024-08-12 15:00:02 INFO  SQmonitoring:226 - [, 631429, 11005, yaman.maharjan@javra.com, Aviation Spares Inquiry 5000026337 HNA Aviation Spares Inquiry 10, SFCASE, 2024/08/12 06:02:10 AM, 2024/08/12 08:07:44 AM, Re-processCOMPLETED]
+2024-08-12 15:00:03 INFO  SQmonitoring:226 - [, 631441, 11005, yaman.maharjan@javra.com, RFQ # 806-202412902 - New RFQ : Request Quotation from ST Engineering Aerospace Services Company Pte. Ltd. Buyer : Tan Xiang Yu, SFCASE, 2024/08/12 06:03:03 AM, 2024/08/12 08:07:31 AM, Re-processCOMPLETED]
+2024-08-12 15:00:04 INFO  SQmonitoring:226 - [, 631440, 11005, yaman.maharjan@javra.com, NEED RFQ - Item_S146142-156-012 // PIN, SFCASE, 2024/08/12 06:03:01 AM, 2024/08/12 08:07:19 AM, Re-processCOMPLETED]
+2024-08-12 15:00:05 INFO  SQmonitoring:226 - [, 631436, 11005, yaman.maharjan@javra.com, EI-MAA - ACTUATOR,PAX DOOR - PN FE256-000 || AOG || EI-MAA || CCHECK || MAS***, SFCASE, 2024/08/12 06:02:42 AM, 2024/08/12 08:06:04 AM, Re-processCOMPLETED]
+2024-08-12 15:00:06 INFO  SQmonitoring:226 - [, 631439, 11005, yaman.maharjan@javra.com, RFQ PN JETFLEX-L-BAC7362/CM0981-520/CM0110845, SFCASE, 2024/08/12 06:02:55 AM, 2024/08/12 08:05:51 AM, Re-processCOMPLETED]
+2024-08-12 15:00:07 INFO  SQmonitoring:226 - [, 631437, 11005, yaman.maharjan@javra.com, 2024-3-6-2天津海特询价HaiTe - Spot preferred, SFCASE, 2024/08/12 06:02:47 AM, 2024/08/12 08:05:40 AM, Re-processCOMPLETED]
+2024-08-12 15:00:08 INFO  SQmonitoring:226 - [, 631438, 11005, yaman.maharjan@javra.com, REQUEST FOR QUOTATION-YARN - NYLON BREAKING STRENGTH >40N:- 14PAB7, SFCASE, 2024/08/12 06:02:50 AM, 2024/08/12 08:05:28 AM, Re-processCOMPLETED]
+2024-08-12 15:00:09 INFO  SQmonitoring:226 - [, 631428, 11005, yaman.maharjan@javra.com, Invitation to RFQ（97529）, SFCASE, 2024/08/12 06:02:06 AM, 2024/08/12 08:05:17 AM, Re-processCOMPLETED]
+2024-08-12 15:00:11 INFO  SQmonitoring:226 - [, 631435, 11005, yaman.maharjan@javra.com, NEED RFQ - Item_S124682-4-20-3 & S124682-6D18-3 // WASHER, SFCASE, 2024/08/12 06:02:37 AM, 2024/08/12 08:05:05 AM, Re-processCOMPLETED]
+2024-08-12 15:00:12 INFO  SQmonitoring:226 - [, 631434, 11005, yaman.maharjan@javra.com, RFQ-0041, SFCASE, 2024/08/12 06:02:28 AM, 2024/08/12 08:04:53 AM, Re-processCOMPLETED]
+2024-08-12 15:00:13 INFO  SQmonitoring:226 - [, 631432, 11005, yaman.maharjan@javra.com, URGENT Price Quote // 9M-MUD // 06 MAR 2024, SFCASE, 2024/08/12 06:02:21 AM, 2024/08/12 08:04:42 AM, Re-processCOMPLETED]
+2024-08-12 15:00:15 INFO  SQmonitoring:226 - [, 631430, 11005, yaman.maharjan@javra.com, RFQ # 806-202412493 - New RFQ : Request Quotation from ST Engineering Aerospace Services Company Pte. Ltd. Buyer : Png Ning Xuan Eunice, SFCASE, 2024/08/12 06:02:14 AM, 2024/08/12 08:04:31 AM, Re-processCOMPLETED]
+2024-08-12 15:00:16 INFO  SQmonitoring:226 - [, 631433, 11005, yaman.maharjan@javra.com, RFQ-0042, SFCASE, 2024/08/12 06:02:26 AM, 2024/08/12 08:04:19 AM, Re-processCOMPLETED]
+2024-08-12 15:00:18 INFO  SQmonitoring:226 - [, 631422, 11005, yaman.maharjan@javra.com, 060324 - RFQ - FOR A/C V8-DLE A'CHECK, SFCASE, 2024/08/12 06:01:43 AM, 2024/08/12 08:02:04 AM, Re-processCOMPLETED]
+2024-08-12 15:00:19 INFO  SQmonitoring:226 - [, 631431, 11005, yaman.maharjan@javra.com, MEL parts RFQ- 06-Mar-24, SFCASE, 2024/08/12 06:02:18 AM, 2024/08/12 08:01:53 AM, Re-processCOMPLETED]
+2024-08-12 15:00:20 INFO  SQmonitoring:226 - [, 631427, 11005, yaman.maharjan@javra.com, RFQ # 803-202403030 - New RFQ : Request Quotation from ST Engineering Aerospace Systems Pte. Ltd. Buyer : Nur Safura Puteri Binte Saleh, SFCASE, 2024/08/12 06:02:02 AM, 2024/08/12 08:01:42 AM, Re-processCOMPLETED]
+2024-08-12 15:00:21 INFO  SQmonitoring:226 - [, 631423, 11005, yaman.maharjan@javra.com, RFQ # 806-202412888 - New RFQ : Request Quotation from ST Engineering Aerospace Services Company Pte. Ltd. Buyer : Subuhana Binte Malick, SFCASE, 2024/08/12 06:01:48 AM, 2024/08/12 08:01:30 AM, Re-processCOMPLETED]
+2024-08-12 15:00:22 INFO  SQmonitoring:226 - [, 631425, 11005, yaman.maharjan@javra.com, Invitation to RFQ（97528）, SFCASE, 2024/08/12 06:01:54 AM, 2024/08/12 08:01:18 AM, Re-processCOMPLETED]
+2024-08-12 15:00:22 INFO  SQmonitoring:226 - [, 631426, 11005, yaman.maharjan@javra.com, RFQ 0306 806-202412889 - XP03-092-070000 XA18-030-000200 New RFQ : Request Quotation from ST Engineering Aerospace Services Company Pte. Ltd. Buyer : KANG INN WEE, SFCASE, 2024/08/12 06:01:58 AM, 2024/08/12 08:01:06 AM, Re-processCOMPLETED]
+2024-08-12 15:00:23 INFO  SQmonitoring:226 - [, 631424, 11005, yaman.maharjan@javra.com, RFQ for P/N:M83P1801A, SFCASE, 2024/08/12 06:01:50 AM, 2024/08/12 08:00:54 AM, Re-processCOMPLETED]
+2024-08-12 15:00:26 INFO  SQmonitoring:189 - Page no :: 4
+2024-08-12 15:00:26 INFO  SQmonitoring:214 - Rowcount :: 20, ColCount :: 9
+2024-08-12 15:00:27 INFO  SQmonitoring:226 - [, 631420, 11005, yaman.maharjan@javra.com, CRI-RFQ ADD A321N/A330N / MEL D A320C - 0422, SFCASE, 2024/08/12 06:01:37 AM, 2024/08/12 08:00:43 AM, Re-processCOMPLETED]
+2024-08-12 15:00:28 INFO  SQmonitoring:226 - [, 631421, 11005, yaman.maharjan@javra.com, RFQ FOR NOSTCK-2154 // P/N: S67-1575-145, SFCASE, 2024/08/12 06:01:39 AM, 2024/08/12 08:00:31 AM, Re-processCOMPLETED]
+2024-08-12 15:00:28 INFO  SQmonitoring:226 - [, 631417, 11005, yaman.maharjan@javra.com, RFQ # 806-202412883 - New RFQ : Request Quotation from ST Engineering Aerospace Services Company Pte. Ltd. Buyer : Chang Zhong Wei, SFCASE, 2024/08/12 06:01:25 AM, 2024/08/12 08:00:19 AM, Re-processCOMPLETED]
+2024-08-12 15:00:29 INFO  SQmonitoring:226 - [, 631419, 11005, yaman.maharjan@javra.com, RFQ # 060320240001, SFCASE, 2024/08/12 06:01:31 AM, 2024/08/12 07:59:02 AM, Re-processCOMPLETED]
+2024-08-12 15:00:30 INFO  SQmonitoring:226 - [, 631418, 11005, yaman.maharjan@javra.com, LM/ B767/ 4K-AZ82/ FOOD TABLE -855287-424D / TCOD, SFCASE, 2024/08/12 06:01:27 AM, 2024/08/12 07:58:50 AM, Re-processCOMPLETED]
+2024-08-12 15:00:31 INFO  SQmonitoring:226 - [, 631416, 11005, yaman.maharjan@javra.com, 06MAR24 - // REQUEST IMMEDIATE QUOTATION FOR WHEEL & BRAKE WORKSHOP //, SFCASE, 2024/08/12 06:01:23 AM, 2024/08/12 07:58:39 AM, Re-processCOMPLETED]
+2024-08-12 15:00:31 INFO  SQmonitoring:226 - [, 631407, 11005, yaman.maharjan@javra.com, RFQ PN:822-1567-102, SFCASE, 2024/08/12 06:00:41 AM, 2024/08/12 07:58:27 AM, Re-processCOMPLETED]
+2024-08-12 15:00:32 INFO  SQmonitoring:226 - [, 631414, 11005, yaman.maharjan@javra.com, NEED RFQ - Item_MS28782-55 // RING, SFCASE, 2024/08/12 06:01:10 AM, 2024/08/12 07:58:16 AM, Re-processCOMPLETED]
+2024-08-12 15:00:33 INFO  SQmonitoring:226 - [, 631415, 11005, yaman.maharjan@javra.com, RFQ for Parts, SFCASE, 2024/08/12 06:01:13 AM, 2024/08/12 07:58:05 AM, Re-processCOMPLETED]
+2024-08-12 15:00:34 INFO  SQmonitoring:226 - [, 631413, 11005, yaman.maharjan@javra.com, EGAT RFQ-0306-CMD RQST PN-RD34035, SFCASE, 2024/08/12 06:01:05 AM, 2024/08/12 07:57:53 AM, Re-processCOMPLETED]
+2024-08-12 15:00:34 INFO  SQmonitoring:226 - [, 631411, 11005, yaman.maharjan@javra.com, 2024-3-6-1天津海特询价HaiTe - Spot preferred, SFCASE, 2024/08/12 06:00:56 AM, 2024/08/12 07:57:42 AM, Re-processCOMPLETED]
+2024-08-12 15:00:35 INFO  SQmonitoring:226 - [, 631408, 11005, yaman.maharjan@javra.com, Ruili Airlines RFQ, SFCASE, 2024/08/12 06:00:44 AM, 2024/08/12 07:57:30 AM, Re-processCOMPLETED]
+2024-08-12 15:00:36 INFO  SQmonitoring:226 - [, 631412, 11005, yaman.maharjan@javra.com, STAECO RFQ 2024-03-06 13:53:03, SFCASE, 2024/08/12 06:00:59 AM, 2024/08/12 07:57:19 AM, Re-processCOMPLETED]
+2024-08-12 15:00:37 INFO  SQmonitoring:226 - [, 631410, 11005, yaman.maharjan@javra.com, RFQ # 803-202403027 - New RFQ : Request Quotation from ST Engineering Aerospace Systems Pte. Ltd. Buyer : TOH LAY KUAN MABEL, SFCASE, 2024/08/12 06:00:54 AM, 2024/08/12 07:56:10 AM, Re-processCOMPLETED]
+2024-08-12 15:00:37 INFO  SQmonitoring:226 - [, 631409, 11005, yaman.maharjan@javra.com, 回复: RFQ240301, SFCASE, 2024/08/12 06:00:46 AM, 2024/08/12 07:55:58 AM, Re-processCOMPLETED]
+2024-08-12 15:00:38 INFO  SQmonitoring:226 - [, 631404, 11005, yaman.maharjan@javra.com, Aviation Spares Inquiry 5000026334 HNA Aviation Spares Inquiry 11, SFCASE, 2024/08/12 06:00:28 AM, 2024/08/12 07:55:47 AM, Re-processCOMPLETED]
+2024-08-12 15:00:39 INFO  SQmonitoring:226 - [, 631406, 11005, yaman.maharjan@javra.com, Aviation Spares Inquiry 5000026335 HNA Aviation Spares Inquiry 12, SFCASE, 2024/08/12 06:00:36 AM, 2024/08/12 07:55:36 AM, Re-processCOMPLETED]
+2024-08-12 15:00:39 INFO  SQmonitoring:226 - [, 631405, 11005, yaman.maharjan@javra.com, RFQ 06-MAR-2024 | PAA HTC REQUIREMENT (RP-C8941), SFCASE, 2024/08/12 06:00:32 AM, 2024/08/12 07:55:24 AM, Re-processCOMPLETED]
+2024-08-12 15:00:40 INFO  SQmonitoring:226 - [, 631402, 11005, yaman.maharjan@javra.com, RFQ#M11972-2, SFCASE, 2024/08/12 06:00:19 AM, 2024/08/12 07:54:06 AM, Re-processCOMPLETED]
+2024-08-12 15:00:41 INFO  SQmonitoring:226 - [, 631403, 11005, yaman.maharjan@javra.com, NEED RFQ - Item_M39006-22-0356 // CAP, SFCASE, 2024/08/12 06:00:24 AM, 2024/08/12 07:53:55 AM, Re-processCOMPLETED]
+2024-08-12 15:00:44 INFO  SQmonitoring:189 - Page no :: 5
+2024-08-12 15:00:44 INFO  SQmonitoring:214 - Rowcount :: 20, ColCount :: 9
+2024-08-12 15:00:45 INFO  SQmonitoring:226 - [, 631401, 11005, yaman.maharjan@javra.com, NEED RFQ - Item_HMU6004-01 // GEBR. STEIMEL GMBH & CO., MASCHINENFABRIK, SFCASE, 2024/08/12 06:00:13 AM, 2024/08/12 07:53:44 AM, Re-processCOMPLETED]
+2024-08-12 15:00:46 INFO  SQmonitoring:226 - [, 631400, 11005, yaman.maharjan@javra.com, URGENT /// MyTechnic RFQ for PN : 251A2420-7 & PN : EM91-79-5, SFCASE, 2024/08/12 06:00:11 AM, 2024/08/12 07:53:32 AM, Re-processCOMPLETED]
+2024-08-12 15:00:46 INFO  SQmonitoring:226 - [, 631399, 11005, yaman.maharjan@javra.com, URGENT QUOTE /, SFCASE, 2024/08/12 06:00:06 AM, 2024/08/12 07:53:16 AM, Re-processCOMPLETED]
+2024-08-12 15:00:47 INFO  SQmonitoring:226 - [, 631398, 11005, yaman.maharjan@javra.com, FW: DMI SW008/019, SFCASE, 2024/08/12 06:00:02 AM, 2024/08/12 07:53:05 AM, Re-processCOMPLETED]
+2024-08-12 15:00:48 INFO  SQmonitoring:226 - [, 631396, 11005, yaman.maharjan@javra.com, REQUEST FOR QUOTATION P108855, SFCASE, 2024/08/12 05:59:52 AM, 2024/08/12 07:52:53 AM, Re-processCOMPLETED]
+2024-08-12 15:00:48 INFO  SQmonitoring:226 - [, 631397, 11005, yaman.maharjan@javra.com, NEED RFQ - Item_S4928944J10-12 // REDUCER - METAL SEAL, FLARELESS, SFCASE, 2024/08/12 05:59:54 AM, 2024/08/12 07:52:42 AM, Re-processCOMPLETED]
+2024-08-12 15:00:49 INFO  SQmonitoring:226 - [, 631395, 11005, yaman.maharjan@javra.com, Aviation Spares Inquiry 5000026333 HNA Aviation Spares Inquiry 11, SFCASE, 2024/08/12 05:59:48 AM, 2024/08/12 07:52:30 AM, Re-processCOMPLETED]
+2024-08-12 15:00:50 INFO  SQmonitoring:226 - [, 631394, 11005, yaman.maharjan@javra.com, Aviation Spares Inquiry 5000026332 HNA Aviation Spares Inquiry 11, SFCASE, 2024/08/12 05:59:41 AM, 2024/08/12 07:52:18 AM, Re-processCOMPLETED]
+2024-08-12 15:00:50 INFO  SQmonitoring:226 - [, 631393, 11005, yaman.maharjan@javra.com, Aviation Spares Inquiry 5000024511 HNA Aviation Spares Inquiry 12, SFCASE, 2024/08/12 05:59:39 AM, 2024/08/12 07:51:02 AM, Re-processCOMPLETED]
+2024-08-12 15:00:51 INFO  SQmonitoring:226 - [, 631392, 11005, yaman.maharjan@javra.com, JH2024-0090_4重新询价通知, SFCASE, 2024/08/12 05:59:32 AM, 2024/08/12 07:50:51 AM, Re-processCOMPLETED]
+2024-08-12 15:00:52 INFO  SQmonitoring:226 - [, 631391, 11005, yaman.maharjan@javra.com, Aviation Spares Inquiry 5000026331 HNA Aviation Spares Inquiry 12, SFCASE, 2024/08/12 05:59:30 AM, 2024/08/12 07:50:40 AM, Re-processCOMPLETED]
+2024-08-12 15:00:52 INFO  SQmonitoring:226 - [, 631390, 11005, yaman.maharjan@javra.com, RFQ FOR PN B254ADM1, SFCASE, 2024/08/12 05:59:25 AM, 2024/08/12 07:50:27 AM, Re-processCOMPLETED]
+2024-08-12 15:00:53 INFO  SQmonitoring:226 - [, 631389, 11005, yaman.maharjan@javra.com, STAECO RFQ 2024-03-06 13:04:02, SFCASE, 2024/08/12 05:59:20 AM, 2024/08/12 07:50:16 AM, Re-processCOMPLETED]
+2024-08-12 15:00:54 INFO  SQmonitoring:226 - [, 631388, 11005, yaman.maharjan@javra.com, FW: ATA 36 AS136-06N2-0065L HOSE ASSY RFQ, SFCASE, 2024/08/12 05:59:16 AM, 2024/08/12 07:50:04 AM, Re-processCOMPLETED]
+2024-08-12 15:00:54 INFO  SQmonitoring:226 - [, 631385, 11005, yaman.maharjan@javra.com, REQUEST FOR QUOTATION-of Adhesive Film for VT-IVG, SFCASE, 2024/08/12 05:59:02 AM, 2024/08/12 07:49:53 AM, Re-processCOMPLETED]
+2024-08-12 15:00:55 INFO  SQmonitoring:226 - [, 631387, 11005, yaman.maharjan@javra.com, RFQ- SPARES//HIGH PRIORITY//, SFCASE, 2024/08/12 05:59:11 AM, 2024/08/12 07:49:41 AM, Re-processCOMPLETED]
+2024-08-12 15:00:56 INFO  SQmonitoring:226 - [, 631386, 11005, yaman.maharjan@javra.com, RE: REQUEST FOR QUOTATION-of Adhesive Film for VT-IVG, SFCASE, 2024/08/12 05:59:06 AM, 2024/08/12 07:49:30 AM, Re-processCOMPLETED]
+2024-08-12 15:00:57 INFO  SQmonitoring:226 - [, 631384, 11005, yaman.maharjan@javra.com, RFQ-SK240008, SFCASE, 2024/08/12 05:58:59 AM, 2024/08/12 07:49:18 AM, Re-processCOMPLETED]
+2024-08-12 15:00:57 INFO  SQmonitoring:226 - [, 631383, 11005, yaman.maharjan@javra.com, RFQ 15 - Please provide Quote / Required for LM SCOOT ACFT 9V-OFE, SFCASE, 2024/08/12 05:58:53 AM, 2024/08/12 07:48:02 AM, Re-processCOMPLETED]
+2024-08-12 15:00:58 INFO  SQmonitoring:226 - [, 631382, 11005, yaman.maharjan@javra.com, RFQ-SK240007, SFCASE, 2024/08/12 05:58:48 AM, 2024/08/12 07:47:50 AM, Re-processCOMPLETED]
+2024-08-12 15:01:01 INFO  SQmonitoring:189 - Page no :: 6
+2024-08-12 15:01:01 INFO  SQmonitoring:214 - Rowcount :: 20, ColCount :: 9
+2024-08-12 15:01:02 INFO  SQmonitoring:226 - [, 631381, 11005, yaman.maharjan@javra.com, RFQ# PN:H150AKM1, SFCASE, 2024/08/12 05:58:44 AM, 2024/08/12 07:47:40 AM, Re-processCOMPLETED]
+2024-08-12 15:01:03 INFO  SQmonitoring:226 - [, 631380, 11005, yaman.maharjan@javra.com, RFQ-0158/2024, SFCASE, 2024/08/12 05:58:39 AM, 2024/08/12 07:47:28 AM, Re-processCOMPLETED]
+2024-08-12 15:01:04 INFO  SQmonitoring:226 - [, 631379, 11005, yaman.maharjan@javra.com, RFQ - Please provide Quote for PN AC-131 CB A/C TAIL: A6-GGP, SFCASE, 2024/08/12 05:58:34 AM, 2024/08/12 07:47:17 AM, Re-processCOMPLETED]
+2024-08-12 15:01:05 INFO  SQmonitoring:226 - [, 631377, 11005, yaman.maharjan@javra.com, RFQ: RH ACTUATOR CYLINDER-BZC, SFCASE, 2024/08/12 05:58:24 AM, 2024/08/12 07:47:05 AM, Re-processCOMPLETED]
+2024-08-12 15:01:06 INFO  SQmonitoring:226 - [, 631378, 11005, yaman.maharjan@javra.com, TVJRFQ#C20240603-1976**URGENT**, SFCASE, 2024/08/12 05:58:27 AM, 2024/08/12 07:46:54 AM, Re-processCOMPLETED]
+2024-08-12 15:01:06 INFO  SQmonitoring:226 - [, 631376, 11005, yaman.maharjan@javra.com, FW: RFQ- Most URGENT ODS Aerospace, SFCASE, 2024/08/12 05:58:21 AM, 2024/08/12 07:46:42 AM, Re-processCOMPLETED]
+2024-08-12 15:01:07 INFO  SQmonitoring:226 - [, 631375, 11005, yaman.maharjan@javra.com, RFQ, SFCASE, 2024/08/12 05:58:16 AM, 2024/08/12 07:46:30 AM, Re-processCOMPLETED]
+2024-08-12 15:01:08 INFO  SQmonitoring:226 - [, 631373, 11005, yaman.maharjan@javra.com, RFQ# TS20240210 for AIR CANADA CFVNB, SFCASE, 2024/08/12 05:58:11 AM, 2024/08/12 07:46:19 AM, Re-processCOMPLETED]
+2024-08-12 15:01:09 INFO  SQmonitoring:226 - [, 631374, 11005, yaman.maharjan@javra.com, AOG///S700T1080-8 ,S700T1080-5, SFCASE, 2024/08/12 05:58:13 AM, 2024/08/12 07:45:08 AM, Re-processCOMPLETED]
+2024-08-12 15:01:09 INFO  SQmonitoring:226 - [, 631371, 11005, yaman.maharjan@javra.com, BNG24074 B43, SFCASE, 2024/08/12 05:58:04 AM, 2024/08/12 07:44:56 AM, Re-processCOMPLETED]
+2024-08-12 15:01:10 INFO  SQmonitoring:226 - [, 631372, 11005, yaman.maharjan@javra.com, RFQ-SK240006, SFCASE, 2024/08/12 05:58:08 AM, 2024/08/12 07:44:44 AM, Re-processCOMPLETED]
+2024-08-12 15:01:11 INFO  SQmonitoring:226 - [, 631370, 11005, yaman.maharjan@javra.com, TAA / RFQ. SPARE PART FOR STOCK REPLENISH, SFCASE, 2024/08/12 05:57:59 AM, 2024/08/12 07:44:33 AM, Re-processCOMPLETED]
+2024-08-12 15:01:12 INFO  SQmonitoring:226 - [, 631369, 11005, yaman.maharjan@javra.com, RFQ-SK240005, SFCASE, 2024/08/12 05:57:55 AM, 2024/08/12 07:44:21 AM, Re-processCOMPLETED]
+2024-08-12 15:01:13 INFO  SQmonitoring:226 - [, 631368, 11005, yaman.maharjan@javra.com, Jaco Aerospace RFQ #637777-BS, SFCASE, 2024/08/12 05:57:47 AM, 2024/08/12 07:44:08 AM, Re-processCOMPLETED]
+2024-08-12 15:01:13 INFO  SQmonitoring:226 - [, 631367, 11005, yaman.maharjan@javra.com, RFQ # 806-202412845 - New RFQ : Request Quotation from ST Engineering Aerospace Services Company Pte. Ltd. Buyer : Loh Jian Hao, SFCASE, 2024/08/12 05:57:45 AM, 2024/08/12 07:43:53 AM, Re-processCOMPLETED]
+2024-08-12 15:01:14 INFO  SQmonitoring:226 - [, 631366, 11005, yaman.maharjan@javra.com, RFQ # 806-202412844 - New RFQ : Request Quotation from ST Engineering Aerospace Services Company Pte. Ltd. Buyer : Chang Zhong Wei, SFCASE, 2024/08/12 05:57:42 AM, 2024/08/12 07:43:42 AM, Re-processCOMPLETED]
+2024-08-12 15:01:15 INFO  SQmonitoring:226 - [, 631365, 11005, yaman.maharjan@javra.com, RFQ//9V-TNE// 3MSJ3519, SFCASE, 2024/08/12 05:57:37 AM, 2024/08/12 07:43:30 AM, Re-processCOMPLETED]
+2024-08-12 15:01:16 INFO  SQmonitoring:226 - [, 631363, 11005, yaman.maharjan@javra.com, RFQ: BNG24076 N01, SFCASE, 2024/08/12 05:57:28 AM, 2024/08/12 07:43:19 AM, Re-processCOMPLETED]
+2024-08-12 15:01:17 INFO  SQmonitoring:226 - [, 631364, 11005, yaman.maharjan@javra.com, RFQ # 806-202412841 - New RFQ : Request Quotation from ST Engineering Aerospace Services Company Pte. Ltd. Buyer : Chang Zhong Wei, SFCASE, 2024/08/12 05:57:33 AM, 2024/08/12 07:42:03 AM, Re-processCOMPLETED]
+2024-08-12 15:01:18 INFO  SQmonitoring:226 - [, 631362, 11005, yaman.maharjan@javra.com, RFQ_FEDEX REQUIREMENT_AOG AOG AOG, SFCASE, 2024/08/12 05:57:26 AM, 2024/08/12 07:41:51 AM, Re-processCOMPLETED]
+2024-08-12 15:01:21 INFO  SQmonitoring:189 - Page no :: 7
+2024-08-12 15:01:21 INFO  SQmonitoring:214 - Rowcount :: 20, ColCount :: 9
+2024-08-12 15:01:21 INFO  SQmonitoring:226 - [, 631361, 11005, yaman.maharjan@javra.com, RFQ-SK240004, SFCASE, 2024/08/12 05:57:24 AM, 2024/08/12 07:41:40 AM, Re-processCOMPLETED]
+2024-08-12 15:01:22 INFO  SQmonitoring:226 - [, 631360, 11005, yaman.maharjan@javra.com, Invitation to RFQ（97526）, SFCASE, 2024/08/12 05:57:19 AM, 2024/08/12 07:41:28 AM, Re-processCOMPLETED]
+2024-08-12 15:01:23 INFO  SQmonitoring:226 - [, 631359, 11005, yaman.maharjan@javra.com, RFQ PN:S5751234500001 DES:HINGE QTY:1EA, SFCASE, 2024/08/12 05:57:12 AM, 2024/08/12 07:41:17 AM, Re-processCOMPLETED]
+2024-08-12 15:01:23 INFO  SQmonitoring:226 - [, 631358, 11005, yaman.maharjan@javra.com, RFQ PN:S5751234600001 DES:HINGE QTY:1EA, SFCASE, 2024/08/12 05:57:10 AM, 2024/08/12 07:41:05 AM, Re-processCOMPLETED]
+2024-08-12 15:01:24 INFO  SQmonitoring:226 - [, 631357, 11005, yaman.maharjan@javra.com, EGAT AOG RFQ PN BACC10GY400E, SFCASE, 2024/08/12 05:57:05 AM, 2024/08/12 07:40:53 AM, Re-processCOMPLETED]
+2024-08-12 15:01:25 INFO  SQmonitoring:226 - [, 631355, 11005, yaman.maharjan@javra.com, RFQ # 806-202412830 - New RFQ : Request Quotation from ST Engineering Aerospace Services Company Pte. Ltd. Buyer : Loh Jian Hao, SFCASE, 2024/08/12 05:56:59 AM, 2024/08/12 07:40:42 AM, Re-processCOMPLETED]
+2024-08-12 15:01:25 INFO  SQmonitoring:226 - [, 631356, 11005, yaman.maharjan@javra.com, Invitation to RFQ（97525）, SFCASE, 2024/08/12 05:57:03 AM, 2024/08/12 07:40:30 AM, Re-processCOMPLETED]
+2024-08-12 15:01:26 INFO  SQmonitoring:226 - [, 631353, 11005, yaman.maharjan@javra.com, 06MAR24 - // REQUEST IMMEDIATE QUOTATION FOR WHEEL & BRAKE WORKSHOP //, SFCASE, 2024/08/12 05:56:47 AM, 2024/08/12 07:40:18 AM, Re-processCOMPLETED]
+2024-08-12 15:01:27 INFO  SQmonitoring:226 - [, 631354, 11005, yaman.maharjan@javra.com, Aviation Spares Inquiry 5000026330 HNA Aviation Spares Inquiry 11, SFCASE, 2024/08/12 05:56:54 AM, 2024/08/12 07:39:01 AM, Re-processCOMPLETED]
+2024-08-12 15:01:27 INFO  SQmonitoring:226 - [, 631352, 11005, yaman.maharjan@javra.com, RQ-00083AS2-2403, SFCASE, 2024/08/12 05:56:46 AM, 2024/08/12 07:38:50 AM, Re-processCOMPLETED]
+2024-08-12 15:01:28 INFO  SQmonitoring:226 - [, 631351, 11005, yaman.maharjan@javra.com, RFQ // TRR // CABIN // 06.03, SFCASE, 2024/08/12 05:56:41 AM, 2024/08/12 07:38:38 AM, Re-processCOMPLETED]
+2024-08-12 15:01:29 INFO  SQmonitoring:226 - [, 631350, 11005, yaman.maharjan@javra.com, RFQ - 9M-AJS C05 + C06 @ AAT - 06.03.24, SFCASE, 2024/08/12 05:56:36 AM, 2024/08/12 07:38:27 AM, Re-processCOMPLETED]
+2024-08-12 15:01:29 INFO  SQmonitoring:226 - [, 631348, 11005, yaman.maharjan@javra.com, Ruili Airlines RFQ, SFCASE, 2024/08/12 05:56:22 AM, 2024/08/12 07:38:15 AM, Re-processCOMPLETED]
+2024-08-12 15:01:30 INFO  SQmonitoring:226 - [, 631349, 11005, yaman.maharjan@javra.com, 06MAR24 - // CRITICAL // REQUEST IMMEDIATE QUOTATION FOR V8-DLA //, SFCASE, 2024/08/12 05:56:32 AM, 2024/08/12 07:38:04 AM, Re-processCOMPLETED]
+2024-08-12 15:01:31 INFO  SQmonitoring:226 - [, 631347, 11005, yaman.maharjan@javra.com, Aviation Spares Inquiry 5000026329 HNA Aviation Spares Inquiry 11, SFCASE, 2024/08/12 05:56:18 AM, 2024/08/12 07:37:52 AM, Re-processCOMPLETED]
+2024-08-12 15:01:32 INFO  SQmonitoring:226 - [, 631346, 11005, yaman.maharjan@javra.com, ShenZhenAir Enquiry (20240306A12448001), SFCASE, 2024/08/12 05:56:14 AM, 2024/08/12 07:37:41 AM, Re-processCOMPLETED]
+2024-08-12 15:01:32 INFO  SQmonitoring:226 - [, 631345, 11005, yaman.maharjan@javra.com, RFQ # 806-202412805 - New RFQ : Request Quotation from ST Engineering Aerospace Services Company Pte. Ltd. Buyer : Subuhana Binte Malick, SFCASE, 2024/08/12 05:56:07 AM, 2024/08/12 07:37:30 AM, Re-processCOMPLETED]
+2024-08-12 15:01:33 INFO  SQmonitoring:226 - [, 631341, 11005, yaman.maharjan@javra.com, RFQ 0306 806-202412816 - HTM6008 New RFQ : Request Quotation from ST Engineering Aerospace Services Company Pte. Ltd. Buyer : KANG INN WEE, SFCASE, 2024/08/12 05:55:50 AM, 2024/08/12 07:37:19 AM, Re-processCOMPLETED]
+2024-08-12 15:01:34 INFO  SQmonitoring:226 - [, 631344, 11005, yaman.maharjan@javra.com, Aviation Spares Inquiry 5000025505 HNA Aviation Spares Inquiry 11, SFCASE, 2024/08/12 05:56:02 AM, 2024/08/12 07:35:31 AM, Re-processCOMPLETED]
+2024-08-12 15:01:35 INFO  SQmonitoring:226 - [, 631343, 11005, yaman.maharjan@javra.com, RFQ-SK240003, SFCASE, 2024/08/12 05:55:58 AM, 2024/08/12 07:35:19 AM, Re-processCOMPLETED]
+2024-08-12 15:01:38 INFO  SQmonitoring:189 - Page no :: 8
+2024-08-12 15:01:38 INFO  SQmonitoring:214 - Rowcount :: 20, ColCount :: 9
+2024-08-12 15:01:39 INFO  SQmonitoring:226 - [, 631342, 11005, yaman.maharjan@javra.com, RFQ, SFCASE, 2024/08/12 05:55:52 AM, 2024/08/12 07:35:08 AM, Re-processCOMPLETED]
+2024-08-12 15:01:39 INFO  SQmonitoring:226 - [, 631340, 11005, yaman.maharjan@javra.com, RFQ: Temp Plate, SFCASE, 2024/08/12 05:55:46 AM, 2024/08/12 07:34:57 AM, Re-processCOMPLETED]
+2024-08-12 15:01:40 INFO  SQmonitoring:226 - [, 631339, 11005, yaman.maharjan@javra.com, Aviation Spares Inquiry 5000026328 HNA Aviation Spares Inquiry 11, SFCASE, 2024/08/12 05:55:39 AM, 2024/08/12 07:34:46 AM, Re-processCOMPLETED]
+2024-08-12 15:01:41 INFO  SQmonitoring:226 - [, 631338, 11005, yaman.maharjan@javra.com, RFQ, SFCASE, 2024/08/12 05:55:37 AM, 2024/08/12 07:34:35 AM, Re-processCOMPLETED]
+2024-08-12 15:01:41 INFO  SQmonitoring:226 - [, 631337, 11005, yaman.maharjan@javra.com, CNW RFQ FOR B757_P0095240306002, SFCASE, 2024/08/12 05:55:33 AM, 2024/08/12 07:34:23 AM, Re-processCOMPLETED]
+2024-08-12 15:01:42 INFO  SQmonitoring:226 - [, 631336, 11005, yaman.maharjan@javra.com, Aviation Spares Inquiry 5000025889 HNA Aviation Spares Inquiry 11, SFCASE, 2024/08/12 05:55:29 AM, 2024/08/12 07:34:12 AM, Re-processCOMPLETED]
+2024-08-12 15:01:43 INFO  SQmonitoring:226 - [, 631335, 11005, yaman.maharjan@javra.com, Aviation Spares Inquiry 5000026047 HNA Aviation Spares Inquiry 11, SFCASE, 2024/08/12 05:55:23 AM, 2024/08/12 07:34:00 AM, Re-processCOMPLETED]
+2024-08-12 15:01:43 INFO  SQmonitoring:226 - [, 631334, 11005, yaman.maharjan@javra.com, RFQ Part Number # ABS1116-32, SFCASE, 2024/08/12 05:55:19 AM, 2024/08/12 07:33:17 AM, Re-processCOMPLETED]
+2024-08-12 15:01:44 INFO  SQmonitoring:226 - [, 631333, 11005, yaman.maharjan@javra.com, RFQ 0603 806-202412815 - H6100K2176 @AIRCAN New RFQ : Request Quotation from ST Engineering Aerospace Services Company Pte. Ltd. Buyer : KANG INN WEE, SFCASE, 2024/08/12 05:55:15 AM, 2024/08/12 07:32:03 AM, Re-processCOMPLETED]
+2024-08-12 15:01:45 INFO  SQmonitoring:226 - [, 631331, 11005, yaman.maharjan@javra.com, Aviation Spares Inquiry 5000026327 HNA Aviation Spares Inquiry 11, SFCASE, 2024/08/12 05:55:06 AM, 2024/08/12 07:31:51 AM, Re-processCOMPLETED]
+2024-08-12 15:01:46 INFO  SQmonitoring:226 - [, 631332, 11005, yaman.maharjan@javra.com, RFQ #134587 Vend #VALT1 10 3-5-2024 10-12-33 PM.pdf, SFCASE, 2024/08/12 05:55:11 AM, 2024/08/12 07:31:40 AM, Re-processCOMPLETED]
+2024-08-12 15:01:46 INFO  SQmonitoring:226 - [, 631329, 11005, yaman.maharjan@javra.com, FW: URGENT RFQ FOR B-20AC P/N BACC63BP28C42P9 1EA, SFCASE, 2024/08/12 05:54:57 AM, 2024/08/12 07:31:29 AM, Re-processCOMPLETED]
+2024-08-12 15:01:47 INFO  SQmonitoring:226 - [, 631330, 11005, yaman.maharjan@javra.com, RFQ 258262-CRITICAL, SFCASE, 2024/08/12 05:54:59 AM, 2024/08/12 07:31:17 AM, Re-processCOMPLETED]
+2024-08-12 15:01:48 INFO  SQmonitoring:226 - [, 631327, 11005, yaman.maharjan@javra.com, RFQ // 9M-TLA // DDML NO. DD220669, SFCASE, 2024/08/12 05:54:49 AM, 2024/08/12 07:31:06 AM, Re-processCOMPLETED]
+2024-08-12 15:01:49 INFO  SQmonitoring:226 - [, 631324, 11005, yaman.maharjan@javra.com, 春秋航空询价通知Spring Airline Inquiry Notification-IN20240306003, SFCASE, 2024/08/12 05:54:36 AM, 2024/08/12 07:30:53 AM, Re-processCOMPLETED]
+2024-08-12 15:01:49 INFO  SQmonitoring:226 - [, 631328, 11005, yaman.maharjan@javra.com, Aviation Spares Inquiry 5000024584 HNA Aviation Spares Inquiry 11, SFCASE, 2024/08/12 05:54:50 AM, 2024/08/12 07:30:40 AM, Re-processCOMPLETED]
+2024-08-12 15:01:50 INFO  SQmonitoring:226 - [, 631325, 11005, yaman.maharjan@javra.com, Aviation Spares Inquiry 5000026326 HNA Aviation Spares Inquiry 12, SFCASE, 2024/08/12 05:54:40 AM, 2024/08/12 07:30:29 AM, Re-processCOMPLETED]
+2024-08-12 15:01:51 INFO  SQmonitoring:226 - [, 631326, 11005, yaman.maharjan@javra.com, JUNEYAO-RFQ, SFCASE, 2024/08/12 05:54:44 AM, 2024/08/12 07:30:17 AM, Re-processCOMPLETED]
+2024-08-12 15:01:52 INFO  SQmonitoring:226 - [, 631323, 11005, yaman.maharjan@javra.com, RFQ # 806-202412804 - New RFQ : Request Quotation from ST Engineering Aerospace Services Company Pte. Ltd. Buyer : Tan Xiang Yu, SFCASE, 2024/08/12 05:54:27 AM, 2024/08/12 07:29:08 AM, Re-processCOMPLETED]
+2024-08-12 15:01:52 INFO  SQmonitoring:226 - [, 631322, 11005, yaman.maharjan@javra.com, RFQ# RM20240101 for AIR CANADA CGHQY, SFCASE, 2024/08/12 05:54:21 AM, 2024/08/12 07:28:53 AM, Re-processCOMPLETED]
+2024-08-12 15:01:55 INFO  SQmonitoring:189 - Page no :: 9
+2024-08-12 15:01:55 INFO  SQmonitoring:214 - Rowcount :: 20, ColCount :: 9
+2024-08-12 15:01:56 INFO  SQmonitoring:226 - [, 631321, 11005, yaman.maharjan@javra.com, RFQ # 806-202412773 - New RFQ : Request Quotation from ST Engineering Aerospace Services Company Pte. Ltd. Buyer : Tan Xiang Yu, SFCASE, 2024/08/12 05:54:17 AM, 2024/08/12 07:28:42 AM, Re-processCOMPLETED]
+2024-08-12 15:01:57 INFO  SQmonitoring:226 - [, 631319, 11005, yaman.maharjan@javra.com, RFQ:SKYMAX PARTS#0306, SFCASE, 2024/08/12 05:54:07 AM, 2024/08/12 07:28:31 AM, Re-processCOMPLETED]
+2024-08-12 15:01:57 INFO  SQmonitoring:226 - [, 631320, 11005, yaman.maharjan@javra.com, RE: 3346RFQ030624-JMB, SFCASE, 2024/08/12 05:54:12 AM, 2024/08/12 07:28:20 AM, Re-processCOMPLETED]
+2024-08-12 15:01:58 INFO  SQmonitoring:226 - [, 631318, 11005, yaman.maharjan@javra.com, Aviation Spares Inquiry 5000025303 HNA Aviation Spares Inquiry 11, SFCASE, 2024/08/12 05:54:03 AM, 2024/08/12 07:28:08 AM, Re-processCOMPLETED]
+2024-08-12 15:01:59 INFO  SQmonitoring:226 - [, 631317, 11005, yaman.maharjan@javra.com, URGENT! RFQ 06-MAR-2024 || PAA MEL REQUIREMENT, SFCASE, 2024/08/12 05:53:59 AM, 2024/08/12 07:27:57 AM, Re-processCOMPLETED]
+2024-08-12 15:02:00 INFO  SQmonitoring:226 - [, 631315, 11005, yaman.maharjan@javra.com, Aviation Spares Inquiry 5000026325 HNA Aviation Spares Inquiry 11, SFCASE, 2024/08/12 05:53:52 AM, 2024/08/12 07:27:40 AM, Re-processCOMPLETED]
+2024-08-12 15:02:00 INFO  SQmonitoring:226 - [, 631314, 11005, yaman.maharjan@javra.com, Aviation Spares Inquiry 5000026244 HNA Aviation Spares Inquiry 11, SFCASE, 2024/08/12 05:53:47 AM, 2024/08/12 07:27:29 AM, Re-processCOMPLETED]
+2024-08-12 15:02:01 INFO  SQmonitoring:226 - [, 631316, 11005, yaman.maharjan@javra.com, RP-C8763_DSS RFQ CLOSING DATE MAR 7, 2024 @ 1000H, SFCASE, 2024/08/12 05:53:56 AM, 2024/08/12 07:27:17 AM, Re-processCOMPLETED]
+2024-08-12 15:02:02 INFO  SQmonitoring:226 - [, 631312, 11005, yaman.maharjan@javra.com, RP-C4124 / 3087878 / RFQ, SFCASE, 2024/08/12 05:53:39 AM, 2024/08/12 07:25:14 AM, Re-processCOMPLETED]
+2024-08-12 15:02:02 INFO  SQmonitoring:226 - [, 631313, 11005, yaman.maharjan@javra.com, 回复: Subject: REQUEST FOR QUOTE Case # 1290313 -, SFCASE, 2024/08/12 05:53:42 AM, 2024/08/12 07:25:02 AM, Re-processCOMPLETED]
+2024-08-12 15:02:03 INFO  SQmonitoring:226 - [, 631311, 11005, yaman.maharjan@javra.com, ***AOG IN HKG*** B777 RFQ - PN: 757183F or 757183G (FREQUENCY CONVERTOR) // surplus, SFCASE, 2024/08/12 05:53:31 AM, 2024/08/12 07:24:50 AM, Re-processCOMPLETED]
+2024-08-12 15:02:04 INFO  SQmonitoring:226 - [, 631310, 11005, yaman.maharjan@javra.com, RFQ // 9M-AQB // DDML NO. DD234334, SFCASE, 2024/08/12 05:53:28 AM, 2024/08/12 07:24:37 AM, Re-processCOMPLETED]
+2024-08-12 15:02:04 INFO  SQmonitoring:226 - [, 631309, 11005, yaman.maharjan@javra.com, RFQ # 806-202412786 - New RFQ : Request Quotation from ST Engineering Aerospace Services Company Pte. Ltd. Buyer : Tan Xiang Yu, SFCASE, 2024/08/12 05:53:22 AM, 2024/08/12 07:24:25 AM, Re-processCOMPLETED]
+2024-08-12 15:02:05 INFO  SQmonitoring:226 - [, 631308, 11005, yaman.maharjan@javra.com, STAECO RFQ 2024-03-06 10:39:05, SFCASE, 2024/08/12 05:53:16 AM, 2024/08/12 07:24:12 AM, Re-processCOMPLETED]
+2024-08-12 15:02:06 INFO  SQmonitoring:226 - [, 631307, 11005, yaman.maharjan@javra.com, RFQ # 806-202412783 - New RFQ : Request Quotation from ST Engineering Aerospace Services Company Pte. Ltd. Buyer : Tan Xiang Yu, SFCASE, 2024/08/12 05:53:12 AM, 2024/08/12 07:23:57 AM, Re-processCOMPLETED]
+2024-08-12 15:02:06 INFO  SQmonitoring:226 - [, 631306, 11005, yaman.maharjan@javra.com, Aviation Spares Inquiry 5000026244 HNA Aviation Spares Inquiry 11, SFCASE, 2024/08/12 05:53:10 AM, 2024/08/12 07:23:43 AM, Re-processCOMPLETED]
+2024-08-12 15:02:07 INFO  SQmonitoring:226 - [, 631305, 11005, yaman.maharjan@javra.com, REQUEST FOR EXCHANGE/LOAN AT PUS Pump Package p/n 7110170H03, SFCASE, 2024/08/12 05:53:06 AM, 2024/08/12 07:23:29 AM, Re-processCOMPLETED]
+2024-08-12 15:02:08 INFO  SQmonitoring:226 - [, 631302, 11005, yaman.maharjan@javra.com, Aviation Spares Inquiry 5000026244 HNA Aviation Spares Inquiry 11, SFCASE, 2024/08/12 05:52:50 AM, 2024/08/12 07:23:18 AM, Re-processCOMPLETED]
+2024-08-12 15:02:09 INFO  SQmonitoring:226 - [, 631304, 11005, yaman.maharjan@javra.com, VH-IQA EMBRA_5 // CLOSING MAR 8 2024 @ 1:00PM, SFCASE, 2024/08/12 05:52:57 AM, 2024/08/12 07:21:02 AM, Re-processCOMPLETED]
+2024-08-12 15:02:10 INFO  SQmonitoring:226 - [, 631303, 11005, yaman.maharjan@javra.com, RFQ- C'CHECK // B737 // 6 MAR 2024, SFCASE, 2024/08/12 05:52:54 AM, 2024/08/12 07:20:51 AM, Re-processCOMPLETED]
+2024-08-12 15:02:13 INFO  SQmonitoring:189 - Page no :: 10
+2024-08-12 15:02:13 INFO  SQmonitoring:214 - Rowcount :: 20, ColCount :: 9
+2024-08-12 15:02:13 INFO  SQmonitoring:226 - [, 631300, 11005, yaman.maharjan@javra.com, SURPLUS P/N 800-006290 OR 800-006290-1 OR S233T100-802, FOR LID XMN, SFCASE, 2024/08/12 05:52:40 AM, 2024/08/12 07:20:39 AM, Re-processCOMPLETED]
+2024-08-12 15:02:14 INFO  SQmonitoring:226 - [, 631301, 11005, yaman.maharjan@javra.com, RFQ NAS1601-246, SFCASE, 2024/08/12 05:52:44 AM, 2024/08/12 07:20:28 AM, Re-processCOMPLETED]
+2024-08-12 15:02:15 INFO  SQmonitoring:226 - [, 631299, 11005, yaman.maharjan@javra.com, RFQ # 806-202412776 - New RFQ : Request Quotation from ST Engineering Aerospace Services Company Pte. Ltd. Buyer : Tan Xiang Yu, SFCASE, 2024/08/12 05:52:35 AM, 2024/08/12 07:20:16 AM, Re-processCOMPLETED]
+2024-08-12 15:02:15 INFO  SQmonitoring:226 - [, 631298, 11005, yaman.maharjan@javra.com, 24JX0928201 <30437> SO# 7718576 SPEC 2000 New Order Report, SFCASE, 2024/08/12 05:52:30 AM, 2024/08/12 07:20:04 AM, Re-processCOMPLETED]
+2024-08-12 15:02:16 INFO  SQmonitoring:226 - [, 631297, 11005, yaman.maharjan@javra.com, RFQ 258265, SFCASE, 2024/08/12 05:52:25 AM, 2024/08/12 07:19:53 AM, Re-processCOMPLETED]
+2024-08-12 15:02:16 INFO  SQmonitoring:226 - [, 631296, 11005, yaman.maharjan@javra.com, ShenZhenAir Enquiry (20240306A28251001), SFCASE, 2024/08/12 05:52:18 AM, 2024/08/12 07:19:40 AM, Re-processCOMPLETED]
+2024-08-12 15:02:17 INFO  SQmonitoring:226 - [, 631295, 11005, yaman.maharjan@javra.com, RFQ PN 3958A0000-01 ( 2 ), SFCASE, 2024/08/12 05:52:16 AM, 2024/08/12 07:19:28 AM, Re-processCOMPLETED]
+2024-08-12 15:02:18 INFO  SQmonitoring:226 - [, 631294, 11005, yaman.maharjan@javra.com, RFQ # 806-202412771 - New RFQ : Request Quotation from ST Engineering Aerospace Services Company Pte. Ltd. Buyer : Tan Xiang Yu, SFCASE, 2024/08/12 05:52:10 AM, 2024/08/12 07:19:17 AM, Re-processCOMPLETED]
+2024-08-12 15:02:18 INFO  SQmonitoring:226 - [, 631292, 11005, yaman.maharjan@javra.com, Aviation Spares Inquiry 5000026324 HNA Aviation Spares Inquiry 12, SFCASE, 2024/08/12 05:52:02 AM, 2024/08/12 07:17:22 AM, Re-processCOMPLETED]
+2024-08-12 15:02:19 INFO  SQmonitoring:226 - [, 631293, 11005, yaman.maharjan@javra.com, 887584（需求报价时间：尽快）, SFCASE, 2024/08/12 05:52:05 AM, 2024/08/12 07:17:10 AM, Re-processCOMPLETED]
+2024-08-12 15:02:20 INFO  SQmonitoring:226 - [, 631291, 11005, yaman.maharjan@javra.com, 春秋航空询价通知Spring Airline Inquiry Notification-IN20240306001, SFCASE, 2024/08/12 05:51:58 AM, 2024/08/12 07:16:58 AM, Re-processCOMPLETED]
+2024-08-12 15:02:20 INFO  SQmonitoring:226 - [, 631290, 11005, yaman.maharjan@javra.com, RFQ: BNG24075 P27, SFCASE, 2024/08/12 05:51:49 AM, 2024/08/12 07:16:47 AM, Re-processCOMPLETED]
+2024-08-12 15:02:21 INFO  SQmonitoring:226 - [, 631287, 11005, yaman.maharjan@javra.com, RFQ # 806-202412716 - New RFQ : Request Quotation from ST Engineering Aerospace Services Company Pte. Ltd. Buyer : Azizah Binte Ahmad, SFCASE, 2024/08/12 05:51:37 AM, 2024/08/12 07:16:35 AM, Re-processCOMPLETED]
+2024-08-12 15:02:22 INFO  SQmonitoring:226 - [, 631289, 11005, yaman.maharjan@javra.com, VH-VKL C03 CHECK // RFQ, SFCASE, 2024/08/12 05:51:44 AM, 2024/08/12 07:16:24 AM, Re-processCOMPLETED]
+2024-08-12 15:02:22 INFO  SQmonitoring:226 - [, 631288, 11005, yaman.maharjan@javra.com, N217HA_DSS RFQ CLOSING DATE: MAR 7, 2024 @ 1000H, SFCASE, 2024/08/12 05:51:41 AM, 2024/08/12 07:16:08 AM, Re-processCOMPLETED]
+2024-08-12 15:02:23 INFO  SQmonitoring:226 - [, 631286, 11005, yaman.maharjan@javra.com, RFQ # 806-202412718 - New RFQ : Request Quotation from ST Engineering Aerospace Services Company Pte. Ltd. Buyer : Azizah Binte Ahmad, SFCASE, 2024/08/12 05:51:32 AM, 2024/08/12 07:15:42 AM, Re-processCOMPLETED]
+2024-08-12 15:02:24 INFO  SQmonitoring:226 - [, 631285, 11005, yaman.maharjan@javra.com, RFQ # 806-202412721 - New RFQ : Request Quotation from ST Engineering Aerospace Services Company Pte. Ltd. Buyer : Azizah Binte Ahmad, SFCASE, 2024/08/12 05:51:28 AM, 2024/08/12 07:15:29 AM, Re-processCOMPLETED]
+2024-08-12 15:02:25 INFO  SQmonitoring:226 - [, 631283, 11005, yaman.maharjan@javra.com, RFQ PN:69B13748-1 DES:FITTING QTY:1EA, SFCASE, 2024/08/12 05:51:15 AM, 2024/08/12 07:15:17 AM, Re-processCOMPLETED]
+2024-08-12 15:02:26 INFO  SQmonitoring:226 - [, 631284, 11005, yaman.maharjan@javra.com, Aviation Spares Inquiry 5000026323 HNA Aviation Spares Inquiry 11, SFCASE, 2024/08/12 05:51:22 AM, 2024/08/12 07:13:02 AM, IN-PROGRESS]
+2024-08-12 15:02:27 INFO  SQmonitoring:226 - [, 631282, 11005, yaman.maharjan@javra.com, RFQ # 806-202412729 - New RFQ : Request Quotation from ST Engineering Aerospace Services Company Pte. Ltd. Buyer : Azizah Binte Ahmad, SFCASE, 2024/08/12 05:51:10 AM, 2024/08/12 07:12:49 AM, IN-PROGRESS]
+2024-08-12 15:02:30 INFO  SQmonitoring:189 - Page no :: 11
+2024-08-12 15:02:30 INFO  SQmonitoring:214 - Rowcount :: 20, ColCount :: 9
+2024-08-12 15:02:31 INFO  SQmonitoring:226 - [, 631280, 11005, yaman.maharjan@javra.com, RFQ PN:10-60754-1097 DES:SEAL QTY:1EA, SFCASE, 2024/08/12 05:51:01 AM, 2024/08/12 07:12:38 AM, Re-processCOMPLETED]
+2024-08-12 15:02:32 INFO  SQmonitoring:226 - [, 631281, 11005, yaman.maharjan@javra.com, RFQ # 806-202412731 - New RFQ : Request Quotation from ST Engineering Aerospace Services Company Pte. Ltd. Buyer : Azizah Binte Ahmad, SFCASE, 2024/08/12 05:51:07 AM, 2024/08/12 07:12:26 AM, Re-processCOMPLETED]
+2024-08-12 15:02:33 INFO  SQmonitoring:226 - [, 631278, 11005, yaman.maharjan@javra.com, VJC URGENT RFQ / PN Z133H053151E// 06-MAR-2024, SFCASE, 2024/08/12 05:50:53 AM, 2024/08/12 07:12:15 AM, Re-processCOMPLETED]
+2024-08-12 15:02:34 INFO  SQmonitoring:226 - [, 631279, 11005, yaman.maharjan@javra.com, RFQ # 806-202412738 - New RFQ : Request Quotation from ST Engineering Aerospace Services Company Pte. Ltd. Buyer : Azizah Binte Ahmad, SFCASE, 2024/08/12 05:50:55 AM, 2024/08/12 07:12:03 AM, Re-processCOMPLETED]
+2024-08-12 15:02:34 INFO  SQmonitoring:226 - [, 631277, 11005, yaman.maharjan@javra.com, STAECO RFQ 2024-03-06 09:52:40, SFCASE, 2024/08/12 05:50:48 AM, 2024/08/12 07:11:51 AM, Re-processCOMPLETED]
+2024-08-12 15:02:35 INFO  SQmonitoring:226 - [, 631276, 11005, yaman.maharjan@javra.com, RFQ # 806-202412757 - New RFQ : Request Quotation from ST Engineering Aerospace Services Company Pte. Ltd. Buyer : Tan Xiang Yu, SFCASE, 2024/08/12 05:50:44 AM, 2024/08/12 07:11:40 AM, CLOSED]
+2024-08-12 15:02:36 INFO  SQmonitoring:226 - [, 631275, 11005, yaman.maharjan@javra.com, RFQ V5I 60329735 *NEW*, SFCASE, 2024/08/12 05:50:40 AM, 2024/08/12 07:11:29 AM, CLOSED]
+2024-08-12 15:02:37 INFO  SQmonitoring:226 - [, 631272, 11005, yaman.maharjan@javra.com, 68-0002, SFCASE, 2024/08/12 05:50:28 AM, 2024/08/12 07:11:16 AM, CLOSED]
+2024-08-12 15:02:38 INFO  SQmonitoring:226 - [, 631274, 11005, yaman.maharjan@javra.com, VH-IQA EMBRA_3 // CLOSING MAR 8 2024 @ 10:00AM, SFCASE, 2024/08/12 05:50:34 AM, 2024/08/12 07:09:04 AM, CLOSED]
+2024-08-12 15:02:38 INFO  SQmonitoring:226 - [, 631273, 11005, yaman.maharjan@javra.com, 催件, SFCASE, 2024/08/12 05:50:32 AM, 2024/08/12 07:08:53 AM, CLOSED]
+2024-08-12 15:02:39 INFO  SQmonitoring:226 - [, 631270, 11005, yaman.maharjan@javra.com, RFQ # 806-202412158 - New RFQ : Request Quotation from ST Engineering Aerospace Services Company Pte. Ltd. Buyer : Png Ning Xuan Eunice, SFCASE, 2024/08/12 05:50:20 AM, 2024/08/12 07:08:41 AM, CLOSED]
+2024-08-12 15:02:40 INFO  SQmonitoring:226 - [, 631271, 11005, yaman.maharjan@javra.com, RFQ (OPEN)= PN 2056C0000-01, 398908-5, SFCASE, 2024/08/12 05:50:24 AM, 2024/08/12 07:08:29 AM, CLOSED]
+2024-08-12 15:02:40 INFO  SQmonitoring:226 - [, 631269, 11005, yaman.maharjan@javra.com, Invitation to RFQ（97519）, SFCASE, 2024/08/12 05:50:09 AM, 2024/08/12 07:08:16 AM, CLOSED]
+2024-08-12 15:02:41 INFO  SQmonitoring:226 - [, 631268, 11005, yaman.maharjan@javra.com, RFQ # 806-202411944 - New RFQ : Request Quotation from ST Engineering Aerospace Services Company Pte. Ltd. Buyer : Tan Wei Zhi, SFCASE, 2024/08/12 05:50:05 AM, 2024/08/12 07:08:03 AM, CLOSED]
+2024-08-12 15:02:42 INFO  SQmonitoring:226 - [, 631267, 11005, yaman.maharjan@javra.com, FW: BER REPLACEMENT // RFQ // PN: E21336000, SFCASE, 2024/08/12 05:50:00 AM, 2024/08/12 07:07:51 AM, CLOSED]
+2024-08-12 15:02:43 INFO  SQmonitoring:226 - [, 631266, 11005, yaman.maharjan@javra.com, FW: URGENT RFQ // ACTUATOR PN: 315W1660-10, SFCASE, 2024/08/12 05:49:56 AM, 2024/08/12 07:07:39 AM, CLOSED]
+2024-08-12 15:02:43 INFO  SQmonitoring:226 - [, 631265, 11005, yaman.maharjan@javra.com, CNW RFQ FOR B757_P0095240306001, SFCASE, 2024/08/12 05:49:50 AM, 2024/08/12 07:07:28 AM, CLOSED]
+2024-08-12 15:02:44 INFO  SQmonitoring:226 - [, 631264, 11005, yaman.maharjan@javra.com, 3346RFQ030624-JMB, SFCASE, 2024/08/12 05:49:46 AM, 2024/08/12 07:07:17 AM, CLOSED]
+2024-08-12 15:02:45 INFO  SQmonitoring:226 - [, 631263, 11005, yaman.maharjan@javra.com, CRITICAL RFQ P/N 3905302102 FOR B-LDG, SFCASE, 2024/08/12 05:49:41 AM, 2024/08/12 07:05:02 AM, CLOSED]
+2024-08-12 15:02:45 INFO  SQmonitoring:226 - [, 631262, 11005, yaman.maharjan@javra.com, N208HA AOG AOG AOG AOG CLOSING DATE 6 MAR 2024 @ 1500 PH TIME, SFCASE, 2024/08/12 05:49:39 AM, 2024/08/12 07:04:51 AM, CLOSED]
+2024-08-12 15:02:48 INFO  SQmonitoring:189 - Page no :: 12
+2024-08-12 15:02:48 INFO  SQmonitoring:214 - Rowcount :: 20, ColCount :: 9
+2024-08-12 15:02:49 INFO  SQmonitoring:226 - [, 631261, 11005, yaman.maharjan@javra.com, RFQ # 806-202412713 - New RFQ : Request Quotation from ST Engineering Aerospace Services Company Pte. Ltd. Buyer : Azizah Binte Ahmad, SFCASE, 2024/08/12 05:49:34 AM, 2024/08/12 07:04:39 AM, CLOSED]
+2024-08-12 15:02:50 INFO  SQmonitoring:226 - [, 631260, 11005, yaman.maharjan@javra.com, RFQ # 806-202412714 - New RFQ : Request Quotation from ST Engineering Aerospace Services Company Pte. Ltd. Buyer : Azizah Binte Ahmad, SFCASE, 2024/08/12 05:49:28 AM, 2024/08/12 07:04:28 AM, CLOSED]
+2024-08-12 15:02:50 INFO  SQmonitoring:226 - [, 631259, 11005, yaman.maharjan@javra.com, RFQ # 806-202412715 - New RFQ : Request Quotation from ST Engineering Aerospace Services Company Pte. Ltd. Buyer : Azizah Binte Ahmad, SFCASE, 2024/08/12 05:49:26 AM, 2024/08/12 07:04:15 AM, CLOSED]
+2024-08-12 15:02:51 INFO  SQmonitoring:226 - [, 631258, 11005, yaman.maharjan@javra.com, Fw: MOIRFQ 3/6/24 ll ARP ROU_PN / NRNPFM REPLENISHMENT, SFCASE, 2024/08/12 05:49:19 AM, 2024/08/12 07:04:03 AM, CLOSED]
+2024-08-12 15:02:51 INFO  SQmonitoring:226 - [, 631257, 11005, yaman.maharjan@javra.com, RFQ # 806-202412754 - New RFQ : Request Quotation from ST Engineering Aerospace Services Company Pte. Ltd. Buyer : Loh Jian Hao, SFCASE, 2024/08/12 05:49:17 AM, 2024/08/12 07:03:52 AM, CLOSED]
+2024-08-12 15:02:52 INFO  SQmonitoring:226 - [, 631256, 11005, yaman.maharjan@javra.com, Fw: MOIRFQ 3/4 FKM-SPA_REVIEW_WK08-04MAR2024, SFCASE, 2024/08/12 05:49:11 AM, 2024/08/12 07:03:40 AM, CLOSED]
+2024-08-12 15:02:53 INFO  SQmonitoring:226 - [, 631255, 11005, yaman.maharjan@javra.com, RFQs, SFCASE, 2024/08/12 05:49:09 AM, 2024/08/12 07:03:28 AM, CLOSED]
+2024-08-12 15:02:54 INFO  SQmonitoring:226 - [, 631254, 11005, yaman.maharjan@javra.com, RFQ # 806-202412753 - New RFQ : Request Quotation from ST Engineering Aerospace Services Company Pte. Ltd. Buyer : Loh Jian Hao, SFCASE, 2024/08/12 05:49:05 AM, 2024/08/12 07:03:17 AM, CLOSED]
+2024-08-12 15:02:54 INFO  SQmonitoring:226 - [, 631252, 11005, yaman.maharjan@javra.com, RFQ # 806-202412726 - New RFQ : Request Quotation from ST Engineering Aerospace Services Company Pte. Ltd. Buyer : Azizah Binte Ahmad, SFCASE, 2024/08/12 05:48:54 AM, 2024/08/12 07:01:02 AM, CLOSED]
+2024-08-12 15:02:55 INFO  SQmonitoring:226 - [, 631253, 11005, yaman.maharjan@javra.com, RFQ # 806-202412725 - New RFQ : Request Quotation from ST Engineering Aerospace Services Company Pte. Ltd. Buyer : Azizah Binte Ahmad, SFCASE, 2024/08/12 05:48:58 AM, 2024/08/12 07:00:50 AM, CLOSED]
+2024-08-12 15:02:56 INFO  SQmonitoring:226 - [, 631251, 11005, yaman.maharjan@javra.com, RFQ # 806-202412727 - New RFQ : Request Quotation from ST Engineering Aerospace Services Company Pte. Ltd. Buyer : Azizah Binte Ahmad, SFCASE, 2024/08/12 05:48:50 AM, 2024/08/12 07:00:38 AM, CLOSED]
+2024-08-12 15:02:56 INFO  SQmonitoring:226 - [, 631250, 11005, yaman.maharjan@javra.com, RFQ: MMD/AP/RFQ24/0279NS, SFCASE, 2024/08/12 05:48:47 AM, 2024/08/12 07:00:26 AM, CLOSED]
+2024-08-12 15:02:57 INFO  SQmonitoring:226 - [, 631249, 11005, yaman.maharjan@javra.com, RFQ # 806-202412655 - New RFQ : Request Quotation from ST Engineering Aerospace Services Company Pte. Ltd. Buyer : Tan Wei Zhi, SFCASE, 2024/08/12 05:48:42 AM, 2024/08/12 07:00:14 AM, CLOSED]
+2024-08-12 15:02:58 INFO  SQmonitoring:226 - [, 631248, 11005, yaman.maharjan@javra.com, ENQUIRY ON 160366-1 AND 662464, SFCASE, 2024/08/12 05:48:36 AM, 2024/08/12 07:00:02 AM, CLOSED]
+2024-08-12 15:02:58 INFO  SQmonitoring:226 - [, 631247, 11005, yaman.maharjan@javra.com, RFQ 240306-03K, SFCASE, 2024/08/12 05:48:33 AM, 2024/08/12 06:59:51 AM, CLOSED]
+2024-08-12 15:02:59 INFO  SQmonitoring:226 - [, 631246, 11005, yaman.maharjan@javra.com, RFQ # 806-202412749 - New RFQ : Request Quotation from ST Engineering Aerospace Services Company Pte. Ltd. Buyer : Loh Jian Hao, SFCASE, 2024/08/12 05:48:29 AM, 2024/08/12 06:59:39 AM, CLOSED]
+2024-08-12 15:03:00 INFO  SQmonitoring:226 - [, 631245, 11005, yaman.maharjan@javra.com, RFQ: MMD/AP/RFQ24/0278NS, SFCASE, 2024/08/12 05:48:22 AM, 2024/08/12 06:59:28 AM, CLOSED]
+2024-08-12 15:03:00 INFO  SQmonitoring:226 - [, 631243, 11005, yaman.maharjan@javra.com, FW: GAMECO RFQ FOR B-6200, SFCASE, 2024/08/12 05:48:15 AM, 2024/08/12 06:59:16 AM, CLOSED]
+2024-08-12 15:03:01 INFO  SQmonitoring:226 - [, 631244, 11005, yaman.maharjan@javra.com, RFQ# 273T6201-4 // DESC: DOWNLOCK ACTUATOR // 1 QTY, SFCASE, 2024/08/12 05:48:20 AM, 2024/08/12 06:58:52 AM, CLOSED]
+2024-08-12 15:03:02 INFO  SQmonitoring:226 - [, 631241, 11005, yaman.maharjan@javra.com, RFQ: ABS5662B03 WATER/COOLING INSULATION TAPE 5CM x 100M, SFCASE, 2024/08/12 05:48:06 AM, 2024/08/12 06:22:08 AM, CLOSED]
+2024-08-12 15:03:05 INFO  SQmonitoring:189 - Page no :: 13
+2024-08-12 15:03:05 INFO  SQmonitoring:214 - Rowcount :: 20, ColCount :: 9
+2024-08-12 15:03:06 INFO  SQmonitoring:226 - [, 631242, 11005, yaman.maharjan@javra.com, CSC ENQUIRY—NOR-----1000018299, SFCASE, 2024/08/12 05:48:08 AM, 2024/08/12 06:21:57 AM, CLOSED]
+2024-08-12 15:03:06 INFO  SQmonitoring:226 - [, 631240, 11005, yaman.maharjan@javra.com, RFQ #DCQ322452 Vend #AXO 3-5-2024 5-07-49 PM.pdf, SFCASE, 2024/08/12 05:48:02 AM, 2024/08/12 06:21:44 AM, CLOSED]
+2024-08-12 15:03:07 INFO  SQmonitoring:226 - [, 631239, 11005, yaman.maharjan@javra.com, Aviation Spares Inquiry 5000026322 HNA Aviation Spares Inquiry 11, SFCASE, 2024/08/12 05:47:57 AM, 2024/08/12 06:19:05 AM, CLOSED]
+2024-08-12 15:03:08 INFO  SQmonitoring:226 - [, 631238, 11005, yaman.maharjan@javra.com, RFQ: COATING AEROFLEX G12E25 ALUMINIUM, PAINT 683-3-2/X310A CLEAR BAC900, SFCASE, 2024/08/12 05:47:53 AM, 2024/08/12 06:16:27 AM, CLOSED]
+2024-08-12 15:03:09 INFO  SQmonitoring:226 - [, 631237, 11005, yaman.maharjan@javra.com, (URGENT)EGAT AOG RFQ FOR B16225-FUSE, SFCASE, 2024/08/12 05:47:48 AM, 2024/08/12 06:13:31 AM, CLOSED]
+2024-08-12 15:03:10 INFO  SQmonitoring:226 - [, 631234, 11005, yaman.maharjan@javra.com, [EXPD] RFQ 20240306-22 FROM T'WAY AIR, SFCASE, 2024/08/12 05:47:34 AM, 2024/08/12 06:11:28 AM, CLOSED]
+2024-08-12 15:03:11 INFO  SQmonitoring:226 - [, 631236, 11005, yaman.maharjan@javra.com, EGAT RFQ PN BACB30JC6A7, SFCASE, 2024/08/12 05:47:43 AM, 2024/08/12 06:11:17 AM, CLOSED]
+2024-08-12 15:03:12 INFO  SQmonitoring:226 - [, 631235, 11005, yaman.maharjan@javra.com, V24-03: RFQ - PN: 4500-4 (CHILER) - CRITICAL, SFCASE, 2024/08/12 05:47:39 AM, 2024/08/12 06:11:06 AM, CLOSED]
+2024-08-12 15:03:13 INFO  SQmonitoring:226 - [, 631233, 11005, yaman.maharjan@javra.com, RP-C8763_DSS RFQ CLOSING DATE: MAR 7, 2024 @ 1000H, SFCASE, 2024/08/12 05:47:23 AM, 2024/08/12 06:10:55 AM, CLOSED]
+2024-08-12 15:03:14 INFO  SQmonitoring:226 - [, 631232, 11005, yaman.maharjan@javra.com, RFQ # 806-202412732 - New RFQ : Request Quotation from ST Engineering Aerospace Services Company Pte. Ltd. Buyer : Chang Zhong Wei, SFCASE, 2024/08/12 05:47:21 AM, 2024/08/12 05:52:54 AM, CLOSED]
+2024-08-12 15:03:15 INFO  SQmonitoring:226 - [, 631231, 11005, yaman.maharjan@javra.com, Aviation Spares Inquiry 5000026321 HNA Aviation Spares Inquiry 12, SFCASE, 2024/08/12 05:47:13 AM, 2024/08/12 05:52:43 AM, CLOSED]
+2024-08-12 15:03:16 INFO  SQmonitoring:226 - [, 631230, 11005, yaman.maharjan@javra.com, [EXPD] 20240306-21 FROM T'WAY AIR, SFCASE, 2024/08/12 05:47:08 AM, 2024/08/12 05:52:32 AM, CLOSED]
+2024-08-12 15:03:17 INFO  SQmonitoring:226 - [, 631229, 11005, yaman.maharjan@javra.com, RFQ AOG/CRITICAL // RP-C4142 INITIAL BOM / PRE-EIS, SFCASE, 2024/08/12 05:47:06 AM, 2024/08/12 05:51:39 AM, CLOSED]
+2024-08-12 15:03:18 INFO  SQmonitoring:226 - [, 631228, 11005, yaman.maharjan@javra.com, R.F.Q. - 105463, SFCASE, 2024/08/12 05:47:00 AM, 2024/08/12 05:51:27 AM, CLOSED]
+2024-08-12 15:03:19 INFO  SQmonitoring:226 - [, 631227, 11005, yaman.maharjan@javra.com, RFQ - SCMBKI - 06 MAR 2024., SFCASE, 2024/08/12 05:46:58 AM, 2024/08/12 05:49:46 AM, CLOSED]
+2024-08-12 15:03:20 INFO  SQmonitoring:226 - [, 631226, 11005, yaman.maharjan@javra.com, Re: URGENT! RFQ-03062024-001, SFCASE, 2024/08/12 05:46:55 AM, 2024/08/12 05:49:18 AM, CLOSED]
+2024-08-12 15:03:21 INFO  SQmonitoring:226 - [, 631225, 11005, yaman.maharjan@javra.com, RFQ 338897 (B54512-1 OVERHAUL KITS), SFCASE, 2024/08/12 05:46:48 AM, 2024/08/12 05:49:07 AM, CLOSED]
+2024-08-12 15:03:22 INFO  SQmonitoring:226 - [, 631224, 11005, yaman.maharjan@javra.com, CRITICAL>>>RFQ - SCMBKI - 06 MAR 2024., SFCASE, 2024/08/12 05:46:45 AM, 2024/08/12 05:48:55 AM, CLOSED]
+2024-08-12 15:03:24 INFO  SQmonitoring:226 - [, 631223, 11005, yaman.maharjan@javra.com, RFQ | MS15001-1, SFCASE, 2024/08/12 05:46:44 AM, 2024/08/12 05:48:44 AM, CLOSED]
+2024-08-12 15:03:25 INFO  SQmonitoring:226 - [, 631222, 11005, yaman.maharjan@javra.com, RFQ # 806-202412715 - New RFQ : Request Quotation from ST Engineering Aerospace Services Company Pte. Ltd. Buyer : Azizah Binte Ahmad, SFCASE, 2024/08/12 04:51:20 AM, 2024/08/12 05:17:21 AM, CLOSED]
+2024-08-12 15:03:28 INFO  SQmonitoring:189 - Page no :: 14
+2024-08-12 15:03:28 INFO  SQmonitoring:214 - Rowcount :: 20, ColCount :: 9
+2024-08-12 15:03:30 INFO  SQmonitoring:226 - [, 631221, 11005, yaman.maharjan@javra.com, Fw: MOIRFQ 3/6/24 ll ARP ROU_PN / NRNPFM REPLENISHMENT, SFCASE, 2024/08/12 04:51:14 AM, 2024/08/12 05:17:10 AM, CLOSED]
+2024-08-12 15:03:31 INFO  SQmonitoring:226 - [, 631220, 11005, yaman.maharjan@javra.com, RFQ # 806-202412754 - New RFQ : Request Quotation from ST Engineering Aerospace Services Company Pte. Ltd. Buyer : Loh Jian Hao, SFCASE, 2024/08/12 04:51:09 AM, 2024/08/12 05:16:58 AM, CLOSED]
+2024-08-12 15:03:32 INFO  SQmonitoring:226 - [, 631219, 11005, yaman.maharjan@javra.com, RFQ - From Shanghai Yu Chang Aerospace Technology Co.,Ltd Entry Code:E80Z-TDMP-V49N, SFCASE, 2024/08/12 04:51:07 AM, 2024/08/12 05:16:47 AM, CLOSED]
+2024-08-12 15:03:33 INFO  SQmonitoring:226 - [, 631218, 11005, yaman.maharjan@javra.com, Fw: MOIRFQ 3/4 FKM-SPA_REVIEW_WK08-04MAR2024, SFCASE, 2024/08/12 04:51:01 AM, 2024/08/12 05:16:36 AM, CLOSED]
+2024-08-12 15:03:34 INFO  SQmonitoring:226 - [, 631217, 11005, yaman.maharjan@javra.com, RFQs, SFCASE, 2024/08/12 04:50:59 AM, 2024/08/12 05:16:24 AM, CLOSED]
+2024-08-12 15:03:35 INFO  SQmonitoring:226 - [, 631215, 11005, yaman.maharjan@javra.com, RFQ # 806-202412753 - New RFQ : Request Quotation from ST Engineering Aerospace Services Company Pte. Ltd. Buyer : Loh Jian Hao, SFCASE, 2024/08/12 04:50:49 AM, 2024/08/12 05:16:12 AM, CLOSED]
+2024-08-12 15:03:36 INFO  SQmonitoring:226 - [, 631212, 11005, yaman.maharjan@javra.com, RFQ # 806-202412725 - New RFQ : Request Quotation from ST Engineering Aerospace Services Company Pte. Ltd. Buyer : Azizah Binte Ahmad, SFCASE, 2024/08/12 04:50:36 AM, 2024/08/12 05:15:26 AM, CLOSED]
+2024-08-12 15:03:37 INFO  SQmonitoring:226 - [, 631210, 11005, yaman.maharjan@javra.com, RFQ - From Shanghai Yu Chang Aerospace Technology Co.,Ltd Entry Code:CCKN-WF5D-BPU5, SFCASE, 2024/08/12 04:50:28 AM, 2024/08/12 05:15:14 AM, CLOSED]
+2024-08-12 15:03:38 INFO  SQmonitoring:226 - [, 631209, 11005, yaman.maharjan@javra.com, RFQ - From Shanghai Yu Chang Aerospace Technology Co.,Ltd Entry Code:HC7E-PVPG-ZBDC, SFCASE, 2024/08/12 04:50:23 AM, 2024/08/12 05:14:10 AM, CLOSED]
+2024-08-12 15:03:40 INFO  SQmonitoring:226 - [, 631208, 11005, yaman.maharjan@javra.com, RFQ # 806-202412726 - New RFQ : Request Quotation from ST Engineering Aerospace Services Company Pte. Ltd. Buyer : Azizah Binte Ahmad, SFCASE, 2024/08/12 04:50:19 AM, 2024/08/12 05:13:59 AM, CLOSED]
+2024-08-12 15:03:40 INFO  SQmonitoring:226 - [, 631207, 11005, yaman.maharjan@javra.com, RFQ # 806-202412727 - New RFQ : Request Quotation from ST Engineering Aerospace Services Company Pte. Ltd. Buyer : Azizah Binte Ahmad, SFCASE, 2024/08/12 04:50:12 AM, 2024/08/12 05:13:47 AM, CLOSED]
+2024-08-12 15:03:41 INFO  SQmonitoring:226 - [, 631206, 11005, yaman.maharjan@javra.com, RFQ: MMD/AP/RFQ24/0279NS, SFCASE, 2024/08/12 04:50:08 AM, 2024/08/12 05:13:36 AM, CLOSED]
+2024-08-12 15:03:42 INFO  SQmonitoring:226 - [, 631205, 11005, yaman.maharjan@javra.com, RFQ # 806-202412655 - New RFQ : Request Quotation from ST Engineering Aerospace Services Company Pte. Ltd. Buyer : Tan Wei Zhi, SFCASE, 2024/08/12 04:50:03 AM, 2024/08/12 05:13:23 AM, CLOSED]
+2024-08-12 15:03:43 INFO  SQmonitoring:226 - [, 631204, 11005, yaman.maharjan@javra.com, RFQ - From Shanghai Yu Chang Aerospace Technology Co.,Ltd Entry Code:YG2J-FAUM-XZMK, SFCASE, 2024/08/12 04:50:01 AM, 2024/08/12 05:12:43 AM, CLOSED]
+2024-08-12 15:03:44 INFO  SQmonitoring:226 - [, 631201, 11005, yaman.maharjan@javra.com, RFQ 240306-03K, SFCASE, 2024/08/12 04:49:47 AM, 2024/08/12 05:12:31 AM, CLOSED]
+2024-08-12 15:03:45 INFO  SQmonitoring:226 - [, 631202, 11005, yaman.maharjan@javra.com, ENQUIRY ON 160366-1 AND 662464, SFCASE, 2024/08/12 04:49:52 AM, 2024/08/12 05:12:20 AM, CLOSED]
+2024-08-12 15:03:46 INFO  SQmonitoring:226 - [, 631200, 11005, yaman.maharjan@javra.com, RFQ # 806-202412749 - New RFQ : Request Quotation from ST Engineering Aerospace Services Company Pte. Ltd. Buyer : Loh Jian Hao, SFCASE, 2024/08/12 04:49:45 AM, 2024/08/12 05:11:25 AM, CLOSED]
+2024-08-12 15:03:47 INFO  SQmonitoring:226 - [, 631197, 11005, yaman.maharjan@javra.com, RFQ: MMD/AP/RFQ24/0278NS, SFCASE, 2024/08/12 04:49:38 AM, 2024/08/12 05:11:13 AM, CLOSED]
+2024-08-12 15:03:48 INFO  SQmonitoring:226 - [, 631195, 11005, yaman.maharjan@javra.com, RFQ - From Zulu Global Avlink, LLC Entry Code:KM4O-E5NL-NV6S, SFCASE, 2024/08/12 04:49:28 AM, 2024/08/12 05:10:50 AM, CLOSED]
+2024-08-12 15:03:49 INFO  SQmonitoring:226 - [, 631193, 11005, yaman.maharjan@javra.com, RFQ# 273T6201-4 // DESC: DOWNLOCK ACTUATOR // 1 QTY, SFCASE, 2024/08/12 04:49:17 AM, 2024/08/12 05:07:59 AM, CLOSED]
+2024-08-12 15:03:52 INFO  SQmonitoring:189 - Page no :: 15
+2024-08-12 15:03:52 INFO  SQmonitoring:214 - Rowcount :: 20, ColCount :: 9
+2024-08-12 15:03:53 INFO  SQmonitoring:226 - [, 631189, 11005, yaman.maharjan@javra.com, FW: GAMECO RFQ FOR B-6200, SFCASE, 2024/08/12 04:49:01 AM, 2024/08/12 05:07:47 AM, CLOSED]
+2024-08-12 15:03:53 INFO  SQmonitoring:226 - [, 631188, 11005, yaman.maharjan@javra.com, CSC ENQUIRY—NOR-----1000018299, SFCASE, 2024/08/12 04:49:00 AM, 2024/08/12 05:07:13 AM, CLOSED]
+2024-08-12 15:03:54 INFO  SQmonitoring:226 - [, 631182, 11005, yaman.maharjan@javra.com, Aviation Spares Inquiry 5000026322 HNA Aviation Spares Inquiry 11, SFCASE, 2024/08/12 04:48:31 AM, 2024/08/12 05:06:50 AM, CLOSED]
+2024-08-12 15:03:55 INFO  SQmonitoring:226 - [, 631185, 11005, yaman.maharjan@javra.com, RE: RE: BONDED SHIPMENT / ROUTIN PO#G243B02027 PROPONENT CA VIA MPI, SFCASE, 2024/08/12 04:48:44 AM, 2024/08/12 05:03:45 AM, CLOSED]
+2024-08-12 15:03:55 INFO  SQmonitoring:226 - [, 631184, 11005, yaman.maharjan@javra.com, RFQ: ABS5662B03 WATER/COOLING INSULATION TAPE 5CM x 100M, SFCASE, 2024/08/12 04:48:39 AM, 2024/08/12 05:02:59 AM, CLOSED]
+2024-08-12 15:03:56 INFO  SQmonitoring:226 - [, 631183, 11005, yaman.maharjan@javra.com, RFQ #DCQ322452 Vend #AXO 3-5-2024 5-07-49 PM.pdf, SFCASE, 2024/08/12 04:48:33 AM, 2024/08/12 05:02:48 AM, CLOSED]
+2024-08-12 15:03:56 INFO  SQmonitoring:226 - [, 631181, 11005, yaman.maharjan@javra.com, RFQ: COATING AEROFLEX G12E25 ALUMINIUM, PAINT 683-3-2/X310A CLEAR BAC900, SFCASE, 2024/08/12 04:48:27 AM, 2024/08/12 05:01:43 AM, CLOSED]
+2024-08-12 15:03:57 INFO  SQmonitoring:226 - [, 631180, 11005, yaman.maharjan@javra.com, (URGENT)EGAT AOG RFQ FOR B16225-FUSE, SFCASE, 2024/08/12 04:48:22 AM, 2024/08/12 05:00:47 AM, CLOSED]
+2024-08-12 15:03:58 INFO  SQmonitoring:226 - [, 631175, 11005, yaman.maharjan@javra.com, V24-03: RFQ - PN: 4500-4 (CHILER) - CRITICAL, SFCASE, 2024/08/12 04:48:09 AM, 2024/08/12 05:00:02 AM, CLOSED]
+2024-08-12 15:03:59 INFO  SQmonitoring:226 - [, 631174, 11005, yaman.maharjan@javra.com, EGAT RFQ PN BACB30JC6A7, SFCASE, 2024/08/12 04:48:09 AM, 2024/08/12 04:58:30 AM, CLOSED]
+2024-08-12 15:04:00 INFO  SQmonitoring:226 - [, 631168, 11005, yaman.maharjan@javra.com, RE: Quotation for: RFQ SAFT Battery| 1692293 - 1:, SFCASE, 2024/08/12 04:47:30 AM, 2024/08/12 04:58:09 AM, CLOSED]
+2024-08-12 15:04:00 INFO  SQmonitoring:226 - [, 631163, 11005, yaman.maharjan@javra.com, RP-C8763_DSS RFQ CLOSING DATE: MAR 7, 2024 @ 1000H, SFCASE, 2024/08/12 04:47:12 AM, 2024/08/12 04:57:47 AM, CLOSED]
+2024-08-12 15:04:01 INFO  SQmonitoring:226 - [, 631165, 11005, yaman.maharjan@javra.com, [EXPD] RFQ 20240306-22 FROM T'WAY AIR, SFCASE, 2024/08/12 04:47:16 AM, 2024/08/12 04:57:24 AM, CLOSED]
+2024-08-12 15:04:02 INFO  SQmonitoring:226 - [, 631162, 11005, yaman.maharjan@javra.com, RFQ # 806-202412732 - New RFQ : Request Quotation from ST Engineering Aerospace Services Company Pte. Ltd. Buyer : Chang Zhong Wei, SFCASE, 2024/08/12 04:47:10 AM, 2024/08/12 04:56:18 AM, CLOSED]
+2024-08-12 15:04:03 INFO  SQmonitoring:226 - [, 631157, 11005, yaman.maharjan@javra.com, Aviation Spares Inquiry 5000026321 HNA Aviation Spares Inquiry 12, SFCASE, 2024/08/12 04:46:44 AM, 2024/08/12 04:55:39 AM, CLOSED]
+2024-08-12 15:04:04 INFO  SQmonitoring:226 - [, 631156, 11005, yaman.maharjan@javra.com, Aviation Spares Inquiry 5000026320 HNA Aviation Spares Inquiry 11, SFCASE, 2024/08/12 04:46:42 AM, 2024/08/12 04:55:27 AM, CLOSED]
+2024-08-12 15:04:05 INFO  SQmonitoring:226 - [, 631155, 11005, yaman.maharjan@javra.com, [EXPD] 20240306-21 FROM T'WAY AIR, SFCASE, 2024/08/12 04:46:33 AM, 2024/08/12 04:54:41 AM, CLOSED]
+2024-08-12 15:04:06 INFO  SQmonitoring:226 - [, 631151, 11005, yaman.maharjan@javra.com, RFQ AOG/CRITICAL // RP-C4142 INITIAL BOM / PRE-EIS, SFCASE, 2024/08/12 04:46:19 AM, 2024/08/12 04:53:42 AM, CLOSED]
+2024-08-12 15:04:07 INFO  SQmonitoring:226 - [, 631143, 11005, yaman.maharjan@javra.com, Re: URGENT! RFQ-03062024-001, SFCASE, 2024/08/12 04:45:37 AM, 2024/08/12 04:53:31 AM, CLOSED]
+2024-08-12 15:04:07 INFO  SQmonitoring:226 - [, 631146, 11005, yaman.maharjan@javra.com, R.F.Q. - 105463, SFCASE, 2024/08/12 04:45:52 AM, 2024/08/12 04:51:48 AM, CLOSED]
+2024-08-12 15:04:11 INFO  SQmonitoring:189 - Page no :: 16
+2024-08-12 15:04:11 INFO  SQmonitoring:214 - Rowcount :: 11, ColCount :: 9
+2024-08-12 15:04:11 INFO  SQmonitoring:226 - [, 631145, 11005, yaman.maharjan@javra.com, RFQ - SCMBKI - 06 MAR 2024., SFCASE, 2024/08/12 04:45:48 AM, 2024/08/12 04:51:36 AM, CLOSED]
+2024-08-12 15:04:12 INFO  SQmonitoring:226 - [, 631142, 11005, yaman.maharjan@javra.com, ProCart RFQ 86274 M83723/95K1005NLC, SFCASE, 2024/08/12 04:45:35 AM, 2024/08/12 04:50:57 AM, CLOSED]
+2024-08-12 15:04:13 INFO  SQmonitoring:226 - [, 631139, 11005, yaman.maharjan@javra.com, RFQ 338897 (B54512-1 OVERHAUL KITS), SFCASE, 2024/08/12 04:45:20 AM, 2024/08/12 04:50:45 AM, CLOSED]
+2024-08-12 15:04:14 INFO  SQmonitoring:226 - [, 631138, 11005, yaman.maharjan@javra.com, CRITICAL>>>RFQ - SCMBKI - 06 MAR 2024., SFCASE, 2024/08/12 04:45:18 AM, 2024/08/12 04:49:37 AM, CLOSED]
+2024-08-12 15:04:14 INFO  SQmonitoring:226 - [, 631133, 11005, yaman.maharjan@javra.com, RFQ | MS15001-1, SFCASE, 2024/08/12 04:44:57 AM, 2024/08/12 04:48:44 AM, CLOSED]
+2024-08-12 15:04:15 INFO  SQmonitoring:226 - [, 631130, 11005, yaman.maharjan@javra.com, Jaco Aerospace RFQ #637933-MP, SFCASE, 2024/08/12 04:44:45 AM, 2024/08/12 04:48:32 AM, CLOSED]
+2024-08-12 15:04:16 INFO  SQmonitoring:226 - [, 631128, 11005, yaman.maharjan@javra.com, 76944, SFCASE, 2024/08/12 04:44:35 AM, 2024/08/12 04:47:19 AM, CLOSED]
+2024-08-12 15:04:17 INFO  SQmonitoring:226 - [, 631126, 11005, yaman.maharjan@javra.com, aog rfq // pn 12134-00 or alt pn 3601-91 // qty. 1 // taq 824846 // req 04.05uk - end user easyjet, SFCASE, 2024/08/12 04:44:27 AM, 2024/08/12 04:46:42 AM, CLOSED]
+2024-08-12 15:04:17 INFO  SQmonitoring:226 - [, 631125, 11005, yaman.maharjan@javra.com, rfq cs/0184qr/22- exchange / outright sales p/n: 7115337h07 desc: module-cac-left pack inboard, SFCASE, 2024/08/12 04:44:20 AM, 2024/08/12 04:46:30 AM, CLOSED]
+2024-08-12 15:04:18 INFO  SQmonitoring:226 - [, 631123, 11005, yaman.maharjan@javra.com, re: rfq for pn: 3520-0337-07 & fu190 on critical basis, SFCASE, 2024/08/12 04:44:16 AM, 2024/08/12 04:45:36 AM, CLOSED]
+2024-08-12 15:04:18 INFO  SQmonitoring:226 - [, 631124, 11005, yaman.maharjan@javra.com, tap air portugal urgent rfq ends in 138 hrs, viton-3/16-0-sp at lis (#5572), SFCASE, 2024/08/12 04:44:16 AM, 2024/08/12 04:45:24 AM, CLOSED]
+2024-08-12 15:04:21 INFO  SQmonitoring:189 - Page no :: 17
+2024-08-12 15:04:22 INFO  SQmonitoring:214 - Rowcount :: 11, ColCount :: 9
+2024-08-12 15:04:22 INFO  SQmonitoring:226 - [, 631145, 11005, yaman.maharjan@javra.com, RFQ - SCMBKI - 06 MAR 2024., SFCASE, 2024/08/12 04:45:48 AM, 2024/08/12 04:51:36 AM, CLOSED]
+2024-08-12 15:04:23 INFO  SQmonitoring:226 - [, 631142, 11005, yaman.maharjan@javra.com, ProCart RFQ 86274 M83723/95K1005NLC, SFCASE, 2024/08/12 04:45:35 AM, 2024/08/12 04:50:57 AM, CLOSED]
+2024-08-12 15:04:24 INFO  SQmonitoring:226 - [, 631139, 11005, yaman.maharjan@javra.com, RFQ 338897 (B54512-1 OVERHAUL KITS), SFCASE, 2024/08/12 04:45:20 AM, 2024/08/12 04:50:45 AM, CLOSED]
+2024-08-12 15:04:24 INFO  SQmonitoring:226 - [, 631138, 11005, yaman.maharjan@javra.com, CRITICAL>>>RFQ - SCMBKI - 06 MAR 2024., SFCASE, 2024/08/12 04:45:18 AM, 2024/08/12 04:49:37 AM, CLOSED]
+2024-08-12 15:04:25 INFO  SQmonitoring:226 - [, 631133, 11005, yaman.maharjan@javra.com, RFQ | MS15001-1, SFCASE, 2024/08/12 04:44:57 AM, 2024/08/12 04:48:44 AM, CLOSED]
+2024-08-12 15:04:26 INFO  SQmonitoring:226 - [, 631130, 11005, yaman.maharjan@javra.com, Jaco Aerospace RFQ #637933-MP, SFCASE, 2024/08/12 04:44:45 AM, 2024/08/12 04:48:32 AM, CLOSED]
+2024-08-12 15:04:27 INFO  SQmonitoring:226 - [, 631128, 11005, yaman.maharjan@javra.com, 76944, SFCASE, 2024/08/12 04:44:35 AM, 2024/08/12 04:47:19 AM, CLOSED]
+2024-08-12 15:04:28 INFO  SQmonitoring:226 - [, 631126, 11005, yaman.maharjan@javra.com, aog rfq // pn 12134-00 or alt pn 3601-91 // qty. 1 // taq 824846 // req 04.05uk - end user easyjet, SFCASE, 2024/08/12 04:44:27 AM, 2024/08/12 04:46:42 AM, CLOSED]
+2024-08-12 15:04:29 INFO  SQmonitoring:226 - [, 631125, 11005, yaman.maharjan@javra.com, rfq cs/0184qr/22- exchange / outright sales p/n: 7115337h07 desc: module-cac-left pack inboard, SFCASE, 2024/08/12 04:44:20 AM, 2024/08/12 04:46:30 AM, CLOSED]
+2024-08-12 15:04:30 INFO  SQmonitoring:226 - [, 631123, 11005, yaman.maharjan@javra.com, re: rfq for pn: 3520-0337-07 & fu190 on critical basis, SFCASE, 2024/08/12 04:44:16 AM, 2024/08/12 04:45:36 AM, CLOSED]
+2024-08-12 15:04:31 INFO  SQmonitoring:226 - [, 631124, 11005, yaman.maharjan@javra.com, tap air portugal urgent rfq ends in 138 hrs, viton-3/16-0-sp at lis (#5572), SFCASE, 2024/08/12 04:44:16 AM, 2024/08/12 04:45:24 AM, CLOSED]
+2024-08-12 15:04:34 INFO  SQmonitoring:189 - Page no :: 18
+2024-08-12 15:04:34 INFO  SQmonitoring:214 - Rowcount :: 11, ColCount :: 9
+2024-08-12 15:04:35 INFO  SQmonitoring:226 - [, 631145, 11005, yaman.maharjan@javra.com, RFQ - SCMBKI - 06 MAR 2024., SFCASE, 2024/08/12 04:45:48 AM, 2024/08/12 04:51:36 AM, CLOSED]
+2024-08-12 15:04:35 INFO  SQmonitoring:226 - [, 631142, 11005, yaman.maharjan@javra.com, ProCart RFQ 86274 M83723/95K1005NLC, SFCASE, 2024/08/12 04:45:35 AM, 2024/08/12 04:50:57 AM, CLOSED]
+2024-08-12 15:04:36 INFO  SQmonitoring:226 - [, 631139, 11005, yaman.maharjan@javra.com, RFQ 338897 (B54512-1 OVERHAUL KITS), SFCASE, 2024/08/12 04:45:20 AM, 2024/08/12 04:50:45 AM, CLOSED]
+2024-08-12 15:04:37 INFO  SQmonitoring:226 - [, 631138, 11005, yaman.maharjan@javra.com, CRITICAL>>>RFQ - SCMBKI - 06 MAR 2024., SFCASE, 2024/08/12 04:45:18 AM, 2024/08/12 04:49:37 AM, CLOSED]
+2024-08-12 15:04:38 INFO  SQmonitoring:226 - [, 631133, 11005, yaman.maharjan@javra.com, RFQ | MS15001-1, SFCASE, 2024/08/12 04:44:57 AM, 2024/08/12 04:48:44 AM, CLOSED]
+2024-08-12 15:04:39 INFO  SQmonitoring:226 - [, 631130, 11005, yaman.maharjan@javra.com, Jaco Aerospace RFQ #637933-MP, SFCASE, 2024/08/12 04:44:45 AM, 2024/08/12 04:48:32 AM, CLOSED]
+2024-08-12 15:04:40 INFO  SQmonitoring:226 - [, 631128, 11005, yaman.maharjan@javra.com, 76944, SFCASE, 2024/08/12 04:44:35 AM, 2024/08/12 04:47:19 AM, CLOSED]
+2024-08-12 15:04:41 INFO  SQmonitoring:226 - [, 631126, 11005, yaman.maharjan@javra.com, aog rfq // pn 12134-00 or alt pn 3601-91 // qty. 1 // taq 824846 // req 04.05uk - end user easyjet, SFCASE, 2024/08/12 04:44:27 AM, 2024/08/12 04:46:42 AM, CLOSED]
+2024-08-12 15:04:42 INFO  SQmonitoring:226 - [, 631125, 11005, yaman.maharjan@javra.com, rfq cs/0184qr/22- exchange / outright sales p/n: 7115337h07 desc: module-cac-left pack inboard, SFCASE, 2024/08/12 04:44:20 AM, 2024/08/12 04:46:30 AM, CLOSED]
+2024-08-12 15:04:43 INFO  SQmonitoring:226 - [, 631123, 11005, yaman.maharjan@javra.com, re: rfq for pn: 3520-0337-07 & fu190 on critical basis, SFCASE, 2024/08/12 04:44:16 AM, 2024/08/12 04:45:36 AM, CLOSED]
+2024-08-12 15:04:44 INFO  SQmonitoring:226 - [, 631124, 11005, yaman.maharjan@javra.com, tap air portugal urgent rfq ends in 138 hrs, viton-3/16-0-sp at lis (#5572), SFCASE, 2024/08/12 04:44:16 AM, 2024/08/12 04:45:24 AM, CLOSED]
+2024-08-12 15:04:47 INFO  SQmonitoring:189 - Page no :: 19
+2024-08-12 15:04:47 INFO  SQmonitoring:214 - Rowcount :: 11, ColCount :: 9
+2024-08-12 15:04:48 INFO  SQmonitoring:226 - [, 631145, 11005, yaman.maharjan@javra.com, RFQ - SCMBKI - 06 MAR 2024., SFCASE, 2024/08/12 04:45:48 AM, 2024/08/12 04:51:36 AM, CLOSED]
+2024-08-12 15:04:49 INFO  SQmonitoring:226 - [, 631142, 11005, yaman.maharjan@javra.com, ProCart RFQ 86274 M83723/95K1005NLC, SFCASE, 2024/08/12 04:45:35 AM, 2024/08/12 04:50:57 AM, CLOSED]
+2024-08-12 15:04:50 INFO  SQmonitoring:226 - [, 631139, 11005, yaman.maharjan@javra.com, RFQ 338897 (B54512-1 OVERHAUL KITS), SFCASE, 2024/08/12 04:45:20 AM, 2024/08/12 04:50:45 AM, CLOSED]
+2024-08-12 15:04:51 INFO  SQmonitoring:226 - [, 631138, 11005, yaman.maharjan@javra.com, CRITICAL>>>RFQ - SCMBKI - 06 MAR 2024., SFCASE, 2024/08/12 04:45:18 AM, 2024/08/12 04:49:37 AM, CLOSED]
+2024-08-12 15:04:52 INFO  SQmonitoring:226 - [, 631133, 11005, yaman.maharjan@javra.com, RFQ | MS15001-1, SFCASE, 2024/08/12 04:44:57 AM, 2024/08/12 04:48:44 AM, CLOSED]
+2024-08-12 15:04:53 INFO  SQmonitoring:226 - [, 631130, 11005, yaman.maharjan@javra.com, Jaco Aerospace RFQ #637933-MP, SFCASE, 2024/08/12 04:44:45 AM, 2024/08/12 04:48:32 AM, CLOSED]
+2024-08-12 15:04:54 INFO  SQmonitoring:226 - [, 631128, 11005, yaman.maharjan@javra.com, 76944, SFCASE, 2024/08/12 04:44:35 AM, 2024/08/12 04:47:19 AM, CLOSED]
+2024-08-12 15:04:55 INFO  SQmonitoring:226 - [, 631126, 11005, yaman.maharjan@javra.com, aog rfq // pn 12134-00 or alt pn 3601-91 // qty. 1 // taq 824846 // req 04.05uk - end user easyjet, SFCASE, 2024/08/12 04:44:27 AM, 2024/08/12 04:46:42 AM, CLOSED]
+2024-08-12 15:04:56 INFO  SQmonitoring:226 - [, 631125, 11005, yaman.maharjan@javra.com, rfq cs/0184qr/22- exchange / outright sales p/n: 7115337h07 desc: module-cac-left pack inboard, SFCASE, 2024/08/12 04:44:20 AM, 2024/08/12 04:46:30 AM, CLOSED]
+2024-08-12 15:04:56 INFO  SQmonitoring:226 - [, 631123, 11005, yaman.maharjan@javra.com, re: rfq for pn: 3520-0337-07 & fu190 on critical basis, SFCASE, 2024/08/12 04:44:16 AM, 2024/08/12 04:45:36 AM, CLOSED]
+2024-08-12 15:04:57 INFO  SQmonitoring:226 - [, 631124, 11005, yaman.maharjan@javra.com, tap air portugal urgent rfq ends in 138 hrs, viton-3/16-0-sp at lis (#5572), SFCASE, 2024/08/12 04:44:16 AM, 2024/08/12 04:45:24 AM, CLOSED]
+2024-08-12 15:05:00 INFO  SQmonitoring:189 - Page no :: 20
+2024-08-12 15:05:01 INFO  SQmonitoring:214 - Rowcount :: 11, ColCount :: 9
+2024-08-12 15:05:01 INFO  SQmonitoring:226 - [, 631145, 11005, yaman.maharjan@javra.com, RFQ - SCMBKI - 06 MAR 2024., SFCASE, 2024/08/12 04:45:48 AM, 2024/08/12 04:51:36 AM, CLOSED]
+2024-08-12 15:05:02 INFO  SQmonitoring:226 - [, 631142, 11005, yaman.maharjan@javra.com, ProCart RFQ 86274 M83723/95K1005NLC, SFCASE, 2024/08/12 04:45:35 AM, 2024/08/12 04:50:57 AM, CLOSED]
+2024-08-12 15:05:03 INFO  SQmonitoring:226 - [, 631139, 11005, yaman.maharjan@javra.com, RFQ 338897 (B54512-1 OVERHAUL KITS), SFCASE, 2024/08/12 04:45:20 AM, 2024/08/12 04:50:45 AM, CLOSED]
+2024-08-12 15:05:04 INFO  SQmonitoring:226 - [, 631138, 11005, yaman.maharjan@javra.com, CRITICAL>>>RFQ - SCMBKI - 06 MAR 2024., SFCASE, 2024/08/12 04:45:18 AM, 2024/08/12 04:49:37 AM, CLOSED]
+2024-08-12 15:05:05 INFO  SQmonitoring:226 - [, 631133, 11005, yaman.maharjan@javra.com, RFQ | MS15001-1, SFCASE, 2024/08/12 04:44:57 AM, 2024/08/12 04:48:44 AM, CLOSED]
+2024-08-12 15:05:06 INFO  SQmonitoring:226 - [, 631130, 11005, yaman.maharjan@javra.com, Jaco Aerospace RFQ #637933-MP, SFCASE, 2024/08/12 04:44:45 AM, 2024/08/12 04:48:32 AM, CLOSED]
+2024-08-12 15:05:07 INFO  SQmonitoring:226 - [, 631128, 11005, yaman.maharjan@javra.com, 76944, SFCASE, 2024/08/12 04:44:35 AM, 2024/08/12 04:47:19 AM, CLOSED]
+2024-08-12 15:05:08 INFO  SQmonitoring:226 - [, 631126, 11005, yaman.maharjan@javra.com, aog rfq // pn 12134-00 or alt pn 3601-91 // qty. 1 // taq 824846 // req 04.05uk - end user easyjet, SFCASE, 2024/08/12 04:44:27 AM, 2024/08/12 04:46:42 AM, CLOSED]
+2024-08-12 15:05:09 INFO  SQmonitoring:226 - [, 631125, 11005, yaman.maharjan@javra.com, rfq cs/0184qr/22- exchange / outright sales p/n: 7115337h07 desc: module-cac-left pack inboard, SFCASE, 2024/08/12 04:44:20 AM, 2024/08/12 04:46:30 AM, CLOSED]
+2024-08-12 15:05:10 INFO  SQmonitoring:226 - [, 631123, 11005, yaman.maharjan@javra.com, re: rfq for pn: 3520-0337-07 & fu190 on critical basis, SFCASE, 2024/08/12 04:44:16 AM, 2024/08/12 04:45:36 AM, CLOSED]
+2024-08-12 15:05:10 INFO  SQmonitoring:226 - [, 631124, 11005, yaman.maharjan@javra.com, tap air portugal urgent rfq ends in 138 hrs, viton-3/16-0-sp at lis (#5572), SFCASE, 2024/08/12 04:44:16 AM, 2024/08/12 04:45:24 AM, CLOSED]
+2024-08-12 15:05:13 INFO  SQmonitoring:189 - Page no :: 21
+2024-08-12 15:05:14 INFO  SQmonitoring:214 - Rowcount :: 11, ColCount :: 9
+2024-08-12 15:05:15 INFO  SQmonitoring:226 - [, 631145, 11005, yaman.maharjan@javra.com, RFQ - SCMBKI - 06 MAR 2024., SFCASE, 2024/08/12 04:45:48 AM, 2024/08/12 04:51:36 AM, CLOSED]
+2024-08-12 15:05:16 INFO  SQmonitoring:226 - [, 631142, 11005, yaman.maharjan@javra.com, ProCart RFQ 86274 M83723/95K1005NLC, SFCASE, 2024/08/12 04:45:35 AM, 2024/08/12 04:50:57 AM, CLOSED]
+2024-08-12 15:05:17 INFO  SQmonitoring:226 - [, 631139, 11005, yaman.maharjan@javra.com, RFQ 338897 (B54512-1 OVERHAUL KITS), SFCASE, 2024/08/12 04:45:20 AM, 2024/08/12 04:50:45 AM, CLOSED]
+2024-08-12 15:05:18 INFO  SQmonitoring:226 - [, 631138, 11005, yaman.maharjan@javra.com, CRITICAL>>>RFQ - SCMBKI - 06 MAR 2024., SFCASE, 2024/08/12 04:45:18 AM, 2024/08/12 04:49:37 AM, CLOSED]
+2024-08-12 15:05:19 INFO  SQmonitoring:226 - [, 631133, 11005, yaman.maharjan@javra.com, RFQ | MS15001-1, SFCASE, 2024/08/12 04:44:57 AM, 2024/08/12 04:48:44 AM, CLOSED]
+2024-08-12 15:05:20 INFO  SQmonitoring:226 - [, 631130, 11005, yaman.maharjan@javra.com, Jaco Aerospace RFQ #637933-MP, SFCASE, 2024/08/12 04:44:45 AM, 2024/08/12 04:48:32 AM, CLOSED]
+2024-08-12 15:05:21 INFO  SQmonitoring:226 - [, 631128, 11005, yaman.maharjan@javra.com, 76944, SFCASE, 2024/08/12 04:44:35 AM, 2024/08/12 04:47:19 AM, CLOSED]
+2024-08-12 15:05:22 INFO  SQmonitoring:226 - [, 631126, 11005, yaman.maharjan@javra.com, aog rfq // pn 12134-00 or alt pn 3601-91 // qty. 1 // taq 824846 // req 04.05uk - end user easyjet, SFCASE, 2024/08/12 04:44:27 AM, 2024/08/12 04:46:42 AM, CLOSED]
+2024-08-12 15:05:23 INFO  SQmonitoring:226 - [, 631125, 11005, yaman.maharjan@javra.com, rfq cs/0184qr/22- exchange / outright sales p/n: 7115337h07 desc: module-cac-left pack inboard, SFCASE, 2024/08/12 04:44:20 AM, 2024/08/12 04:46:30 AM, CLOSED]
+2024-08-12 15:05:24 INFO  SQmonitoring:226 - [, 631123, 11005, yaman.maharjan@javra.com, re: rfq for pn: 3520-0337-07 & fu190 on critical basis, SFCASE, 2024/08/12 04:44:16 AM, 2024/08/12 04:45:36 AM, CLOSED]
+2024-08-12 15:05:25 INFO  SQmonitoring:226 - [, 631124, 11005, yaman.maharjan@javra.com, tap air portugal urgent rfq ends in 138 hrs, viton-3/16-0-sp at lis (#5572), SFCASE, 2024/08/12 04:44:16 AM, 2024/08/12 04:45:24 AM, CLOSED]
+2024-08-12 15:05:28 INFO  SQmonitoring:189 - Page no :: 22
+2024-08-12 15:05:28 INFO  SQmonitoring:214 - Rowcount :: 11, ColCount :: 9
+2024-08-12 15:05:29 INFO  SQmonitoring:226 - [, 631145, 11005, yaman.maharjan@javra.com, RFQ - SCMBKI - 06 MAR 2024., SFCASE, 2024/08/12 04:45:48 AM, 2024/08/12 04:51:36 AM, CLOSED]
+2024-08-12 15:05:30 INFO  SQmonitoring:226 - [, 631142, 11005, yaman.maharjan@javra.com, ProCart RFQ 86274 M83723/95K1005NLC, SFCASE, 2024/08/12 04:45:35 AM, 2024/08/12 04:50:57 AM, CLOSED]
+2024-08-12 15:05:31 INFO  SQmonitoring:226 - [, 631139, 11005, yaman.maharjan@javra.com, RFQ 338897 (B54512-1 OVERHAUL KITS), SFCASE, 2024/08/12 04:45:20 AM, 2024/08/12 04:50:45 AM, CLOSED]
+2024-08-12 15:05:32 INFO  SQmonitoring:226 - [, 631138, 11005, yaman.maharjan@javra.com, CRITICAL>>>RFQ - SCMBKI - 06 MAR 2024., SFCASE, 2024/08/12 04:45:18 AM, 2024/08/12 04:49:37 AM, CLOSED]
+2024-08-12 15:05:34 INFO  SQmonitoring:226 - [, 631133, 11005, yaman.maharjan@javra.com, RFQ | MS15001-1, SFCASE, 2024/08/12 04:44:57 AM, 2024/08/12 04:48:44 AM, CLOSED]
+2024-08-12 15:05:35 INFO  SQmonitoring:226 - [, 631130, 11005, yaman.maharjan@javra.com, Jaco Aerospace RFQ #637933-MP, SFCASE, 2024/08/12 04:44:45 AM, 2024/08/12 04:48:32 AM, CLOSED]
+2024-08-12 15:05:36 INFO  SQmonitoring:226 - [, 631128, 11005, yaman.maharjan@javra.com, 76944, SFCASE, 2024/08/12 04:44:35 AM, 2024/08/12 04:47:19 AM, CLOSED]
+2024-08-12 15:05:37 INFO  SQmonitoring:226 - [, 631126, 11005, yaman.maharjan@javra.com, aog rfq // pn 12134-00 or alt pn 3601-91 // qty. 1 // taq 824846 // req 04.05uk - end user easyjet, SFCASE, 2024/08/12 04:44:27 AM, 2024/08/12 04:46:42 AM, CLOSED]
+2024-08-12 15:05:38 INFO  SQmonitoring:226 - [, 631125, 11005, yaman.maharjan@javra.com, rfq cs/0184qr/22- exchange / outright sales p/n: 7115337h07 desc: module-cac-left pack inboard, SFCASE, 2024/08/12 04:44:20 AM, 2024/08/12 04:46:30 AM, CLOSED]
+2024-08-12 15:05:39 INFO  SQmonitoring:226 - [, 631123, 11005, yaman.maharjan@javra.com, re: rfq for pn: 3520-0337-07 & fu190 on critical basis, SFCASE, 2024/08/12 04:44:16 AM, 2024/08/12 04:45:36 AM, CLOSED]
+2024-08-12 15:05:40 INFO  SQmonitoring:226 - [, 631124, 11005, yaman.maharjan@javra.com, tap air portugal urgent rfq ends in 138 hrs, viton-3/16-0-sp at lis (#5572), SFCASE, 2024/08/12 04:44:16 AM, 2024/08/12 04:45:24 AM, CLOSED]
+2024-08-12 15:05:43 INFO  SQmonitoring:189 - Page no :: 23
+2024-08-12 15:05:43 INFO  SQmonitoring:214 - Rowcount :: 11, ColCount :: 9
+2024-08-12 15:05:44 INFO  SQmonitoring:226 - [, 631145, 11005, yaman.maharjan@javra.com, RFQ - SCMBKI - 06 MAR 2024., SFCASE, 2024/08/12 04:45:48 AM, 2024/08/12 04:51:36 AM, CLOSED]
+2024-08-12 15:05:45 INFO  SQmonitoring:226 - [, 631142, 11005, yaman.maharjan@javra.com, ProCart RFQ 86274 M83723/95K1005NLC, SFCASE, 2024/08/12 04:45:35 AM, 2024/08/12 04:50:57 AM, CLOSED]
+2024-08-12 15:05:46 INFO  SQmonitoring:226 - [, 631139, 11005, yaman.maharjan@javra.com, RFQ 338897 (B54512-1 OVERHAUL KITS), SFCASE, 2024/08/12 04:45:20 AM, 2024/08/12 04:50:45 AM, CLOSED]
+2024-08-12 15:05:47 INFO  SQmonitoring:226 - [, 631138, 11005, yaman.maharjan@javra.com, CRITICAL>>>RFQ - SCMBKI - 06 MAR 2024., SFCASE, 2024/08/12 04:45:18 AM, 2024/08/12 04:49:37 AM, CLOSED]
+2024-08-12 15:05:49 INFO  SQmonitoring:226 - [, 631133, 11005, yaman.maharjan@javra.com, RFQ | MS15001-1, SFCASE, 2024/08/12 04:44:57 AM, 2024/08/12 04:48:44 AM, CLOSED]
+2024-08-12 15:05:50 INFO  SQmonitoring:226 - [, 631130, 11005, yaman.maharjan@javra.com, Jaco Aerospace RFQ #637933-MP, SFCASE, 2024/08/12 04:44:45 AM, 2024/08/12 04:48:32 AM, CLOSED]
+2024-08-12 15:05:51 INFO  SQmonitoring:226 - [, 631128, 11005, yaman.maharjan@javra.com, 76944, SFCASE, 2024/08/12 04:44:35 AM, 2024/08/12 04:47:19 AM, CLOSED]
+2024-08-12 15:05:53 INFO  SQmonitoring:226 - [, 631126, 11005, yaman.maharjan@javra.com, aog rfq // pn 12134-00 or alt pn 3601-91 // qty. 1 // taq 824846 // req 04.05uk - end user easyjet, SFCASE, 2024/08/12 04:44:27 AM, 2024/08/12 04:46:42 AM, CLOSED]
+2024-08-12 15:05:54 INFO  SQmonitoring:226 - [, 631125, 11005, yaman.maharjan@javra.com, rfq cs/0184qr/22- exchange / outright sales p/n: 7115337h07 desc: module-cac-left pack inboard, SFCASE, 2024/08/12 04:44:20 AM, 2024/08/12 04:46:30 AM, CLOSED]
+2024-08-12 15:05:55 INFO  SQmonitoring:226 - [, 631123, 11005, yaman.maharjan@javra.com, re: rfq for pn: 3520-0337-07 & fu190 on critical basis, SFCASE, 2024/08/12 04:44:16 AM, 2024/08/12 04:45:36 AM, CLOSED]
+2024-08-12 15:05:57 INFO  SQmonitoring:226 - [, 631124, 11005, yaman.maharjan@javra.com, tap air portugal urgent rfq ends in 138 hrs, viton-3/16-0-sp at lis (#5572), SFCASE, 2024/08/12 04:44:16 AM, 2024/08/12 04:45:24 AM, CLOSED]
+2024-08-12 15:06:00 INFO  SQmonitoring:189 - Page no :: 24
+2024-08-12 15:06:00 INFO  SQmonitoring:214 - Rowcount :: 11, ColCount :: 9
+2024-08-12 15:06:01 INFO  SQmonitoring:226 - [, 631145, 11005, yaman.maharjan@javra.com, RFQ - SCMBKI - 06 MAR 2024., SFCASE, 2024/08/12 04:45:48 AM, 2024/08/12 04:51:36 AM, CLOSED]
+2024-08-12 15:06:02 INFO  SQmonitoring:226 - [, 631142, 11005, yaman.maharjan@javra.com, ProCart RFQ 86274 M83723/95K1005NLC, SFCASE, 2024/08/12 04:45:35 AM, 2024/08/12 04:50:57 AM, CLOSED]
+2024-08-12 15:06:03 INFO  SQmonitoring:226 - [, 631139, 11005, yaman.maharjan@javra.com, RFQ 338897 (B54512-1 OVERHAUL KITS), SFCASE, 2024/08/12 04:45:20 AM, 2024/08/12 04:50:45 AM, CLOSED]
+2024-08-12 15:06:05 INFO  SQmonitoring:226 - [, 631138, 11005, yaman.maharjan@javra.com, CRITICAL>>>RFQ - SCMBKI - 06 MAR 2024., SFCASE, 2024/08/12 04:45:18 AM, 2024/08/12 04:49:37 AM, CLOSED]
+2024-08-12 15:06:06 INFO  SQmonitoring:226 - [, 631133, 11005, yaman.maharjan@javra.com, RFQ | MS15001-1, SFCASE, 2024/08/12 04:44:57 AM, 2024/08/12 04:48:44 AM, CLOSED]
+2024-08-12 15:06:07 INFO  SQmonitoring:226 - [, 631130, 11005, yaman.maharjan@javra.com, Jaco Aerospace RFQ #637933-MP, SFCASE, 2024/08/12 04:44:45 AM, 2024/08/12 04:48:32 AM, CLOSED]
+2024-08-12 15:06:08 INFO  SQmonitoring:226 - [, 631128, 11005, yaman.maharjan@javra.com, 76944, SFCASE, 2024/08/12 04:44:35 AM, 2024/08/12 04:47:19 AM, CLOSED]
+2024-08-12 15:06:09 INFO  SQmonitoring:226 - [, 631126, 11005, yaman.maharjan@javra.com, aog rfq // pn 12134-00 or alt pn 3601-91 // qty. 1 // taq 824846 // req 04.05uk - end user easyjet, SFCASE, 2024/08/12 04:44:27 AM, 2024/08/12 04:46:42 AM, CLOSED]
+2024-08-12 15:06:10 INFO  SQmonitoring:226 - [, 631125, 11005, yaman.maharjan@javra.com, rfq cs/0184qr/22- exchange / outright sales p/n: 7115337h07 desc: module-cac-left pack inboard, SFCASE, 2024/08/12 04:44:20 AM, 2024/08/12 04:46:30 AM, CLOSED]
+2024-08-12 15:06:11 INFO  SQmonitoring:226 - [, 631123, 11005, yaman.maharjan@javra.com, re: rfq for pn: 3520-0337-07 & fu190 on critical basis, SFCASE, 2024/08/12 04:44:16 AM, 2024/08/12 04:45:36 AM, CLOSED]
+2024-08-12 15:06:12 INFO  SQmonitoring:226 - [, 631124, 11005, yaman.maharjan@javra.com, tap air portugal urgent rfq ends in 138 hrs, viton-3/16-0-sp at lis (#5572), SFCASE, 2024/08/12 04:44:16 AM, 2024/08/12 04:45:24 AM, CLOSED]
+2024-08-12 15:06:15 INFO  SQmonitoring:189 - Page no :: 25
+2024-08-12 15:06:15 INFO  SQmonitoring:214 - Rowcount :: 11, ColCount :: 9
+2024-08-12 15:06:16 INFO  SQmonitoring:226 - [, 631145, 11005, yaman.maharjan@javra.com, RFQ - SCMBKI - 06 MAR 2024., SFCASE, 2024/08/12 04:45:48 AM, 2024/08/12 04:51:36 AM, CLOSED]
+2024-08-12 15:06:17 INFO  SQmonitoring:226 - [, 631142, 11005, yaman.maharjan@javra.com, ProCart RFQ 86274 M83723/95K1005NLC, SFCASE, 2024/08/12 04:45:35 AM, 2024/08/12 04:50:57 AM, CLOSED]
+2024-08-12 15:06:18 INFO  SQmonitoring:226 - [, 631139, 11005, yaman.maharjan@javra.com, RFQ 338897 (B54512-1 OVERHAUL KITS), SFCASE, 2024/08/12 04:45:20 AM, 2024/08/12 04:50:45 AM, CLOSED]
+2024-08-12 15:06:19 INFO  SQmonitoring:226 - [, 631138, 11005, yaman.maharjan@javra.com, CRITICAL>>>RFQ - SCMBKI - 06 MAR 2024., SFCASE, 2024/08/12 04:45:18 AM, 2024/08/12 04:49:37 AM, CLOSED]
+2024-08-12 15:06:20 INFO  SQmonitoring:226 - [, 631133, 11005, yaman.maharjan@javra.com, RFQ | MS15001-1, SFCASE, 2024/08/12 04:44:57 AM, 2024/08/12 04:48:44 AM, CLOSED]
+2024-08-12 15:06:21 INFO  SQmonitoring:226 - [, 631130, 11005, yaman.maharjan@javra.com, Jaco Aerospace RFQ #637933-MP, SFCASE, 2024/08/12 04:44:45 AM, 2024/08/12 04:48:32 AM, CLOSED]
+2024-08-12 15:06:22 INFO  SQmonitoring:226 - [, 631128, 11005, yaman.maharjan@javra.com, 76944, SFCASE, 2024/08/12 04:44:35 AM, 2024/08/12 04:47:19 AM, CLOSED]
+2024-08-12 15:06:23 INFO  SQmonitoring:226 - [, 631126, 11005, yaman.maharjan@javra.com, aog rfq // pn 12134-00 or alt pn 3601-91 // qty. 1 // taq 824846 // req 04.05uk - end user easyjet, SFCASE, 2024/08/12 04:44:27 AM, 2024/08/12 04:46:42 AM, CLOSED]
+2024-08-12 15:06:25 INFO  SQmonitoring:226 - [, 631125, 11005, yaman.maharjan@javra.com, rfq cs/0184qr/22- exchange / outright sales p/n: 7115337h07 desc: module-cac-left pack inboard, SFCASE, 2024/08/12 04:44:20 AM, 2024/08/12 04:46:30 AM, CLOSED]
+2024-08-12 15:06:26 INFO  SQmonitoring:226 - [, 631123, 11005, yaman.maharjan@javra.com, re: rfq for pn: 3520-0337-07 & fu190 on critical basis, SFCASE, 2024/08/12 04:44:16 AM, 2024/08/12 04:45:36 AM, CLOSED]
+2024-08-12 15:06:28 INFO  SQmonitoring:226 - [, 631124, 11005, yaman.maharjan@javra.com, tap air portugal urgent rfq ends in 138 hrs, viton-3/16-0-sp at lis (#5572), SFCASE, 2024/08/12 04:44:16 AM, 2024/08/12 04:45:24 AM, CLOSED]
+2024-08-12 15:06:31 INFO  SQmonitoring:189 - Page no :: 26
+2024-08-12 15:06:31 INFO  SQmonitoring:214 - Rowcount :: 11, ColCount :: 9
+2024-08-12 15:06:32 INFO  SQmonitoring:226 - [, 631145, 11005, yaman.maharjan@javra.com, RFQ - SCMBKI - 06 MAR 2024., SFCASE, 2024/08/12 04:45:48 AM, 2024/08/12 04:51:36 AM, CLOSED]
+2024-08-12 15:06:33 INFO  SQmonitoring:226 - [, 631142, 11005, yaman.maharjan@javra.com, ProCart RFQ 86274 M83723/95K1005NLC, SFCASE, 2024/08/12 04:45:35 AM, 2024/08/12 04:50:57 AM, CLOSED]
+2024-08-12 15:06:34 INFO  SQmonitoring:226 - [, 631139, 11005, yaman.maharjan@javra.com, RFQ 338897 (B54512-1 OVERHAUL KITS), SFCASE, 2024/08/12 04:45:20 AM, 2024/08/12 04:50:45 AM, CLOSED]
+2024-08-12 15:06:36 INFO  SQmonitoring:226 - [, 631138, 11005, yaman.maharjan@javra.com, CRITICAL>>>RFQ - SCMBKI - 06 MAR 2024., SFCASE, 2024/08/12 04:45:18 AM, 2024/08/12 04:49:37 AM, CLOSED]
+2024-08-12 15:06:37 INFO  SQmonitoring:226 - [, 631133, 11005, yaman.maharjan@javra.com, RFQ | MS15001-1, SFCASE, 2024/08/12 04:44:57 AM, 2024/08/12 04:48:44 AM, CLOSED]
+2024-09-30 17:50:28 INFO  SQmonitoring:49 - ###########################################################
+2024-09-30 17:50:28 INFO  SQmonitoring:50 - Start :: @Beforesuite, Initailizing the browser
+2024-09-30 17:50:29 INFO  WebDriverManager:1239 - Using chromedriver 129.0.6668.70 (resolved driver for Chrome 129)
+2024-09-30 17:50:29 INFO  WebDriverManager:1301 - Exporting webdriver.chrome.driver as C:\Users\yamah022\.cache\selenium\chromedriver\win64\129.0.6668.70\chromedriver.exe
+2024-09-30 17:50:31 INFO  LoginTest_SQ:31 - Start :: Login Test 
+2024-09-30 17:50:37 INFO  LoginTest_SQ:145 - PASS :: Login Test
+2024-09-30 17:50:37 INFO  LoginTest_SQ:66 - END :: Login Test 
+2024-09-30 17:50:43 INFO  LoginTest_SQ:145 - PASS :: Login Test
+2024-09-30 17:50:55 INFO  LoginTest_SQ:140 - Exception Occured ::java.lang.NullPointerException: Cannot invoke "java.util.List.size()" because "pageList" is null
+2024-09-30 17:51:09 INFO  LoginTest_SQ:56 - Title :: 
+2024-09-30 17:51:09 INFO  LoginTest_SQ:162 - Last Page :: 26025
+2024-09-30 17:51:09 INFO  LoginTest_SQ:189 - Page no :: 1
+2024-09-30 17:51:09 INFO  LoginTest_SQ:214 - Rowcount :: 20, ColCount :: 9
+2024-09-30 17:51:10 INFO  LoginTest_SQ:226 - [, 632792, 11005, yaman.maharjan@javra.com, RFQ, SFCASE, 2024/09/03 05:54:29 AM, 2024/09/03 06:05:39 AM, Re-processFAILED]
+2024-09-30 17:51:10 INFO  LoginTest_SQ:226 - [, 632790, 11005, yaman.maharjan@javra.com, RFQ request, SFCASE, 2024/08/30 10:11:13 AM, 2024/08/30 10:12:09 AM, Re-processFAILED]
+2024-09-30 17:51:11 INFO  LoginTest_SQ:226 - [, 632653, P45459, bidhan.shrestha@javra.com, RE: [*Suspicious Email*] RE: Request for status_PN 601-004, SFCASE, 2024/08/27 05:38:03 AM, 2024/08/30 09:17:06 AM, Re-processFAILED]
+2024-09-30 17:51:12 INFO  LoginTest_SQ:226 - [, 632687, P45459, bidhan.shrestha@javra.com, RFQ Request, SFCASE, 2024/08/29 10:40:38 AM, 2024/08/30 09:16:50 AM, Re-processFAILED]
+2024-09-30 17:51:13 INFO  LoginTest_SQ:226 - [, 632691, P45459, bidhan.shrestha@javra.com, RFQ Request, SFCASE, 2024/08/29 05:58:21 PM, 2024/08/30 09:16:37 AM, Re-processFAILED]
+2024-09-30 17:51:14 INFO  LoginTest_SQ:226 - [, 632686, P45459, bidhan.shrestha@javra.com, RFQ Request, SFCASE, 2024/08/29 08:35:28 AM, 2024/08/29 08:36:34 AM, Re-processFAILED]
+2024-09-30 17:51:15 INFO  LoginTest_SQ:226 - [, 632685, P45459, bidhan.shrestha@javra.com, RFQ Request, SFCASE, 2024/08/29 08:15:51 AM, 2024/08/29 08:16:32 AM, CLOSED]
+2024-09-30 17:51:16 INFO  LoginTest_SQ:226 - [, 632684, P45459, bidhan.shrestha@javra.com, RFQ Request, SFCASE, 2024/08/29 07:37:15 AM, 2024/08/29 07:38:28 AM, Re-processFAILED]
+2024-09-30 17:51:17 INFO  LoginTest_SQ:226 - [, 632681, P45459, bidhan.shrestha@javra.com, RFQ Request, SFCASE, 2024/08/29 07:20:54 AM, 2024/08/29 07:22:28 AM, Re-processFAILED]
+2024-09-30 17:51:18 INFO  LoginTest_SQ:226 - [, 632680, P44252, bidhan.shrestha@javra.com, RFQ Request, SFCASE, 2024/08/29 07:15:46 AM, 2024/08/29 07:16:28 AM, Re-processFAILED]
+2024-09-30 17:51:18 INFO  LoginTest_SQ:226 - [, 632679, P44252, bidhan.shrestha@javra.com, RFQ Request, SFCASE, 2024/08/29 07:02:42 AM, 2024/08/29 07:03:38 AM, Re-processFAILED]
+2024-09-30 17:51:19 INFO  LoginTest_SQ:226 - [, 632678, P44252, bidhan.shrestha@javra.com, RFQ Request, SFCASE, 2024/08/29 06:52:49 AM, 2024/08/29 06:53:27 AM, Re-processFAILED]
+2024-09-30 17:51:20 INFO  LoginTest_SQ:226 - [, 632677, P44252, bidhan.shrestha@javra.com, RFQ Request, SFCASE, 2024/08/29 06:15:36 AM, 2024/08/29 06:16:26 AM, CLOSED]
+2024-09-30 17:51:21 INFO  LoginTest_SQ:226 - [, 632676, 112664, bidhan.shrestha@javra.com, RFQ Request, SFCASE, 2024/08/29 05:21:39 AM, 2024/08/29 05:22:23 AM, CLOSED]
+2024-09-30 17:51:22 INFO  LoginTest_SQ:226 - [, 632675, 11005, yaman.maharjan@javra.com, RFQ request, SFCASE, 2024/08/29 04:40:51 AM, 2024/08/29 04:42:20 AM, Re-processFAILED]
+2024-09-30 17:51:22 INFO  LoginTest_SQ:226 - [, 632674, 112664, bidhan.shrestha@javra.com, RFQ Request, SFCASE, 2024/08/29 04:37:01 AM, 2024/08/29 04:38:20 AM, Re-processFAILED]
+2024-09-30 17:51:23 INFO  LoginTest_SQ:226 - [, 632673, 11005, yaman.maharjan@javra.com, Re: URGENT! RFQ-03062024-001, SFCASE, 2024/08/28 09:13:37 AM, 2024/08/28 09:20:24 AM, CLOSED]
+2024-09-30 17:51:24 INFO  LoginTest_SQ:226 - [, 632672, 11005, yaman.maharjan@javra.com, ProCart RFQ 86274 M83723/95K1005NLC, SFCASE, 2024/08/28 09:13:32 AM, 2024/08/28 09:19:13 AM, Re-processFAILED]
+2024-09-30 17:51:25 INFO  LoginTest_SQ:226 - [, 632669, 11005, yaman.maharjan@javra.com, P O# RFQ 338897 (B54512-1 OVERHAUL KITS), SFCASE, 2024/08/28 09:13:19 AM, 2024/08/28 09:19:01 AM, Re-processFAILED]
+2024-09-30 17:51:25 INFO  LoginTest_SQ:226 - [, 632658, 11005, yaman.maharjan@javra.com, RFQ, SFCASE, 2024/08/28 09:12:02 AM, 2024/08/28 09:14:57 AM, Re-processFAILED]
+2024-09-30 17:51:29 INFO  LoginTest_SQ:189 - Page no :: 2
+2024-09-30 17:51:29 INFO  LoginTest_SQ:214 - Rowcount :: 1, ColCount :: 9
+2024-09-30 17:51:29 INFO  LoginTest_SQ:204 - java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebElement.getText()" because the return value of "utilities.TableData.getElement(org.openqa.selenium.WebElement, int, int)" is null
+2024-09-30 17:51:29 INFO  LoginTest_SQ:166 - /*-----------------------------------------------------------------
+2024-09-30 17:51:29 INFO  LoginTest_SQ:167 - Total Cases 	:: 20
+2024-09-30 17:51:29 INFO  LoginTest_SQ:168 - NEW			:: 0
+2024-09-30 17:51:29 INFO  LoginTest_SQ:169 - RECEIVED  		:: 0
+2024-09-30 17:51:29 INFO  LoginTest_SQ:170 - IN PROGRESS  	:: 0
+2024-09-30 17:51:29 INFO  LoginTest_SQ:172 - READY			:: 0
+2024-09-30 17:51:29 INFO  LoginTest_SQ:173 - COMPLETED 		:: 0
+2024-09-30 17:51:29 INFO  LoginTest_SQ:174 - FAILED 		:: 16
+2024-09-30 17:51:29 INFO  LoginTest_SQ:175 - CLOSED 		:: 4
+2024-09-30 17:51:29 INFO  LoginTest_SQ:176 - /*-----------------------------------------------------------------
+2024-09-30 17:51:29 INFO  UtilBase:65 - @Aftersuite, Closing the browser
+2024-09-30 17:51:29 INFO  UtilBase:66 - ###########################################################
+2024-10-01 11:57:09 INFO  SystemSnapshot:41 - Initializing the browser
+2024-10-01 11:57:11 INFO  WebDriverManager:1239 - Using chromedriver 129.0.6668.70 (resolved driver for Chrome 129)
+2024-10-01 11:57:11 INFO  WebDriverManager:1301 - Exporting webdriver.chrome.driver as C:\Users\yamah022\.cache\selenium\chromedriver\win64\129.0.6668.70\chromedriver.exe
+2024-10-01 11:57:31 INFO  SystemSnapshot:26 - SUCCESS: PQC Login succesful
+2024-10-01 11:57:31 INFO  SystemSnapshot:145 - PASS :: login test
+2024-10-01 11:57:33 INFO  SystemSnapshot:159 - EXCEPTION :: org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <a href="/CaseQueue">...</a> is not clickable at point (311, 39). Other element would receive the click: <div class="ant-spin ant-spin-spinning">...</div>
+  (Session info: chrome=129.0.6668.70)
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [a2c20d1df69e6f18325ad70bc00a1e2b, clickElement {id=f.736E84AB95C37AC06EED11CD71CACA61.d.80000E2E56F69399522BB0B5CCED88B9.e.30}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.70, chrome: {chromedriverVersion: 129.0.6668.70 (df87d5cf12b1..., userDataDir: C:\Users\yamah022\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59406}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59406/devtoo..., se:cdpVersion: 129.0.6668.70, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (a2c20d1df69e6f18325ad70bc00a1e2b)] -> xpath: //*[@id='root']/div/div/div/header/nav/ul/li[1]/span/span/a]
+Session ID: a2c20d1df69e6f18325ad70bc00a1e2b
+2024-10-01 11:57:34 INFO  SystemSnapshot:159 - EXCEPTION :: org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <a href="/OpenRFQ">...</a> is not clickable at point (444, 39). Other element would receive the click: <div class="ant-spin ant-spin-spinning">...</div>
+  (Session info: chrome=129.0.6668.70)
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [a2c20d1df69e6f18325ad70bc00a1e2b, clickElement {id=f.736E84AB95C37AC06EED11CD71CACA61.d.80000E2E56F69399522BB0B5CCED88B9.e.31}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.70, chrome: {chromedriverVersion: 129.0.6668.70 (df87d5cf12b1..., userDataDir: C:\Users\yamah022\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59406}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59406/devtoo..., se:cdpVersion: 129.0.6668.70, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (a2c20d1df69e6f18325ad70bc00a1e2b)] -> xpath: //*[@id='root']/div/div/div/header/nav/ul/li[2]/span/span/a]
+Session ID: a2c20d1df69e6f18325ad70bc00a1e2b
+2024-10-01 11:57:35 INFO  SystemSnapshot:159 - EXCEPTION :: org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <a href="/TrainRFQ">...</a> is not clickable at point (592, 39). Other element would receive the click: <div class="ant-spin ant-spin-spinning">...</div>
+  (Session info: chrome=129.0.6668.70)
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [a2c20d1df69e6f18325ad70bc00a1e2b, clickElement {id=f.736E84AB95C37AC06EED11CD71CACA61.d.80000E2E56F69399522BB0B5CCED88B9.e.32}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.70, chrome: {chromedriverVersion: 129.0.6668.70 (df87d5cf12b1..., userDataDir: C:\Users\yamah022\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59406}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59406/devtoo..., se:cdpVersion: 129.0.6668.70, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (a2c20d1df69e6f18325ad70bc00a1e2b)] -> xpath: //*[@id='root']/div/div/div/header/nav/ul/li[3]/span/span/a]
+Session ID: a2c20d1df69e6f18325ad70bc00a1e2b
+2024-10-01 11:57:39 INFO  SystemSnapshot:145 - PASS :: my active quotes
+2024-10-01 11:57:40 INFO  SystemSnapshot:145 - PASS :: global search
+2024-10-01 11:57:41 INFO  SystemSnapshot:145 - PASS :: create customer rfq
+2024-10-01 11:58:03 INFO  SystemSnapshot:31 - WARNING: could not verify login 
+2024-10-01 11:58:04 INFO  SystemSnapshot:152 - FAIL :: PQS login test
+2024-10-01 11:58:04 INFO  SystemSnapshot:145 - PASS :: Open Queue
+2024-10-01 11:58:14 INFO  SystemSnapshot:159 - EXCEPTION :: java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebElement.isDisplayed()" because "element" is null
+2024-10-01 11:58:16 INFO  SystemSnapshot:145 - PASS :: send rfq
+2024-10-01 11:58:21 INFO  SystemSnapshot:145 - PASS :: supplier quote queue
+2024-10-01 11:58:23 INFO  SystemSnapshot:145 - PASS :: search
+2024-10-01 11:58:33 INFO  SystemSnapshot:159 - EXCEPTION :: java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebElement.isDisplayed()" because "element" is null
+2024-10-01 11:58:34 INFO  SystemSnapshot:275 - Closing the browser

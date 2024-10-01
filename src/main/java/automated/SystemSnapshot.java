@@ -3,7 +3,6 @@ package automated;
 import java.time.Duration;
 
 import org.apache.logging.log4j.LogManager;
-import org.openqa.selenium.WebElement;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
@@ -12,6 +11,7 @@ import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.reporter.ExtentSparkReporter;
 
 import monitoring.HelperPQC;
+import monitoring.HelperPQS;
 import utilities.UtilBase;
 
 public class SystemSnapshot extends UtilBase {
@@ -19,14 +19,20 @@ public class SystemSnapshot extends UtilBase {
 //	PQC VARIABLES
 	String pqc_username = "yamah022";
 	String pqc_password = "1@work";
-	String pqc_baseurl = "10.0.1.62:80";
+	String pqc_baseurl = "10.0.1.62:70";
+	String pqs_baseurl = "10.0.1.62:71";
 	String pqc_login_link = "http://" + pqc_username + ":" + pqc_password + "@" + pqc_baseurl;
+	String pqs_login_link = "http://" + pqc_username + ":" + pqc_password + "@" + pqs_baseurl;
 
+	
 //	Extent Report
 	String filename = "System Snapshot";
 
+//	Helper Class
 	HelperPQC cmd_pqc = new HelperPQC();
-//	screenshot path
+	HelperPQS cmd_pqs = new HelperPQS();
+
+	//	screenshot path
 	String path = "screenshots//" + System.currentTimeMillis() + "//PQC//";
 
 	@BeforeClass
@@ -50,7 +56,7 @@ public class SystemSnapshot extends UtilBase {
 		String testname = "login test";
 		test = extent.createTest(testname);
 		try {
-			if (cmd_pqc.login_pqc(pqc_login_link, pqc_baseurl)) {
+			if (cmd_pqc.login_pqc(pqc_baseurl, pqc_username, pqc_password)) {
 				testPassed(testname);
 			} else {
 				testFailed(testname);
@@ -151,6 +157,117 @@ public class SystemSnapshot extends UtilBase {
 		}
 	}
 
+	
+	
+	
+	@Test(priority = 8)
+	public void loginTest_PQS() throws InterruptedException {
+		String testname = "PQS login test";
+		test = extent.createTest(testname);
+		try {
+			if (cmd_pqs.login_pqs(pqs_baseurl, pqc_username, pqc_password)) {
+				testPassed(testname);
+			} else {
+				testFailed(testname);
+			}
+		} catch (Exception e) {
+			testException(testname, e);
+		}
+	}
+	
+	
+	@Test(priority = 9)
+	public void test_click_openQueue() {
+		String testname = "Open Queue";
+		test = extent.createTest(testname);
+		try {
+			if(cmd_pqs.click_openQueue_link(testname)) {
+				testPassed(testname);
+			}else {
+				testFailed(testname);
+			}
+		} catch (Exception e) {
+			testException(testname, e);
+		}
+	}
+	
+	@Test(priority = 10)
+	public void test_click_createSupplierRfq() {
+		String testname = "create Supplier Rfq";
+		test = extent.createTest(testname);
+		try {
+			if(cmd_pqs.click_createSupplierRfq_link(testname)) {
+				testPassed(testname);
+			}else {
+				testFailed(testname);
+			}
+		} catch (Exception e) {
+			testException(testname, e);
+		}
+	}
+	
+	@Test(priority = 11)
+	public void test_click_sendRfq() {
+		String testname = "send rfq";
+		test = extent.createTest(testname);
+		try {
+			if(cmd_pqs.click_sendRfq_link(testname)) {
+				testPassed(testname);
+			}else {
+				testFailed(testname);
+			}
+		} catch (Exception e) {
+			testException(testname, e);
+		}
+	}
+	
+	@Test(priority = 12)
+	public void test_click_supplierQuoteQueue() {
+		String testname = "supplier quote queue";
+		test = extent.createTest(testname);
+		try {
+			if(cmd_pqs.click_supplierQuoteQueue_link(testname)) {
+				testPassed(testname);
+			}else {
+				testFailed(testname);
+			}
+		} catch (Exception e) {
+			testException(testname, e);
+		}
+	}
+	
+	@Test(priority = 13)
+	public void test_click_search() {
+		String testname = "search";
+		test = extent.createTest(testname);
+		try {
+			if(cmd_pqs.click_search_link(testname)) {
+				testPassed(testname);
+			}else {
+				testFailed(testname);
+			}
+		} catch (Exception e) {
+			testException(testname, e);
+		}
+	}
+	
+	@Test(priority = 14)
+	public void test_click_BIreport() {
+		String testname = "BI Reports";
+		test = extent.createTest(testname);
+		try {
+			if(cmd_pqs.click_BIreport_link(testname)) {
+				testPassed(testname);
+			}else {
+				testFailed(testname);
+			}
+		} catch (Exception e) {
+			testException(testname, e);
+		}
+	}
+	
+	
+	
 	@AfterClass
 	public void teardown() {
 		extent.flush();

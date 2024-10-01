@@ -14,10 +14,7 @@ import java.util.logging.LogRecord;
 import java.util.logging.Logger;
 import java.util.logging.SimpleFormatter;
 
-/**
- * @author sanish
- *
- */
+
 public class LoggerClass {
 
 	private static final Logger LOGGER = Logger.getGlobal();

@@ -112,6 +112,42 @@ public class ExcelRead {
 		}
 		return cellData.equals(null) ? "" : cellData;
 	}
+	
+	public static void writeData(int row, int col, String sheetName, String data) {
+	    String path1 = getExcelFile(); // Get the Excel file
+	    if (path1.isEmpty()) {
+	        path = "";
+	        JOptionPane.showMessageDialog(null, "Excel File is not selected!!", "Error", JOptionPane.ERROR_MESSAGE);
+	    } else {
+	        path = path1;
+	    }
+	    try {
+	        FileInputStream excelFile = new FileInputStream(path);
+	        XSSFWorkbook excelWBook = new XSSFWorkbook(excelFile);
+	        XSSFSheet excelWSheet = excelWBook.getSheet(sheetName); // Get the sheet
+	        excelFile.close(); // Close input stream before opening output stream
+
+	        // Create row and cell if they don't exist
+	        XSSFRow sheetRow = excelWSheet.getRow(row);
+	        if (sheetRow == null) {
+	            sheetRow = excelWSheet.createRow(row);
+	        }
+	        XSSFCell cell = sheetRow.getCell(col);
+	        if (cell == null) {
+	            cell = sheetRow.createCell(col);
+	        }
+	        cell.setCellValue(data); // Write data to the cell
+
+	        // Write the changes to the Excel file
+	        FileOutputStream outputStream = new FileOutputStream(path);
+	        excelWBook.write(outputStream);
+	        outputStream.close();
+	        excelWBook.close(); // Close workbook after writing
+	    } catch (Exception e) {
+	        e.printStackTrace();
+	    }
+	}
+
 
 	/**
 	 * Getting value from particular excel cell from given sheet index

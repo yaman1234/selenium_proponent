@@ -27,6 +27,7 @@ import com.aventstack.extentreports.reporter.ExtentSparkReporter;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 import pageObjects.PQC_pageObjects;
+import pageObjects.PQS_pageObjects;
 import pageObjects.SF_pageObjects;
 import pageObjects.SQ_pageObjects;
 
@@ -50,6 +51,7 @@ public class UtilBase {
 	protected SQ_pageObjects sq_po = new SQ_pageObjects();
 	protected SF_pageObjects sf_po = new SF_pageObjects();
 	protected PQC_pageObjects pqc_po = new PQC_pageObjects();
+	protected PQS_pageObjects pqs_po = new PQS_pageObjects();
 	
 //	wait
 	protected static WaitUntil wait = null;
@@ -79,7 +81,6 @@ public class UtilBase {
 //		JavaScriptExecutor is an interface that provides a mechanism to execute Javascript through selenium driver.
 		jsDriver = (JavascriptExecutor) driver;
 //		wait
-		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(15));
 		wait = new WaitUntil();
 	}
 
@@ -159,27 +160,6 @@ public class UtilBase {
 		Assert.assertTrue(false);
 	}
 
-	@BeforeSuite
-	public void setup() {
-		logger = LogManager.getLogger(UtilBase.class);
-		logger.info("###########################################################");
-		logger.info("Start :: @Beforesuite, Initailizing the browser");
-//		Extent Report setup
-		ExtentSparkReporter spark = new ExtentSparkReporter("testReports/monitoring.html");
-		extent = new ExtentReports();
-		extent.attachReporter(spark);
 
-		initialiseDriver();
-
-	}
-
-	@AfterSuite
-	public void teardown() {
-		logger = LogManager.getLogger(UtilBase.class);
-		extent.flush();
-//		 driver.quit();
-		logger.info("@Aftersuite, Closing the browser");
-		logger.info("###########################################################");
-	}
 
 }

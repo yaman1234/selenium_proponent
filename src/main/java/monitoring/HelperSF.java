@@ -18,14 +18,13 @@ public class HelperSF extends UtilBase {
 	String password = "V2_naS9V@QjnJCx";
 
 	
-	@BeforeMethod
-	public void teardown() {
+	public HelperSF() {
 		logger = LogManager.getLogger(HelperSF.class);
 	}
 	
-	
-	public void login_sf(String sf_url, String username, String password) {
-//		login to sf with existing chrome profile
+//	login to sf with existing chrome profile, to try and skip the OTP
+	public boolean login_sf(String sf_url, String username, String password) {
+		boolean status = false;
 		try {
 			Thread.sleep(2000);
 			driver.get(sf_url);
@@ -33,17 +32,20 @@ public class HelperSF extends UtilBase {
 
 			if (WebElementLib.doesElementExist(sf_po.logout_link())) {
 				logger.info("SUCCESS: Logged in to SF ");
+				status = true;
 			} else {
 				logger.info("WARNING : Auto Log in to SF FAILED");
-				login_sf_fallback(username, password);
-				logger.info("ERROR: Log in to SF FAILED");
+				status = login_sf_fallback(username, password);
 			}
 		} catch (Exception e) {
 			logger.info("EXCEPTION occured : " + e);
 		}
+		return status;
 	}
 
-	public void login_sf_fallback(String username, String password) {
+//	Login to SF by entering the username and password
+	public boolean login_sf_fallback(String username, String password) {
+		boolean status = false;
 		try {
 			sf_po.username_input().clear();
 			sf_po.username_input().sendKeys(username);
@@ -54,39 +56,37 @@ public class HelperSF extends UtilBase {
 
 			if (WebElementLib.doesElementExist(sf_po.logout_link())) {
 				logger.info("SUCCESS: Log in to SF, with fallback method");
+				status = true;
 			} else {
 				logger.info("ERROR: Log in to SF, with fallback method");
+				status = false;
 			}
 
 		} catch (Exception e) {
 			logger.info("EXCEPTION occured : Log in to SF, with fallback method " + e);
 		}
+		return status;
 	}
 
+//	Find the case number in SF by searching with the timestamp in subject
 	public String findCase_sf(String expected_subject) {
 		String casenumber = "";
-		boolean status = false;
-//	confirm case created in sf, by verifying the timestamp in subject
+
 		try {
 			Thread.sleep(8000);
 			WebElement table = sf_po.table();
 //			List<String> rowdata = TableData.getRowData(table, 1);
 
-//			search top 5 row
+//			search top 10 row
 			for (int i = 1; i < 10; i++) {
 //				Index of subject and casenumber could be changed depending upon the column count of SF cases screen template
 				String subject = TableData.getCellText(table, i, 9);
 
 				if (subject.equals(expected_subject)) {
 					casenumber = TableData.getCellText(table, i, 2);
-					status = true;
 					break;
 				}
 			}
-			if (!status) {
-				logger.info("ERROR: findCaseInSalesforce,  case not found in Salesforce");
-			}
-
 		} catch (Exception e) {
 			logger.info("EXCEPTION occured :: " + e);
 		}
@@ -94,11 +94,10 @@ public class HelperSF extends UtilBase {
 	}
 	
 	
-	
+//	Search by the Case Number in the Salesforce 
 	public void searchCase_sf(String casenumber) {
 		boolean status = false;
 		int maxCount = 3;
-
 
 		for (int i = 1; i <= maxCount; i++) {
 //			search with case number 

@@ -49,8 +49,12 @@ public class SendEmails {
 //		sendILS(username_yaman, password_yaman, salesforce);
 //		sendPortal(username_yaman, password_yaman, salesforce);
 
-		sendRfqAttachmentsEmails(username_yaman, password_yaman, salesforce, "rfq");
-//		sendRfq(username_yaman, password_yaman, salesforce, "rfq");
+		
+//		sendRfq(username_yaman, password_yaman, salesforce, "dfar");
+//		sendRfq(username_yaman, password_yaman, salesforce, "phyCheReport");
+//		sendRfq(username_yaman, password_yaman, salesforce, "cureDate");
+//		sendRfqAttachmentsEmails(username_yaman, password_yaman, salesforce, "rfq");
+		sendRfq(username_yaman, password_yaman, salesforce, "rfq");
 //		sendRfq(username_test, password_test, salesforce, "chainEmails"ss);
 //		sendRfqAttachments(username_yaman, password_yaman, salesforce);
 //		sendPurchaseOrder(username_test, password_test, salesforce);
@@ -64,7 +68,7 @@ public class SendEmails {
 		int count = ExcelRead.getRowCount(sheetname);
 		for (int i = 1; i <= count; i++) {
 //			String file_name = ExcelRead.getData(i, 0, "rfqAttachment");
-//			String file_directory = ExcelRead.getData(1, 1, "rfqAttachment");
+//			String file_directory = ExcelRead.getData(1, 1, "rfq");
 			String subject = ExcelRead.getData(i, 0, sheetname);
 			String description = ExcelRead.getData(i, 1, sheetname);
 			String attachment = ExcelRead.getData(i, 2, sheetname);
@@ -147,7 +151,7 @@ public class SendEmails {
 	}
 
 	public void sendPurchaseOrder(String username, String password, String salesforce) throws Exception {
-		int count = ExcelRead.getRowCount("purchaseOrder");
+//		int count = ExcelRead.getRowCount("purchaseOrder");
 		for (int i = 1; i <= 3; i++) {
 			String subject = ExcelRead.getData(i, 0, "purchaseOrder");
 			String description = ExcelRead.getData(i, 1, "purchaseOrder");
@@ -177,7 +181,6 @@ public class SendEmails {
 			System.out.println(i);
 			SuperEmail.sendEmail(username, password, salesforce, subject, description);
 //			break;
-
 		}
 	}
 

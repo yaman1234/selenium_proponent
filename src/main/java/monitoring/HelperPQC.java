@@ -1,5 +1,6 @@
 package monitoring;
 
+import org.apache.logging.log4j.LogManager;
 import org.openqa.selenium.WebElement;
 
 import utilities.UtilBase;
@@ -7,9 +8,15 @@ import utilities.WebElementLib;
 
 public class HelperPQC extends UtilBase {
 
-//	login to PQC application, pqc_baseurl = "10.0.1.62:80"; pqc_login_link = "http://" + pqc_username + ":" + pqc_password + "@" + pqc_baseurl;
-	public boolean login_pqc(String pqc_login_link, String pqc_baseurl) throws InterruptedException {
+	public HelperPQC() {
+		logger = LogManager.getLogger(HelperPQC.class);
+	}
+
+//	login to PQC application, pqc_baseurl = "10.0.1.62:80";
+	public boolean login_pqc(String pqc_baseurl, String username, String password) throws InterruptedException {
 		boolean loginsuccess = false;
+
+		String pqc_login_link = "http://" + username + ":" + password + "@" + pqc_baseurl;
 		driver.get(pqc_login_link);
 		Thread.sleep(3000);
 		driver.get("http://" + pqc_baseurl);
@@ -43,7 +50,6 @@ public class HelperPQC extends UtilBase {
 		return status;
 	}
 
-	
 	public boolean myOpenRfq_linkClick(String testname) {
 		boolean status = false;
 		WebElement element = pqc_po.myOpenRfq_link();
@@ -62,7 +68,7 @@ public class HelperPQC extends UtilBase {
 		}
 		return status;
 	}
-	
+
 	public boolean myTrainingRfq_linkClick(String testname) {
 		boolean status = false;
 		WebElement element = pqc_po.myTrainingRfq_link();
@@ -81,7 +87,7 @@ public class HelperPQC extends UtilBase {
 		}
 		return status;
 	}
-	
+
 	public boolean myActiveQuotes_linkClick(String testname) {
 		boolean status = false;
 		WebElement element = pqc_po.myActiveQuotes_link();
@@ -100,7 +106,7 @@ public class HelperPQC extends UtilBase {
 		}
 		return status;
 	}
-	
+
 	public boolean globalSearch_linkClick(String testname) {
 		boolean status = false;
 		WebElement element = pqc_po.globalSearch_link();
@@ -119,7 +125,7 @@ public class HelperPQC extends UtilBase {
 		}
 		return status;
 	}
-	
+
 	public boolean createCustomerRfq_linkClick(String testname) {
 		boolean status = false;
 		WebElement element = pqc_po.createCustomerRFQ_link();
@@ -138,4 +144,10 @@ public class HelperPQC extends UtilBase {
 		}
 		return status;
 	}
+
+	
+	
+
+
+
 }
